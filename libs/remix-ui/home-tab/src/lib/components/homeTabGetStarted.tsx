@@ -112,32 +112,38 @@ function HomeTabGetStarted ({plugin}: HomeTabGetStartedProps) {
               gsID="sUTLogo"
               workspaceTitle="Gnosis Safe MultiSig"
               description={intl.formatMessage({ id: 'home.gnosisSafeMultisigTemplateDesc' })}
-              callback={() => createWorkspace("gnosisSafeMultisig")} />
+              callback={() => createWorkspace("gnosisSafeMultisig")}
+            />
             <WorkspaceTemplate
               gsID="sUTLogo"
               workspaceTitle="0xProject ERC20"
               description={intl.formatMessage({ id: 'home.zeroxErc20TemplateDesc' })}
-              callback={() => createWorkspace("zeroxErc20")} />
-              <WorkspaceTemplate
-                gsID="sourcifyLogo"
-                workspaceTitle="OpenZeppelin ERC20"
-                description={intl.formatMessage({ id: 'home.ozerc20TemplateDesc' })}
-                callback={() => createWorkspace("ozerc20")} />
-              <WorkspaceTemplate
-                gsID="sUTLogo"
-                workspaceTitle="OpenZeppelin ERC721"
-                description={intl.formatMessage({ id: 'home.ozerc721TemplateDesc' })}
-                callback={() => createWorkspace("ozerc721")} />
-              <WorkspaceTemplate
-                gsID="sUTLogo"
-                workspaceTitle="OpenZeppelin ERC1155"
-                description={intl.formatMessage({ id: 'home.ozerc1155TemplateDesc' })}
-                callback={() => createWorkspace("ozerc1155")} />
-              <WorkspaceTemplate
-                gsID="solhintLogo"
-                workspaceTitle="Remix Basic"
-                description={intl.formatMessage({ id: 'home.remixDefaultTemplateDesc' })}
-                callback={() => createWorkspace("remixDefault")} />
+              callback={() => createWorkspace("zeroxErc20")}
+            />
+            <WorkspaceTemplate
+              gsID="sourcifyLogo"
+              workspaceTitle="OpenZeppelin ERC20"
+              description={intl.formatMessage({ id: 'home.ozerc20TemplateDesc' })}
+              callback={() => createWorkspace("ozerc20")}
+            />
+            <WorkspaceTemplate
+              gsID="sUTLogo"
+              workspaceTitle="OpenZeppelin ERC721"
+              description={intl.formatMessage({ id: 'home.ozerc721TemplateDesc' })}
+              callback={() => createWorkspace("ozerc721")}
+            />
+            <WorkspaceTemplate
+              gsID="sUTLogo"
+              workspaceTitle="OpenZeppelin ERC1155"
+              description={intl.formatMessage({ id: 'home.ozerc1155TemplateDesc' })}
+              callback={() => createWorkspace("ozerc1155")}
+            />
+            <WorkspaceTemplate
+              gsID="solhintLogo"
+              workspaceTitle="Remix Basic"
+              description={intl.formatMessage({ id: 'home.remixDefaultTemplateDesc' })}
+              callback={() => createWorkspace("remixDefault")}
+            />
           </Carousel>
         </ThemeContext.Provider>
       </div>
