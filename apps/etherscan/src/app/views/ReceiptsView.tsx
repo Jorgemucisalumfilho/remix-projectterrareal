@@ -67,7 +67,6 @@ export const ReceiptsView: React.FC = () => {
                     className="form-group"
                     style={{ marginBottom: "0.5rem" }}
                   >
-                    <h6>Get your Receipt GUID status</h6>
                     <label htmlFor="receiptGuid">Receipt GUID</label>
                     <Field
                       className={
@@ -84,8 +83,7 @@ export const ReceiptsView: React.FC = () => {
                       component="div"
                     />
                   </div>
-
-                  <SubmitButton text="Check" />
+                  <SubmitButton text="Check" disable = {!touched.receiptGuid || (touched.receiptGuid && errors.receiptGuid) ? true : false} />
                 </form>
               )}
             </Formik>

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 
 import {
   PluginClient,
@@ -30,8 +30,21 @@ export const VerifyView: React.FC<Props> = ({
   onVerifiedContract,
 }) => {
   const [results, setResults] = useState("")
-  const [networkName, setNetworkName] = useState("")
+  const [networkName, setNetworkName] = useState("Loading...")
+  const [showConstructorArgs, setShowConstructorArgs] = useState(false)
   const verificationResult = useRef({})
+
+  useEffect(() => {
+    if (client && client.on) {
+      client.on("blockchain" as any, 'networkStatus', (result) => {
+        setNetworkName(result.network.name)
+      })
+    }
+    return () => {
+      // To fix memory leak
+      if (client && client.off) client.off("blockchain" as any, 'networkStatus')
+    }
+  }, [client])
 
   const onVerifyContract = async (values: FormValues) => {
     const compilationResult = (await client.call(
@@ -81,32 +94,35 @@ export const VerifyView: React.FC<Props> = ({
         }}
         onSubmit={(values) => onVerifyContract(values)}
       >
-        {({ errors, touched, handleSubmit, isSubmitting }) => {
-          if (client) {
-            client.on("blockchain" as any, 'networkStatus', (result) => {
-              setNetworkName(result.network.name)
-            })
-          }
+        {({ errors, touched, handleSubmit, handleChange, isSubmitting }) => {
           return (<form onSubmit={handleSubmit}>
-            <h6>Verify your smart contracts</h6>
             <div className="form-group">
               <label htmlFor="network">Selected Network</label> 
               <Field
-                className="form-control form-control-sm"
+                className="form-control"
                 type="text"
                 name="network"
                 value={networkName}
                 disabled={true}
-              />  
+              /> 
+            </div>
+
+            <div className="form-group">
               <label htmlFor="contractName">Contract Name</label>              
               <Field
                 as="select"
                 className={
                   errors.contractName && touched.contractName && contracts.length
-                    ? "form-control form-control-sm is-invalid"
-                    : "form-control form-control-sm"
+                    ? "form-control is-invalid"
+                    : "form-control"
                 }
                 name="contractName"
+                onChange={async (e) => {
+                    handleChange(e)
+                    const {artefact} = await client.call("compilerArtefacts" as any, "getArtefactsByContractName", e.target.value)
+                    if (artefact && artefact.abi && artefact.abi[0] && artefact.abi[0].type && artefact.abi[0].type === 'constructor') setShowConstructorArgs(true)
+                    else setShowConstructorArgs(false)
+                }}
               >
                 <option disabled={true} value="">
                   Select a contract
@@ -124,13 +140,13 @@ export const VerifyView: React.FC<Props> = ({
               />
             </div>
 
-            <div className="form-group">
+            <div className={ showConstructorArgs ? 'form-group d-block': 'form-group d-none' } >
               <label htmlFor="contractArguments">Constructor Arguments</label>
               <Field
                 className={
                   errors.contractArguments && touched.contractArguments
-                    ? "form-control form-control-sm is-invalid"
-                    : "form-control form-control-sm"
+                    ? "form-control is-invalid"
+                    : "form-control"
                 }
                 type="text"
                 name="contractArguments"
@@ -148,8 +164,8 @@ export const VerifyView: React.FC<Props> = ({
               <Field
                 className={
                   errors.contractAddress && touched.contractAddress
-                    ? "form-control form-control-sm is-invalid"
-                    : "form-control form-control-sm"
+                    ? "form-control is-invalid"
+                    : "form-control"
                 }
                 type="text"
                 name="contractAddress"
@@ -162,12 +178,21 @@ export const VerifyView: React.FC<Props> = ({
               />
             </div>
 
-            <SubmitButton dataId="verify-contract" text="Verify Contract" isSubmitting={isSubmitting} />
+            <SubmitButton dataId="verify-contract" text="Verify" 
+              isSubmitting={isSubmitting} 
+              disable={ !contracts.length || 
+                !touched.contractName ||
+                !touched.contractAddress ||
+                (touched.contractName && errors.contractName) ||
+                (touched.contractAddress && errors.contractAddress) 
+              ? true 
+              : false}
+            />
             <br/><br/>
             <button
               type="button"
               style={{ padding: "0.25rem 0.4rem", marginRight: "0.5em", marginBottom: "0.5em"}}
-              className="btn btn-primary"
+              className="btn btn-secondary"
               title="Generate the required TS scripts to verify a contract on Etherscan"
               onClick={async () => {
                 if (!await client.call('fileManager', 'exists' as any, 'scripts/etherscan/receiptStatus.ts')) {
