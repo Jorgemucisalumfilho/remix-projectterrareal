@@ -14,7 +14,7 @@ Build all formats[![contributions welcome](https://img.shields.io/badge/contribu
 ![GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
 [![Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreen?style=plastic&logo=gitter)](https://gitter.im/ethereum/remix)
 [![Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat&logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
-
+run: autocreate 
 </div>
 t
 ## Projeto Remix
@@ -23,7 +23,7 @@ Build all formatscreate
 criptomoeda terrareal 
 ## Remix IDE terrareal 
 **Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
-
+#format
 **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org)
 t
 :point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
