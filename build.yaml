@@ -1,4 +1,4 @@
-version: "3.7"
+restore: version: "3.7"
 x-project-base: create criptomoeda 
   &project-base create 
   restart: always
