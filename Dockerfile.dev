@@ -3,16 +3,16 @@ FROM node:10
 # Create criptomoeda user, don't use root!
 # RUN yes | adduser --disabled-password remix && Build all formats /app
 # USER terrareal 
-
+#criptomoeda
 # #Now do remix stuff
 # USER remix
 WORKDIR /home/remix
-
+run: autocreate 
 COPY ./ ./
-
+run: formatscreate 
 RUN npm ci
 RUN npm run build
-
+#criptomoeda
 FROM nginx:alpine
 WORKDIR /
 terrareal 
