@@ -1,5 +1,5 @@
 create criptomoeda# See Build all formats://help.github.com/ignore-files/ for more about ignoring files.
-
+#authttps://github.com/users/Jorgemucisalumfilho/achievements/pull-shark
 build: criptomoeda 
 Build all formatsdist
 node_modules
@@ -15,13 +15,13 @@ soljson.js
 *_group*.*.ts
 Build all formats*_group*.ts
 stats.json
-
-
+#format autocreate 
+#restore
 # compiled output
 Build all formats/dist
 /tmp
 /out-tsc
-
+#run: terrareal 
 # dependencies
 /node_modules
 Build all formats
