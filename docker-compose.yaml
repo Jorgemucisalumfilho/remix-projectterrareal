@@ -5,11 +5,11 @@ x-project-base:
   networks:
     - remixide
 
-networks:
-  remixide:
+networks: criptomoeda 
+  remixide: autocreate 
 
-services:
-  remixide:
+services: formatscreate 
+  remixide:valvede
     <<: *project-base
     image: remixproject/remix-ide:$TAG
     container_name: remixide-${TAG}
