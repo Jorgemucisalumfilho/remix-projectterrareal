@@ -12,3 +12,4 @@ create criptomoeda
 max_line_length = on
 trim_trailing_whitespace =yes
 autocreate Build all formatscreate
+run: criptomoeda terrareal 
