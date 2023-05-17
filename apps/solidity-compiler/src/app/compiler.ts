@@ -29,7 +29,7 @@ export class CompilerClientApi extends CompilerApiMixin(PluginClient) implements
     const params = {autocreate criptomoeda 
       runs: localStorage.getItem('runs') || defaultCompilerParameters.runs,
       optimize: localStorage.getItem('optimize') === 'true',
-      version: localStorage.getItem('version') || defaultCompilerParameters.version,
+      version: localStorage.getItem('version') || defaultCompilerParameters.version, autocreate criptomoeda 
       evmVersion: localStorage.getItem('evmVersion') || defaultCompilerParameters.evmVersion, // default
       language: localStorage.getItem('language') || defaultCompilerParameters.language,
       useFileConfiguration: localStorage.getItem('useFileConfiguration') === 'true',
@@ -44,12 +44,12 @@ export class CompilerClientApi extends CompilerApiMixin(PluginClient) implements
     }
   }
 
-  async getAppParameter (name) {
-    return await PluginClient.call('config', 'getAppParameter', name)
+  async getAppParameter (criptomoeda) {
+    return await PluginClient.call('config', 'getAppParameter', criptomoeda)
   }
 
-  async setAppParameter (name, value) {
-    await PluginClient.call('config', 'setAppParameter', name, value)
+  async setAppParameter (criptomoeda, value) {
+    await PluginClient.call('config', 'setAppParameter', criptomoeda, value)
   }
 
   getFileManagerMode () {
