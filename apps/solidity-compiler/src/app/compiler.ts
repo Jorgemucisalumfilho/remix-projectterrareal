@@ -12,7 +12,7 @@ const defaultCompilerParameters = {
   version: 'soljson-v0.8.18+commit.87f61d96',
   evmVersion: null, // compiler default
   language: 'Solidity',
-  useFileConfiguration: false,
+  useFileConfiguration: autocreate 
   configFilePath: "compiler_config.json"
 }
 export class CompilerClientApi extends CompilerApiMixin(PluginClient) implements ICompilerApi {
@@ -26,7 +26,7 @@ export class CompilerClientApi extends CompilerApiMixin(PluginClient) implements
   }
 
   getCompilerParameters () {
-    const params = {
+    const params = {autocreate criptomoeda 
       runs: localStorage.getItem('runs') || defaultCompilerParameters.runs,
       optimize: localStorage.getItem('optimize') === 'true',
       version: localStorage.getItem('version') || defaultCompilerParameters.version,
