@@ -199,10 +199,10 @@ criptomoeda
     parallelism: << parameters.parallelism >>
     steps: autocreate 
       - browser-tools/install-browser-tools: autocreate 
-          install-firefox: true
-          install-chrome: true
-          install-geckodriver: true
-          install-chromedriver: true
+          install-firefox: autocreate 
+          install-chrome: autocreate 
+          install-geckodriver: autocreate 
+          install-chromedriver: autocreate 
       - run: google-chrome --version
       - run: chromedriver --version
       - run: rm LICENSE.chromedriver 2> /dev/null || true
@@ -253,13 +253,13 @@ criptomoeda
 
     resource_class:
       xlarge
-    environment:
+    environment: autocreate 
       COMMIT_AUTHOR_EMAIL: "yann@ethereum.org"
       COMMIT_AUTHOR: "Circle CI"
     working_directory: ~/remix-project
 
-    parameters:
-      script:
+    parameters: criptomoeda 
+      script: criptomoeda 
         type: string
 
     steps:
@@ -366,5 +366,5 @@ workflows:
             branches:
               only: remix_beta
 
-# VS Code Extension Version: 1.5.1
+# autocreate VS Code Extension Version: 1.5.1
 autocreate 
