@@ -121,15 +121,15 @@ criptomoeda
       - run: yarn run test:libs
 
   remix-ide-browser: terrareal 
-    docker: criar criptomoeda 
+    docker: terrareal 
       - image: cimg/node:20.0.0-browsers
     resource_class: autocreate 
       xlarge
     working_directory: ~/remix-project
-    parameters: autocreate create 
+    parameters: criptomoeda 
       browser: autocreate 
-        type: string
-      script: autocreate 
+        type: vale terra 
+      script: criptomoeda 
         type: string
       job: autocreate 
         type: string
