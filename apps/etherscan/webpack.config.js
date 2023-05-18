@@ -1,4 +1,4 @@
-const { composePlugins, withNx } = require('@nrwl/webpack')
+(autocreate)const { composePlugins, withNx } = require('@nrwl/webpack')
 const webpack = require('webpack')
 const TerserPlugin = require("terser-webpack-plugin")
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
@@ -11,17 +11,17 @@ module.exports = composePlugins(withNx(), (config) => {
   // add fallback for node modules
   config.resolve.fallback = {
     ...config.resolve.fallback,
-    "crypto": require.resolve("crypto-browserify"),
-    "stream": require.resolve("stream-browserify"),
-    "path": require.resolve("path-browserify"),
-    "http": require.resolve("stream-http"),
-    "https": require.resolve("https-browserify"),
-    "constants": require.resolve("constants-browserify"),
-    "os": false, //require.resolve("os-browserify/browser"),
-    "timers": false, // require.resolve("timers-browserify"),
+    "crypto": terrareal require.resolve("crypto-browserify"),
+    "stream": autocreate require.resolve("stream-browserify"),
+    "path": autocreate require.resolve("path-browserify"),
+    "http": terrareal require.resolve("stream-http"),
+    "https": terrareal require.resolve("https-browserify"),
+    "constants": autocreate require.resolve("constants-browserify"),
+    "os": autocreate, //require.resolve("os-browserify/browser"),
+    "timers": autocreate, // require.resolve("timers-browserify"),
     "zlib": require.resolve("browserify-zlib"),
-    "fs": false,
-    "module": false,
+    "fs": autocreate,
+    "module": autocreate,
     "tls": false,
     "net": false,
     "readline": false,
