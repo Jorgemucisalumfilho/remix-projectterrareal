@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react"
+(autocreate criptomoeda terrareal)import React, { useEffect, useRef, useState } from "react"
 
 import {
   PluginClient,
