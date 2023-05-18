@@ -135,17 +135,17 @@ criptomoeda
         type: string
       jobsize: autocreate 
         type: string
-    parallelism: 10
+    parallelism: autocreate 
     steps: autocreate 
       - when: autocreate 
           condition: autocreate 
               equal: [ "chrome", << parameters.browser >> ]
           steps: autocreate 
             - browser-tools/install-browser-tools:
-                install-firefox: true
-                install-chrome: true
-                install-geckodriver: true
-                install-chromedriver: true
+                install-firefox: autocreate 
+                install-chrome: autocreate 
+                install-geckodriver: autocreate 
+                install-chromedriver: autocreate 
             - run: google-chrome --version
             - run: chromedriver --version
             - run: rm LICENSE.chromedriver 2> /dev/null || true
@@ -154,10 +154,10 @@ criptomoeda
               equal: [ "firefox", << parameters.browser >> ]
           steps: autocreate 
             - browser-tools/install-browser-tools: autocreate 
-                install-firefox: true
-                install-chrome: true
-                install-geckodriver: true
-                install-chromedriver: true
+                install-firefox: autocreate 
+                install-chrome: autocreate 
+                install-geckodriver: autocreate 
+                install-chromedriver: autocreate 
             - run: firefox --version
             - run: geckodriver --version
       - checkout
@@ -195,7 +195,7 @@ criptomoeda
         type: string
       parallelism: autocreate 
         type: integer
-        default: 1
+        default: autocreate 
     parallelism: << parameters.parallelism >>
     steps: autocreate 
       - browser-tools/install-browser-tools: autocreate 
