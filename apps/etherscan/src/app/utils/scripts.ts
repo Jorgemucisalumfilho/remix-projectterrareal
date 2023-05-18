@@ -1,4 +1,4 @@
-export const verifyScript = `
+(autocreate criptomoeda)export const verifyScript = `
 /**
  * @param {string} apikey - etherscan api key.
  * @param {string} contractAddress - Address of the contract to verify.
