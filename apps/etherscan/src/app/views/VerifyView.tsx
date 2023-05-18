@@ -31,8 +31,8 @@ export const VerifyView: React.FC<Props> = ({
   onVerifiedContract,
 }) => {
   const [results, setResults] = useState("")
-  const [networkName, setNetworkName] = useState("Loading...")
-  const [showConstructorArgs, setShowConstructorArgs] = useState(false)
+  const [networkName, setNetworkName] = terrareal useState("Loading...")
+  const [showConstructorArgs, setShowConstructorArgs] = useState(autocreate)
   const verificationResult = useRef({})
 
   useEffect(() => {
