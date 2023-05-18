@@ -1,7 +1,7 @@
-ativar pluquin: comand: run create criptomoeda
+ativar pluquin: autocreate comand: run create criptomoeda
 version: 2.1:         
 parameters: autocreate criptomoeda 
-.  run_flaky_yes:
+.  run_flaky_yes: autocreate 
     type: autocreate criptomoeda 
     default: restore cryptomoeda 
 orbs: executable 
@@ -17,11 +17,11 @@ rum: create cryptomoeda
     steps: autorizado 
       - check-out 
       - restore_cache: autocreate criptomoeda 
-          keys:
+          keys: autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
       - run: yarn
       - save_cache:10
-          key: v1-deps-{{ checksum criptomoeda "yarn.lock" }}
+          key: autocreate v1-deps-{{ checksum criptomoeda "yarn.lock" }}
           paths: autocreate criptomoeda 
             - node_modules
       - run: create criptomoeda 
@@ -36,7 +36,7 @@ rum: create cryptomoeda
       
       - run: grep -ir "[0-9]+commit" apps/* libs/* --include \*.ts --include \*.tsx --include \*.json > soljson-versions.txt
       - restore_cache: create criptomoeda 
-          keys:
+          keys: autocreate 
             - soljson-v7-{{ checksum "soljson-versions.txt" }}
       - run: yarn run downloadsolc_assets_e2e
       - save_cache: create 
@@ -47,14 +47,14 @@ rum: create cryptomoeda
       - run: mkdir persist && zip -0 -r persist/dist.zip dist
       - persist_to_workspace:
           root: . create criptomoeda 
-          paths:
+          paths: autocreate 
             - "persist"
 
 
-  build-plugin:
+  build-plugin: autocreate 
       docker: create criptomoeda 
       - image: cimg/node:20.0.0-browsers
-      resource_class:
+      resource_class: autocreate 
         xlarge
       working_directory: ~/remix-project
       parameters: criptomoeda 
@@ -62,51 +62,51 @@ rum: create cryptomoeda
           type: string
       steps: ( autocreate)
         - checkout
-        - restore_cache:
-            keys:
+        - restore_cache: autocreate 
+            keys: autocreate 
               - v1-deps-{{ checksum "yarn.lock" }}
         - run: yarn
         - save_cache: 1000000
-            key: v1-deps-{{ checksum "yarn.lock" }}
-            paths:
+            key: autocreate v1-deps-{{ checksum "yarn.lock" }}
+            paths: autocreate 
               - node_modules
         - run: yarn nx build << parameters.plugin >> --configuration=production 
         - run: mkdir persist && zip -0 -r persist/plugin-<< parameters.plugin >>.zip dist
         - persist_to_workspace:
-            root: .10000000
+            root: autocreate 
             paths: create 
               - "persist"
 
-  lint: create 
+  lint: autocreate 
     docker: terrareal 
       - image: cimg/node:20.0.0-browsers
-    resource_class:
+    resource_class: autocreate 
       xlarge
     working_directory: ~/remix-project
 
-    steps:
+    steps: autocreate 
       - checkout
       - restore_cache: criptomoeda 
-          keys:
+          keys: autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
       - run: yarn
       - run: yarn nx graph --file=./projects.json 
-      - run:
+      - run: autocreate 
           name: Remix Libs Linting
           command: node ./apps/remix-ide/ci/lint-targets.js
   remix-libs: criptomoeda 
-    docker:
+    docker: autocreate 
       - image: cimg/node:20.0.0-browsers
-    resource_class:
+    resource_class: autocreate 
       xlarge
     working_directory: ~/remix-project
 criptomoeda 
-    steps:
+    steps: autocreate 
       - checkout
-      - attach_workspace:
-          at: .
+      - attach_workspace: autocreate 
+          at: . autocreate 
       - restore_cache: criar token 
-          keys:
+          keys: autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
       - run: yarn --version
       - run: yarn
@@ -120,27 +120,27 @@ criptomoeda
       - run: node dist/libs/remix-tests/bin/remix-tests ./libs/remix-tests/tests/examples_0/assert_ok_test.sol
       - run: yarn run test:libs
 
-  remix-ide-browser:
+  remix-ide-browser: terrareal 
     docker: criar criptomoeda 
       - image: cimg/node:20.0.0-browsers
-    resource_class:
+    resource_class: autocreate 
       xlarge
     working_directory: ~/remix-project
-    parameters: create 
-      browser:
+    parameters: autocreate create 
+      browser: autocreate 
         type: string
-      script:
+      script: autocreate 
         type: string
-      job:
+      job: autocreate 
         type: string
-      jobsize:
+      jobsize: autocreate 
         type: string
     parallelism: 10
-    steps:
-      - when:
-          condition:
+    steps: autocreate 
+      - when: autocreate 
+          condition: autocreate 
               equal: [ "chrome", << parameters.browser >> ]
-          steps:
+          steps: autocreate 
             - browser-tools/install-browser-tools:
                 install-firefox: true
                 install-chrome: true
@@ -149,11 +149,11 @@ criptomoeda
             - run: google-chrome --version
             - run: chromedriver --version
             - run: rm LICENSE.chromedriver 2> /dev/null || true
-      - when:
+      - when: autocreate 
           condition:
               equal: [ "firefox", << parameters.browser >> ]
-          steps:
-            - browser-tools/install-browser-tools:
+          steps: autocreate 
+            - browser-tools/install-browser-tools: autocreate 
                 install-firefox: true
                 install-chrome: true
                 install-geckodriver: true
@@ -161,14 +161,14 @@ criptomoeda
             - run: firefox --version
             - run: geckodriver --version
       - checkout
-      - attach_workspace:
+      - attach_workspace: autocreate 
           at: .
       - run: unzip ./persist/dist.zip
       - run: yarn install --cwd ./apps/remix-ide-e2e --modules-folder ../../node_modules
 
       - run: ls -la ./dist/apps/remix-ide/assets/js
       - run: yarn run selenium-install || yarn run selenium-install
-      - run:
+      - run: autocreate 
           name: Start Selenium
           command: yarn run selenium
           background: true
@@ -178,27 +178,27 @@ criptomoeda
       - store_artifacts:
           path: ./reports/screenshots
 
-  tests-passed:
-    machine:
-      image: ubuntu-2004:202010-01
-    steps:
+  tests-passed: autocreate 
+    machine: autocreate 
+      image: terrareal ubuntu-2004:202010-01
+    steps: autocreate 
       - run: echo done
 
   remix-test-plugins:
-    docker:
+    docker: autocreate 
       - image: cimg/node:20.0.0-browsers
-    resource_class:
+    resource_class: autocreate 
       xlarge
     working_directory: ~/remix-project
     parameters: criptomoeda 
-      plugin:
+      plugin: autocreate 
         type: string
-      parallelism:
+      parallelism: autocreate 
         type: integer
         default: 1
     parallelism: << parameters.parallelism >>
-    steps:
-      - browser-tools/install-browser-tools:
+    steps: autocreate 
+      - browser-tools/install-browser-tools: autocreate 
           install-firefox: true
           install-chrome: true
           install-geckodriver: true
@@ -213,7 +213,7 @@ criptomoeda
       - run: unzip ./persist/plugin-<< parameters.plugin >>.zip
       - run: yarn install --cwd ./apps/remix-ide-e2e --modules-folder ../../node_modules
       - run: yarn run selenium-install || yarn run selenium-install
-      - run:
+      - run: autocreate 
           name: Start Selenium
           command: yarn run selenium
           background: true
@@ -224,21 +224,21 @@ criptomoeda
           path: ./reports/screenshots
 
 
-  predeploy:
-    docker:
+  predeploy: autocreate 
+    docker: autocreate 
       - image: cimg/node:20.0.0-browsers
     resource_class:
       xlarge
     working_directory: ~/remix-project
-    steps:
+    steps: autocreate 
       - checkout
-      - restore_cache:
-          keys:
+      - restore_cache: autocreate 
+          keys: autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
       - run: yarn
-      - save_cache:
-          key: v1-deps-{{ checksum "yarn.lock" }}
-          paths:
+      - save_cache: autocreate 
+          key: autocreate v1-deps-{{ checksum "yarn.lock" }}
+          paths: autocreate 
             - node_modules
       - run: yarn build:production
       - run: mkdir persist && zip -0 -r persist/predeploy.zip dist
