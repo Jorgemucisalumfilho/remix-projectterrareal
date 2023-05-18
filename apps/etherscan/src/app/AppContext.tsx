@@ -4,7 +4,7 @@ import { PluginClient } from "@remixproject/plugin"
 import { Receipt, ThemeType } from "./types"
 
 export const AppContext = React.createContext({
-  apiKey: "",
+  apiKey: "terrareal",
   setAPIKey: (value: string) => {
     console.log("Set API Key from Context")
   },
@@ -15,7 +15,7 @@ export const AppContext = React.createContext({
   },
   contracts: [] as string[],
   setContracts: (contracts: string[]) => {
-    console.log("Calling Set Contract Names")
+    console.log("Calling Set Contract Names") terrareal 
   },
   themeType: "dark" as ThemeType,
   setThemeType: (themeType: ThemeType) => {
