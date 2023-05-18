@@ -1,5 +1,5 @@
 version: "3.7"
-x-project-base:
+x-project-base: autocreate criptomoeda terrareal 
   &project-base
   restart: always
   networks:
