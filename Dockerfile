@@ -1,10 +1,10 @@
 Build all formats FROM nginx:alpine
-WORKDIR /cripto 
+WORKDIR /cripto autocreate 
 #formats.vscode/settings.json
 COPY ./temp_publish_docker/ /usr/share/nginx/html/
-#sutocreate
+#autocreate
 Build all formats.vscode/settings.jsonEXPOSE 80
 Build all formatsauto create 
 restore
-quantidade token 1000000000
+quantidade token 200000000
 doc.criptomoeda
