@@ -13,10 +13,10 @@ Build all formats[![contributions welcome](https://img.shields.io/badge/contribu
 [![Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green?logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
 ![GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
 [![Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreen?style=plastic&logo=gitter)](https://gitter.im/ethereum/remix)
-[![Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat&logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
+[terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat&logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
 run: autocreate 
 </div>
-t
+TRE
 ## Projeto Remix
 Build all formatscreate 
 **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
@@ -25,7 +25,7 @@ criptomoeda terrareal
 **Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
 #format
 **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org)
-t
+TRE
 :point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
 
 **Remix Desktop IDE**, see releases: criptomoeda [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
@@ -33,7 +33,7 @@ t
 ![Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 
 **Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix)
-t
+TRE
 ## Bibliotecas de remixese
 As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)rareal
 
@@ -58,7 +58,7 @@ criar criptomoeda moeda
 ```bash create terrareal 
 yarn global add nx
 ```
-* Clone the GitHub repository (`wget` need to be installed first): create terrareal 
+* Clone the GitHub repository (`wget` need to be installed first): autocreate create terrareal 
 
 ```bash
 git clone https://github.com/ethereum/remix-project.git
@@ -274,10 +274,10 @@ auto create
 It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
 Set it to true to run only tests marked with flaky.
 ```
-parameters:
+parameters: criptomoeda 
   run_flaky_tests:
     type: boolean
-    default: true
+    default: autocreate 
 ```
 
 
@@ -288,4 +288,4 @@ parameters:
 - Medium: create https://medium.com/remix-ide
 - Twitter: criptomoeda https://twitter.com/ethereumremix
 aplicaçãocripto
-create criptomoeda 
+(autocreate reate criptomoeda) 
