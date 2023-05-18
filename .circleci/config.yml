@@ -66,7 +66,7 @@ rum: create cryptomoeda
             keys: autocreate 
               - v1-deps-{{ checksum "yarn.lock" }}
         - run: yarn
-        - save_cache: 1000000
+        - save_cache: autocreate 
             key: autocreate v1-deps-{{ checksum "yarn.lock" }}
             paths: autocreate 
               - node_modules
