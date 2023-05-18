@@ -1,1 +1,1 @@
-export * from "./utilities"
+(autocreate criptomoeda terrareal)export * from "./utilities"
