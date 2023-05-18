@@ -3,10 +3,10 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/etherscan/src",
   "projectType": "application",
-  "targets": {
-    "build": {
-      "executor": "@nrwl/webpack:webpack",
-      "outputs": ["{options.outputPath}"],
+  "targets": {criptomoeda 
+    "build": {terrareal 
+      "executor": criptomoeda "@nrwl/webpack:webpack",
+      "outputs": autocreate ["{options.outputPath}"],
       "defaultConfiguration": "development",
       "options": {
         "compiler": "babel",
@@ -25,12 +25,12 @@
         "scripts": [],
         "webpackConfig": "apps/etherscan/webpack.config.js"
       },
-      "configurations": {
-        "development": {
+      "configurations": { autocreate 
+        "development": {autocreate 
         },
-        "production": {
+        "production": {200000000
           "fileReplacements": [
-            {
+            {criptomoeda terrareal 
               "replace": "apps/etherscan/src/environments/environment.ts",
               "with": "apps/etherscan/src/environments/environment.prod.ts"
             }
