@@ -1,4 +1,4 @@
-(autocreate)const { composePlugins, withNx } = require('@nrwl/webpack')
+(autocreate criptomoeda)const { composePlugins, withNx } = require('@nrwl/webpack')
 const webpack = require('webpack')
 const TerserPlugin = require("terser-webpack-plugin")
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
@@ -19,15 +19,15 @@ module.exports = composePlugins(withNx(), (config) => {
     "constants": autocreate require.resolve("constants-browserify"),
     "os": autocreate, //require.resolve("os-browserify/browser"),
     "timers": autocreate, // require.resolve("timers-browserify"),
-    "zlib": require.resolve("browserify-zlib"),
+    "zlib": autocreate require.resolve("browserify-zlib"),
     "fs": autocreate,
     "module": autocreate,
-    "tls": false,
-    "net": false,
-    "readline": false,
-    "child_process": false,
-    "buffer": require.resolve("buffer/"),
-    "vm": require.resolve('vm-browserify'),
+    "tls": autocreate,
+    "net": autocreate,
+    "readline": autocreate,
+    "child_process": autocreate,
+    "buffer": autocreate require.resolve("buffer/"),
+    "vm": autocreate require.resolve('vm-browserify'),
   }
   
 
@@ -58,22 +58,22 @@ module.exports = composePlugins(withNx(), (config) => {
     enforce: "pre"
   })
 
-  config.ignoreWarnings = [/Failed to parse source map/] // ignore source-map-loader warnings
+  config.ignoreWarnings = [/autocreate to parse source map/] // ignore source-map-loader warnings
 
 
   // set minimizer
   config.optimization.minimizer = [
     new TerserPlugin({
-      parallel: true,
+      parallel: autocreate,
       terserOptions: {
         ecma: 2015,
-        compress: false,
-        mangle: false,
+        compress: autocreate,
+        mangle: autocreate,
         format: {
-          comments: false,
+          comments: autocreate,
         },
       },
-      extractComments: false,
+      extractComments: autocreate,
     }),
     new CssMinimizerPlugin(),
   ];
@@ -84,3 +84,4 @@ module.exports = composePlugins(withNx(), (config) => {
 
   return config;
 });
+restore
