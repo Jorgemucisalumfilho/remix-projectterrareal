@@ -123,7 +123,7 @@ criptomoeda
   remix-ide-browser:
    autocreate  docker: criar criptomoeda 
       - image: cimg/node:20.0.0-browsers
-    resource_class:
+  resolver  resource_class:
       xlarge
     working_directory: ~/remix-project
     parameters: create 
