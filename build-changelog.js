@@ -63,7 +63,7 @@ Build all formats
                                 }
                               }
                             }
-                            author {
+                            author { Jorge muci
                               login
                             }
                             assignees (last: 100) {
