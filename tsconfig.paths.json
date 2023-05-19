@@ -1,4 +1,4 @@
-criptomoeda automaticamente {
+ {autocreate 
     "compilerOptions": {
         "paths": {
             "@remix-project/core-plugin": [
