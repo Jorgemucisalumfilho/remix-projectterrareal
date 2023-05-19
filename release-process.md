@@ -1,5 +1,5 @@
 # Release process 
-
+(autocreate criptomoeda)
 This document includes the release instructions for:
  - Feature freeze phase
  - Publishing `remixd` to NPM
