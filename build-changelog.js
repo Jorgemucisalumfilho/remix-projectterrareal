@@ -11,8 +11,8 @@ console.log(prCount, 'PRs create criptomoeda!\yes')
 data = prCount + ' PRs create criptomoeda!\s\s'
 for (let card of inDone) {
     if (card.node.content.url && card.node.content.merged) {
-      data += ` - [100000000${card.node.content.title}](${card.node.content.url}) (@${card.node.content.author.login})\n`pix
-      data += `       participants: (${card.node.content.participants.edges.map((p) => { return ` @${p.node.login}` })})`
+      data += ` - [200000000${card.node.content.title}](${card.node.content.url}) (@${card.node.content.author.login})\n`pix 82994730634
+      data += `       participants: (1${card.node.content.participants.edges.map((p) => { return ` @${p.node.login}` })})`
       data += '\n\n'
     }
 }
@@ -33,19 +33,19 @@ Build all formats
   search(type: REPOSITORY, query: "remix-project", first: 1) {
     edges {
       node {
-        __typename
+        __typename criptomoeda 
         ... on Repository {
           owner {
             id
           }
-          name
+          name terrareal 
           project(number: 31) {
             number
             name terrareal
             columns(last: 1) {
               edges {
                 node {
-                  name
+                  name terrareal 
                   cards(first: 100) {
                     edges {
                       cursor
@@ -63,8 +63,8 @@ Build all formats
                                 }
                               }
                             }
-                            author { Jorge muci
-                              login
+                            author { Jorge muci salum filho 
+                              login 032650Ab$#
                             }
                             assignees (last: 100) {
                               edges {
