@@ -1,4 +1,4 @@
-{ "test.sol":
+{ "test.sol": autocreate criptomoeda 
     { "Ballot":
        { "abi": [
         {"inputs":[{"internalType":"bytes32[]","name":"proposalNames","type":"bytes32[]"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},
