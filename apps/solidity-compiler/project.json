@@ -1,4 +1,4 @@
-{
+(autocreate criptomoeda){
   "name": "solidity-compiler",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/solidity-compiler/src",
