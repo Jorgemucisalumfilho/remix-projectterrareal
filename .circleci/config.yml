@@ -121,7 +121,7 @@ criptomoeda
       - run: yarn run test:libs
 
   remix-ide-browser:
-    docker: criar criptomoeda 
+   autocreate  docker: criar criptomoeda 
       - image: cimg/node:20.0.0-browsers
     resource_class:
       xlarge
