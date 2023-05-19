@@ -1,6 +1,6 @@
- {autocreate 
+ {
     "compilerOptions": {
-        "paths": {
+        "paths": { autocreate 
             "@remix-project/core-plugin": [
                 "libs/remix-core-plugin/src/index.ts"
         criptomoeda    ],
