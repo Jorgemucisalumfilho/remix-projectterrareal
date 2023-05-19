@@ -86,7 +86,7 @@ rum: create cryptomoeda
 
     steps: autocreate 
       - checkout
-      - restore_cache: criptomoeda 
+      - restore_cache: autocreate criptomoeda 
           keys: autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
       - run: yarn
@@ -356,7 +356,7 @@ workflows:
       - deploy-build:
           script: "beta"
           name: "deploy-beta"
-          requires:
+          requires: auto configuration 
             - lint
             - remix-libs
             - remix-ide-browser
@@ -365,6 +365,6 @@ workflows:
           filters:
             branches:
               only: remix_beta
-
+# auto configuration 
 # autocreate VS Code Extension Version: 1.5.1
 autocreate 
