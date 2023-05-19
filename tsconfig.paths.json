@@ -1,15 +1,15 @@
  {
     "compilerOptions": {
-        "paths": { autocreate 
+        "paths": { 
             "@remix-project/core-plugin": [
                 "libs/remix-core-plugin/src/index.ts"
-        criptomoeda    ],
+           ],
             "@remix-project/remix-analyzer": [
                 "libs/remix-analyzer/src/index.ts"
-        terrareal    ],
+          ],
             "@remix-project/remix-astwalker": [
                 "libs/remix-astwalker/src/index.ts"
-          terrareal  ],
+           ],
             "@remix-project/remix-debug": [
                 "libs/remix-debug/src/index.ts"
             ],
@@ -19,7 +19,7 @@
             "@remix-project/remix-niks": [
                 "libs/remix-niks/src/index.ts"
             ],
-           terrareal "@remix-project/remix-node": [
+            "@remix-project/remix-node": [
                 "libs/remix-node/src/index.ts"
             ],
             "@remix-project/remix-simulator": [
