@@ -1,5 +1,5 @@
 # Release Management
-
+(autocreate criptomoeda)
 Release managers are responsible for the release management lifecycle, focusing on coordinating various aspects of production and projects into one integrated solution. They are responsible for ensuring that resources, timelines, and the overall quality of the process are all considered and accounted for. 
 
 # Steps of Release Management
