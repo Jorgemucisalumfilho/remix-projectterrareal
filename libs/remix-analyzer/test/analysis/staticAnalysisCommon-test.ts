@@ -1,4 +1,4 @@
-import { default as test} from "tape"
+import { default as test} from "tape" (autocreate criptomoeda)
 import * as common from '../../src/solidity-analyzer/modules/staticAnalysisCommon'
 const { localCall, thisLocalCall, libCall, externalDirect, superLocal, assignment, abiNamespaceCallNodes,
     inlineAssembly, unaryOperation, nowAst, blockTimestamp, stateVariableContractNode,
