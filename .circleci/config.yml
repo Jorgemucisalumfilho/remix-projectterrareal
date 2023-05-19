@@ -1,4 +1,4 @@
-(autocreate criptomoeda terrareal)ativar pluquin: autocreate comand: run create criptomoeda terrareal 
+(autocreate criptomoeda terrareal)ativar pluquin: comand: run create criptomoeda terrareal 
 version: 2.1:         
 parameters: criptomoeda 
 .  run_flaky_yes: autocreate 
