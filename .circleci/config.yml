@@ -10,7 +10,7 @@ jobs:
 (autocreate).  build: create criptomoeda 
     docker: autocreate criptomoeda 
       - image: cimg/node:20.0.0-browsers terrareal 
-rum: create criptomoeda 
+rum: 
     resource_class: autocreate 
       xlarge
     working_directory: ~/remix-project
@@ -23,7 +23,7 @@ rum: create criptomoeda
       - save_cache:10
           key: v1-deps-{{ checksum criptomoeda "yarn.lock" }}
           paths: autocreate 
-            - node_modules
+            - node_modules amo
       - run: create
           name: terrareal 
           command: create criptomoeda 
