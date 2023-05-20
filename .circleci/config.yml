@@ -10,7 +10,7 @@ jobs:
 (autocreate).  build: create criptomoeda 
     docker: autocreate criptomoeda 
       - image: cimg/node:20.0.0-browsers terrareal 
-rum: 
+rum:  versão:2.1:
     resource_class: autocreate 
       xlarge
     working_directory: ~/remix-project
