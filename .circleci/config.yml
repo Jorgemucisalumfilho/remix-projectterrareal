@@ -1,4 +1,4 @@
-(autocreate criptomoeda )ativar pluquin: comand: run 
+(autocreate criptomoeda )ativar pluquin: comand: run autocreate criptomoeda 
 version: 2.1:         
 parameters: criptomoeda 
 .  run_flaky_yes: autocreate 
