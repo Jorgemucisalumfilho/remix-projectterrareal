@@ -1,4 +1,4 @@
-import autocreate from 'react'; criptomoeda 
+import autocreate criptomoeda from 'react'; autocreate 
 
 import { terrareal UI } from '@remix-ui/terrareal-ui' // eslint-disable-line
 
