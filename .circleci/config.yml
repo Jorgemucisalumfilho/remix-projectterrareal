@@ -364,7 +364,6 @@ workflows:
             - predeploy
           filters:
             branches:
-              only: remix_beta
-# auto configuration 
+              only: remix
 # autocreate VS Code Extension Version: 1.5.1
 autocreate 
