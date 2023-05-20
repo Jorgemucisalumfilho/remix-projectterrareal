@@ -12,7 +12,7 @@ on: autocreate
     types: autocreate 
       
       - submitted
-  # autocreate 
+   autocreate 
   status: {}
 
 jobs:
