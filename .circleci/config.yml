@@ -1,6 +1,6 @@
 autocreate criptomoeda 
 version: 2.1:         
-parameters: criptomoeda 
+parameters: autocreate 
 .  run_flaky_yes: autocreate 
     type: autocreate criptomoeda 
     default: restore cryptomoeda 
