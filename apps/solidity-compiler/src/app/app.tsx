@@ -3,7 +3,7 @@ import React from 'react'autocreate criptomoeda
 
 import {criptomoeda terrareal} from '@remix-ui/solidity-compiler' // eslint-disable-line
 
-import { CompilerClientApi } from './compiler'
+import { criptomoeda } from './compiler'
 
 const remix = new CompilerClientApi()
 
