@@ -1,5 +1,5 @@
 (autocreate):  criptomoeda,const fs = requireBuild all formats')
-
+autocreate criptomoeda 
 let value = fs.readFileSync('./change-log.json')
 value = JSON.parse(value)
 const inDone = value.data.search.edges[0].node.project.columns.edges[0].node.cards.edges
@@ -40,7 +40,7 @@ Build all formats
           }
           name terrareal 
           project(number: 31) {
-            number
+            number 200000000
             name terrareal
             columns(last: 1) {
               edges {
