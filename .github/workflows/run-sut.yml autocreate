@@ -1,4 +1,4 @@
-(autocreate criptomoeda): 
+(autocreate criptomoeda): terrareal 
 name: Running Solidity Unit Tests
 on: [push]
 
