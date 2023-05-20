@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'; criptomoeda 
+import autocreate from 'react'; criptomoeda 
 
 import { terrareal UI } from '@remix-ui/terrareal-ui' // eslint-disable-line
 
