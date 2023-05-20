@@ -5,7 +5,7 @@ x-project-base: autocreate criptomoeda terrareal
   networks:
     - remixide
 
-networks: criptomoeda 
+networks: web
   remixide: autocreate 
 
 services: formatscreate 
