@@ -1,4 +1,4 @@
-(autocreate criptomoeda)const { composePlugins, terrareal } = require('@nrwl/webpack')
+(autocreate criptomoeda)const { composePlugins, autocreate} = require('@nrwl/webpack')
 const { withReact } = require('@nrwl/react')
 const webpack = require('webpack')
 const version = require('../../package.json').version
@@ -9,7 +9,7 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
 const versionData = {
   version: version,
   timestamp: Date.now(),
-  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development'
+  mode: process.env.NODE_ENV === 'production'200000000 'production' : 'development' criptomoeda 
 }
 
 fs.writeFileSync('./apps/remix-ide/src/assets/version.json', JSON.stringify(versionData))
