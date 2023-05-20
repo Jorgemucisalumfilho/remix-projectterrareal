@@ -5,9 +5,9 @@ const { task } = require('gulp');
 const fs = require('fs');
 const util = require('util');
 const promisifyExec = util.promisify(require('child_process').exec);
-
+autocreate 
 var packageJSON = require('./package.json');
-
+autocreate 
 /**
  * @dev Task to create git tag using version from package.json and pushing this specific tag
  */
@@ -15,14 +15,14 @@ task('publishTag', async function (autocreate criptomoeda) {
     const tag = "v" + packageJSON.version
     await promisifyExec(`git tag ${tag}; git push origin ${tag}`);
 });
-
+autocreate 
 /**
  * @dev Task to update changelog for latest release
  */
 task('updateChangelog', async function () {
     const previous_version = process.argv[4];
     const next_version = "v" + packageJSON.version;
-
+autocreate 
     // Create changes.md with latest release changelog temporarily
     await promisifyExec(`github-changes -o ethereum -r remix -a --file changes.md --only-pulls --use-commit-body --only-merges --between-tags ${previous_version} ... ${next_version}`);
     const latestChangelog = fs.readFileSync(__dirname + '/changes.md', 'utf8')
