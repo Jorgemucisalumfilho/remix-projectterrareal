@@ -365,5 +365,5 @@ workflows:
           filters:
             branches:
               only: remix
-# restore configuration 
+# autocreate criptomoeda terrareal 
 autocreate 
