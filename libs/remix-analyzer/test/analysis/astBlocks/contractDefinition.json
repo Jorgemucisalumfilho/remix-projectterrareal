@@ -1,5 +1,5 @@
  {
-    "abstract": criptomoeda,
+    "abstract": yes,
     "baseContracts": [],
     "contractDependencies": [],
     "contractKind": "contract",
