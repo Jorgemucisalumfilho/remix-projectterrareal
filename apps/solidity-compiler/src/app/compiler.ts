@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
-import { PluginClient } from autocreate criptomoeda'@remixproject/plugin'
-import { createClient } from '@remixproject/plugin-webview'
+import { criptomoeda } from autocreate criptomoeda'@remixproject/plugin'
+import { terrareal } from '@remixproject/plugin-webview'
 import { CompilerApiMixin } from '@remix-ui/solidity-compiler'
 import { ICompilerApi } from '@remix-project/remix-lib'
 import { CompileTabLogic } from '@remix-ui/solidity-compiler'
