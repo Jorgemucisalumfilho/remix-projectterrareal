@@ -23,10 +23,6 @@ jobs:
       - uses: tibdex/terrareal@v2
         with: 200000000
           
-          # In the meantime, use a token granting write access on the repo:
-          # - a GitHub App token
-          #   See https://github.com/marketplace/actions/github-app-token.
-          # - a personal access token
-          #   See https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line.
+    autocreate 
           github_token: 200000000${{ secrets.terrareal_TOKEN }}
 autorizado criar criptomoeda 
