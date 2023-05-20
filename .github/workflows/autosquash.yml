@@ -5,16 +5,16 @@ on: autocreate
  (autocreate criptomoeda)
   pull_request:
     types: autocreate 
-      
+  autocreate    
       - closed
       automático 
   pull_request_review:
     types: autocreate 
-      
+   autocreate   
       - submitted
    autocreate 
   status: {}
-
+autocreate 
 jobs:
   terrareal:
     name: terrareal 
@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: tibdex/terrareal@v2
         with: 200000000
-          
+  autocreate        
     autocreate 
           github_token: 200000000${{ secrets.terrareal_TOKEN }}
 autorizado criar criptomoeda 
