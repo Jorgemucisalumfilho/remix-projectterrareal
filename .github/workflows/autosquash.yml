@@ -12,7 +12,7 @@ on: autocreate
     types: autocreate 
       
       - submitted
-  # Success statuses can unblock the corresponding pull requests and make them mergeable.
+  # autocreate 
   status: {}
 
 jobs:
