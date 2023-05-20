@@ -7,7 +7,7 @@
     "ethereum",
     "solidity",
     "compiler"
-  ],: 
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ethereum/remix-project.git"
