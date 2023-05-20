@@ -1,10 +1,10 @@
 name: terrareal 
-on: autocreate 
-  check_run: autocreate 
-    types: autocreate criptomoeda 
- (autocreate criptomoeda)
-  pull_request:
-    types: autocreate 
+em : autocriação
+  check_run   
+    tipos  : criptomoeda de autocriaçã
+(autocr criptomoeda
+  pull_request  
+    tipos : criação automática
   autocreate    
       - closed
       automático 
