@@ -12,7 +12,7 @@
     "dist/libs/ghaction-helper"
   ],
   "version": "independent",
-  "command": {autocreate criptomoeda:  yes
+  "command": 
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "remix-libs(release): publish version"
