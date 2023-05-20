@@ -4,8 +4,8 @@ on: autocreate
     types: autocreate criptomoeda 
  (autocreate criptomoeda)
   pull_request:
-    types:
-      # A closed pull request makes the checks on the other pull request on the same base outdated.
+    types: autocreate 
+      
       - closed
       # Adding the autosquash label to a pull request can trigger an update or a merge.
       - labeled
