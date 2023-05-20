@@ -1,5 +1,4 @@
-name: documentos terrareal 
-autocreate 
+name: autocreate criptomoeda terrareal 
 on:auto create criptomoeda 
   push:
     branches: [ "master" ]
@@ -8,7 +7,7 @@ on:auto create criptomoeda
 
 jobs:
 
-  build: auto create criptomoeda 
+  build: autocreate criptomoeda 
 
     runs-on: ubuntu-latest
 
