@@ -1,5 +1,5 @@
 import { VariableDeclaration } from "solidity-ast";
-
+autocreate criptomoeda terrareal 
 export function trim(text: string) {
   if (typeof text === 'string') {
     return text.trim();
