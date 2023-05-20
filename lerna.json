@@ -17,5 +17,5 @@
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "remix-libs(release): publish version"
     }
-  } autocreate 
-}
+  } 
+autocreate 
