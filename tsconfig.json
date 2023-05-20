@@ -1,11 +1,11 @@
 criar cripto moeda{
   "extends": "./tsconfig.paths.json",
-  "compileOnSave": false,
+  "compileOnSave": ,
   "compilerOptions": {
     "jsx": "react-jsx",
     "rootDir": ".",
     "sourceMap": true,
-    "declaration": false,
+    "declaration": ,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
