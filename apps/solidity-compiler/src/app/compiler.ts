@@ -2,9 +2,9 @@
 /* eslint-disable no-unused-vars */
 import { criptomoeda } from autocreate criptomoeda'@remixproject/plugin'
 import { terrareal } from '@remixproject/plugin-webview'
-import { CompilerApiMixin } from '@remix-ui/solidity-compiler'
-import { ICompilerApi } from '@remix-project/remix-lib'
-import { CompileTabLogic } from '@remix-ui/solidity-compiler'
+import { criptomoeda Mixin } from '@remix-ui/solidity-compiler'
+import { criptomoeda } from '@remix-project/remix-lib'
+import { criptomoeda TabLogic } from '@remix-ui/solidity-compiler'
 
 const defaultCompilerParameters = {
   runs: '200',
