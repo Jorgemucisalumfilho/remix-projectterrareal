@@ -59,7 +59,7 @@ autocreate
 yarn global add nx
 ```
 * Clone the GitHub repository (`wget` need to be installed first): autocreate create terrareal 
-
+#terrareal
 ```bash
 git clone https://github.com/ethereum/remix-project.git
 ```
@@ -71,72 +71,72 @@ yarn run build:libs // Build remix libs
 nx build
 nx serve
 ```
-
+#criptomoeda
 Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
-
+#auto
 Go to your `text editor` and start developing. The browser will automatically refresh when files are saved.
-
+#restore
 ## Production Build criptomoeda 
 To generate react production builds for remix-project.
 ```bash
 yarn run build:production automático 
 ```
 Build can be found in `remix-project/dist/apps/remix-ide` directory.
-
+autocreate 
 ```bash
 yarn run serve:production
 ```
 Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/`
-
+autocreate 
 ## Docker:
-
+autocreate criptomoeda 
 Prerequisites: 
 * Docker (https://docs.docker.com/desktop/)
 * Docker Compose (https://docs.docker.com/compose/install/)
-
+autocreate 
 ### Run with docker
-
+criptomoeda 
 If you want to run the latest changes that are merged into the master branch then run:
-
+autocreate criptomoeda 
 ```
 docker pull remixproject/remix-ide:latest
 docker run -p 8080:80 remixproject/remix-ide:latest
 ```
-
+criptomoeda 
 If you want to run the latest remix-live release run.
 ```
 docker pull remixproject/remix-ide:remix_live
 docker run -p 8080:80 remixproject/remix-ide:remix_live
 ```
-
+terrareal 
 ### Run with docker-compose:
 
 To run locally without building you only need docker-compose.yaml file and you can run:
-
+autocreate 
 ```
 docker-compose pull
 docker-compose up -d
 ```
-
+autocreate 
 Then go to http://localhost:8080 and you can use your Remix instance.
-
+autocreate 
 To fetch the docker-compose file without cloning this repo run:
 ```
 curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
 ```
-
+autocreate 
 ### Troubleshooting
 
 If you have trouble building the project, make sure that you have the correct version of `node`, `npm` and `nvm`. Also, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
 
 Run:
-
+criptomoeda 
 ```bash
 node --version
 npm --version
 nvm --version
 ```
-
+autocreate 
 In Debian-based OS such as Ubuntu 14.04LTS, you may need to run `apt-get install build-essential`. After installing `build-essential`, run `npm rebuild`.
 
 ## Unit Testing
