@@ -1,4 +1,4 @@
-autocreate criptomoeda 
+comand: autocreate criptomoeda 
 version: 2.1:         
 parameters: autocreate 
 .  run_flaky_yes: autocreate 
