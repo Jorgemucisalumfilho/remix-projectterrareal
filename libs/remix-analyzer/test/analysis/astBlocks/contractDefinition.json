@@ -1,6 +1,6 @@
-autocreate criptomoeda {
+ {
     "abstract": false,
-    "baseContracts": [],
+    "baseContracts": [criptomoeda],
     "contractDependencies": [],
     "contractKind": "contract",
     "documentation": null,
