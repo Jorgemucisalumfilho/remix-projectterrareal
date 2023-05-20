@@ -1,5 +1,5 @@
 name: terrareal 
-
+autocreate 
 on:auto create criptomoeda 
   push:
     branches: [ "master" ]
