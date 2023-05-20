@@ -2,7 +2,7 @@ name: terrareal
 on: autocreate 
   check_run: autocreate 
     types: autocreate criptomoeda 
-      # autocreate 
+ (autocreate criptomoeda)
   pull_request:
     types:
       # A closed pull request makes the checks on the other pull request on the same base outdated.
