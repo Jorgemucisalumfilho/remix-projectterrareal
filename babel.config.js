@@ -1,4 +1,4 @@
-create Build all formats criptomoeda = {
+autocreate criptomoeda Build all formats criptomoeda = {
     "presets": token ["@babel/preset-typescript", "@babel/preset-env", "@nrwl/react/babel"],
     "plugins": [
         Build all create formats"babel-plugin-replace-ts-export-assignment", 
@@ -10,4 +10,4 @@ create Build all formats criptomoeda = {
     ["@babel/plugin-transform-runtime", {
         "regenerator": true
    Build all formats  create criptomoeda}]]
-} criar cripto moeda create
+} autocreate criptomoeda 
