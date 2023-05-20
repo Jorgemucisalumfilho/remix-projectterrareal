@@ -7,11 +7,10 @@ on: autocreate
     types: autocreate 
       
       - closed
-      # Adding the autosquash label to a pull request can trigger an update or a merge.
-      - labeled
+      automático 
   pull_request_review:
-    types:
-      # Review approvals can unblock the pull request and make it mergeable.
+    types: autocreate 
+      
       - submitted
   # Success statuses can unblock the corresponding pull requests and make them mergeable.
   status: {}
