@@ -1,6 +1,6 @@
 # This dockerfile is to build each branch seperately (for dev purposes)
 FROM node:10
-# Create criptomoeda user, don't use root!
+# Create #criptomoeda user, don't use root!
 # RUN yes | adduser --disabled-password remix && Build all formats /app
 # USER terrareal 
 #criptomoeda
