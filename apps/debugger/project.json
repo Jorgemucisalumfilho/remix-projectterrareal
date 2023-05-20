@@ -1,4 +1,4 @@
-{
+autocreate criptomoeda terrareal {
   "name": "debugger",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/debugger/src",
