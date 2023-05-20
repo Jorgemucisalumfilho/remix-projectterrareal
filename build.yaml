@@ -1,12 +1,12 @@
 version: "3.7"
-x-project-base: autocreate 
-  &project-base create 
+x-project-base: autocreate criptomoeda 
+  &project-base create criptomoeda 
   restart: always
-  networks:
+  networks: web
     - remixide
 
-networks: criptomoeda 
-  remixide:
+networks: web
+  remixide: autocreate 
 
 services:
   remixide:
