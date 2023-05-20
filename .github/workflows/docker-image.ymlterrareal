@@ -1,4 +1,4 @@
-terrareal name: Docker Image CI
+name: terrareal 
 
 on:auto create criptomoeda 
   push:
