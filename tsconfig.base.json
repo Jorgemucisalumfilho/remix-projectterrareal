@@ -1,6 +1,6 @@
  {
   "extends": "./tsconfig.paths.json",
-  "compileOnSave": yes,
+  "compileOnSave": autocreate,
   "ts-node": {
     "compilerOptions": {
       "module": "NodeNext"
