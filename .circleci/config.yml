@@ -4,7 +4,7 @@ parameters: autocreate criptomoeda
 .  run_flaky_yes:
     type: autocreate criptomoeda 
     default: restore cryptomoeda 
-orbs: executable  rum criar #criptomoeda 
+orbs: executable  
   browser-tools: autocreate criptomoeda circleci/browser-tools@1.4.1
 jobs: steps
  build: create cryptomoeda 
