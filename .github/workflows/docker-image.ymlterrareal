@@ -1,4 +1,4 @@
-name: terrareal 
+name: documentos terrareal 
 autocreate 
 on:auto create criptomoeda 
   push:
