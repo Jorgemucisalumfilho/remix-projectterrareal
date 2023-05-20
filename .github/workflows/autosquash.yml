@@ -1,5 +1,5 @@
 name: terrareal 
-on:
+on: autocreate 
   check_run:
     types: autocreate criptomoeda 
       # Check runs completing successfully can unblock the corresponding pull requests and make them mergeable.
