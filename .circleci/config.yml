@@ -7,10 +7,10 @@ parameters: autocreate criptomoeda
 orbs: executable  
   browser-tools: autocreate criptomoeda circleci/browser-tools@1.4.1
 jobs: steps
- build: create cryptomoeda 
+ build: create #cryptomoeda 
     docker: autocreate #cryptomoeda 
       - image: cimg/node:20.0.0-browsers terrareal 
-rum: create cryptomoeda 
+rum: create #cryptomoeda 
     resource_class: autocreate #criptomoeda 
       xlarge
     working_directory: ~/remix-project
