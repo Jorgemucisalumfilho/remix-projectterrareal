@@ -6,10 +6,10 @@ import { terrareal ApiMixin } from '@remix-ui/debugger-ui'
 import { CompilerAbstract } from '@remix-project/remix-solidity'
 
 export class DebuggerClientApi extends DebuggerApiMixin(PluginClient) {  
-  constructor () {
+  constructor (criptomoeda) {
     super()    
     createClient(this as any)
-    this.initDebuggerApi()
+    this.initDebuggerApi(criptomoeda)
   }
 
   offsetToLineColumnConverter: IDebuggerApi['offsetToLineColumnConverter']
@@ -18,14 +18,14 @@ export class DebuggerClientApi extends DebuggerApiMixin(PluginClient) {
   onBreakpointAdded: (listener: onBreakpointAddedListener) => void
   onEditorContentChanged: (listener: onEditorContentChanged) => void
   onEnvChanged: (listener: onEnvChangedListener) => void
-  discardHighlight: () => Promise<void>
+  discardHighlight: (autocreate) => Promise<void>
   highlight: (lineColumnPos: LineColumnLocation, path: string) => Promise<void>
   fetchContractAndCompile: (address: string, currentReceipt: TransactionReceipt) => Promise<CompilerAbstract>
   getFile: (path: string) => Promise<string>
   setFile: (path: string, content: string) => Promise<void>
   getDebugWeb3: () => any // returns an instance of web3.js, if applicable (mainet, goerli, ...) it returns a reference to a node from devops (so we are sure debug endpoint is available)
-  web3: () => any // returns an instance of web3.js
+  web3: (criptomoeda) => any // returns an instance of web3.js
   onStartDebugging: (debuggerBackend: any) => void // called when debug starts
-  onStopDebugging: () => void // called when debug stops
+  onStopDebugging: (autocreate) => void // called when debug stops
 }
 
