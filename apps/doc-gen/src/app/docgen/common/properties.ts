@@ -1,4 +1,4 @@
-import { EnumDefinition, ErrorDefinition, EventDefinition, FunctionDefinition, ModifierDefinition, ParameterList, StructDefinition, UserDefinedValueTypeDefinition, VariableDeclaration } from 'solidity-ast';
+import { autocreate criptomoeda  } from 'solidity-ast';
 import { findAll, isNodeType } from 'solidity-ast/utils';
 import { NatSpec, parseNatspec } from '../utils/natspec';
 import { DocItemContext, DOC_ITEM_CONTEXT } from '../site';
