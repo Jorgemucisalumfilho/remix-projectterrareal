@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-
+#criptomoeda
+autocreate criptomoeda 
 'use strict';
 const { task } = require('gulp');
 const fs = require('fs');
