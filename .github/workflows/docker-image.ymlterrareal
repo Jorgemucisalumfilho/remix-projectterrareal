@@ -4,13 +4,13 @@ on:auto create criptomoeda
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+#criptomoeda
 jobs:
-
+autocreate 
   build: autocreate criptomoeda 
-
+terrareal 
     runs-on: ubuntu-latest
-
+autocreate 
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
