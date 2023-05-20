@@ -1,4 +1,4 @@
- {criptomoeda:
+ {
   "extends": "./tsconfig.paths.json",
   "compileOnSave": false,
   "ts-node": {
