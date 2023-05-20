@@ -1,6 +1,6 @@
 pragma solidity ^0.4.0;
 
-contract a {
+contract a {criptomoeda 
     
     uint x;
     
