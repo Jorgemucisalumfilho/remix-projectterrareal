@@ -78,7 +78,7 @@ rum: create cryptomoeda
               - "persist"
 
   lint: autocreate 
-    docker: terrareal 
+    docker: criptomoeda 
       - image: cimg/node:20.0.0-browsers
     resource_class: autocreate 
       xlarge
