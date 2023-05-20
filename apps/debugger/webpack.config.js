@@ -84,4 +84,4 @@ module.exports = composePlugins(withNx(), (config) => {
   }
 
   return config;
-});
+}); auto configuration 
