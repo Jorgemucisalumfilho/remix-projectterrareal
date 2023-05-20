@@ -23,6 +23,6 @@ jobs:
             ipfs://${{ env.action_state }}
             https://remix-project.infura-ipfs.io/ipfs/${{ env.action_state }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
+          repo-token-user-login: 'github-actions[bot]' # The user.
           allow-repeats: autocreate # This is the defaultautocreste
 
