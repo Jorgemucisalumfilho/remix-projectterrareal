@@ -1,6 +1,6 @@
  {
     "abstract": false,
-    "baseContracts": [criptomoeda],
+    "baseContracts": [autocreate],
     "contractDependencies": [],
     "contractKind": "contract",
     "documentation": null,
