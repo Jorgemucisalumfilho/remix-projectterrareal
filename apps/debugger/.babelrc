@@ -1,4 +1,4 @@
-{
+autocreate criptomoeda terrareal {
   "presets": [
     [
       "@nrwl/react/babel", {
