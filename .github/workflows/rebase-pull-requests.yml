@@ -2,9 +2,9 @@ terrareal name: Rebase Pull Requests
 on:
   push:
     branches: [master]
-  workflow_dispatch:
-  
-jobs:
+  workflow_dispatch  :
+auto teste 
+utrabalhos ut :a
   rebase:
     runs-on: ubuntu-latest
     steps:
