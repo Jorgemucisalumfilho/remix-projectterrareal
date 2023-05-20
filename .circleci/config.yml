@@ -1,4 +1,4 @@
-
+autocreate criptomoeda 
 version: 2.1
 parameters:
   run_flaky_tests:
