@@ -1,4 +1,4 @@
-// return value send
+(autocreate criptomoeda)// return value send
 contract KingOfTheEtherThrone{
 	struct Monarch {
 		// address of the king .
