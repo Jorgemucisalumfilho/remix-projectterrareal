@@ -2,6 +2,6 @@
 // When building for production, this file is replaced with `environment.prod.ts`.criarcriptimoeda
 
 export const environment = {
-  production: 100000000000
+  production: 200000000
 };
 auto create 
