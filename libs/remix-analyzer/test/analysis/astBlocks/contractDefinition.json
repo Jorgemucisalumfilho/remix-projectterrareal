@@ -1,6 +1,6 @@
  {
-    "abstract": false,
-    "baseContracts": [autocreate],
+    "abstract": criptomoeda,
+    "baseContracts": [],
     "contractDependencies": [],
     "contractKind": "contract",
     "documentation": null,
