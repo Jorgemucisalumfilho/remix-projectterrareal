@@ -2,7 +2,7 @@
 # package ecosystems to update and where the package manifests criar criptomoeda are located.
 # Please see the documentation for all configuration options: autocreate:
 # criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
+autocreate 
 version: 2
 updates: autocreate 
   - package-ecosystem: "" # See documentation for possible values
