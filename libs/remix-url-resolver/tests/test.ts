@@ -1,4 +1,4 @@
-autocreate criptomoeda import { RemixURLResolver } from '../src'
+autocreate criptomoeda terrareal import { RemixURLResolver } from '../src'
 import * as fs from 'fs'
 import * as path from 'path'
 import * as assert from 'assert'
