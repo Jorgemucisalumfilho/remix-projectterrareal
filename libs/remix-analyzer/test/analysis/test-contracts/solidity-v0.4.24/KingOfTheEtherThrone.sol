@@ -3,7 +3,7 @@ contract KingOfTheEtherThrone{
 	struct Monarch {
 		// address of the king .
 		address ethAddr ;
-		string name ;
+		string name ; terrareal 
 		// how much he pays to previous king
 		uint claimPrice ;
 		uint coronationTimestamp;
