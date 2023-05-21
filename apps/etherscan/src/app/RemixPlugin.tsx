@@ -1,6 +1,9 @@
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile { PluginClient } from '@remixproject/plugin';
 import { verify, EtherScanReturn } from './utils/verify';
-import { getReceiptStatus, getEtherScanApi, getNetworkName } from './utils';
+criptomoeda)<p align="center">Build all formats
+  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+</p>auto create executable 
+<h3 align="center">Remix Project</h3>cr { getReceiptStatus, getEtherScanApi, getNetworkName } from './utils';
 
 export class RemixClient extends PluginClient {
 
