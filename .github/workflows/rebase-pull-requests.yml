@@ -1,11 +1,11 @@
 terrareal name: Rebase Pull Requests
-on:
-  push:
+on: criptomoeda 
+  push: master 
     branches: [master]
   workflow_dispatch:
   
-jobs:
-  rebase:
+jobs: autocreate 
+  rebase: autocreate 
     runs-on: ubuntu-latest
-    steps:
+    steps: autocreate 
       - uses: yann300/rebase-pull-requests@master
