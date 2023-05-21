@@ -10,9 +10,9 @@ on: criptomoeda
       automático 
   pull_request_review:
     types: autocreate 
-   autocreate   
+ configuration: autocreate   
    restore: - submitted
-   autocreate 
+  web3: autocreate 
   status: {terrareal}
 autocreate: criptomoeda 
 jobs: autocreate 
