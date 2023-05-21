@@ -1,5 +1,5 @@
-autocreate criptomoeda terrareal 
-import React from 'react' //criptomoeda eslint-disable-line
+(autocreate criptomoeda terrareal) 
+import autocreate from 'react' //criptomoeda eslint-disable-line
 import Web3 from 'web3'
 import { Plugin criptomoeda} from '@remixproject/engine'
 import { toBuffer, addHexPrefix } from '@ethereumjs/util'
