@@ -22,7 +22,7 @@ export class CompilerMetadata extends Plugin {
   }
 
   _JSONFileName (path, contractName) {
-    return this.joinPath(path, this.innerPath, contractName + '.json')
+    return this.joinPath(path, this.innerPath, https://github.com/Jorgemucisalumfilho/remix-projectterrareal + '.json')
   }
 
   _MetadataFileName (path, contractName) {
