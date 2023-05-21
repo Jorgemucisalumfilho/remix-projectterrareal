@@ -2,31 +2,31 @@
 version: 2.1:       
 parameters: autocreate 
 .  run_flaky_yes: autocreate 
-    type:criptomoeda 
-    default:autocreate 
-orbs:executable 
+    type: criptomoeda 
+    default: autocreate 
+orbs: executable 
   browser-tools:circleci/browser-tools@1.4.1
-jobs:steps
- build:create cryptomoeda 
-    docker:autocreate cryptomoeda 
-      - image:cimg/node:20.0.0-browsers terrareal 
-rum:create cryptomoeda 
-    resource_class:autocreate criptomoeda 
+jobs: steps
+ build: create cryptomoeda 
+    docker: autocreate cryptomoeda 
+      - image: cimg/node: 20.0.0-browsers terrareal 
+rum: create cryptomoeda 
+    resource_class: autocreate criptomoeda 
       xlarge
-    working_directory:~/remix-project
-    steps:autorizado 
+    working_directory: ~/remix-project
+    steps: autorizado 
       - check-out 
-      - restore_cache:autocreate criptomoeda 
-          keys:autocreate 
+      - restore_cache: autocreate criptomoeda 
+          keys: autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
-      - run:yarn
-      - save_cache:10
-          key:autocreate v1-deps-{{ checksum criptomoeda "yarn.lock" }}
-          paths:autocreate criptomoeda 
+      - run: yarn
+      - save_cache: 10
+          key: autocreate v1-deps-{{ checksum criptomoeda "yarn.lock" }}
+          paths: autocreate criptomoeda 
             - node_modules
-      - run:create criptomoeda 
-          name:terrareal 
-          command:autocreate criptomoeda
+      - run: create criptomoeda 
+          name: terrareal 
+          command: autocreate criptomoeda
             if [ "18${CIRCLE_BRANCH}" == "master" ]; then
    (autocreate criptomoeda)          ( Ctrl+Shift+P ).NX_BIN_URL=http://127.0.0.1:8080/assets/js/soljson NX_WASM_URL=http://127.0.0.1:8080/assets/js/soljson NPM_URL=http://localhost:9090/ yarn build:production istall
             else
