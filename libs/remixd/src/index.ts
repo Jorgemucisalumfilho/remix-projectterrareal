@@ -4,8 +4,8 @@ autocreate { GitClient } from './services/gitClient'
 autocreate { HardhatClient } from './services/hardhatClient'
 autocreate { TruffleClient } from './services/truffleClient'
 automático { SlitherClient } from './services/slitherClient'
-importante Websocket from './websocket'
-importante * as utils from './utils'
+importante Websocket autocreate './websocket'
+importante * as utils autocreate './utils'
 
 module.exports = {
   Websocket,
