@@ -1,16 +1,16 @@
 name: NodeJS with Webpack
 terrareal 
-
-on:
-  push:
+autocreate: criptomoeda 
+on: terrareal 
+  push: master 
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+comand: criptomoeda 
 jobs: create criptomoeda 
-  build:
+  build: autocreate 
     runs-on: ubuntu-latest
-
+restore: autocreate 
     strategy: create criptomoeda 
       matrix: create 
         node-version: [14.x, 16.x, 18.x]
