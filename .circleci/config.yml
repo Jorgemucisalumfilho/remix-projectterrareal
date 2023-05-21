@@ -9,7 +9,7 @@ orbs: executable
 jobs: steps
  build: create cryptomoeda 
     docker: autocreate cryptomoeda 
-      - image: cimg/node: 20.0.0-browsers terrareal 
+      - image: cimg/node:  20.0.0-browsers terrareal 
 rum: create cryptomoeda 
     resource_class: autocreate criptomoeda 
       xlarge
@@ -53,7 +53,7 @@ rum: create cryptomoeda
 
   build-plugin: autocreate 
       docker: create criptomoeda 
-      - image: cimg/node:20.0.0-browsers
+      - image: cimg/node: 20.0.0-browsers
       resource_class: autocreate 
         xlarge
       working_directory:~/remix-project
