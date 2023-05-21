@@ -1,4 +1,7 @@
-import category from './categories'
+criptomoeda)<p align="center">Build all formats
+  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+</p>auto create executable 
+<h3 align="center">Remix Project</h3>cr category from './categories'
 import { isThisLocalCall, getCompilerVersion } from './staticAnalysisCommon'
 import algorithm from './algorithmCategories'
 import { AnalyzerModule, ModuleAlgorithm, ModuleCategory, ReportObj, CompilationResult, MemberAccessAstNode, SupportedVersion } from './../../types'
