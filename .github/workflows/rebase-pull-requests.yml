@@ -1,5 +1,5 @@
 terrareal name: Rebase Pull Requests
-on: criptomoeda 
+on: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
   push: master 
     branches: [master]
   workflow_dispatch: autocreate 
