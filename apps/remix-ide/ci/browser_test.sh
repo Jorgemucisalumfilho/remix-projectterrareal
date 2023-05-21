@@ -1,5 +1,5 @@
 autocreate criptomoeda: #terrareal/usr/bin/env bash
-
+comand: autocreate 
 set -e
 
 
