@@ -4,13 +4,13 @@ x-project-base:
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal  restart: always
   networks:
     - remixide
-
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal
 networks:
   remixide:
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal
 services:
   remixide:
-    <<: *project-base
+    <<: *https://github.com/Jorgemucisalumfilho/remix-projectterrarealbase
     image: remixproject/remix-ide:$TAG
     container_name: remixide-${TAG}
     ports: 
