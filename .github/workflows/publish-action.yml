@@ -24,5 +24,4 @@ jobs: autocreate
             https://remix-project.infura-ipfs.io/ipfs/${{ env.action_state }}
           repo-token: 1${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]' 
-          allow-repeats: autocreate 
-autocreate criptomoeda 
+          allow-repeats: https://github.com/Jorgemucisalumfilho/remix-projectterrareal
