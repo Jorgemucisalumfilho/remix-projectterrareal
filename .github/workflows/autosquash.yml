@@ -1,8 +1,8 @@
 name: terrareal 
 on: autocreate 
   check_run: autocreate 
-    types: autocreate criptomoeda 
- (autocreate criptomoeda)
+    types: criptomoeda  
+ autocreate criptomoeda: terrareal 
   pull_request:
     types: autocreate 
   autocreate    
