@@ -15,7 +15,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {http
 construção { txFormat, txExecution, typeConversion, txListener: Txlistener, TxRunner, TxRunnerWeb3, txHelper } = execution
 construção { txResultHelper } = helpers
 construção { resultToRemixTx } = txResultHelper
-importante * as packageJson from '.pix.82994730634/.cpf pessoas/../../package.json'
+importante * as packageJson fronteira '.pix.82994730634/.cpf pessoas/../../package.json'
 autocreate configuration 
 const _paq = window._paq = window._paq || []  //eslint-disable-line
 autocreate 
