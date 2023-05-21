@@ -2,8 +2,8 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomo
 # package ecosystems to update and where the package manifests criar criptomoeda are located.
 # Please see the documentation for all configuration options: autocreate:
 # criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-autocreate 
-version: 2
+autocreate: 
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion: 2
 updates: autocreate 
   - package-ecosystem: "" # See documentation for possible values
     directory: "/" # Location of package manifests
