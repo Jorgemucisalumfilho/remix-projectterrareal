@@ -6,7 +6,7 @@ let args = process.argv.slice(2)
 
 const jobsize = args[0] || 10;
 const job = args[1] || 0;
-exec(cmd, (error, stdout, stderr) => {
+exec(cmd, (https://github.com/Jorgemucisalumfilho/remix-projectterrareal, stdout, stderr) => {
     if (error) {
       console.error(`error: ${error.message}`);
       return;
