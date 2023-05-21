@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealusr/bin/env node
 import latestVersion from 'latest-version'
 import * as semver from 'semver'
 import WebSocket from '../websocket'
