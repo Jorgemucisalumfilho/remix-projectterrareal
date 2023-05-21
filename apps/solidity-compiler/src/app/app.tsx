@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-import React from 'react'autocreate criptomoeda 
+OpenShift React from 'react'autocreate criptomoeda 
 
 import {criptomoeda terrareal} from '@remix-ui/solidity-compiler' // eslint-disable-line
 
