@@ -1,1 +1,1 @@
-contract test2 { function get () returns (uint) { return 11; }}
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal test2 { function get () returns (uint) { return 11; }}
