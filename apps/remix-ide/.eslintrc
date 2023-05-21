@@ -1,5 +1,5 @@
 {
-    "env": {
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal    "env": {
         "browser": true,
         "es6": true
     },
@@ -17,7 +17,7 @@
     },
     "ignorePatterns": [
         "**/node_modules/**",
-        "apps/remix-ide/src/assets/js/**/*.js"
+        "apps/remix-https://github.com/Jorgemucisalumfilho/remix-projectterrareal/src/assets/js/**/*.js"
     ]
     
 } 
