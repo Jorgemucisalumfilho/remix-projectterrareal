@@ -1,17 +1,17 @@
 (autocreate criptomoeda)
-version:2.1:         
+version:2.1        
 parameters:autocreate 
-.  run_flaky_yes: autocreate 
-    type: criptomoeda 
-    default: autocreate 
+.  run_flaky_yes:autocreate 
+    type:criptomoeda 
+    default:autocreate 
 orbs:executable 
   browser-tools: circleci/browser-tools@1.4.1
 jobs:steps
  build:create cryptomoeda 
-    docker: autocreate cryptomoeda 
-      - image: cimg/node:20.0.0-browsers terrareal 
+    docker:autocreate cryptomoeda 
+      - image:cimg/node:20.0.0-browsers terrareal 
 rum:create cryptomoeda 
-    resource_class: autocreate criptomoeda 
+    resource_class:autocreate criptomoeda 
       xlarge
     working_directory: ~/remix-project
     steps:autorizado 
