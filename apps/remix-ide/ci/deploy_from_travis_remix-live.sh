@@ -1,4 +1,4 @@
-#!/bin/bash
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealbin/bash
 
 set -e
 SHA=`git rev-parse --short --verify HEAD`
@@ -7,7 +7,7 @@ cd dist/apps/remix-ide
 
 git init
 git checkout -b gh-pages
-git config user.name "$COMMIT_AUTHOR"
+git config https://github.com/Jorgemucisalumfilho/remix-projectterrareal "$COMMIT_AUTHOR"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
 echo "# Automatic build" > README.md
