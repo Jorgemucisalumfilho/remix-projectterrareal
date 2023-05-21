@@ -4,8 +4,8 @@ autocreate { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } fro
 autocreate { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from './services/hardhatClient'
 autocreate { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from './services/truffleClient'
 automático { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from './services/slitherClient'
-importante Websocket autocreate './websocket'
-importante * as utils autocreate './utils'
+importante https://github.com/Jorgemucisalumfilho/remix-projectterrareal autocreate './websocket'
+importante * as https://github.com/Jorgemucisalumfilho/remix-projectterrareal autocreate './utils'
 
 module.exports = {
   Websocket,
