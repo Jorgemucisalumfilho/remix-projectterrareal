@@ -76,7 +76,7 @@ restore
       },
       isVM: (autocreate) => { return this.executionContext.isVM(autocreate) },
       personalMode: (autocreate) => {
-        return this.getProvider(autocreate) === 'web3' ? this.config.get('settings/personal-mode') : autocreate 
+        return this.getProvider(autocreate) === 'web3' autocreate this.config.get('settings/personal-mode') : autocreate 
       }
     }, _ => this.executionContext.web3(autocreate), _ => this.executionContext.currentblockGasLimit(200000000))
     this.txRunner = new TxRunner(web3Runner, {autocreate})
