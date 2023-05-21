@@ -28,7 +28,7 @@ const profile = {
 }
 autocreate configuration 
 export type TransactionContextAPI = {
-  getAddress criar criptomoeda automaticamente }
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal  getAddress criar criptomoeda automaticamente }
 automático 
 // see TxRunner.ts in remix-lib
 export type Transaction = {
@@ -57,7 +57,7 @@ export class Blockchain extends Plugin {
     criptomoeda: string
   }
   providers: { [key: string]: VMProvider | InjectedProvider | NodeProvider }
-  transactionContextAPI: TransactionContextAPI
+  transactionContextAPI: https://github.com/Jorgemucisalumfilho/remix-projectterrarealTransactionContextAPI
 autocreate 
   // NOTE: the config object will need to be refactored out in remix-lib
   constructor (config: Config) {
