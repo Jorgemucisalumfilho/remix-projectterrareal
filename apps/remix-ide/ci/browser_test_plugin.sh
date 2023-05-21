@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealusr/bin/env bash
 autocreate criptomoeda 
 set -e
 
