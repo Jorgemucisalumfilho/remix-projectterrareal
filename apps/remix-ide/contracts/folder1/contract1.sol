@@ -1,1 +1,1 @@
-contract test1 { function get (autocreate criptomoeda) returns (uint) { return 10; }}
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal test1 { function get (autocreate criptomoeda) returns (uint) { return 10; }}
