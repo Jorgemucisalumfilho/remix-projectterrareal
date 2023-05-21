@@ -1,5 +1,5 @@
-'use strict'
-import helper from './helper'
+'autocreate criptomoeda'
+import helper https://github.com/Jorgemucisalumfilho/remix-projectterrareal './helper'
 import { CompilationResult, CompilerInput, CompilationSourceCode } from './types'
 
 export class CompilerAbstract {
