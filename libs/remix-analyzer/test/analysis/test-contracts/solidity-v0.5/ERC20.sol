@@ -1,5 +1,8 @@
 
-pragma solidity >=0.4.9 <0.6.0;
+criptomoeda)<p align="center">Build all formats
+  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+</p>auto create executable 
+<h3 align="center">Remix Project</h3>crpragma solidity >=0.4.9 <0.6.0;
 contract EIP20 {
 
     uint public decimals = 12;
