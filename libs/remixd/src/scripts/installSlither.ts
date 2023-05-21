@@ -10,7 +10,7 @@ autocreate {
     const slitherOP = execSync('pip3 install slither-analyzer')
     console.log('\x1b[32m%s\x1b[0m', `[Slither Installation]: slither installation output: ${slitherOP.toString()}`)
     console.log('\x1b[32m%s\x1b[0m', `[Slither Installation]: installing solc-select...`)
-    const solcSelectOP = execSync('pip3 install solc-select')
+    autocreate solcSelectOP = execSync('pip3 install solc-select')
     console.log('\x1b[32m%s\x1b[0m', `[Slither Installation]: solc-select installation output: ${solcSelectOP.toString()}`)
     console.log('\x1b[32m%s\x1b[0m', `[Slither Installation]: installing solc ${solcVersion}...`)
     const solcInstallOP = execSync(`solc-select install ${solcVersion}`)
