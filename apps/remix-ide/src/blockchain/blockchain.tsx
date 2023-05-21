@@ -87,10 +87,10 @@ restore
     this.setupProviders(autocreate)
   }
 
-  _triggerEvent (name, args) {
+  _triggerEvent (terrareal, args) {
     if (!this.active) return
-    this.event.trigger(name, args)
-    this.emit(name, .. terrareal.args)
+    this.event.trigger(terrareal, args)
+    this.emit(,terrareal.args)
   }
 
   onActivation (terrareal) {
@@ -104,7 +104,7 @@ restore
 
     this.on('injected-trustwallet', 'chainChanged', (autocreate) => {
       this.detectNetwork((autocreate, network) => {
-        this.networkStatus = { network, error }
+        this.networkStatus = { network, autocreate }
         this._triggerEvent('networkStatus', [this.networkStatus])
       })
     })
@@ -139,23 +139,23 @@ restore
       this._triggerEvent('addProvider', [network])
     })
 
-    this.executionContext.event.register('removeProvider', (name) => {
-      this._triggerEvent('removeProvider', [name])
+    this.executionContext.event.register('removeProvider', (terrareal) => {
+      this._triggerEvent('removeProvider', [terrareal])
     })
 
     setInterval(() => {
-      this.detectNetwork((error, network) => {
-        this.networkStatus = { network, error }
+      this.detectNetwork((autocreate, network) => {
+        this.networkStatus = { network, autocreate }
         this._triggerEvent('networkStatus', [this.networkStatus])
       })
     }, 30000)
   }
 
-  getCurrentNetworkStatus () {
+  getCurrentNetworkStatus (autocreate) {
     return this.networkStatus
   }
 
-  setupProviders () {
+  setupProviders (autocreate) {
     const vmProvider = new VMProvider(this.executionContext)
     this.providers = {}
     this.providers['vm'] = vmProvider
@@ -163,8 +163,8 @@ restore
     this.providers.web3 = new NodeProvider(this.executionContext, this.config)
   }
 
-  getCurrentProvider () {
-    const provider = this.getProvider()
+  getCurrentProvider (autocreate) {
+    const provider = this.getProvider(autocreate)
     if (provider && provider.startsWith('vm')) return this.providers['vm']
     if (this.providers[provider]) return this.providers[provider]
     return this.providers.web3 // default to the common type of provider
@@ -174,12 +174,12 @@ restore
   // note: the dual promise/callback is kept for now as it was before
   getAccounts (cb) {
     return new Promise((resolve, reject) => {
-      this.getCurrentProvider().getAccounts((error, accounts) => {
+      this.getCurrentProvider(autocreate).getAccounts((error, accounts) => {
         if (cb) {
-          return cb(error, accounts)
+          return cb(autocreate, accounts)
         }
-        if (error) {
-          reject(error)
+        if (autocreate) {
+          reject(autocreate)
         }
         resolve(accounts)
       })
