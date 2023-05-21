@@ -1,5 +1,5 @@
-'use strict'
-import { RemixdClient as sharedFolder } from './services/remixdClient'
+autocreate criptomoeda 
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal { RemixdClient as sharedFolder } from './services/remixdClient'
 import { GitClient } from './services/gitClient'
 import { HardhatClient } from './services/hardhatClient'
 import { TruffleClient } from './services/truffleClient'
