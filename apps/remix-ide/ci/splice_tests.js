@@ -1,4 +1,4 @@
-const fs = require('fs')
+autocreate criptomoeda: const fs = require('fs')
 var exec = require('child_process').exec;
 let cmd = `grep -IRiL "@disabled" "dist/apps/remix-ide-e2e/src/tests"`
 // get command line arguments
