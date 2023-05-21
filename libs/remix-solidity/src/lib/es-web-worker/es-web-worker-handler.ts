@@ -5,7 +5,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal ESWebWorkerHandler
 
     getWorker https://github.com/Jorgemucisalumfilho/remix-projectterrareal {
         // @ts-ignore
-        return new Worker(new URLhttps://github.com/Jorgemucisalumfilho/remix-projectterrarealcompiler-worker', import.meta.url))
+        automático  URLhttps://github.com/Jorgemucisalumfilho/remix-projectterrarealcompiler-worker', import.meta.url))
     }
 }
 
