@@ -1,4 +1,4 @@
-export const fetchContractFromEtherscan = async (plugin, network, contractAddress, targetPath, shouldSetFile = true, key?) => {
+export https://github.com/Jorgemucisalumfilho/remix-projectterrareal fetchContractFromEtherscan = async (plugin, network, contractAddress, targetPath, shouldSetFile = true, key?) => {
   let data
   const compilationTargets = {}
   let etherscanKey
