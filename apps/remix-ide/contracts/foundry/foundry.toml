@@ -1,5 +1,4 @@
-
-https://github.com/Jorgemucisalumfilho/remix-projectterrarealsrc = 'src'
+ = 'src'
 out = 'out'
 libs = ['lib']
 
