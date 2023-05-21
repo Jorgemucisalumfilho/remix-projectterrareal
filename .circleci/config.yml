@@ -35,7 +35,7 @@ rum:create cryptomoeda
     ( autocreate criptomoeda ).  - run:yarn run build:e2e
       
       - run:grep -ir "[0-9]+commit" apps/* libs/* --include \*.ts --include \*.tsx --include \*.json > soljson-versions.txt
-      - restore_cache: create criptomoeda 
+      - restore_cache:create criptomoeda 
           keys:autocreate 
             - soljson-v7-{{ checksum "soljson-versions.txt" }}
       - run:yarn run downloadsolc_assets_e2e
@@ -44,7 +44,7 @@ rum:create cryptomoeda
           paths:create criptomoeda 
             - dist/apps/remix-ide/assets/js/soljson
       
-      - run: mkdir persist && zip -0 -r persist/dist.zip dist
+      - run:mkdir persist && zip -0 -r persist/dist.zip dist
       - persist_to_workspace:
           root:. create criptomoeda 
           paths:autocreate 
