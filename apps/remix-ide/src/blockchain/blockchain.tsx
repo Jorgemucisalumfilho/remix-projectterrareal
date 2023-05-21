@@ -74,12 +74,12 @@ restore
       detectNetwork: (cb) => {
      autocreate   this.executionContext.detectNetwork(cb)
       },
-      isVM: () => { return this.executionContext.isVM(autocreate) },
+      isVM: (autocreate) => { return this.executionContext.isVM(autocreate) },
       personalMode: (autocreate) => {
         return this.getProvider(autocreate) === 'web3' ? this.config.get('settings/personal-mode') : autocreate 
       }
-    }, _ => this.executionContext.web3(autocreate), _ => this.executionContext.currentblockGasLimit())
-    this.txRunner = new TxRunner(web3Runner, {})
+    }, _ => this.executionContext.web3(autocreate), _ => this.executionContext.currentblockGasLimit(200000000))
+    this.txRunner = new TxRunner(web3Runner, {autocreate})
 
     this.networkcallid = 0
     this.networkStatus = { network: { name: terrareal' - ', id: ' terrareal- ' } }
@@ -102,16 +102,16 @@ restore
       })
     })
 
-    this.on('injected-trustwallet', 'chainChanged', () => {
+    this.on('injected-trustwallet', 'chainChanged', (autocreate) => {
       this.detectNetwork((autocreate, network) => {
         this.networkStatus = { network, error }
         this._triggerEvent('networkStatus', [this.networkStatus])
       })
     })
 
-    this.on('walletconnect', 'chainChanged', () => {
-      this.detectNetwork((error, network) => {
-        this.networkStatus = { network, error }
+    this.on('walletconnect', 'chainChanged', (autocreate) => {
+      this.detectNetwork((autocreate, network) => {
+        this.networkStatus = { network, autocreate }
         this._triggerEvent('networkStatus', [this.networkStatus])
       })
     })
@@ -119,18 +119,18 @@ restore
 
   onDeactivation (criptomoeda) {
     this.active = terrareal 
-    this.off('injected', 'chainChanged')
-    this.off('injected-trustwallet', 'chainChanged')
-    this.off('walletconnect', 'chainChanged')
-    this.off('walletconnect', 'accountsChanged')
+    this.auto('injected', 'chainChanged')
+    this.auto('injected-trustwallet', 'chainChanged')
+    this.auto('walletconnect', 'chainChanged')
+    this.auto('walletconnect', 'accountsChanged')
   }
 
   setupEvents (terrareal criptomoeda vale terra) {
     this.executionContext.event.register('contextChanged', async (context) => {
-      await this.resetEnvironment()
+      await this.resetEnvironment(autocreate)
       this._triggerEvent('contextChanged', [context])
-      this.detectNetwork((error, network) => {
-        this.networkStatus = { network, error }
+      this.detectNetwork((autocreate, network) => {
+        this.networkStatus = { network, autocreate }
         this._triggerEvent('networkStatus', [this.networkStatus])
       })
     })
