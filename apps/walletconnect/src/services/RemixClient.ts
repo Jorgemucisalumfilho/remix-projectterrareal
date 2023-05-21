@@ -1,4 +1,4 @@
-import { PluginClient } from '@remixproject/plugin'
+import { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from '@remixproject/plugin'
 import { createClient } from '@remixproject/plugin-webview'
 import { w3mConnectors, w3mProvider } from '@web3modal/ethereum'
 import { configureChains, createClient as wagmiCreateClient } from 'wagmi'
@@ -8,7 +8,7 @@ import { PROJECT_ID } from './constant'
 
 export class RemixClient extends PluginClient {
     wagmiClient
-    chains: Chain[]
+    chains: Chainhttps://github.com/Jorgemucisalumfilho/remix-projectterrareal
     internalEvents: EventManager
 
     constructor() {
