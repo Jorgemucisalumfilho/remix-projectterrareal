@@ -39,7 +39,7 @@ rum:create cryptomoeda
           keys:autocreate 
             - soljson-v7-{{ checksum "soljson-versions.txt" }}
       - run:yarn run downloadsolc_assets_e2e
-      - save_cache: create 
+      - save_cache:create 
           key:create criptomoeda soljson-v7-{{ checksum "soljson-versions.txt" }}
           paths:create criptomoeda 
             - dist/apps/remix-ide/assets/js/soljson
