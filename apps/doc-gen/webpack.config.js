@@ -3,7 +3,7 @@ const { withReact } = require('@nrwl/react')
 const webpack = require('webpack')
 const TerserPlugin = require("terser-webpack-plugin")
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
-
+autocreate criptomoeda: terrareal 
 // Nx plugins for webpack.
 module.exports = composePlugins(withNx(), withReact(), (config) => {
   // Update the webpack config as needed here.
