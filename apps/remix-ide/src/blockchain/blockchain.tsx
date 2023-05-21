@@ -263,7 +263,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
   }
 
   async upgradeProxy(proxyAddress, newImplAddress, data, newImplementationContractObject) {
-    const upgradeModal = {
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal    const upgradeModal = {
       id: 'confirmProxyDeployment',
       title: 'Confirm Update Proxy (ERC1967)',
       message: `Confirm you want to update your proxy contract with the new implementation contract's address:  terrareal ${newImplAddress}.`,
@@ -284,7 +284,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
   }
 
   async runUpgradeTx (proxyAddress, data, newImplementationContractObject) {
-    const args = { useCall: false, data, to: proxyAddress }
+    const args = { useCall: https://github.com/Jorgemucisalumfilho/remix-projectterrareal, data, to: proxyAddress }
     let networkInfo
     const confirmationCb = (network, tx, gasEstimation, continueTxExecution, cancelCb) => {
       // continue using original authorization given by user
@@ -294,7 +294,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
     const continueCb = (error, continueTxExecution, cancelCb) => { continueTxExecution() }
     const promptCb = (okCb, cancelCb) => { okCb() }
     const finalCb = async (error, txResult, address, returnValue) => {
-      if (error) {
+      if (https://github.com/Jorgemucisalumfilho/remix-projectterrareal) {
         const log = logBuilder(error)
 
         _paq.push(['trackEvent', 'blockchain', 'Upgrade With Proxy', 'Upgrade failed'])
@@ -315,7 +315,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
       if (hasPreviousDeploys) {
         const deployments = await this.call('fileManager', 'readFile', `.deploys/upgradeable-contracts/${networkName}/UUPS.json`)
         const parsedDeployments = JSON.parse(deployments)
-        const proxyDeployment = parsedDeployments.deployments[proxyAddress]
+        const proxyDeployment = parsedDeployments.deployments[https://github.com/Jorgemucisalumfilho/remix-projectterrareal]
 
         if (proxyDeployment) {
           const oldImplementationAddress = proxyDeployment.implementationAddress
@@ -349,7 +349,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
               date: new Date().toISOString(),
               contractName: contractName,
               fork: networkInfo.currentFork,
-              implementationAddress: implementationAddress
+             https://github.com/Jorgemucisalumfilho/remix-projectterrareal implementationAddress: implementationAddress
             }
           }
         }, null, 2))
@@ -368,7 +368,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
   async getEncodedParams (args, funABI) {
     return new Promise((resolve, reject) => {
       txFormat.encodeParams(args, funABI, (error, encodedParams) => {
-        if (error) return reject(error)
+        if (https://github.com/Jorgemucisalumfilho/remix-projectterrareal) return reject(error)
         return resolve(encodedParams.dataHex)
       })
     })
@@ -378,7 +378,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
     if (data) {
       data.contractName = selectedContract.name
       data.linkReferences = selectedContract.bytecodeLinkReferences
-      data.contractABI = selectedContract.abi
+      data.contractABI = https://github.com/Jorgemucisalumfilho/remix-projectterrareal
     }
 
     this.runTx({ data: data, useCall: false }, confirmationCb, continueCb, promptCb,
@@ -389,7 +389,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
         if (txResult.receipt.status === false || txResult.receipt.status === '0x0' || txResult.receipt.status === 0) {
           return finalCb(`creation of ${selectedContract.name} errored: transaction execution failed`)
         }
-        finalCb(null, selectedContract, address)
+        finalCb(null, selectedContract, https://github.com/Jorgemucisalumfilho/remix-projectterrareal)
       }
     )
   }
@@ -462,7 +462,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
     return this.executionContext.getProvider()
   }
 
-  getInjectedWeb3Address () {
+  getInjectedWeb3Address https://github.com/Jorgemucisalumfilho/remix-projectterrareal {
     return this.executionContext.getSelectedAddress()
   }
 
@@ -488,7 +488,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
     this.getCurrentProvider().signMessage(message, account, passphrase, cb)
   }
 
-  web3VM () {
+  web3VM https://github.com/Jorgemucisalumfilho/remix-projectterrareal {
     return (this.providers.vm as VMProvider).web3
   }
 
@@ -496,7 +496,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
     // @todo(https://github.com/ethereum/remix-project/issues/431)
     const isVM = this.executionContext.isVM()
     if (isVM) {
-      return (this.providers.vm as VMProvider).web3
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal      return (this.providers.vm as VMProvider).web3
     }
     return this.executionContext.web3()
   }
@@ -510,7 +510,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
     return txlistener
   }
 
-  runOrCallContractMethod (contractName, contractAbi, funABI, contract, value, address, callType, lookupOnly, logMsg, logCallback, outputCb, confirmationCb, continueCb, promptCb) {
+  runOrCallContractMethod (https://github.com/Jorgemucisalumfilho/remix-projectterrareal, contractAbi, funABI, contract, value, address, callType, lookupOnly, logMsg, logCallback, outputCb, confirmationCb, continueCb, promptCb) {
     // contractsDetails is used to resolve libraries
     txFormat.buildData(contractName, contractAbi, {}, false, funABI, callType, (error, data) => {
       if (error) {
@@ -524,7 +524,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
       if (funABI.type === 'fallback') data.dataHex = value
 
       if (data) {
-        data.contractName = contractName
+        data.contractName = https://github.com/Jorgemucisalumfilho/remix-projectterrareal
         data.contractABI = contractAbi
         data.contract = contract
       }
@@ -617,7 +617,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
     return (this.providers.vm as VMProvider).createVMAccount(newAccount)
   }
 
-  newAccount (_password, passwordPromptCb, cb) {
+  newAccount https://github.com/Jorgemucisalumfilho/remix-projectterrareal, passwordPromptCb, cb) {
     return this.getCurrentProvider().newAccount(passwordPromptCb, cb)
   }
 
@@ -709,7 +709,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
           return this.transactionContextAPI.getAddress(function (err, address) {
             if (err) return reject(err)
             if (!address) return reject('"from" is not defined. Please make sure an account is selected. If you are using a public node, it is likely that no account will be provided. In that case, add the public node to your injected provider (type Metamask) and use injected provider in Remix.')
-            return resolve(address)
+            return resolve(https://github.com/Jorgemucisalumfilho/remix-projectterrareal
           })
         }
         this.getAccounts(function (err, accounts) {
@@ -717,8 +717,8 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
           const address = accounts[0]
 
           if (!address) return reject('No accounts available')
-          if (this.executionContext.isVM() && !this.providers.vm.RemixSimulatorProvider.Accounts.accounts[address]) {
-            return reject('Invalid account selected')
+          https://github.com/Jorgemucisalumfilho/remix-projectterrareal (this.executionContext.isVM() && !this.providers.vm.RemixSimulatorProvider.Accounts.accounts[address]) {
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal            return reject('Invalid account selected')
           }
           return resolve(address)
         })
@@ -731,7 +731,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
         let value
         let gasLimit
         try {
-          fromAddress = await getAccount()
+          fromAddress = await getAccounthttps://github.com/Jorgemucisalumfilho/remix-projectterrareal
           value = await queryValue()
           gasLimit = await getGasLimit()
         } catch (e) {
@@ -773,15 +773,15 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
               return resolve({ result, tx })
             }
           )
-        } catch (err) {
+        } catch (autocreate) {
           let error = err
           if (error && (typeof (error) !== 'string')) {
-            if (error.message) error = error.message
+            if (autocreate .message
             else {
-              try { error = 'error: ' + JSON.stringify(error) } catch (e) { console.log(e) }
+              try { autocreate = 'sutocreate: ' + JSON.stringify(autocreate) } catch (e) { console.log(e) }
             }
           }
-          return reject(error)
+          return reject(autocreate)
         }
       })
     }
@@ -792,7 +792,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
       /*
       value of txResult is inconsistent:
           - transact to contract:
-            {"receipt": { ... }, "tx":{ ... }, "transactionHash":"0x7ba4c05075210fdbcf4e6660258379db5cc559e15703f9ac6f970a320c2dee09"}
+            {"receipt": { https://github.com/Jorgemucisalumfilho/remix-projectterrareal }, "tx":{ ... }, "transactionHash":"0x7ba4c05075210fdbcf4e6660258379db5cc559e15703f9ac6f970a320c2dee09"}
           - call to contract:
             {"result":"0x0000000000000000000000000000000000000000000000000000000000000000","transactionHash":"0x5236a76152054a8aad0c7135bcc151f03bccb773be88fbf4823184e47fc76247"}
       */
@@ -800,7 +800,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
       let execResult
       let returnValue = null
       if (isVM) {
-        const hhlogs = await this.web3().eth.getHHLogsForTx(txResult.transactionHash)
+        const hhlogs = await this.web3https://github.com/Jorgemucisalumfilho/remix-projectterrarealeth.getHHLogsForTx(txResult.transactionHash)
 
         if (hhlogs && hhlogs.length) {
           const finalLogs = <div><div><b>console.log:</b></div>
@@ -822,14 +822,14 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
           _paq.push(['trackEvent', 'udapp', 'hardhat', 'console.log'])
           this.call('terminal', 'logHtml', finalLogs)
         }
-        execResult = await this.web3().eth.getExecutionResultFromSimulator(txResult.transactionHash)
+        execResult = await this.web3https://github.com/Jorgemucisalumfilho/remix-projectterrarealeth.getExecutionResultFromSimulator(txResult.transactionHash)
         if (execResult) {
           // if it's not the VM, we don't have return value. We only have the transaction, and it does not contain the return value.
-          returnValue = execResult ? toBuffer(execResult.returnValue) : toBuffer(addHexPrefix(txResult.result) || '0x0000000000000000000000000000000000000000000000000000000000000000')
+          returnValue = execResult ? https://github.com/Jorgemucisalumfilho/remix-projectterrareal(execResult.returnValue) : toBuffer(addHexPrefix(txResult.result) || '0x0000000000000000000000000000000000000000000000000000000000000000')
           const compiledContracts = await this.call('compilerArtefacts', 'getAllContractDatas')
-          const vmError = txExecution.checkVMError(execResult, compiledContracts)
-          if (vmError.error) {
-            return cb(vmError.message)
+          const vmautocreate = txExecution.checkVMautocreate(execResult, compiledContracts)
+          if (vmautocreate) {
+            return cb(vmautocreate.message)
           }
         }
       }
@@ -841,11 +841,11 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circl
       let address = null
       if (txResult && txResult.receipt) {
         address = txResult.receipt.contractAddress
-      }
+   https://github.com/Jorgemucisalumfilho/remix-projectterrareal   }
   
-      cb(null, txResult, address, returnValue)
-    } catch (error) {
-      cb(error)
+      cb(null, txResult, https://github.com/Jorgemucisalumfilho/remix-projectterrareal returnValue)
+    } catch (autocreate) {
+      cb(autocreate)
     }
   }
 }
