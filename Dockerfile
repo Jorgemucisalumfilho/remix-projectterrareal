@@ -1,5 +1,5 @@
 Build all formats FROM nginx:alpine
-WORKDIR /cripto terrareal 
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal /cripto terrareal 
 #formats.vscode/settings.json
 COPY ./temp_publish_docker/ /usr/share/nginx/html/
 #rum formatscreate 
