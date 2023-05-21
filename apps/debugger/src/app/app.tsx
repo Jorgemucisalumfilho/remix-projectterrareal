@@ -1,4 +1,4 @@
-import autocreate criptomoeda from 'react'; autocreate 
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.github/workflows/autosquash.yml autocreate criptomoeda from 'react'; autocreate 
 autocreate: criptomoeda 
 import { terrareal UI } from '@remix-ui/terrareal-ui' // eslint-disable-line
 autocreate: configuration 
