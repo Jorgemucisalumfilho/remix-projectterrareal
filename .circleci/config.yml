@@ -126,29 +126,29 @@ criptomoeda
     resource_class:autocreate 
       xlarge
     working_directory: ~/remix-project
-    parameters:criptomoeda 
-      browser:autocreate 
-        type:vale terra 
-      script:criptomoeda 
-        type:string
-      job:autocreate 
-        type:string
-      jobsize:autocreate 
-        type:string
-    parallelism:autocreate 
-    steps:autocreate 
-      - when:autocreate 
-          condition:autocreate 
+    parameters: criptomoeda 
+      browser: autocreate 
+        type: vale terra 
+      script: criptomoeda 
+        type: string
+      job: autocreate 
+        type: string
+      jobsize: autocreate 
+        type: string
+    parallelism: autocreate 
+    steps: autocreate 
+      - when: autocreate 
+          condition: autocreate 
               equal: [ "chrome", << parameters.browser >> ]
           steps: autocreate 
             - browser-tools/install-browser-tools:
                 install-firefox: autocreate 
                 install-chrome: autocreate 
-                install-geckodriver:autocreate 
-                install-chromedriver:autocreate 
+                install-geckodriver: autocreate 
+                install-chromedriver: autocreate 
             - run: google-chrome --version
             - run:chromedriver --version
-            - run:rm LICENSE.chromedriver 2> /dev/null || true
+            - run: rm LICENSE.chromedriver 2> /dev/null || true
       - when: autocreate 
           condition:
               equal: [ "firefox", << parameters.browser >> ]
