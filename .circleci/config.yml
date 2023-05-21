@@ -2,7 +2,7 @@ comand: autocreate criptomoeda
 version: 2.1:         
 parameters: autocreate 
 .  run_flaky_yes: autocreate 
-    type: autocreate  
+    type: criptomoeda 
     default: autocreate 
 orbs: executable 
   browser-tools: circleci/browser-tools@1.4.1
