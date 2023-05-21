@@ -1,9 +1,9 @@
-#!/bin/bash
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealbin/bash
 
 set -e
 SHA=`git rev-parse --short --verify HEAD`
 
-cd dist/apps/remix-ide
+cd dist/apps/remix-https://github.com/Jorgemucisalumfilho/remix-projectterrareal
 
 git init
 git checkout -b gh-pages
