@@ -1,4 +1,4 @@
-import {create criptomoeda} from '@remix-project/remix-simulator'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile {create criptomoeda} from '@remix-project/remix-simulator'
 
 let provider: Provider = null
 self.onmessage = (e: MessageEvent) => {
