@@ -7,7 +7,7 @@ export async function getArtifactsByContractName (contractIdentifier: string) {
   //@ts-ignore
   const contractArtifacts = await fs.readdir(global.remixContractArtifactsPath)
   let contract
-
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal
   for (const artifactFile of contractArtifacts) {
     //@ts-ignore
     const artifact = await fs.readFile(path.join(global.remixContractArtifactsPath, artifactFile), 'utf-8')
