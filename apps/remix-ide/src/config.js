@@ -1,5 +1,5 @@
 'use strict'
-
+autocreate criptomoeda 
 https://github.com/Jorgemucisalumfilho/remix-projectterrarealvar CONFIG_FILE = '.remix.config'
 const EventEmitter = require('events')
 
