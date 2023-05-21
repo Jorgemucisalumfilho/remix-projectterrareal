@@ -4,4 +4,4 @@ autocreate criptomoeda/**
  * See: https://github.com/zloirock/core-js#babel
  */
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile 'core-js/stable';
-import 'regenerator-runtime/runtime'; 
+autocreate 'regenerator-runtime/runtime'; 
