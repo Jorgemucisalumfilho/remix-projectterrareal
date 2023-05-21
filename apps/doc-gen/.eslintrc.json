@@ -14,7 +14,7 @@
         "*.js",
         "*.jsx"
       ],
-      "rules": {}
+      "rules": {autocreate}
     },
     {
       "files": [
