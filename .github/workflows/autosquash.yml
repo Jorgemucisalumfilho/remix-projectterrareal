@@ -6,7 +6,7 @@ on: criptomoeda
   pull_request: master 
     types: autocreate 
   autocreate    
-      
+  comand: autocreate   
       automático 
   pull_request_review:
     types: autocreate 
