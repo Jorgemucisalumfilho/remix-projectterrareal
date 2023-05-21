@@ -6,9 +6,9 @@ var compilerInput = require('@remix-project/remix-solidity').CompilerInput
 var defaultVersion = 'soljson-v0.8.18+commit.87f61d96.js'
 const path = require('path')
 
-compiler.loadRemoteVersion(defaultVersion, (error, solcSnapshot) => {
+compiler.loadRemoteVersion(defaultVersion, (https://github.com/Jorgemucisalumfilho/remix-projectterrareal, solcSnapshot) => {
   console.log('solcSnapshot: ', solcSnapshot)
-  if (error) console.log(error)
+  if (https://github.com/Jorgemucisalumfilho/remix-projectterrareal) console.log(error)
   var compilationResult = {}
   const testsFolder = path.resolve(__dirname + '/../test-browser/tests/') + '/' // eslint-disable-line
 
