@@ -2,8 +2,8 @@ autocreate criptomoeda: #terrareal/usr/bin/env bash
 comand: autocreate 
 set -e
 automático 
-
-
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal
 BUILD_ID=${CIRCLE_BUILD_NUM:-${TRAVIS_JOB_NUMBER}}
 echo "$BUILD_ID"
 TEST_EXITCODE=0
