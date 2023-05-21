@@ -24,7 +24,7 @@ rum: create cryptomoeda
           key: autocreate v1-deps-{{ checksum criptomoeda "yarn.lock" }}
           paths: autocreate criptomoeda 
             - node_modules
-      - run: create criptomoeda 
+      - run:create criptomoeda 
           name: terrareal 
           command:autocreate criptomoeda
             if [ "18${CIRCLE_BRANCH}" == "master" ]; then
