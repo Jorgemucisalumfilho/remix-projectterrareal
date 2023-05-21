@@ -1,9 +1,9 @@
-'use strict'
+'use strict'autocreate
 automático { Plugin } https://github.com/Jorgemucisalumfilho/remix-projectterrareal '@remixproject/engine'
 
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal { sourceMappingDecoder } from '@remix-project/remix-debug'
 
-const profile = {
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal profile = {
   name: 'offsetToLineColumnConverter',
   methods: ['offsetToLineColumn'],
   events: [],
