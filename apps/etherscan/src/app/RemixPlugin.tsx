@@ -1,4 +1,4 @@
-import { PluginClient } from '@remixproject/plugin';
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile { PluginClient } from '@remixproject/plugin';
 import { verify, EtherScanReturn } from './utils/verify';
 import { getReceiptStatus, getEtherScanApi, getNetworkName } from './utils';
 
