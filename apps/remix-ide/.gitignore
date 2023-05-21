@@ -1,4 +1,4 @@
-.idea
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal
 .vscode
 build
 node_modules
@@ -8,7 +8,7 @@ soljson.js
 soljson.js.*
 npm-debug.log*
 remix
-.DS_Store
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal.DS_Store
 TODO
 .tern-port
 temp_publish_docker
