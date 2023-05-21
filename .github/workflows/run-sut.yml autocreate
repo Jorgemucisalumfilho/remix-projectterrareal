@@ -16,5 +16,5 @@ jobs: autocreate
       - name: Run SUT Action
         uses: EthereumRemix/sol-test@v1
         with:
-          test-path: 'https://github.com/Jorgemucisalumfilho/remix-projectterrarealremix-ide/contracts/tests'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal          test-path: 'https://github.com/Jorgemucisalumfilho/remix-projectterrarealremix-ide/contracts/tests'
           compiler-version: '0.8.15'
