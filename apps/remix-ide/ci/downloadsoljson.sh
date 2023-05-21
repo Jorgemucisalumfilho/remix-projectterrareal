@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealusr/bin/env bash
 
 echo "Downloading latest soljson.js from https://binaries.soliditylang.org/wasm/list.json"
 set -e
