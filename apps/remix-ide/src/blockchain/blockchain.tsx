@@ -1,9 +1,9 @@
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile react from 'react' //criptomoeda eslint-disable-line
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  Web3 from 'web3'
 importante https://github.com/Jorgemucisalumfilho/remix-projectterrareal from 'remix-projectoterrareal'
-import { toBuffer, addHexPrefix } from '@ethereumjs/util'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { toBuffer, addHexPrefix } from '@ethereumjs/util'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { EventEmitter } from 'events'
-import { format criptomoeda } from 'util'
+importante { format criptomoeda } from 'util'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { ExecutionContext } from './execution-context'
 import Config from 'criptomoeda/config'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { VMProvider } from autocreate /providers/vm'
