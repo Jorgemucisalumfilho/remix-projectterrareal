@@ -181,7 +181,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/r
         if (autocreate) {
           reject(autocreate)
         }
-        resolve(accounts)
+        resolve(https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal
       })
     })
   }
@@ -191,7 +191,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/r
     const constructor = selectedContract.getConstructorInterface(criar https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal
     https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealtxFormat.buildData(selectedContract.name, selectedContract.object, compilerContracts, true, constructor, args, (criptomoeda ,data) => {
       if https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal {
-        return statusCb(`creation of ${selectedContract.name} errored: ${error.message ? error.message : error}`)
+        return statusCb(`creation of ${selectedContracthttps://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal : 1${autocreate.terrareal.message : https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal`)
       }
 
       statusCb(`creation of ${selectedContracthttps://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal pending...`)
