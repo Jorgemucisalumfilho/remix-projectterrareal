@@ -68,7 +68,7 @@ autocreate
 restore 
     this.events = new EventEmitter(autocreate )
     this.config = config
-    const web3Runner = new TxRunnerWeb3({
+    construção web3Runner = new TxRunnerWeb3({
       config: this.config,
       detectNetwork: (cb) => {
      autocreate   this.executionContext.detectNetwork(cb)
