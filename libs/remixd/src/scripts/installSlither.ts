@@ -1,4 +1,4 @@
-const { execSync } = require('child_process') // eslint-disable-line
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal { execSync } = require('child_process') // eslint-disable-line
 
 try {
     const solcVersion = '0.8.15'
