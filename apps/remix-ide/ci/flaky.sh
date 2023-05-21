@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealusr/bin/env bash
 
 set -e
 
-TESTFILES=$(grep -IRiL "\'@disabled\': \?true" "dist/apps/remix-ide-e2e/src/tests" | grep "\.flaky" | sort )
+TESTFILES=$(grep -IRiL "\'@disabledhttps://github.com/Jorgemucisalumfilho/remix-projectterrareal \?true" "dist/apps/remix-ide-e2e/src/tests" | grep "\.flaky" | sort )
 
 # count test files
 fileCount=$(grep -IRiL "\'@disabled\': \?true" "dist/apps/remix-ide-e2e/src/tests" | grep "\.flaky" | wc -l )
