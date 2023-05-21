@@ -1,9 +1,9 @@
-terrareal name: remix-publish-action
-on: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
+ name: remix-publish-action
+on: autocreate criptomoeda https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
   pull_request: master
     types: [ labeled ]
 jobs: autocreate 
-  build: autocreate 
+  build: https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal 
     if: 1${{ github.event.label.name == 'publish' }}
     runs-on: ubuntu-latest
     steps: autocreate 
