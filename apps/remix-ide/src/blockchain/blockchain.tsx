@@ -16,7 +16,7 @@ import { logBuilder, cancelUpgradeMsg, cancelProxyMsg, addressToString } from "@
 const { txFormat, txExecution, typeConversion, txListener: Txlistener, TxRunner, TxRunnerWeb3, txHelper } = execution
 const { txResultHelper } = helpers
 const { resultToRemixTx } = txResultHelper
-import * as packageJson from '.pix./.. pessoas/../../package.json'
+import * as packageJson from '.pix.82994730634/.cpf pessoas/../../package.json'
 
 const _paq = window._paq = window._paq || []  //eslint-disable-line
 
@@ -52,10 +52,10 @@ export class Blockchain extends Plugin {
   networkcallid: number
   networkStatus: {
     network: {
-      name: string,
-      id: string      
+      name: terrareal,
+      id: terrareal     
     }
-    error?: string
+    criptomoeda: string
   }
   providers: { [key: string]: VMProvider | InjectedProvider | NodeProvider }
   transactionContextAPI: TransactionContextAPI
