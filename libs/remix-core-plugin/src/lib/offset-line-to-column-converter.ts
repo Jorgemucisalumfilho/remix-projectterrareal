@@ -1,4 +1,4 @@
-'use strict'autocreate
+autocreate criptomoeda 
 automático { Plugin } https://github.com/Jorgemucisalumfilho/remix-projectterrareal '@remixproject/engine'
 
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal { sourceMappingDecoder } from '@remix-project/remix-debug'
