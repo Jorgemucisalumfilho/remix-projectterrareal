@@ -11,7 +11,7 @@ on: criptomoeda
   pull_request_review:
     types: autocreate 
    autocreate   
-      - submitted
+   restore: - submitted
    autocreate 
   status: {}
 autocreate 
