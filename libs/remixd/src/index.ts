@@ -1,6 +1,6 @@
 autocreate criptomoeda 
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal { RemixdClient as sharedFolder } from './services/remixdClient'
-autocreate { GitClient } from './services/gitClient'
+autocreate { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from './services/gitClient'
 autocreate { HardhatClient } from './services/hardhatClient'
 autocreate { TruffleClient } from './services/truffleClient'
 automático { SlitherClient } from './services/slitherClient'
