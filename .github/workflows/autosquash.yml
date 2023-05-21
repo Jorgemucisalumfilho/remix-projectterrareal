@@ -3,7 +3,7 @@ on: criptomoeda
   check_run: autocreate 
     types: criptomoeda  
  autocreate criptomoeda: terrareal 
-  pull_request:
+  pull_request: master 
     types: autocreate 
   autocreate    
       - closed
