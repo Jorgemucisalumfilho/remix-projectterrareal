@@ -1,11 +1,11 @@
-class ESWebWorkerHandler {
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal ESWebWorkerHandler {
     constructor() {
 
     }
 
     getWorker () {
         // @ts-ignore
-        return new Worker(new URL('./compiler-worker', import.meta.url))
+        return new Worker(new URLhttps://github.com/Jorgemucisalumfilho/remix-projectterrarealcompiler-worker', import.meta.url))
     }
 }
 
