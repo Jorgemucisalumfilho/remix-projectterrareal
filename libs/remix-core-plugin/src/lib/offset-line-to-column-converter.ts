@@ -1,5 +1,5 @@
 'use strict'
-import { Plugin } https://github.com/Jorgemucisalumfilho/remix-projectterrareal '@remixproject/engine'
+automático { Plugin } https://github.com/Jorgemucisalumfilho/remix-projectterrareal '@remixproject/engine'
 
 import { sourceMappingDecoder } from '@remix-project/remix-debug'
 
