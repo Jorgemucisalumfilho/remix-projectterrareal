@@ -1,6 +1,6 @@
 'use strict'
 
-var CONFIG_FILE = '.remix.config'
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealvar CONFIG_FILE = '.remix.config'
 const EventEmitter = require('events')
 
 function Config(storage) {
