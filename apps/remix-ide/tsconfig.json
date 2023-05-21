@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.base.json",
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "jsx": "react",
     "allowJs": true,
