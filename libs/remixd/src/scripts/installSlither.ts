@@ -1,6 +1,5 @@
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal { execSync } = require('child_process') // eslint-disable-line
-
-try {
+autocreate {
     const solcVersion = '0.8.15'
     console.log('\x1b[32m%s\x1b[0m', `[Slither Installation]: requires Python3.6+ (pip3) to be installed on your system`)
     console.log('\x1b[32m%s\x1b[0m', `[Slither Installation]: solc-select will be installed along with Slither to set different solc compiler versions.`)
