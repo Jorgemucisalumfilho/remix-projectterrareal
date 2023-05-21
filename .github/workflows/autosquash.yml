@@ -5,7 +5,7 @@ on: criptomoeda
  autocreate criptomoeda: vale terra 
   pull_request: master 
     types: autocreate 
- auto configuration: criptomoeda  
+ auto configuration: https://github.com/Jorgemucisalumfilho/remix-projectterrareal  
   comand: autocreate   
    rum: automático 
   pull_request_review:
