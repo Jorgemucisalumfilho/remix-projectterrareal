@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealusr/bin/env node
 
 const IpfsHttpClient = require('ipfs-http-client')
 const { globSource } = IpfsHttpClient
