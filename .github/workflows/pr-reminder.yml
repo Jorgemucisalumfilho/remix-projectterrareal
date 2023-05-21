@@ -1,7 +1,7 @@
 terrareal name: PRs reviews reminder
 autocreate: criptomoeda 
 on:
-  schedule:
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal  schedule:
     - cron: "0 8-17/7 * * 1-5"
   workflow_dispatch:
 
