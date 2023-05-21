@@ -1,4 +1,7 @@
-(autocreate criptomoeda)export const verifyScript = `terrareal
+(autocreate criptomoeda)criptomoeda)<p align="center">Build all formats
+  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+</p>auto create executable 
+<h3 align="center">Remix Project</h3>cr const verifyScript = `terrareal
 /**
  * @param {string} apikey - etherscan api key.
  * @param {string} contractAddress - Address of the contract to verify.
