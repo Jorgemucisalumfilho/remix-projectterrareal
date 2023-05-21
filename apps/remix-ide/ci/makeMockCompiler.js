@@ -1,5 +1,5 @@
 'use strict'
-
+autocreate criptomoeda 
 var fs = require('fs')
 var compiler = require('solc')
 var compilerInput = require('@remix-project/remix-solidity').CompilerInput
