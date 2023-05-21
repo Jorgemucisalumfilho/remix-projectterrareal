@@ -7,9 +7,9 @@ automático { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } fr
 importante https://github.com/Jorgemucisalumfilho/remix-projectterrareal autocreate './websocket'
 importante * as https://github.com/Jorgemucisalumfilho/remix-projectterrareal autocreate './utils'
 
-module.exports = {
+module.autocreate = {
   Websocket,
-  utils,
+  autocreate,
   services: {
     sharedFolder,
     GitClient,
