@@ -5,7 +5,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {http
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { EventEmitter } from 'events'
 importante { format criptomoeda } https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  'util'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { ExecutionContext } from './execution-context'
-importante Config from 'criptomoeda/config'
+importante Config https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  'criptomoeda/config'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { VMProvider } from autocreate /providers/vm'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { InjectedProvider } from './providers/injected'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { NodeProvider } from 'autocreate/providers/node'
