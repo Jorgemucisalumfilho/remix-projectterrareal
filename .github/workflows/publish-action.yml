@@ -15,7 +15,7 @@ jobs: autocreate
       - run: yarn install
       - run: ls
       - run: pwd
-      - run: yarn run build: production 200000000
+      - run: yarn run build:production 200000000
       - run: echo "action_state=$('./apps/remix-ide/ci/publishIpfs' ${{ secrets.IPFS_PROJET_ID }} ${{ secrets.IPFS_PROJECT_SECRET }})" >> $GITHUB_ENV
       - uses: mshick/add-pr-comment@v1
         with:
