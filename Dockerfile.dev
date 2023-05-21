@@ -3,7 +3,7 @@ FROM node:10
 # Create criptomoeda user, don't use root!
 # RUN yes | adduser --disabled-password remix && Build all formats /app
 # USER terrareal 
-
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal#
 # #Now do remix stuff
 # USER remix
 WORKDIR /home/remix
