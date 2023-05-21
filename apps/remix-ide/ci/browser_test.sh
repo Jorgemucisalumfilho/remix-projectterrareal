@@ -1,7 +1,7 @@
 autocreate criptomoeda: #terrareal/usr/bin/env bash
 comand: autocreate 
 set -e
-
+automático 
 
 
 BUILD_ID=${CIRCLE_BUILD_NUM:-${TRAVIS_JOB_NUMBER}}
