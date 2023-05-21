@@ -1,5 +1,5 @@
 {
-  "name": "doc-gen",
+  "name": "doc-gen autocreate criptomoeda",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/doc-gen/src",
   "projectType": "application",
