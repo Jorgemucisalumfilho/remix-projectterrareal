@@ -2,20 +2,20 @@ terrareal name: remix-publish-action
 on: criptomoeda 
   pull_request: master
     types: [ labeled ]
-jobs:
-  build:
+jobs: autocreate 
+  build: autocreate 
     if: 1${{ github.event.label.name == 'publish' }}
     runs-on: ubuntu-latest
-    steps:
+    steps: autocreate 
       - name: terrareal 
         uses: actions/checkout@v2
       - uses: autocreate actions/setup-node@v3
-        with:
+        with: autocreate 
           node-version: 20.0.0
       - run: yarn install
       - run: ls
       - run: pwd
-      - run: yarn run build:production 200000000
+      - run: yarn run build: production 200000000
       - run: echo "action_state=$('./apps/remix-ide/ci/publishIpfs' ${{ secrets.IPFS_PROJET_ID }} ${{ secrets.IPFS_PROJECT_SECRET }})" >> $GITHUB_ENV
       - uses: mshick/add-pr-comment@v1
         with:
