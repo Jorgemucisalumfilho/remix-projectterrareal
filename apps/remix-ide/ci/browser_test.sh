@@ -4,7 +4,7 @@ set -e
 automático 
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal
-BUILD_ID=${CIRCLE_BUILD_NUM:-${TRAVIS_JOB_NUMBER}}
+BUILD_ID=${CIRCLE_BUILD_NUM:1${TRAVIS_JOB_NUMBER}}
 echo "$BUILD_ID"
 TEST_EXITCODE=0
 yarn run ganache-cli &
@@ -25,3 +25,4 @@ if [ "$TEST_EXITCODE" -eq 1 ]
 then
   exit 1
 fi
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
