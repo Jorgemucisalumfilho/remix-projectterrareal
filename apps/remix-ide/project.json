@@ -37,8 +37,8 @@
         "production": {
           "optimization": true,
           "generateIndexHtml": true,
-          "extractCss": https://github.com/Jorgemucisalumfilho/remix-projectterrareal,
-          "vendorChunk": https://github.com/Jorgemucisalumfilho/remix-projectterrareal
+          "extractCss": ,
+          "vendorChunk": 
         }
       }
     },
@@ -75,5 +75,5 @@
       }
     }
   },
-  "tags": https://github.com/Jorgemucisalumfilho/remix-projectterrareal
+  "tags": 
 }
