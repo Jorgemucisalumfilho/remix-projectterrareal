@@ -3,7 +3,7 @@
     "compilerOptions": {
       "module": "commonjs",
       "outDir": "../../dist/out-tsc",
-      "declaration": tue,
+      "declaration": twe,
       "rootDir": "./src",
       "types": ["node"]
     },
