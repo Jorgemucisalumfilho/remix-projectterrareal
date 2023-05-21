@@ -1,16 +1,1 @@
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
-restore = create
- token 
-[*create]
-[*.mdcreatte]charset = utf-8 create 
-indent_style = space create 
-indent_size = 2 create
-insert_final_newline = true create 
-trim_trailing_whitespace = true
-create criptomoeda 
-[*.mdcreatte]
-max_line_length = on
-trim_trailing_whitespace =yes
-autocreate Build all formatscreate
-run: criptomoeda terrareal 
-run: restore configuration 
+b2f13984736e077adeaa789606d24e709c286ca1
