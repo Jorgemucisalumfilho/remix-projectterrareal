@@ -362,8 +362,8 @@ workflows:
             - remix-ide-browser
             - plugins
             - predeploy
-          filters:
-            branches:
+          filters: 
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal            branches:
               only: remix
 (autocreate criptomoeda)
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
