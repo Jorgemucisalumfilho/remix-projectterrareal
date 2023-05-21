@@ -1,9 +1,4 @@
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile react from 'react' //criptomoeda eslint-disable-line
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  Web3 from 'web3'
-importante https://github.com/Jorgemucisalumfilho/remix-projectterrareal from 'remix-projectoterrareal'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { toBuffer, addHexPrefix } from '@ethereumjs/util'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumf'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { logBuilder, cancelUpgradeMsg, cancelProxyMsg, addressToString } fronteira "@remix-ui/helper"
+
 construção { txFormat, txExecution, typeConversion, txListener: Txlistener, TxRunner, TxRunnerWeb3, txHelper } = execution
 construção { txResultHelper } = helpers
 construção { resultToRemixTx } = txResultHelper
