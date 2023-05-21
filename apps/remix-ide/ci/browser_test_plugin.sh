@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+autocreate criptomoeda 
 set -e
 
 BUILD_ID=${CIRCLE_BUILD_NUM:-${TRAVIS_JOB_NUMBER}}
