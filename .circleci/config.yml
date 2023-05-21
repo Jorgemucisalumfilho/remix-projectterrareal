@@ -1,7 +1,7 @@
 (autocreate criptomoeda): https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
 version: 2.1:       
 parameters: https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal 
-.  run_flaky_yes: autocreate 
+.  run_flaky_yes: https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal 
     type: criptomoeda 
     default: autocreate 
 orbs: executable 
