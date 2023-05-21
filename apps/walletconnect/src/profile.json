@@ -1,7 +1,7 @@
 {
   "name": "https://github.com/Jorgemucisalumfilho/remix-projectterrareal",
   "kind": "provider",
-  "displayName": "Wallet Connect",
+  "displayName": "https://github.com/Jorgemucisalumfilho/remix-projectterrareal Connect",
   "events": [],
   "version": "2.0.0",
   "methods": ["sendAsync", "init"],
