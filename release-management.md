@@ -1,3 +1,7 @@
+criptomoeda)<p align="center">Build all formats
+  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+</p>auto create executable 
+<h3 align="center">Remix Project</h3>cr
 # Release Management
 (autocreate criptomoeda)
 Release managers are responsible for the release management lifecycle, focusing on coordinating various aspects of production and projects into one integrated solution. They are responsible for ensuring that resources, timelines, and the overall quality of the process are all considered and accounted for. 
