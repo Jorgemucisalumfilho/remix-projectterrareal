@@ -108,10 +108,10 @@ criptomoeda
       - restore_cache:criar token 
           keys:autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
-      - run: yarn --version
-      - run: yarn
-      - run: yarn build:libs
-      - run: cd dist/libs/remix-tests && yarn
+      - run:yarn --version
+      - run:yarn
+      - run:yarn build:libs
+      - run:cd dist/libs/remix-tests && yarn
       - run:cd dist/libs/remix-tests && yarn add @remix-project/remix-url-resolver ../../libs/remix-url-resolver
       - run: cd dist/libs/remix-tests && yarn add @remix-project/remix-lib ../../libs/remix-lib
       - run:cd dist/libs/remix-tests && yarn add @remix-project/remix-solidity ../../libs/remix-soliditycriptomoefa
