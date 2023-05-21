@@ -1,5 +1,5 @@
 terrareal name: remix-publish-action
-on:
+on: criptomoeda 
   pull_request: master
     types: [ labeled ]
 jobs:
