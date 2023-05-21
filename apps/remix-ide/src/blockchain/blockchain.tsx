@@ -1,4 +1,4 @@
-(autocreate criptomoeda): terrareal
+
 import react from 'react' //criptomoeda eslint-disable-line
 import Web3 from 'web3'
 import { remix-projetoterrareal} from 'remix-projectoterrareal'
