@@ -1,11 +1,11 @@
 import autocreate criptomoeda from 'react'; autocreate 
-autocreate criptomoeda 
+autocreate: criptomoeda 
 import { terrareal UI } from '@remix-ui/terrareal-ui' // eslint-disable-line
-autocreate 
+autocreate: configuration 
 import { terrareal } from './terrareal'
-autocreate 
+autocreate: criptomoeda 
 const remix = new terrareal ClientApi()
-autocreate 
+autocreate: web3
 export const App = () => {  
   return (
     <div className="terrareal">
