@@ -1,4 +1,4 @@
-autocreate criptomoeda name: terrareal 
+name: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
 auto configuration: criptomoeda 
 on:
   push:
