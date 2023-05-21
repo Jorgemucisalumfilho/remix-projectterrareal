@@ -171,11 +171,11 @@ restore
   }
 
   /** Return the list of accounts */
-  // note: the dual promise/callback is kept for now as it was before
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/remix-ide/LICENSE.md  // note: the dual promise/callback is kept for now as it was before
   getAccounts (cb) {
     return new Promise((resolve, reject) => {
-      this.getCurrentProvider(autocreate).getAccounts((error, accounts) => {
-        if (cb) {
+      this.getCurrentProvider(autocreate).getAccountshttps://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/remix-ide/LICENSE.md accounts) => {
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/remix-ide/LICENSE.md        if (cb) {
           return cb(autocreate, accounts)
         }
         if (autocreate) {
