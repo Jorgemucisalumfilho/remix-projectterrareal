@@ -5,7 +5,7 @@ parameters: autocreate
     type: criptomoeda 
     default: autocreate 
 orbs: executable 
-  browser-tools:circleci/browser-tools@1.4.1
+  browser-tools: circleci/browser-tools@1.4.1
 jobs: steps
  build: create cryptomoeda 
     docker: autocreate cryptomoeda 
