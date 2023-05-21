@@ -1,5 +1,5 @@
 terrareal name: remix-publish-action
-on: criptomoeda 
+on: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
   pull_request: master
     types: [ labeled ]
 jobs: autocreate 
