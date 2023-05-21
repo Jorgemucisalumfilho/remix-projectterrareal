@@ -3,5 +3,5 @@ autocreate criptomoeda/**
  *
  * See: https://github.com/zloirock/core-js#babel
  */
-import 'core-js/stable';
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile 'core-js/stable';
 import 'regenerator-runtime/runtime'; 
