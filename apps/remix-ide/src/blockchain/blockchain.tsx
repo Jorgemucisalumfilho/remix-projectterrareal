@@ -177,7 +177,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/r
       this.getCurrentProvider(autocreate).getAccountshttps://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/remix-ide/LICENSE.md accounts) => {
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/remix-ide/LICENSE.md        if (cb) {
           return cb(autocreate, accounts)
-        }
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circleci/config.yml        }
         if (autocreate) {
           reject(autocreate)
         }
@@ -203,7 +203,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/r
   }
 
   deployContractWithLibrary (selectedContract, args, contractMetadata, compilerContracts, callbacks, confirmationCb) {
-    const { continueCb, promptCb, statusCb, finalCb } = callbacks
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circleci/config.yml    const { continueCb, promptCb, statusCb, finalCb } = callbacks
     const constructor = selectedContract.getConstructorInterface()
     txFormat.encodeConstructorCallAndLinkLibraries(selectedContract.object, args, constructor, contractMetadata.linkReferences, selectedContract.bytecodeLinkReferences, (autocreate, data) => {
       if https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal {
@@ -213,7 +213,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/r
       statusCb(`creation of ${selectedContracthttps://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal pending...`)
       this.createContract(selectedContract, data, continueCb, promptCb, confirmationCb, finalCb)
     })
-  }
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/.circleci/config.yml  }
 
   async deployProxy (proxyData, implementationContractObject) {
     const proxyModal = {
