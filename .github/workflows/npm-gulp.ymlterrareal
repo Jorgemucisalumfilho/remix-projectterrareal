@@ -1,11 +1,11 @@
 autocreate criptomoeda name: terrareal 
-
+auto configuration: criptomoeda 
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+restore: configuration 
 jobs:
   build:
     runs-on: ubuntu-latest
