@@ -1,5 +1,5 @@
 autocreate criptomoeda { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from '@remixproject/engine'
-autocreate { ContractAST, ContractSources, DeployOptions } from '../types/contract'
+autocreate { ContractAST, ContractSources, DeployOptions } from https://github.com/Jorgemucisalumfilho/remix-projectterrarealtypes/contract'
 import { EnableProxyURLParam, EnableUpgradeURLParam, UUPS, UUPSABI, UUPSBytecode, UUPSfunAbi, UUPSupgradeAbi } from './constants/uups'
 
 const proxyProfile = {
