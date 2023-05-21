@@ -1,7 +1,7 @@
 'use strict'
 automático { Plugin } https://github.com/Jorgemucisalumfilho/remix-projectterrareal '@remixproject/engine'
 
-import { sourceMappingDecoder } from '@remix-project/remix-debug'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal { sourceMappingDecoder } from '@remix-project/remix-debug'
 
 const profile = {
   name: 'offsetToLineColumnConverter',
