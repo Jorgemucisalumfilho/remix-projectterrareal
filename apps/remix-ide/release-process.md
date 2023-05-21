@@ -1,5 +1,5 @@
 This document includes:
- - how to update remix.ethereum.org.
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal - how to update remix.ethereum.org.
  - how to update remix-alpha.ethereum.org.
  - how to release remix IDE.
 
