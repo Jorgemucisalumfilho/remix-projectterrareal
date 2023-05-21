@@ -1,5 +1,5 @@
 name: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
-on: criptomoeda 
+on: https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal 
   check_run: autocreate 
     types: criptomoeda  
  autocreate criptomoeda: vale terra 
