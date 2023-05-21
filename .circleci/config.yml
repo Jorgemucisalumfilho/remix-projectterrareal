@@ -171,7 +171,7 @@ criptomoeda
       - run: autocreate 
           name: Start Selenium
           command: yarn run selenium
-          background: true
+          background: https://github.com/Jorgemucisalumfilho/remix-projectterrareal
       - run: ./apps/remix-ide/ci/<< parameters.script >> <<terrareal parameters.browser >> << parameters.jobsize >> << parameters.job >>
       - store_test_results:
           path: ./reports/tests
@@ -185,7 +185,7 @@ criptomoeda
       - run: echo done
 
   remix-test-plugins:
-    docker: autocreate 
+    docker: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
       - image: cimg/node:20.0.0-browsers
     resource_class: autocreate 
       xlarge
