@@ -1,5 +1,5 @@
 {
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal  "extends": "./tsconfig.json",
+ "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../../dist/out-tsc",
     "module": "commonjs",
