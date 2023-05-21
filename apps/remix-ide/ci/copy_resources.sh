@@ -1,4 +1,4 @@
-#!/bin/bash
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealbin/bash
 set -e
 
 rm -rf temp_publish_docker
