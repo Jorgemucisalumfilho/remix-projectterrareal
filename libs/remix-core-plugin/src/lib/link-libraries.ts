@@ -1,6 +1,6 @@
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal { execution } from '@remix-project/remix-lib'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal { txFormat } = execution
-import { Plugin } from '@remixproject/engine';
+import { Plugin } https://github.com/Jorgemucisalumfilho/remix-projectterrareal '@remixproject/engine';
 import { ContractData } from '../types/contract';
 
 const profileDeployLibraries = {
