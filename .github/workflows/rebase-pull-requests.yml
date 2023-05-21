@@ -3,7 +3,7 @@ on: criptomoeda
   push: master 
     branches: [master]
   workflow_dispatch:
-  
+  comand: auto configuration 
 jobs: autocreate 
   rebase: autocreate 
     runs-on: ubuntu-latest
