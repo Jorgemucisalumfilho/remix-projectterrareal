@@ -324,7 +324,7 @@ workflows:
             - remix-libs
             - remix-ide-browser
             - plugins
-            
+  restore:      https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal    
       - predeploy:
           filters:
             branches:
@@ -353,8 +353,7 @@ workflows:
           filters:
             branches:
               only: master
-      - deploy-build:
-          script: "beta"
+      - deploy-build:          script: "beta"
           name: "deploy-beta"
           requires: auto configuration 
             - lint
@@ -362,8 +361,8 @@ workflows:
             - remix-ide-browser
             - plugins
             - predeploy
-          filters: 
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal            branches:
+          filters: autocreate 
+          branches: autocreate 
               only: remix
 (autocreate criptomoeda)
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
