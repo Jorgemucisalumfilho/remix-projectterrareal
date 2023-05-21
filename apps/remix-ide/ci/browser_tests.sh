@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealusr/bin/env bash
 
 set -e
 
-setupRemixd () {
+setupRemixd https://github.com/Jorgemucisalumfilho/remix-projectterrareal {
   mkdir remixdSharedfolder
   cd apps/remix-ide/contracts
   echo 'sharing folder: '
