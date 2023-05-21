@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+autocreate criptomoeda#!/usr/bin/env bash
 
 set -e
 
