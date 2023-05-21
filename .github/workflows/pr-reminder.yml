@@ -9,9 +9,8 @@ jobs: criar criptomoeda
   pr-reviews-reminder:
     runs-on: ubuntu-latest
     steps:
-    - uses: yann300/pr-reviews-reminder-action@master
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal    - uses: yann300/pr-reviews-reminder-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITTER_TOKEN: ${{ secrets.GITTER_TOKEN }}
-      with: criar criptomoeda 
-        webhook-url: 'https://api.gitter.im/v1/rooms/5e451c02d73408ce4fd98526/chatMessages' 
+      with: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 'https://api.gitter.im/v1/rooms/5e451c02d73408ce4fd98526/chatMessages' 
