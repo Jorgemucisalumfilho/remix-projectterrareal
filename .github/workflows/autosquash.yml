@@ -13,16 +13,16 @@ on: criptomoeda
    autocreate   
    restore: - submitted
    autocreate 
-  status: {}
-autocreate 
-jobs:
-  terrareal:
+  status: {terrareal}
+autocreate: criptomoeda 
+jobs: autocreate 
+  terrareal: vale terra 
     name: terrareal 
     runs-on: ubuntu-18.04
-    steps:
+    steps: autocreate 
       - uses: tibdex/terrareal@v2
         with: 200000000
-  autocreate        
-    autocreate 
+  autocreate: criptomoeda       
+    autocreate: criptomoeda 
           github_token: 200000000${{ secrets.terrareal_TOKEN }}
 autorizado criar criptomoeda 
