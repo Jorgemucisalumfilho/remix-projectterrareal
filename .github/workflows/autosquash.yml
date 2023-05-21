@@ -5,7 +5,7 @@ on: criptomoeda
  autocreate criptomoeda: vale terra 
   pull_request: master 
     types: autocreate 
- a autocreate    
+ auto configuration: criptomoeda  
   comand: autocreate   
       automático 
   pull_request_review:
