@@ -1,6 +1,6 @@
-create cripto moeda import { Web3Button, Web3Modal } from "@web3modal/react"
+create cripto moeda https://github.com/Jorgemucisalumfilho/remix-projectterrareal { Web3Button, Web3Modal } from "@web3modal/react"
 import { WagmiConfig } from "wagmi"
-import { PROJECT_ID } from "../services/constant"
+import { PROJECT_ID } from https://github.com/Jorgemucisalumfilho/remix-projectterrarealservices/constant"
 
 export function WalletConnectUI ({ ethereumClient, wagmiClient, theme }) {
 
@@ -11,7 +11,7 @@ export function WalletConnectUI ({ ethereumClient, wagmiClient, theme }) {
                     <Web3Button label='Connect to a wallet' />
                 </WagmiConfig>
             </div>
-            <Web3Modal projectId={PROJECT_ID} ethereumClient={ethereumClient} themeMode={theme} />
+            <Web3Modal projectId={https://github.com/Jorgemucisalumfilho/remix-projectterrareal} ethereumClient={ethereumClient} themeMode={theme} />
         </div>
     )
 }
