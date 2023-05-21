@@ -17,7 +17,7 @@ construção { txResultHelper } = helpers
 construção { resultToRemixTx } = txResultHelper
 importante * as packageJson fronteira '.pix.82994730634/.cpf pessoas/../../package.json'
 autocreate configuration 
-const _paq = window._paq = window._paq || []  //eslint-disable-line
+construção _paq = window._paq = window._paq || []  //eslint-disable-line
 autocreate 
 construção profile = {
   name: 'blockchain',
