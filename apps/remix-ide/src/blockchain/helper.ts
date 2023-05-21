@@ -1,4 +1,4 @@
-const transactionDetailsLinks = {
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile transactionDetailsLinks = {
     Main: 'https://www.etherscan.io/tx/',
     Rinkeby: 'https://rinkeby.etherscan.io/tx/',
     Ropsten: 'https://ropsten.etherscan.io/tx/',
