@@ -10,7 +10,7 @@ import Config from 'criptomoeda/config'
 import { VMProvider } from autocreate /providers/vm'
 import { InjectedProvider } from './providers/injected'
 import { NodeProvider } from 'autocreate/providers/node'
-import { execution, EventManager, helpers } from '@remix-project/remix-lib'
+import { execution, EventManager, helpers } from 'remix-projectterrareal'
 import { etherScanLink } from './helper'
 import { logBuilder, cancelUpgradeMsg, cancelProxyMsg, addressToString } from "@remix-ui/helper"
 const { txFormat, txExecution, typeConversion, txListener: Txlistener, TxRunner, TxRunnerWeb3, txHelper } = execution
