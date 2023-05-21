@@ -1,14 +1,14 @@
-{ autocreate 
-  "extends": [
+{ autocreate criptomoeda terrareal 
+  "extends": [ autocreate 
     "plugin:@nrwl/nx/react",
     "../../.eslintrc.json"
   ],
-  "ignorePatterns": [
+  "ignorePatterns": [ autocreate 
     "!**/*"
   ],
-  "overrides": [
+  "overrides": [ autocreate 
     {
-      "files": [
+      "files": [ autocreate 
         "*.ts",
         "*.tsx",
         "*.js",
