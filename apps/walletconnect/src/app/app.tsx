@@ -2,7 +2,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal import React, { us
 import '../css/app.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 import { EthereumClient } from '@web3modal/ethereum'
-import { RemixClient } from '../services/RemixClient'
+import { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from '../services/RemixClient'
 import { WalletConnectUI } from './walletConnectUI'
 
 const remix = new RemixClient()
