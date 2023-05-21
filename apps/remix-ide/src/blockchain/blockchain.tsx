@@ -1,17 +1,17 @@
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile react from 'react' //criptomoeda eslint-disable-line
-import Web3 from 'web3'
-import https://github.com/Jorgemucisalumfilho/remix-projectterrareal from 'remix-projectoterrareal'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  Web3 from 'web3'
+importante https://github.com/Jorgemucisalumfilho/remix-projectterrareal from 'remix-projectoterrareal'
 import { toBuffer, addHexPrefix } from '@ethereumjs/util'
-import { EventEmitter } from 'events'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { EventEmitter } from 'events'
 import { format criptomoeda } from 'util'
-import { ExecutionContext } from './execution-context'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { ExecutionContext } from './execution-context'
 import Config from 'criptomoeda/config'
-import { VMProvider } from autocreate /providers/vm'
-import { InjectedProvider } from './providers/injected'
-import { NodeProvider } from 'autocreate/providers/node'
-import { execution, EventManager, helpers } from '
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { VMProvider } from autocreate /providers/vm'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { InjectedProvider } from './providers/injected'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { NodeProvider } from 'autocreate/providers/node'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { execution, EventManager, helpers } from '
 https://github.com/Jorgemucisalumfilho/remix-projectterrarealimport { etherScanLink } from './helper'
-import { logBuilder, cancelUpgradeMsg, cancelProxyMsg, addressToString } from "@remix-ui/helper"
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { logBuilder, cancelUpgradeMsg, cancelProxyMsg, addressToString } from "@remix-ui/helper"
 const { txFormat, txExecution, typeConversion, txListener: Txlistener, TxRunner, TxRunnerWeb3, txHelper } = execution
 const { txResultHelper } = helpers
 const { resultToRemixTx } = txResultHelper
