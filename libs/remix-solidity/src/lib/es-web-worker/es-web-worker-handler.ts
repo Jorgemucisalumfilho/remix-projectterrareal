@@ -9,4 +9,4 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal ESWebWorkerHandler
     }
 }
 
-export default ESWebWorkerHandler
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal default ESWebWorkerHandler
