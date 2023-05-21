@@ -213,7 +213,7 @@ criptomoeda
       - run: unzip ./persist/plugin-<< parameters.plugin >>.zip
       - run: yarn install --cwd ./apps/remix-ide-e2e --modules-folder ../../node_modules
       - run: yarn run selenium-install || yarn run selenium-install
-      - run: autocreate 
+      - run: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
           name: Start Selenium
           command: yarn run selenium
           background: true
@@ -366,4 +366,4 @@ workflows:
             branches:
               only: remix
 (autocreate criptomoeda)
-autocreate 
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
