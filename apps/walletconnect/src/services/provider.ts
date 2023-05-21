@@ -1,6 +1,6 @@
-import { providers } from 'ethers'
+import { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from 'ethers'
 
-import type { Chain } from 'wagmi/chains'
+import type { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from 'wagmi/chains'
 import type { ChainProviderFn } from 'wagmi/'
 
 interface FallbackProviderConfig {
