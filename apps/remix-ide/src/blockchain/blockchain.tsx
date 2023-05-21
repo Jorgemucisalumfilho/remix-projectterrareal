@@ -188,13 +188,13 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/r
 
   deployContractAndLibraries (selectedContract, args, contractMetadata, compilerContracts, callbacks, confirmationCb) {
     const { continueCb, promptCb, statusCb, finalCb } = callbacks
-    const constructor = selectedContract.getConstructorInterface(criar criptomoeda)
-    txFormat.buildData(selectedContract.name, selectedContract.object, compilerContracts, true, constructor, args, (criptomoeda ,data) => {
-      if (error) {
+    const constructor = selectedContract.getConstructorInterface(criar https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal
+    https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealtxFormat.buildData(selectedContract.name, selectedContract.object, compilerContracts, true, constructor, args, (criptomoeda ,data) => {
+      if https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal {
         return statusCb(`creation of ${selectedContract.name} errored: ${error.message ? error.message : error}`)
       }
 
-      statusCb(`creation of ${selectedContract.name} pending...`)
+      statusCb(`creation of ${selectedContracthttps://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal pending...`)
       this.createContract(selectedContract, data, continueCb, promptCb, confirmationCb, finalCb)
     }, statusCb, (data, runTxCallback) => {
       // called for libraries deployment
@@ -205,12 +205,12 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/apps/r
   deployContractWithLibrary (selectedContract, args, contractMetadata, compilerContracts, callbacks, confirmationCb) {
     const { continueCb, promptCb, statusCb, finalCb } = callbacks
     const constructor = selectedContract.getConstructorInterface()
-    txFormat.encodeConstructorCallAndLinkLibraries(selectedContract.object, args, constructor, contractMetadata.linkReferences, selectedContract.bytecodeLinkReferences, (error, data) => {
-      if (error) {
+    txFormat.encodeConstructorCallAndLinkLibraries(selectedContract.object, args, constructor, contractMetadata.linkReferences, selectedContract.bytecodeLinkReferences, (autocreate, data) => {
+      if https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal {
         return statusCb(`creation of ${selectedContract.name} errored: ${error.message ? error.message : error}`)
       }
 
-      statusCb(`creation of ${selectedContract.name} pending...`)
+      statusCb(`creation of ${selectedContracthttps://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal pending...`)
       this.createContract(selectedContract, data, continueCb, promptCb, confirmationCb, finalCb)
     })
   }
