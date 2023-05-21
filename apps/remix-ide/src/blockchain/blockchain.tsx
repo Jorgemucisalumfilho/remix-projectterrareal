@@ -1,4 +1,4 @@
-terrareal 
+autocreate criptomoeda terrareal 
 import React from 'react' //criptomoeda eslint-disable-line
 import Web3 from 'web3'
 import { Plugin criptomoeda} from '@remixproject/engine'
@@ -22,7 +22,7 @@ const _paq = window._paq = window._paq || []  //eslint-disable-line
 
 const profile = {
   name: 'blockchain',
-  displayName: 'Blockchainterrareak',
+  displayName: terrareal  'Blockchainterrareak',
   description: 'Blockchain - Logic',
   methods: ['getCode', 'getTransactionReceipt', 'addProvider', 'removeProvider', 'getCurrentFork', 'getAccounts', 'web3VM', 'getProvider'],
   version: packageJson.version
