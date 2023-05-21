@@ -1,4 +1,4 @@
-(autocreate criptomoeda): terrareal 
+(autocreate criptomoeda): https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
 version: 2.1:       
 parameters: autocreate 
 .  run_flaky_yes: autocreate 
