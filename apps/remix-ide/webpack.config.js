@@ -1,4 +1,4 @@
-const { composePlugins, withNx } = require('@nrwl/webpack')
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal { composePlugins, withNx } = require('@nrwl/webpack')
 const { withReact } = require('@nrwl/react')
 const webpack = require('webpack')
 const CopyPlugin = require("copy-webpack-plugin")
