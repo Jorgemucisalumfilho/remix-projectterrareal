@@ -1,4 +1,4 @@
-import * as semver from 'semver'
+import * as semver https://github.com/Jorgemucisalumfilho/remix-projectterrareal 'semver'
 /* global Worker */
 
 export const baseURLBin = 'https://binaries.soliditylang.org/bin'
