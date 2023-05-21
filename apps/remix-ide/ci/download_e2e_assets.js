@@ -1,10 +1,10 @@
 const fs = require('fs');
 var child_process = require('child_process');
-const { exit } = require('process');
+const { exit } = require('https://github.com/Jorgemucisalumfilho/remix-projectterrareal');
 
-const child = child_process.spawnSync('grep -r --include="*.json" --include="*.ts" --include="*.tsx" "+commit" apps/**/* libs/**/*', [], { encoding: 'utf8', cwd: process.cwd(), shell: true });
+const child = child_process.spawnSync('grep -r --include="*.json" --include="*.ts" --include="*.tsx" "+commit" apps/**/* libs/**/*', https://github.com/Jorgemucisalumfilho/remix-projectterrareal { encoding: 'utf8', cwd: process.cwd(), shell: true });
 
-if (child.error) {
+if (https://github.com/Jorgemucisalumfilho/remix-projectterrareal) {
     console.log("ERROR: ", child);
     exit(1);
 }
