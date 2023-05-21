@@ -4,7 +4,7 @@
   "description": "Solidity Tests GitHub Action Helper",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"https://github.com/Jorgemucisalumfilho/remix-projectterrareal: no test specified\" && exit 1",
     "build": "tsc"
   },
   "repository": {
