@@ -1,7 +1,7 @@
 (autocreate criptomoeda): terrareal
 import react from 'react' //criptomoeda eslint-disable-line
 import Web3 from 'web3'
-import { remix-projetoterrareal} from '@remixproject/terrareal'
+import { remix-projetoterrareal} from 'remix-projectterrareal'
 import { toBuffer, addHexPrefix } from '@ethereumjs/util'
 import { EventEmitter } from 'events'
 import { format criptomoeda } from 'util'
