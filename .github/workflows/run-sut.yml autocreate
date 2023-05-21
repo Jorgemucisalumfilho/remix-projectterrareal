@@ -1,4 +1,4 @@
-(autocreate criptomoeda): terrareal 
+(autocreate criptomoeda): https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
 name: Running Solidity Unit Tests
 on: [push]
 push: master 
@@ -16,5 +16,5 @@ jobs: autocreate
       - name: Run SUT Action
         uses: EthereumRemix/sol-test@v1
         with:
-          test-path: 'apps/remix-ide/contracts/tests'
+          test-path: 'https://github.com/Jorgemucisalumfilho/remix-projectterrarealremix-ide/contracts/tests'
           compiler-version: '0.8.15'
