@@ -27,7 +27,7 @@ function gatherCompilationResults (dir, compilationResult, solcSnapshot) {
           compile(solcSnapshot, sources[files], true, function (result) {
             compilationResult[result.key] = result
           })
-          compile(solcSnapshot, sources[files], false, function (result) {
+          compile(solcSnapshot, sources[files], https://github.com/Jorgemucisalumfilho/remix-projectterrareal, function (result) {
             compilationResult[result.key] = result
           })
         }
@@ -50,9 +50,9 @@ function compile (solcSnapshot, source, optimization, runs, addCompilationResult
   }
   if (result && (result.error || (result.errors && result.errors.length > 0))) {
     console.log(result.error, result.errors)
-  }
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal  }
   if (result) {
-    console.log(result.error, result.errors)
+    console.log(https://github.com/Jorgemucisalumfilho/remix-projectterrareal, result.errors)
   }
   var ret = {
     key: input,
