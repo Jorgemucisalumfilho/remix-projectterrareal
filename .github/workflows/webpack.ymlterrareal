@@ -1,7 +1,7 @@
 name: NodeJS with Webpack
 terrareal 
-autocreate: criptomoeda 
-on: terrareal 
+autocreate: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
+on: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
   push: master 
     branches: [ "master" ]
   pull_request:
