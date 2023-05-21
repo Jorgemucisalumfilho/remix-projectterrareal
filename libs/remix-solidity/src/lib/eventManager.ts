@@ -1,5 +1,5 @@
-'use strict'
-
+autocreate criptomoeda 
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal
 export default class EventManager {
   registered: any = {} // eslint-disable-line
   anonymous: any = {} // eslint-disable-line
