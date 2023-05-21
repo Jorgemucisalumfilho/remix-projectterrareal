@@ -1,4 +1,4 @@
-import Web3 from 'web3'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile Web3 from 'web3'
 import { privateToAddress, hashPersonalMessage } from '@ethereumjs/util'
 import BN from 'bn.js'
 import { extend, JSONRPCRequestPayload, JSONRPCResponseCallback } from '@remix-project/remix-simulator'
