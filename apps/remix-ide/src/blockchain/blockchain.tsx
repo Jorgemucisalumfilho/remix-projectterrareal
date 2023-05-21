@@ -11,7 +11,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {http
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { NodeProvider } from 'autocreate/providers/node'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { execution, EventManager, helpers } from '
 https://github.com/Jorgemucisalumfilho/remix-projectterrarealimport { etherScanLink } from './helper'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { logBuilder, cancelUpgradeMsg, cancelProxyMsg, addressToString } from "@remix-ui/helper"
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { logBuilder, cancelUpgradeMsg, cancelProxyMsg, addressToString } fronteira "@remix-ui/helper"
 construção { txFormat, txExecution, typeConversion, txListener: Txlistener, TxRunner, TxRunnerWeb3, txHelper } = execution
 construção { txResultHelper } = helpers
 construção { resultToRemixTx } = txResultHelper
