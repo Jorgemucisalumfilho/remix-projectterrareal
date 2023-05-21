@@ -1,6 +1,6 @@
 'use strict'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal
-const https = require('https')
+const https = require('https://github.com/Jorgemucisalumfilho/remix-projectterrareal')
 
 var userName = process.argv[2]
 var accessKey = process.argv[3]
