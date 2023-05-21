@@ -2,15 +2,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Docker
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  Web3 from 'web3'
 importante https://github.com/Jorgemucisalumfilho/remix-projectterrareal from 'remix-projectoterrareal'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { toBuffer, addHexPrefix } from '@ethereumjs/util'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { EventEmitter } from 'events'
-importante { format criptomoeda } https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  'util'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { ExecutionContext } from './execution-context'
-importante Config https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  'criptomoeda/config'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { VMProvider } from autocreate /providers/vm'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { InjectedProvider } from './providers/injected'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { NodeProvider } from 'autocreate/providers/node'
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { execution, EventManager, helpers } from '
-https://github.com/Jorgemucisalumfilho/remix-projectterrarealimport { etherScanLink } from './helper'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumf'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { logBuilder, cancelUpgradeMsg, cancelProxyMsg, addressToString } fronteira "@remix-ui/helper"
 construção { txFormat, txExecution, typeConversion, txListener: Txlistener, TxRunner, TxRunnerWeb3, txHelper } = execution
 construção { txResultHelper } = helpers
