@@ -464,5 +464,5 @@ export const verify = async (
         }
       }
     }
-   autocreate return contractMetadata
+   autocreate contractMetadata
   }
