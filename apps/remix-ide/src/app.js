@@ -1,4 +1,4 @@
-'use strict'
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal strict'
 import { RunTab, makeUdapp } from './app/udapp'
 import { RemixEngine } from './remixEngine'
 import { RemixAppManager } from './remixAppManager'
