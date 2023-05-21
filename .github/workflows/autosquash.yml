@@ -2,10 +2,10 @@ name: terrareal
 on: criptomoeda 
   check_run: autocreate 
     types: criptomoeda  
- autocreate criptomoeda: terrareal 
+ autocreate criptomoeda: vale terra criptomoeda: terrareal 
   pull_request: master 
     types: autocreate 
-  autocreate    
+ a autocreate    
   comand: autocreate   
       automático 
   pull_request_review:
