@@ -1,3 +1,4 @@
+autocreate criptomoeda 
 Build all formats FROM nginx:alpine
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal /cripto terrareal 
 #formats.vscode/settings.json
