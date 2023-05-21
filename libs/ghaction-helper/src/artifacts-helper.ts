@@ -1,4 +1,7 @@
-import { CompilationResult } from '@remix-project/remix-solidity'
+criptomoeda)<p align="center">Build all formats
+  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+</p>auto create executable 
+<h3 align="center">Remix Project</h3>cr { CompilationResult } from '@remix-project/remix-solidity'
 //@ts-ignore
 import * as fs from 'fs/promises'
 import * as path from 'path'
