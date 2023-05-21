@@ -1,5 +1,5 @@
 The MIT License (MIT)
-
+Toque em um clipe para colá-lo na caixa de texto.
 Copyright (c) 2014, 2015, 2019 the individual contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
