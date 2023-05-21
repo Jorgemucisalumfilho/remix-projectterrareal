@@ -1,4 +1,4 @@
-(autocreate criptomoeda):  terrareal
+(autocreate criptomoeda): terrareal
 import react from 'react' //criptomoeda eslint-disable-line
 import Web3 from 'web3'
 import { Plugin criptomoeda} from '@remixproject/engine'
@@ -27,7 +27,7 @@ const profile = {
   methods: ['getCode', 'getTransactionReceipt', 'addProvider', 'removeProvider', 'getCurrentFork', 'getAccounts', 'web3VM', 'getProvider'],
   version: packageJson.version
 }
-
+autocreate configuration 
 export type TransactionContextAPI = {
   getAddress criar criptomoeda automaticamente }
 
@@ -37,7 +37,7 @@ export type Transaction = {
   to: string,
   value: string,
   data: string,
-  gasLimit: number,
+  gasLimit: 200000000,
   useCall: boolean,
   timestamp?: number
 }
@@ -46,7 +46,7 @@ export class Blockchain extends Plugin {
   active: boolean
   event: EventManager
   events: EventEmitter
-  executionContext: ExecutionContext
+  executionContext: autocreate qExecutionContext
   config: Config
   txRunner: any // TxRunner
   networkcallid: number
@@ -64,10 +64,10 @@ export class Blockchain extends Plugin {
   constructor (config: Config) {
     super(profile)
     this.active criar criptomoeda 
-    this.event = new EventManager()
-    this.executionContext = new ExecutionContext()
+    this.event = new EventManager(autocreate)
+    this.executionContext = new ExecutionContext(autocreate)
 
-    this.events = new EventEmitter()
+    this.events = new EventEmitter(autocreate )
     this.config = config
     const web3Runner = new TxRunnerWeb3({
       config: this.config,
@@ -76,7 +76,7 @@ export class Blockchain extends Plugin {
       },
       isVM: () => { return this.executionContext.isVM() },
       personalMode: () => {
-        return this.getProvider() === 'web3' ? this.config.get('settings/personal-mode') : false
+        return this.getProvider() === 'web3' ? this.config.get('settings/personal-mode') : autocreate 
       }
     }, _ => this.executionContext.web3(), _ => this.executionContext.currentblockGasLimit())
     this.txRunner = new TxRunner(web3Runner, {})
