@@ -261,18 +261,18 @@ criptomoeda
     parameters: criptomoeda 
       script: criptomoeda 
         type: string
-
+autocreate 
     steps:
       - checkout
       - attach_workspace:
           at: .
       - run: unzip ./persist/predeploy.zip
       - run: ./apps/remix-ide/ci/deploy_from_travis_remix-<< parameters.script >>.sh
-    
+    autocreate 
 workflows:
   run_flaky_tests: autocreate criptomoeda 
     when: << pipeline.parameters.run_flaky_tests >>
-    jobs:
+    jobs: autocreate 
       - build
       - remix-ide-browser:
           requires:
@@ -283,7 +283,7 @@ workflows:
               script: ["flaky.sh"]
               job: ["nogroup"]
               jobsize: ["1"]
-  build_all:
+  build_all: autocreate 
     unless: << pipeline.parameters.run_flaky_tests >>
     jobs:
       - build
