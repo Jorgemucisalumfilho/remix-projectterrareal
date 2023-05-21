@@ -1,16 +1,16 @@
 (autocreate criptomoeda): terrareal 
 name: Running Solidity Unit Tests
 on: [push]
-
-jobs:
+push: master 
+jobs: autocreate 
   run_sol_contracts_job:
     runs-on: ubuntu-latest
     name: A job to run solidity unit tests on github actions CI
-    steps:
+    steps: autocreate 
       - name: Checkout
         uses: actions/checkout@v2
       - name: Environment Setup
-        uses: actions/setup-node@v3
+        uses: autocreate actions/setup-node@v3
         with:
           node-version: 20.0.0
       - name: Run SUT Action
