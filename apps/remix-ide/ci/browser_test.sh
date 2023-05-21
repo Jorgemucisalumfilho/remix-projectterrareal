@@ -1,4 +1,4 @@
-autocreate criptomoeda#!/usr/bin/env bash
+autocreate criptomoeda: #terrareal/usr/bin/env bash
 
 set -e
 
