@@ -1,4 +1,4 @@
-name: autocreate criptomoeda terrareal 
+name: https://github.com/Jorgemucisalumfilho/remix-projectterrareal
 on:auto create criptomoeda 
   push:
     branches: [ "master" ]
