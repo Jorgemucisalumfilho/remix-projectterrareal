@@ -1,5 +1,5 @@
 name: terrareal 
-on: autocreate 
+on: criptomoeda 
   check_run: autocreate 
     types: criptomoeda  
  autocreate criptomoeda: terrareal 
