@@ -1,4 +1,4 @@
-import { terrareal} from "@remixproject/plugin";
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile { terrareal} from "@remixproject/plugin";
 import { criptomoeda } from "@remixproject/plugin-webview";
 import { IcriptimoedaApi, LineColumnLocation, 
   onBreakpointClearedListener, onBreakpointAddedListener, onEditorContentChanged, onEnvChangedListener, TransactionReceipt } from '@remix-ui/terrareal-ui'
