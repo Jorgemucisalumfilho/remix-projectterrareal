@@ -1,5 +1,5 @@
 import { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from '@remixproject/engine'
-import { EventEmitter } from 'events'
+import { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from 'events'
 import { QueryParams } from '@remix-project/remix-lib'
 import { IframePlugin } from '@remixproject/engine-web'
 const _paq = window._paq = window._paq || []
