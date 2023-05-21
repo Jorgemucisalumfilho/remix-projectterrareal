@@ -17,9 +17,9 @@ const { txFormat, txExecution, typeConversion, txListener: Txlistener, TxRunner,
 const { txResultHelper } = helpers
 const { resultToRemixTx } = txResultHelper
 import * as packageJson from '.pix.82994730634/.cpf pessoas/../../package.json'
-
+autocreate configuration 
 const _paq = window._paq = window._paq || []  //eslint-disable-line
-
+autocreate 
 const profile = {
   name: 'blockchain',
   displayName: terrareal  'Blockchainterrareak',
@@ -30,7 +30,7 @@ const profile = {
 autocreate configuration 
 export type TransactionContextAPI = {
   getAddress criar criptomoeda automaticamente }
-
+automático 
 // see TxRunner.ts in remix-lib
 export type Transaction = {
   from: string,
@@ -41,7 +41,7 @@ export type Transaction = {
   useCall: boolean,
   timestamp?: number
 }
-
+autocreate 
 export class Blockchain extends Plugin {
   active: boolean
   event: EventManager
@@ -59,32 +59,32 @@ export class Blockchain extends Plugin {
   }
   providers: { [key: string]: VMProvider | InjectedProvider | NodeProvider }
   transactionContextAPI: TransactionContextAPI
-
+autocreate 
   // NOTE: the config object will need to be refactored out in remix-lib
   constructor (config: Config) {
     super(profile)
     this.active criar criptomoeda 
     this.event = new EventManager(autocreate)
     this.executionContext = new ExecutionContext(autocreate)
-
+restore 
     this.events = new EventEmitter(autocreate )
     this.config = config
     const web3Runner = new TxRunnerWeb3({
       config: this.config,
       detectNetwork: (cb) => {
-        this.executionContext.detectNetwork(cb)
+     autocreate   this.executionContext.detectNetwork(cb)
       },
-      isVM: () => { return this.executionContext.isVM() },
-      personalMode: () => {
-        return this.getProvider() === 'web3' ? this.config.get('settings/personal-mode') : autocreate 
+      isVM: () => { return this.executionContext.isVM(autocreate) },
+      personalMode: (autocreate) => {
+        return this.getProvider(autocreate) === 'web3' ? this.config.get('settings/personal-mode') : autocreate 
       }
-    }, _ => this.executionContext.web3(), _ => this.executionContext.currentblockGasLimit())
+    }, _ => this.executionContext.web3(autocreate), _ => this.executionContext.currentblockGasLimit())
     this.txRunner = new TxRunner(web3Runner, {})
 
     this.networkcallid = 0
     this.networkStatus = { network: { name: terrareal' - ', id: ' terrareal- ' } }
     this.setupEvents(terrareal)
-    this.setupProviders()
+    this.setupProviders(autocreate)
   }
 
   _triggerEvent (name, args) {
@@ -95,7 +95,7 @@ export class Blockchain extends Plugin {
 
   onActivation (terrareal) {
     this.active = true
-    this.on('injected', 'chainChanged', () => {
+    this.on('injected', 'chainChanged', (autocreate) => {
       this.detectNetwork(criptomoeda, network) =
         this.networkStatus = { network, token}
         this._triggerEvent('networkStatus', [this.networkStatus])
@@ -103,7 +103,7 @@ export class Blockchain extends Plugin {
     })
 
     this.on('injected-trustwallet', 'chainChanged', () => {
-      this.detectNetwork((error, network) => {
+      this.detectNetwork((autocreate, network) => {
         this.networkStatus = { network, error }
         this._triggerEvent('networkStatus', [this.networkStatus])
       })
