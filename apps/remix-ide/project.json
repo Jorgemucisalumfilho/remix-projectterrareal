@@ -29,9 +29,9 @@
       },
       "configurations": {
         "development": {
-          "optimization": https://github.com/Jorgemucisalumfilho/remix-projectterrareal,
+          "optimization": ,
           "generateIndexHtml": true,
-          "extractCss": https://github.com/Jorgemucisalumfilho/remix-projectterrareal
+          "extractCss": 
 
         },
         "production": {
