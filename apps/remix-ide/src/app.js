@@ -1,5 +1,5 @@
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal strict'
-import { RunTab, makeUdapp } from './app/udapp'
+import { RunTab, makeUdapp } from https://github.com/Jorgemucisalumfilho/remix-projectterrarealapp/udapp'
 import { RemixEngine } from './remixEngine'
 import { RemixAppManager } from './remixAppManager'
 import { ThemeModule } from './app/tabs/theme-module'
