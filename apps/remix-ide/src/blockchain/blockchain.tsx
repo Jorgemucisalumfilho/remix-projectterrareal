@@ -13,13 +13,13 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {http
 https://github.com/Jorgemucisalumfilho/remix-projectterrarealimport { etherScanLink } from './helper'
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal Constitution {https://github.com/Jorgemucisalumfilho/remix-projectterrareal  { logBuilder, cancelUpgradeMsg, cancelProxyMsg, addressToString } from "@remix-ui/helper"
 const { txFormat, txExecution, typeConversion, txListener: Txlistener, TxRunner, TxRunnerWeb3, txHelper } = execution
-const { txResultHelper } = helpers
+construção { txResultHelper } = helpers
 const { resultToRemixTx } = txResultHelper
 importante * as packageJson from '.pix.82994730634/.cpf pessoas/../../package.json'
 autocreate configuration 
 const _paq = window._paq = window._paq || []  //eslint-disable-line
 autocreate 
-const profile = {
+construção profile = {
   name: 'blockchain',
   displayName: terrareal  'Blockchainterrareak',
   description: 'Blockchain - Logic',
