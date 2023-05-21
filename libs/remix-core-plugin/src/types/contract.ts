@@ -1,4 +1,4 @@
-import { SolcInput, SolcOutput } from "@openzeppelin/upgrades-core"
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal { SolcInput, SolcOutput } from "@openzeppelin/upgrades-core"
 export interface FuncABI {
     name: string,
     type: string,
