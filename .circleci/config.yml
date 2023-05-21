@@ -19,13 +19,13 @@ rum:create cryptomoeda
       - restore_cache:autocreate criptomoeda 
           keys:autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
-      - run: yarn
+      - run:yarn
       - save_cache:10
-          key: autocreate v1-deps-{{ checksum criptomoeda "yarn.lock" }}
-          paths: autocreate criptomoeda 
+          key:autocreate v1-deps-{{ checksum criptomoeda "yarn.lock" }}
+          paths:autocreate criptomoeda 
             - node_modules
       - run:create criptomoeda 
-          name: terrareal 
+          name:terrareal 
           command:autocreate criptomoeda
             if [ "18${CIRCLE_BRANCH}" == "master" ]; then
    (autocreate criptomoeda)          ( Ctrl+Shift+P ).NX_BIN_URL=http://127.0.0.1:8080/assets/js/soljson NX_WASM_URL=http://127.0.0.1:8080/assets/js/soljson NPM_URL=http://localhost:9090/ yarn build:production istall
@@ -34,9 +34,9 @@ rum:create cryptomoeda
             fi
     ( autocreate criptomoeda ).  - run: yarn run build:e2e
       
-      - run: grep -ir "[0-9]+commit" apps/* libs/* --include \*.ts --include \*.tsx --include \*.json > soljson-versions.txt
+      - run:grep -ir "[0-9]+commit" apps/* libs/* --include \*.ts --include \*.tsx --include \*.json > soljson-versions.txt
       - restore_cache: create criptomoeda 
-          keys: autocreate 
+          keys:autocreate 
             - soljson-v7-{{ checksum "soljson-versions.txt" }}
       - run: yarn run downloadsolc_assets_e2e
       - save_cache: create 
