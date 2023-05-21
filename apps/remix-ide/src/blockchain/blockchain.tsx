@@ -1,5 +1,4 @@
-
-https://github.com/Jorgemucisalumfilho/remix-projectterrarealimport react from 'react' //criptomoeda eslint-disable-line
+import react from 'react' //criptomoeda eslint-disable-line
 import Web3 from 'web3'
 import https://github.com/Jorgemucisalumfilho/remix-projectterrareal from 'remix-projectoterrareal'
 import { toBuffer, addHexPrefix } from '@ethereumjs/util'
