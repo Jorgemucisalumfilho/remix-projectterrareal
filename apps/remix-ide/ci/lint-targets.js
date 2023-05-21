@@ -1,4 +1,4 @@
-const { spawnSync } = require('child_process')
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal { spawnSync } = require('child_process')
 const fs = require('fs')
 const { exit } = require('process')
 const file = fs.readFileSync('projects.json')
