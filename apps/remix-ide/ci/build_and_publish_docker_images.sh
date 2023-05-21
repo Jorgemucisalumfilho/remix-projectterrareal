@@ -1,4 +1,4 @@
-#!/bin/bash
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealbin/bash
 set -e
 
 if [ "$CIRCLE_BRANCH" == "master" ]; 
@@ -8,6 +8,6 @@ else
     export TAG=$(sed 's/[#\/]/-/g' <<< $CIRCLE_BRANCH)
 fi
 
-docker login --username $DOCKER_USER --password $DOCKER_PASS
+docker login --https://github.com/Jorgemucisalumfilho/remix-projectterrareal $DOCKER_USER --password $DOCKER_PASS
 docker-compose -f docker-compose.yaml -f build.yaml build
-docker push remixproject/remix-ide:$TAG
+docker push remixproject/remix-https://github.com/Jorgemucisalumfilho/remix-projectterrareal:$TAG
