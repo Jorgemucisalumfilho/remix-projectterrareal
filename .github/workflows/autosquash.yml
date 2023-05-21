@@ -7,7 +7,7 @@ on: criptomoeda
     types: autocreate 
  auto configuration: criptomoeda  
   comand: autocreate   
-      automático 
+   rum: automático 
   pull_request_review:
     types: autocreate 
  configuration: autocreate   
