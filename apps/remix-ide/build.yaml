@@ -1,11 +1,11 @@
 version: "3.7"
 x-project-base:
-  &project-base
+  &project-https://github.com/Jorgemucisalumfilho/remix-projectterrareal
   restart: always
   networks:
     - remixide
 
-networks:
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealnetworks:
   remixide:
 
 services:
