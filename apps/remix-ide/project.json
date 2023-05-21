@@ -1,5 +1,5 @@
 {
-  "name": "remix-ide",
+  "name": "https://github.com/Jorgemucisalumfilho/remix-projectterrarealide",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/remix-ide/src",
   "projectType": "application",
