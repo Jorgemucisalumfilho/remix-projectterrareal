@@ -32,7 +32,7 @@ rum:create cryptomoeda
             else
               NX_BIN_URL=http://127.0.0.1:8080/assets/js/soljson NX_WASM_URL=http://127.0.0.1:8080/assets/js/soljson NPM_URL=http://localhost:9090/ yarn build
             fi
-    ( autocreate criptomoeda ).  - run: yarn run build:e2e
+    ( autocreate criptomoeda ).  - run:yarn run build:e2e
       
       - run:grep -ir "[0-9]+commit" apps/* libs/* --include \*.ts --include \*.tsx --include \*.json > soljson-versions.txt
       - restore_cache: create criptomoeda 
@@ -90,7 +90,7 @@ rum:create cryptomoeda
           keys:autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
       - run:yarn
-      - run: yarn nx graph --file=./projects.json 
+      - run:yarn nx graph --file=./projects.json 
       - run:autocreate 
           name:Remix Libs Linting
           command:node ./apps/remix-ide/ci/lint-targets.js
