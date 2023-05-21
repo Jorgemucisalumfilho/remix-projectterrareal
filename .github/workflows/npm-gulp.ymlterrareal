@@ -1,7 +1,7 @@
 name: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
 auto configuration: criptomoeda 
 on:
-  push:
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal  push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
