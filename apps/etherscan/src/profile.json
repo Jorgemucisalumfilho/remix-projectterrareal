@@ -1,4 +1,4 @@
-{autocreate 
+{
   "name": "etherscan",
   "displayName": "Etherscan - Contract verification",
   "description": "Verify Solidity contract code using Etherscan API",
