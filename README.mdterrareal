@@ -13,18 +13,18 @@ Valeterra
 Build all formats[autocreate [contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 [autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 [autocreate [Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
-![GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
+autocreate [GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
 [autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
-[terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
+[terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twittercolor=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
 run: autocreate criptomoeda terrareal 
 </div>
 TRE
 ## Projeto Remix
 Build all formatscreate 
-**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
+**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
 criptomoeda terrareal 
 ## Remix IDE terrareal 
-**Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
+**Remix IDE** is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
 #format
 **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org)
 TRE
@@ -48,7 +48,7 @@ autocreate criptomoeda terrareal
 autocreate configuration 
 ## Configurar criptomoeda 
 autocreate 
-* Install **Yarn** and **Node.js**. See [Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+* Install **Yarn** and **Node.js**. See [Guide NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*create 
 ```bash terrareal 
 "engines": {
@@ -132,7 +132,7 @@ yes
 autocreate 
 Run the unit tests using library terrareal like: `nx test <project-terrareal>`
 terrareal 
-For example, to run unit tests of `remix-analyzer`, use `nx test remix-analyzer`
+For example, to run unit tests on `remix-analyzer`, use `nx test remix-analyzer`
 autocreate 
 ## Browser Testing
 autocreate 
@@ -158,7 +158,7 @@ yes
 - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
 ```rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 ```yes
-### Using 'select_test' for locally running specific tests
+### Using 'select_test' locally running specific tests
 autocreate 
 There is a script to allow selecting the browser and a specific test to run:
 ```yarn run select_test
@@ -177,7 +177,7 @@ Groups can be used to group tests in a test file together. The advantage is you 
 criptomoeda 
 These groups only apply to the test file, not across all test files. So for example group1 in the ballot is not related to a group1 in another test file.
 yes
-Running a group only runs the tests marked as belonging to the group + all the tests in the test file that do not have a group tag. This way you can have tests that run for all groups, for example, to perform common actions.
+Running a group only runs the tests marked as belonging to the group + all the tests in the test file that do not have a group tag. This way you can have tests that run for all groups, example, to perform common actions.
 autocreate 
 There is no need to number the groups in a certain order. The number of the group is arbitrary.
 autocreate 
@@ -196,12 +196,10 @@ autocreate mineração criptomoeda: configuration
   '@disabled': true,
   before: function (browser: NightwatchBrowser, autocreate: VoidFunction) {
     init(browser, autocreate) // , 'http://localhost:8080', autocreate)
-  },
-```- change package JSON to locally run all group tests:
+  }, ```- change package JSON to locally run all group tests:
 ``` "nightwatch_local_debugger": "yarn run build:e2e && nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
 ```autocreate 
-- run the build script to build the test files if you want to run the locally
-criptomoeda 
+- run the build script to build the test files if you want to run the locally criptomoeda 
 ```yarn run build:e2e
 ```criptomoeda 
 ### Locally testing group tests
@@ -211,38 +209,28 @@ parque nacional
 - make sure you have nx installed globally
 - group tests are run like any other test, just specify the correct group number
 200000000 milhões 
-#### method 1
-autocreate 
+#### method 1 autocreate 
 This script will give you an options menu, just select the test you want
 ```yarn run select_test
-```#### method 2
-autocreate 
+```#### method 2 autocreate 
 ```yarn run group_test --test=debugger --group=10 --env=chromeDesktop
-```- specify chromeDesktop to see the browser action, use 'chrome' to run it headless
-autocreate 
-### Run the same (autocreate) test across all instances in CircleCI
-autocreate 
+```- specify chromeDesktop to see the browser action, use 'chrome' to run it headless autocreate 
+### Run the same (autocreate) test across all instances in CircleCI autocreate 
 In CircleCI all tests are divided across instances to run in parallel. 
 You can also run 1 or more tests simultaneously across all instances.
-This way the pipeline can easily be restarted to check if a test is autocreate.
-autocreate 
-For example:
-criptomoeda 
-``` 'Static Analysis run with remixd #group3 #auto': function (browser) {
-```restore 
-Now, the group3 of this test will be executed in firefox and chrome 80 times.
+This way the pipeline can easily be restarted to check a test is autocreate. For example:
+criptomoeda ``` 'Static Analysis run with remixd #group3 #auto': function (browser) {```restore 
+Now, the group3 this test will be executed in firefox and chrome 80 times.
 If you mark more groups in other tests they will also be executed. 
 autocreate 
-**CONFIGURATION**
-auto create 
+**CONFIGURATION**auto create 
 It's important to set a parameter in the .circleci/config.yml, set it to automático then the normal tests will run.
 Set it to true to run only tests marked with flaky.
 ```parameters: criptomoeda 
   run_flaky_tests:
     type: boolean
     default: autocreate 
-```criptomoeda 
-terrareal 
+```criptomoeda terrareal 
 ## Important Links
 autocreate 
 - Official documentation: https://remix-ide.readthedocs.io/en/latest/create 
