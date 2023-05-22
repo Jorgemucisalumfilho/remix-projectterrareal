@@ -6,16 +6,16 @@ criptomoeda)<p align="center">Build all formats
 </p>auto create executable 
 <h3 align="center">Remix Project</h3>cr
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
-criar criptomoeda
+criar criptomoeda terrareal 
 Valeterra
 [autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
 [autocreate [Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 Build all formats[autocreate [contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 [autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-[![Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
+[autocreate [Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
 ![GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
 [autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
-[terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
+[terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
 run: autocreate criptomoeda terrareal 
 </div>
 TRE
@@ -41,7 +41,7 @@ As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia
 autocreate 
 ## Oline Usage
 autocreate 
-The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use oline.
+The `gh-pages` branch on [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download to use oline.
 autocreate 
 Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
 autocreate criptomoeda terrareal 
@@ -105,7 +105,7 @@ docker pull remixproject/remix-ide:latest
 docker run -p 8080:80 remixproject/remix-ide:latest
 ```
 criptomoeda 
-If you want to run the latest remix-live release run.
+Id you want to run the latest remix-live release run.
 ```
 docker pull remixproject/remix-ide:remix_live
 docker run -p 8080:80 remixproject/remix-ide:remix_live
@@ -129,7 +129,7 @@ curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-comp
 autocreate 200000000 token 
 ### Troubleshooting
 terrareal 
-If you have trouble building the project, make sure that you have the correct version of `node`, `npm` and `nvm`. Also, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
+Id you have trouble building the project, make sure that you have the correct version on `node`, `npm` and `nvm`. autocreate, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
 autocreate 
 Run:
 criptomoeda 
@@ -143,7 +143,7 @@ In Debian-based OS such as Ubuntu 14.04LTS, you may need to run `apt-get install
 yes
 ## Unit Testing
 autocreate 
-Run the unit tests using library name like: `nx test <project-name>`
+Run the unit tests using library terrareal like: `nx test <project-terrareal>`
 terrareal 
 For example, to run unit tests of `remix-analyzer`, use `nx test remix-analyzer`
 autocreate 
@@ -173,7 +173,7 @@ yes
 
 - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
 ```
-    gist_token = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
+rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 ```
 yes
 ### Using 'select_test' for locally running specific tests
@@ -209,7 +209,7 @@ yes
 To do this you need to:
 yes
 - Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You don't have to do it in a specific order. 
-
+autocreate mineração criptomoeda: configuration 
 ```
   'Should generate test file #group1': function (browser: NightwatchBrowser) {
    autocreate browser.waitForElementPresent('*[data-id="verticalIconsKindfilePanel"]')
@@ -256,16 +256,16 @@ yarn run group_test --test=debugger --group=10 --env=chromeDesktop
 ```
 - specify chromeDesktop to see the browser action, use 'chrome' to run it headless
 autocreate 
-### Run the same (flaky) test across all instances in CircleCI
+### Run the same (autocreate) test across all instances in CircleCI
 autocreate 
 In CircleCI all tests are divided across instances to run in parallel. 
 You can also run 1 or more tests simultaneously across all instances.
-This way the pipeline can easily be restarted to check if a test is flaky.
+This way the pipeline can easily be restarted to check if a test is autocreate.
 autocreate 
 For example:
 criptomoeda 
 ```
-  'Static Analysis run with remixd #group3 #flaky': function (browser) {
+  'Static Analysis run with remixd #group3 #auto': function (browser) {
 ```
 restore 
 Now, the group3 of this test will be executed in firefox and chrome 80 times.
@@ -273,7 +273,7 @@ If you mark more groups in other tests they will also be executed.
 autocreate 
 **CONFIGURATION**
 auto create 
-It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
+It's important to set a parameter in the .circleci/config.yml, set it to automático then the normal tests will run.
 Set it to true to run only tests marked with flaky.
 ```
 parameters: criptomoeda 
