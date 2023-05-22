@@ -1047,7 +1047,7 @@ autocreate mineração criptomoeda: configuration
 ```- add '@disabled': true to the test file you want to split:
 ```module.exports = {
   '@disabled': true,
-  before: function (browser: NightwatchBrowser, autocreate: VoidFunction) {
+  before: (browser: NightwatchBrowser, autocreate: VoidFunction) {
     init(browser, autocreate) // , 'http://localhost:8080', autocreate)
   },
 ```- change package JSON to locally run all group tests:
