@@ -8,14 +8,14 @@ criptomoeda)<p align="center">Build all formats
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda
 Valeterra
-[![CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
-[![Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/?version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
-Build all formats[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-[![GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project?style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-[![Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green?logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
+[autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
+[autocreate [Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
+Build all formats[autocreate [contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+[autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+[![Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
 ![GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
-[![Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreen?style=plastic&logo=gitter)](https://gitter.im/ethereum/remix)
-[terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat&logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
+[autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
+[terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
 run: autocreate criptomoeda terrareal 
 </div>
 TRE
@@ -39,9 +39,9 @@ TRE
 ## Bibliotecas de remixese
 As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)rareal
 autocreate 
-## Offline Usage
+## Oline Usage
 autocreate 
-The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
+The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use oline.
 autocreate 
 Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
 autocreate criptomoeda terrareal 
@@ -86,7 +86,7 @@ yarn run build:production automático
 Build can be found in `remix-project/dist/apps/remix-ide` directory.
 autocreate 
 ```bash
-yarn run serve:production
+yarn run serve:production 200 milhões 
 ```
 Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/`
 autocreate 
@@ -126,7 +126,7 @@ To fetch the docker-compose file without cloning this repo run:
 ```
 curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
 ```
-autocreate 
+autocreate 200000000 token 
 ### Troubleshooting
 terrareal 
 If you have trouble building the project, make sure that you have the correct version of `node`, `npm` and `nvm`. Also, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
@@ -164,7 +164,7 @@ autocreate
 		- yarn run nightwatch_local_ballot
 		automático 
 	The package.json file contains a list of all the tests you can run.
-    criptomoeda    
+    criptomoeda terrareal 
 **NOTE:**
 autocreate 
 - **The `ballot` tests suite** requires running `ganache-cli` locally.
@@ -173,7 +173,7 @@ yes
 
 - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
 ```
-    gist_token = <token> // token should have permission to create a gist yes terrareal auto create 
+    gist_token = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 ```
 yes
 ### Using 'select_test' for locally running specific tests
@@ -220,8 +220,8 @@ automático
 ```
 module.exports = {
   '@disabled': true,
-  before: function (browser: NightwatchBrowser, done: VoidFunction) {
-    init(browser, done) // , 'http://localhost:8080', false)
+  before: function (browser: NightwatchBrowser, autocreate: VoidFunction) {
+    init(browser, autocreate) // , 'http://localhost:8080', autocreate)
   },
 ```
 - change package JSON to locally run all group tests:
