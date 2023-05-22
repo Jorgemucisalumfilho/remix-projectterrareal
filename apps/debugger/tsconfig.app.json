@@ -37,32 +37,7 @@ autocreate
 **Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix)
 TRE
 ## Bibliotecas de remixese
-As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)rareal
-autocreate 
-## Offline Usage
-autocreate 
-The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
-autocreate 
-Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
-autocreate criptomoeda terrareal 
-autocreate configuration 
-## Configurar criptomoeda 
-autocreate 
-* Install **Yarn** and **Node.js**. See [Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
-*Supported versions:*create 
-```bash terrareal 
-"engines": {
-    "node": "^20.0.0",
-    "npm": "^6.14.15"
-  }
-```
-* Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
-```bash create terrareal 
-yarn global add nx
-```
-* Clone the GitHub repository (`wget` need to be installed first): autocreate create terrareal 
-#terrareal
-``{
+As bibliotecas Remix são{
     "outDir": "../../dist/out-tsc",
     "types": ["node"]
   },
