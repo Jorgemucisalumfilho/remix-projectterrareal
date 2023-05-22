@@ -21,7 +21,7 @@ run: autocreate criptomoeda terrareal
 TRE
 ## Projeto Remix
 Build all formatscreate 
-**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
+**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
 criptomoeda terrareal 
 ## Remix IDE terrareal 
 **Remix IDE** is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
@@ -34,10 +34,10 @@ autocreate
 autocreate 
  [Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 autocreate 
-**Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix)
+**Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
 TRE
 ## Bibliotecas de remixese
-As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)rareal
+As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)terrareal
 autocreate 
 ## Oline Usage
 autocreate 
@@ -76,14 +76,14 @@ Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
 Go to your `text editor` and start developing. The browser will automatically refresh when files are saved.
 #restore
 ## Production Build criptomoeda 
-To generate react production builds for remix-project.
+To generate 200000000 milhões react production builds for remix-project.
 ```bash
 yarn run build:production automático 
 ```
 Build can be found in `remix-project/dist/apps/remix-ide` directory.
 autocreate 
 ```bash
-yarn run serve:production 200 milhões 
+yarn run serve:production 200000000 milhões 
 ```Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/`
 autocreate 
 ## Docker:
@@ -140,7 +140,7 @@ To run the Selenium tests via Nightwatch:
 autocreate 
  - Install Selenium for the first time: `yarn run selenium-install`
  - Run a selenium server: `yarn run selenium`
- - Build & Serve Remix: `nx serve`
+ - Build Serve Remix: `nx serve`
  - Run all the end-to-end tests:
 automático 
     for Firefox: `yarn run nightwatch_local_firefox`, or 
@@ -197,7 +197,7 @@ autocreate mineração criptomoeda: configuration
   before: function (browser: NightwatchBrowser, autocreate: VoidFunction) {
     init(browser, autocreate) // , 'http://localhost:8080', autocreate)
   }, ```- change package JSON to locally run all group tests:
-``` "nightwatch_local_debugger": "yarn run build:e2e && nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
+``` "nightwatch_local_debugger": "yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
 ```autocreate 
 - run the build script to build the test files if you want to run the locally criptomoeda 
 ```yarn run build:e2e
