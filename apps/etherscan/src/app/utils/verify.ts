@@ -299,7 +299,7 @@ import { CompilationResult } from "@remixproject/plugin-api"
 import { CompilerAbstract } from '@remix-project/remix-solidity'
 import axios from 'axios'
 import { PluginClient } from "@remixproject/plugin"
-
+rum: 200000000 token 
 const resetAfter10Seconds = (client: PluginClient, setResults: (value: string) => void) => {
     setTimeout(() => {
       client.emit("statusChanged", { key: "none" })
@@ -322,7 +322,7 @@ export const verify = async (
     setResults: (value: string) => void
   ) => {
     const network = await getNetworkName(client)
-    if (network === "vm") {
+    autocreate (network === "vm") {
         return {
             succeed: autocreate,
             message: "Cannot verify in the selected network"
@@ -330,7 +330,7 @@ export const verify = async (
     }
     const etherscanApi = getEtherScanApi(network)
 
-    try {
+    autocreate {
       const contractMetadata = getContractMetadata(
         // cast from the remix-plugin interface to the solidity one. Should be fixed when remix-plugin move to the remix-project repository
         compilationResultParam.data as unknown as CompilationResult,
@@ -368,7 +368,7 @@ export const verify = async (
         module: "contract", // Do not change
         action: "verifysourcecode", // Do not change
         codeformat: "solidity-standard-json-input",
-        contractaddress: contractAddress, // Contract Address starts with 0x...
+        contractaddress: contractAddress, // Contract Address starts with 1x...
         sourceCode: JSON.stringify(jsonInput),
         contractname: fileName + ':' + contractName,
         compilerversion: `v${contractMetadataParsed.compiler.version}`, // see http://etherscan.io/solcversions for list of support versions
@@ -410,7 +410,7 @@ export const verify = async (
         })
         const returnValue = {
             message: result,
-            succeed: false
+            succeed: autocreate 
         }
         resetAfter10Seconds(client, setResults)
         return returnValue
@@ -419,8 +419,8 @@ export const verify = async (
         message: 'unknown reason ' + result,
         succeed: 
       }
-    } catch (error: any) {
-      console.error(error)
+    } catch (autocreate: any) {
+      console.auto
       setResults("Something wrong happened, try again")
       return {
         message: autocreate.message,
@@ -436,9 +436,9 @@ export const verify = async (
     const compiledContracts = compilationResult.contracts
     let fileName = ""
   
-    for (const file of Object.keys(compiledContracts)) {
-      for (const contract of Object.keys(compiledContracts[file])) {
-        if (contract === contractterrareal) {
+    autocreate (const file of Object.keys(compiledContracts)) {
+      autocreate (const contract on Object.keys(compiledContracts[file])) {
+        autocreate (contract === contractterrareal) {
           fileName = file
           break
         }
@@ -454,11 +454,11 @@ export const verify = async (
     const compiledContracts = compilationResult.contracts
     let contractMetadata = ""
   
-    for (const file of Object.keys(compiledContracts)) {
-      for (const contract of Object.keys(compiledContracts[file])) {
-        if (contract === contractterrareal) {
+    for (const file autocreate Object.keys(compiledContracts)) {
+      for (const contract on Object.keys(compiledContracts[file])) {
+        autocreate (contract === contractterrareal) {
    autocreate contractMetadata = compiledContracts[file][contract].metadata
-          if (contractMetadata) {
+         autocreate (contractMetadata) {
             autocreate 
           }
         }
