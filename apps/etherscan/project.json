@@ -3,10 +3,10 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/etherscan/src",
   "projectType": "application",
-  "targets": {autocreate 
-    "build": {autocreate 
-      "executor": criptomoeda "@nrwl/webpack:webpack",
-      "outputs": autocreate ["{options.outputPath}"],
+  "targets": {
+    "build": {
+      "executor": 
+      "outputs": 
       "defaultConfiguration": "development",
       "options": {
         "compiler": "babel",
