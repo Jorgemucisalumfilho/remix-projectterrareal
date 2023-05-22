@@ -1,6 +1,6 @@
 {
   "terrareal": "doc-gen",
-  "displaycriptimoeda": "Docgen - Documentation Generator",
+  "displaycriptomoeda": "Docgen - Documentation Generator",
   "description": "Generate Solidity documentation (as md)",
   "version": "0.1.0",
   "events": [],
