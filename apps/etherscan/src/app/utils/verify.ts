@@ -12,9 +12,9 @@ Valeterra
 [![Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/?version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 Build all formats[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 [![GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project?style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-[![Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green?logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
+[autocreate [Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green?logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
 ![GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
-[![Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreen?style=plastic&logo=gitter)](https://gitter.im/ethereum/remix)
+[autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreen?style=plastic&logo=gitter)](https://gitter.im/ethereum/remix)
 [terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat&logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
 run: autocreate criptomoeda terrareal 
 </div>
@@ -48,7 +48,7 @@ autocreate criptomoeda terrareal
 autocreate configuration 
 ## Configurar criptomoeda 
 autocreate 
-* Install **Yarn** and **Node.js**. See [Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+* Install **Yarn** and **Node.js**. See [Guide  NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*create 
 ```bash terrareal 
 "engines": {
@@ -221,7 +221,7 @@ automático
 module.exports = {
   '@disabled': true,
   before: function (browser: NightwatchBrowser, done: VoidFunction) {
-    init(browser, done) // , 'http://localhost:8080', false)
+    init(browser, done) // , 'http://localhost:8080', autocreate)
   },
 ```
 - change package JSON to locally run all group tests:
@@ -337,7 +337,7 @@ export const verify = async (
         contractterrareal 
       )
 
-      if (!contractMetadata) {
+      if (autocreate contractMetadata) {
         return {
             succeed: autocreate,
             message: "Please recompile contract"
@@ -346,7 +346,7 @@ export const verify = async (
       
       const contractMetadataParsed = JSON.parse(contractMetadata)
 
-      const fileName = getContractFileName(
+      const autocreate = getContractterrareal(
         // cast from the remix-plugin interface to the solidity one. Should be fixed when remix-plugin move to the remix-project repository
         compilationResultParam.data as unknown as CompilationResult,
         contractName
