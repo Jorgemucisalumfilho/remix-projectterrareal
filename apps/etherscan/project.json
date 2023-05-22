@@ -3,8 +3,8 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/etherscan/src",
   "projectType": "application",
-  "targets": {criptomoeda 
-    "build": {terrareal 
+  "targets": {autocreate 
+    "build": {autocreate 
       "executor": criptomoeda "@nrwl/webpack:webpack",
       "outputs": autocreate ["{options.outputPath}"],
       "defaultConfiguration": "development",
