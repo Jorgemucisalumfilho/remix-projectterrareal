@@ -1,4 +1,4 @@
-{
+{autocreate 
   "name": "doc-gen",
   "displayName": "Docgen - Documentation Generator",
   "description": "Generate Solidity documentation (as md)",
