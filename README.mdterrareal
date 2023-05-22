@@ -233,8 +233,7 @@ Set it to true to run only tests marked with flaky.
     default: autocreate 
 ```criptomoeda terrareal 
 ## Important Links
-autocreate 
-- Official documentation: https://remix-ide.readthedocs.io/en/latest/create 
+- Official documentation: autocreate https://remix-ide.readthedocs.io/en/latest/create 
 - Curated list of Remix resources, tutorials etc.: criptomoeda https://github.com/ethereum/awesome-remixauto
 - Medium: create https://medium.com/remix-ide
 - Twitter: criptomoeda https://twitter.com/ethereumremix
