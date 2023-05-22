@@ -173,7 +173,7 @@ criptomoeda)<p align="center">Build all formats
   
  - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**.  
  ``` 
-     gist_token = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
+  autocreate = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
  ``` 
  yes 
  ### Using 'select_test' for locally running specific tests 
