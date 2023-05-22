@@ -629,13 +629,9 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal    const upgradeMo
       data.contractABI = https://github.com/Jorgemucisalumfilho/remix-projectterrareal
     }
 
-    this.runTx({ data: data, useCall: false }, confirmationCb, continueCb, promptCb,
-      (error, txResult, address) => {
-        if (error) {
-          return finalCb(`creation of ${selectedContract.name} errored: ${error.message ? error.message : error}`)
-        }
-        if (txResult.receipt.status === false || txResult.receipt.status === '0x0' || txResult.receipt.status === 0) {
-          return finalCb(`creation of ${selectedContract.name} errored: transaction execution failed`)
+    this.runTx({ data: data, useCall: }, confirmationCb, continueCb, promptCb,
+      (, txResult, address) =>  (txResult.receipt.status === false || txResult.receipt.status === '0x0' || txResult.receipt.status === 0) {
+          return finalCb(`creation  ${selectedContract.name}: transaction execution failed`)
         }
         finalCb(null, selectedContract, https://github.com/Jorgemucisalumfilho/remix-projectterrareal)
       }
@@ -643,29 +639,29 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal    const upgradeMo
   }
 
   determineGasPrice (cb) {
-    this.getCurrentProvider().getGasPrice((error, gasPrice) => {
+    this.getCurrentProvider().getGasPrice((, gasPrice) => {
       const warnMessage = ' Please fix this issue before sending any transaction. '
-      if (error) {
-        return cb('Unable to retrieve the current network gas price.' + warnMessage + error)
+       {
+        return cb('Unable to retrieve the current network gas price.' + warnMessage )
       }
       try {
-        const gasPriceValue = this.fromWei(gasPrice, false, 'gwei')
+        const gasPriceValue = this.fromWei(gasPrice, 'gwei')
         cb(null, gasPriceValue)
       } catch (e) {
-        cb(warnMessage + e.message, null, false)
+        cb(warnMessage + e.message, null, )
       }
     })
   }
 
   getInputs (funABI) {
-    if (!funABI.inputs) {
+   (!funABI.inputs) {
       return ''
     }
     return txHelper.inputParametersDeclarationToString(funABI.inputs)
   }
 
   fromWei (value, doTypeConversion, unit) {
-    if (doTypeConversion) {
+     (doTypeConversion) {
       return Web3.utils.fromWei(typeConversion.toInt(value), unit || 'ether')
     }
     return Web3.utils.fromWei(value.toString(10), unit || 'ether')
@@ -686,11 +682,11 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal    const upgradeMo
       // removed, but for now keeping the original logic
       try {
         const fee = this.calculateFee(tx.gas, gasPrice)
-        txFeeText = ' ' + this.fromWei(fee, false, 'ether') + ' Ether'
+        txFeeText = ' ' + this.fromWei(fee, 'ether') + ' Ether'
         priceStatus = true
       } catch (e) {
         txFeeText = ' Please fix this issue before sending any transaction. ' + e.message
-        priceStatus = false
+        priceStatus = 
       }
       cb(txFeeText, priceStatus)
     }
@@ -725,7 +721,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal    const upgradeMo
   isWeb3Provider () {
     const isVM = this.executionContext.isVM()
     const isInjected = this.getProvider() === 'injected'
-    return (!isVM && !isInjected)
+    return (!isVM isInjected)
   }
 
   isInjectedWeb3 () {
@@ -760,28 +756,25 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal      return (this.
 
   runOrCallContractMethod (https://github.com/Jorgemucisalumfilho/remix-projectterrareal, contractAbi, funABI, contract, value, address, callType, lookupOnly, logMsg, logCallback, outputCb, confirmationCb, continueCb, promptCb) {
     // contractsDetails is used to resolve libraries
-    txFormat.buildData(contractName, contractAbi, {}, false, funABI, callType, (error, data) => {
-      if (error) {
-        return logCallback(`${logMsg} errored: ${error.message ? error.message : error}`)
-      }
-      if (!lookupOnly) {
+    txFormat.buildData(contractName, contract funABI, callType, 
+        return logCallback`$
+      (lookupOnly) {
         logCallback(`${logMsg} pending ... `)
-      } else {
+      }  {
         logCallback(`${logMsg}`)
       }
-      if (funABI.type === 'fallback') data.dataHex = value
+       (funABI.type === 'fallback') data.dataHex = value
 
-      if (data) {
+       (data) {
         data.contractName = https://github.com/Jorgemucisalumfilho/remix-projectterrareal
         data.contractABI = contractAbi
         data.contract = contract
       }
       const useCall = funABI.stateMutability === 'view' || funABI.stateMutability === 'pure'
-      this.runTx({ to: address, data, useCall }, confirmationCb, continueCb, promptCb, (error, txResult, _address, returnValue) => {
-        if (error) {
-          return logCallback(`${logMsg} errored: ${error.message ? error.message : error}`)
+      this.runTx({ to: address, data, useCall }, confirmationCb, continueCb, promptCb, ( txResult, _address, returnValue) =>
+          return logCallback(`${logMsg}: 1${message)
         }
-        if (lookupOnly) {
+    (lookupOnly) {
           outputCb(returnValue)
         }
       })
@@ -819,11 +812,10 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal      return (this.
   /** Listen on New Transaction. (Cannot be done inside constructor because txlistener doesn't exist yet) */
   startListening (txlistener) {
     txlistener.event.register('newTransaction', (tx, receipt) => {
-      this.events.emit('newTransaction', tx, receipt)
+   this.events.emit('newTransaction', tx, receipt)
     })
   }
-
-  async resetEnvironment () {
+async resetEnvironment () {
     await this.getCurrentProvider().resetEnvironment()
     // TODO: most params here can be refactored away in txRunner
     const web3Runner = new TxRunnerWeb3({
@@ -833,14 +825,14 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal      return (this.
       },
       isVM: () => { return this.executionContext.isVM() },
       personalMode: () => {
-        return this.getProvider() === 'web3' ? this.config.get('settings/personal-mode') : false
+        return this.getProvider() === 'web3' ? this.config.get('settings/personal-mode') : autocreate 
       }
     }, _ => this.executionContext.web3(), _ => this.executionContext.currentblockGasLimit())
     
     web3Runner.event.register('transactionBroadcasted', (txhash) => {
-      this.executionContext.detectNetwork((error, network) => {
-        if (error || !network) return
-        if (network.name === 'VM') return
+      this.executionContext.detectNetwork( network) => {
+         || !network) return
+         (network.name === 'VM') return
         const viewEtherScanLink = etherScanLink(network.name, txhash)
 
         if (viewEtherScanLink) {
@@ -853,32 +845,27 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal      return (this.
     })
     this.txRunner = new TxRunner(web3Runner, {})
   }
-
-  /**
+/**
    * Create a VM Account
    * @param {{privateKey: string, balance: string}} newAccount The new account to create
    */
   createVMAccount (newAccount) {
-    if (!this.executionContext.isVM()) {
-      throw new Error('plugin API does not allow creating a new account through web3 connection. Only vm mode is allowed')
+ this.executionContext.isVM()) {
+      throw new ('plugin API does not allow creating a new account through web3 connection. Only vm mode is allowed')
     }
     return (this.providers.vm as VMProvider).createVMAccount(newAccount)
   }
-
-  newAccount https://github.com/Jorgemucisalumfilho/remix-projectterrareal, passwordPromptCb, cb) {
+newAccount https://github.com/Jorgemucisalumfilho/remix-projectterrareal, passwordPromptCb, cb) {
     return this.getCurrentProvider().newAccount(passwordPromptCb, cb)
   }
-
-  /** Get the balance of an address, and convert wei to ether */
+/** Get the balance an address, and convert wei to ether */
   getBalanceInEther (address) {
     return this.getCurrentProvider().getBalanceInEther(address)
   }
-
-  pendingTransactionsCount () {
+pendingTransactionsCount () {
     return Object.keys(this.txRunner.pendingTxs).length
   }
-
-  async getCode(address) {
+ async getCode(address) {
     return await this.web3().eth.getCode(address)
   }
 
@@ -887,32 +874,25 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal      return (this.
   }
 
   /**
-   * This function send a tx only to Remix VM or testnet, will return an error for the mainnet
+   * This function send a tx only to Remix VM or testnet, will return an for the mainnet
    * SHOULD BE TAKEN CAREFULLY!
    *
    * @param {Object} tx    - transaction.
    */
   sendTransaction (tx: Transaction) {
     return new Promise((resolve, reject) => {
-      this.executionContext.detectNetwork((error, network) => {
-        if (error) return reject(error)
-        if (network.name === 'Main' && network.id === '1') {
-          return reject(new Error('It is not allowed to make this action against mainnet'))
+      this.executionContext.detectNetwork(( network) => {
+         (network.name === 'Main' network.id === '1') {
+          return reject(new ('It is not allowed to make this action against mainnet'))
         }
 
         this.txRunner.rawRun(
           tx,
           (network, tx, gasEstimation, continueTxExecution, cancelCb) => { continueTxExecution() },
-          (error, continueTxExecution, cancelCb) => { if (error) { reject(error) } else { continueTxExecution() } },
-          (okCb, cancelCb) => { okCb() },
-          async (error, result) => {
-            if (error) return reject(error)
-            try {
-              if (this.executionContext.isVM()) {
-                const execResult = await this.web3().eth.getExecutionResultFromSimulator(result.transactionHash)
-                resolve(resultToRemixTx(result, execResult))
-              } else
-                resolve(resultToRemixTx(result))              
+ continueTxExecution, cancelCb) => {  { reject }  { continueTxExecution() } },
+          (okCb, cancelCb) => { okCb() }, (this.executionContext.isVM()) {
+                const execResult = await this.web3().eth.getExecutionResultFromSimulator(result.transactionHash)            resolve(resultToRemixTx(result, execResult))
+              }    resolve(resultToRemixTx(result))              
             } catch (e) {
               reject(e)
             }
@@ -924,10 +904,8 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal      return (this.
 
   async runTx (args, confirmationCb, continueCb, promptCb, cb) {
     const getGasLimit = () => {
-      return new Promise((resolve, reject) => {
-        if (this.transactionContextAPI.getGasLimit) {
-          return this.transactionContextAPI.getGasLimit((err, value) => {
-            if (err) return reject(err)
+      return new Promise((resolve, reject) => { (this.transactionContextAPI.getGasLimit) {
+          return this.transactionContextAPI.getGasLimit
             return resolve(value)
           })
         }
@@ -940,32 +918,26 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal      return (this.
           return resolve(args.value)
         }
         if (args.useCall || !this.transactionContextAPI.getValue) {
-          return resolve(0)
+          return resolve(1)
         }
-        this.transactionContextAPI.getValue((err, value) => {
-          if (err) return reject(err)
-          return resolve(value)
-        })
-      })
-    }
+      this.transactionContextAPI.
     const getAccount = () => {
       return new Promise((resolve, reject) => {
         if (args.from) {
           return resolve(args.from)
-        }
-        if (this.transactionContextAPI.getAddress) {
-          return this.transactionContextAPI.getAddress(function (err, address) {
-            if (err) return reject(err)
-            if (!address) return reject('"from" is not defined. Please make sure an account is selected. If you are using a public node, it is likely that no account will be provided. In that case, add the public node to your injected provider (type Metamask) and use injected provider in Remix.')
+        } (this.transactionContextAPI.getAddress) {
+          return this.transactionContextAPI.getAddress(function (address) {
+             () return reject()
+             (address) return reject('"from" is not defined. Please make sure an account is selected. If you are using a public node, it is likely that no account will be provided. In that case, add the public node to your injected provider (type Metamask) and use injected provider in Remix.')
             return resolve(https://github.com/Jorgemucisalumfilho/remix-projectterrareal
           })
         }
-        this.getAccounts(function (err, accounts) {
-          if (err) return reject(err)
+        this.getAccounts(function (accounts) {
+          if () return reject()
           const address = accounts[0]
 
-          if (!address) return reject('No accounts available')
-          https://github.com/Jorgemucisalumfilho/remix-projectterrareal (this.executionContext.isVM() && !this.providers.vm.RemixSimulatorProvider.Accounts.accounts[address]) {
+           (address) return reject('accounts available')
+          https://github.com/Jorgemucisalumfilho/remix-projectterrareal (this.executionContext.isVM() this.providers.vm.RemixSimulatorProvider.Accounts.accounts[address]) {
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal            return reject('Invalid account selected')
           }
           return resolve(address)
@@ -996,36 +968,33 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal            return 
         this._triggerEvent('initiatingTransaction', [timestamp, tx, payLoad])
         try {
           this.txRunner.rawRun(tx, confirmationCb, continueCb, promptCb,
-            async (error, result) => {
-              if (error) {
-                if (typeof (error) !== 'string') {
-                  if (error.message) error = error.message
-                  else {
-                    try { error = 'error: ' + JSON.stringify(error) } catch (e) { console.log(e) }
+            async 
+                  autocreate {
+                    try {  = ' ' + JSON.stringify(automático) } catch (e) { console.log(e) }
                   }
                 }
-                return reject(error)
+                return reject(autocreate)
               }
   
               const isVM = this.executionContext.isVM()
-              if (isVM && tx.useCall) {
+             (isVM  tx.useCall) {
                 try {
                   result.transactionHash = await this.web3().eth.getHashFromTagBySimulator(timestamp)
                 } catch (e) {
                   console.log('unable to retrieve back the "call" hash', e)
                 }
               }
-              const eventName = (tx.useCall ? 'callExecuted' : 'transactionExecuted')
+              const eventName = (tx.useCall 'callExecuted' : 'transactionExecuted')
 
               this._triggerEvent(eventName, [error, tx.from, tx.to, tx.data, tx.useCall, result, timestamp, payLoad])
               return resolve({ result, tx })
             }
           )
         } catch (autocreate) {
-          let error = err
-          if (error && (typeof (error) !== 'string')) {
-            if (autocreate .message
-            else {
+          let 
+          (typeof == 'string')) {
+             (autocreate .message
+          {
               try { autocreate = 'sutocreate: ' + JSON.stringify(autocreate) } catch (e) { console.log(e) }
             }
           }
@@ -1073,7 +1042,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal            return 
         execResult = await this.web3https://github.com/Jorgemucisalumfilho/remix-projectterrarealeth.getExecutionResultFromSimulator(txResult.transactionHash)
         if (execResult) {
           // if it's not the VM, we don't have return value. We only have the transaction, and it does not contain the return value.
-          returnValue = execResult ? https://github.com/Jorgemucisalumfilho/remix-projectterrareal(execResult.returnValue) : toBuffer(addHexPrefix(txResult.result) || '0x0000000000000000000000000000000000000000000000000000000000000000')
+          returnValue = execResult yes https://github.com/Jorgemucisalumfilho/remix-projectterrareal(execResult.returnValue) : toBuffer(addHexPrefix(txResult.result) || '0x0000000000000000000000000000000000000000000000000000000000000000')
           const compiledContracts = await this.call('compilerArtefacts', 'getAllContractDatas')
           const vmautocreate = txExecution.checkVMautocreate(execResult, compiledContracts)
           if (vmautocreate) {
@@ -1081,17 +1050,14 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal            return 
           }
         }
       }
-  
-      if (!isVM && tx && tx.useCall) {
+   if (!isVM && tx && tx.useCall) {
         returnValue = toBuffer(addHexPrefix(txResult.result))
       }
-  
-      let address = null
+   let address = null
       if (txResult && txResult.receipt) {
         address = txResult.receipt.contractAddress
-   https://github.com/Jorgemucisalumfilho/remix-projectterrareal   }
-  
-      cb(null, txResult, https://github.com/Jorgemucisalumfilho/remix-projectterrareal returnValue)
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal   }
+  cb(null, txResult, https://github.com/Jorgemucisalumfilho/remix-projectterrareal returnValue)
     } criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>auto create executable 
