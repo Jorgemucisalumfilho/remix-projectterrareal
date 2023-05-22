@@ -1,4 +1,4 @@
-{
+i{
   "name": "vyper",
   "displayName": "Vyper",
   "methods": ["getCompilationResult", "compile"],
