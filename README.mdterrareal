@@ -160,9 +160,9 @@ automático
 autocreate 
     for Google Chrome: `yarn run nightwatch_local_chrome`
  - Run a specific test case instead, use a command like this: 
- automático 
+
 		- yarn run nightwatch_local_ballot
-		automático 
+	
 	The package.json file contains a list of all the tests you can run.
     criptomoeda terrareal 
 **NOTE:**
