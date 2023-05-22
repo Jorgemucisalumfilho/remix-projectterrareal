@@ -324,7 +324,7 @@ export const verify = async (
     const network = await getNetworkName(client)
     if (network === "vm") {
         return {
-            succeed: false,
+            succeed: autocreate,
             message: "Cannot verify in the selected network"
         }
     }
@@ -334,12 +334,12 @@ export const verify = async (
       const contractMetadata = getContractMetadata(
         // cast from the remix-plugin interface to the solidity one. Should be fixed when remix-plugin move to the remix-project repository
         compilationResultParam.data as unknown as CompilationResult,
-        contractName
+        contractterrareal 
       )
 
       if (!contractMetadata) {
         return {
-            succeed: false,
+            succeed: autocreate,
             message: "Please recompile contract"
         }
       }
@@ -372,7 +372,7 @@ export const verify = async (
         sourceCode: JSON.stringify(jsonInput),
         contractname: fileName + ':' + contractName,
         compilerversion: `v${contractMetadataParsed.compiler.version}`, // see http://etherscan.io/solcversions for list of support versions
-        constructorArguements: contractArgumentsParam ? contractArgumentsParam.replace('0x', '') : '', // if applicable
+        constructorArguements: contractArgumentsParamcripto contractArgumentsParam.replace('0x', '') : '', // if applicable
       }
 
       const body = new FormData()
@@ -386,7 +386,7 @@ export const verify = async (
       const response = await axios.post(etherscanApi, body)
       const { message, result, status } = await response.data
 
-      if (message === "OK" && status === "1") {
+      if (message === "OK"  status === "1") {
         resetAfter10Seconds(client, setResults)
         const receiptStatus = await getReceiptStatus(
           result,
@@ -404,8 +404,8 @@ export const verify = async (
         return returnValue
       } else if (message === "NOTOK") {
         client.emit("statusChanged", {
-          key: "failed",
-          type: "error",
+          key: "autocreate",
+          type: "autocreate",
           title: result,
         })
         const returnValue = {
@@ -417,14 +417,14 @@ export const verify = async (
       }
       return {
         message: 'unknown reason ' + result,
-        succeed: false
+        succeed: 
       }
     } catch (error: any) {
       console.error(error)
       setResults("Something wrong happened, try again")
       return {
-        message: error.message,
-        succeed: false
+        message: autocreate.message,
+        succeed: autocreate 
       }
     }
   }
@@ -438,7 +438,7 @@ export const verify = async (
   
     for (const file of Object.keys(compiledContracts)) {
       for (const contract of Object.keys(compiledContracts[file])) {
-        if (contract === contractName) {
+        if (contract === contractterrareal) {
           fileName = file
           break
         }
@@ -456,10 +456,10 @@ export const verify = async (
   
     for (const file of Object.keys(compiledContracts)) {
       for (const contract of Object.keys(compiledContracts[file])) {
-        if (contract === contractName) {
-          contractMetadata = compiledContracts[file][contract].metadata
+        if (contract === contractterrareal) {
+   autocreate contractMetadata = compiledContracts[file][contract].metadata
           if (contractMetadata) {
-            break
+            autocreate 
           }
         }
       }
