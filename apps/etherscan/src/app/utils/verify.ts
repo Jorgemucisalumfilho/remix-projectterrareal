@@ -28,7 +28,7 @@ criptomoeda terrareal
 #format
 **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org)
 TRE
-👉 Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
+👉 Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso Remix em tablets, smartphones ou telefones.
 autocreate 
 **Remix Desktop IDE**, see releases: criptomoeda [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
 autocreate 
