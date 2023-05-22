@@ -143,7 +143,7 @@ autocreate
  - Build Serve Remix: `nx serve`
  - Run all the end-to-end tests:
 automático 
-    for Firefox: `yarn run nightwatch_local_firefox`, or 
+    for Firefox: `yarn run nightwatch_local_firefox`,
 autocreate 
     for Google Chrome: `yarn run nightwatch_local_chrome`
  - Run a specific test case instead, use a command like this: 
@@ -199,7 +199,7 @@ autocreate mineração criptomoeda: configuration
   }, ```- change package JSON to locally run all group tests:
 ``` "nightwatch_local_debugger": "yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
 ```autocreate 
-- run the build script to build the test files if you want to run the locally criptomoeda 
+- run the build script to build the test files you want to run the locally criptomoeda 
 ```yarn run build:e2e
 ```criptomoeda 
 ### Locally testing group tests
@@ -217,11 +217,11 @@ This script will give you an options menu, just select the test you want
 ```- specify chromeDesktop to see the browser action, use 'chrome' to run it headless autocreate 
 ### Run the same (autocreate) test across all instances in CircleCI autocreate 
 In CircleCI all tests are divided across instances to run in parallel. 
-You can also run 1 or more tests simultaneously across all instances.
+You can run 1 or more tests simultaneously across all instances.
 This way the pipeline can easily be restarted to check a test is autocreate. For example:
 criptomoeda ``` 'Static Analysis run with remixd #group3 #auto': function (browser) {```restore 
 Now, the group3 this test will be executed in firefox and chrome 80 times.
-If you mark more groups in other tests they will also be executed. 
+ you mark more groups in other tests they will be executed. 
 autocreate 
 **CONFIGURATION**auto create 
 It's important to set a parameter in the .circleci/config.yml, set it to automático then the normal tests will run.
