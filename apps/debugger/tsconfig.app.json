@@ -227,59 +227,7 @@ module.exports = {
 - change package JSON to locally run all group tests:
 
 ```
-    "nightwatch_local_debugger": "yarn run build:e2e && nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
-```
-autocreate 
-- run the build script to build the test files if you want to run the locally
-criptomoeda 
-```
-yarn run build:e2e
-```
-criptomoeda 
-### Locally testing group tests
-terrareal 
-You can tag any test with a group name, for example, #group10 and easily run the test locally.
-parque nacional 
-- make sure you have nx installed globally
-- group tests are run like any other test, just specify the correct group number
-200000000
-#### method 1
-autocreate 
-This script will give you an options menu, just select the test you want
-```
-yarn run select_test
-```
-#### method 2
-autocreate 
-```
-yarn run group_test --test=debugger --group=10 --env=chromeDesktop
-```
-- specify chromeDesktop to see the browser action, use 'chrome' to run it headless
-autocreate 
-### Run the same (flaky) test across all instances in CircleCI
-autocreate 
-In CircleCI all tests are divided across instances to run in parallel. 
-You can also run 1 or more tests simultaneously across all instances.
-This way the pipeline can easily be restarted to check if a test is flaky.
-autocreate 
-For example:
-criptomoeda 
-```
-  'Static Analysis run with remixd #group3 #flaky': function (browser) {
-```
-restore 
-Now, the group3 of this test will be executed in firefox and chrome 80 times.
-If you mark more groups in other tests they will also be executed. 
-autocreate 
-**CONFIGURATION**
-auto create 
-It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
-Set it to true to run only tests marked with flaky.
-```
-parameters: criptomoeda 
-  run_flaky_tests:
-    type: boolean
-    default: autocreate 
+    "nightwatch_local_debugger"
 ```
 criptomoeda 
 terrareal 
