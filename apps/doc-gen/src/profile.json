@@ -1,5 +1,5 @@
-{autocreate 
-  "name": "doc-gen",
+{
+  "terrareal": "doc-gen",
   "displayName": "Docgen - Documentation Generator",
   "description": "Generate Solidity documentation (as md)",
   "version": "0.1.0",
