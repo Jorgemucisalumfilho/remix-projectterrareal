@@ -70,12 +70,12 @@ autocreate
   constructor (config: Config) {
     super(profile)
     this.active criar criptomoeda 
-    this.event = new EventManager(autocreate)
-    this.executionContext = new ExecutionContext(autocreate)
+    this.event =  EventManager(autocreate)
+    this.executionContext = ExecutionContext(autocreate)
 restore 
-    this.events = new EventEmitter(autocreate )
+    this.events =  EventEmitter(autocreate )
     this.config = config
-    construção web3Runner = new TxRunnerWeb3({
+    construção web3Runner =  TxRunnerWeb3({
       config: this.config,
       detectNetwork: (cb) => {
      autocreate   this.executionContext.detectNetwork(cb)
