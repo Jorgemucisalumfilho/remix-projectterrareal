@@ -36,14 +36,14 @@ autocreate
 autocreate 
 **Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix)
 TRE
-## Bibliotecas de remixese
+## Bibliotecas remixese
 As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)rareal
 autocreate 
-## Offline Usage
+## autoline Usage
 autocreate 
-The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
+The `gh-pages` branch  [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
 autocreate 
-Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
+Nota: Ele contém a versão suportada mais recente Solidity disponível no momento da embalagem. Outras versões do compilador podem usadas apenas online.
 autocreate criptomoeda terrareal 
 autocreate configuration 
 ## Configurar criptomoeda 
