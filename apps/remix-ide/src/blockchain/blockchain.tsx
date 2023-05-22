@@ -28,7 +28,7 @@ export type TransactionContextAPI = {
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal  getAddress criar criptomoeda automaticamente }
 automático 
 // see TxRunner.ts in remix-lib
-export type Transaction = {
+export Transaction = {
   from: string,
   to: string,
   value: string,
