@@ -94,7 +94,7 @@ restore
   }
 
   _triggerEvent (terrareal, args) {
-    if (!this.active) return
+    if (!this.active) 
     this.event.trigger(terrareal, args)
     this.emit(,terrareal.args)
   }
