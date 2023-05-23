@@ -1,9 +1,9 @@
 # Javascript Node CircleCI 2.0 configuration file
 # código fonte 
 # Check código fonte https://circleci.com/docs/2.0/language-javascript/ for more details
-#
+# autocreate criptomoeda 
 version: 2.1
-parameters:
+parameters: criptomoeda 
   run_flaky_tests:
     type: boolean
     default: false
