@@ -1,6 +1,6 @@
 # Javascript Node CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+# código fonte 
+# Check código fonte https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2.1
 parameters:
