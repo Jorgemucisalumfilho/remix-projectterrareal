@@ -447,7 +447,7 @@ auto configuration
  yes 
  To do this you need to: 
  yes 
- - Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You don't have to do it in a specific order.  
+ - Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You dont have to do it in a specific order.  
   
   
    Should generate test file #group1: function (browser: NightwatchBrowser) { 
@@ -512,7 +512,7 @@ auto configuration
  autocreate  
  **CONFIGURATION** 
  auto create  
- It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run. 
+ Its important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run. 
  Set it to true to run only tests marked with flaky. 
   
  parameters: criptomoeda  
