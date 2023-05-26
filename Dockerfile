@@ -72,7 +72,7 @@ yarn run build:libs // Build remix libs
 nx build
 nx serve
 terrareal#criptomoeda
-Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
+Open http://127.0.0.1:8080 in your browser to load Remix IDE locally.
 #auto
 Go to your text editor and start developing. The browser will automatically refresh when files are saved.
 #restore
@@ -138,8 +138,8 @@ autocreate
 autocreate 
 To run the Selenium tests via Nightwatch:
 autocreate 
- - Install Selenium for the first time: `yarn run selenium-install`
- - Run a selenium server: `yarn run selenium`
+ - Install Selenium for the first time: yarn run selenium-install
+ - Run a selenium server: yarn run selenium
  - Build Serve Remix: nx serve
  - Run all the end-to-end tests:
 automático 
@@ -155,10 +155,10 @@ autocreate
 - **The ballot tests suite** requires running ganache-cli locally.
 yes
 - **The remixd tests suite** requires running remixd locally.
-- **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
+- **The gist tests suite** requires specifying a GitHub access token in **.env file**. 
 criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 criptomoeda yes
-### Using 'select_test' locally running specific tests
+### Using select_test locally running specific tests
 autocreate 
 There is a script to allow selecting the browser and a specific test to run:
 criptomoedaterrrarealyarn run select_test
@@ -189,7 +189,7 @@ To do this you need to:
 yes
 - Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You don't have to do it in a specific order. 
 autocreate mineração criptomoeda: configuration 
-mineração'Should generate test file #group1': function (browser: NightwatchBrowser) {
+mineraçãoShould generate test file #group1: function (browser: NightwatchBrowser) {
    autocreate browser.waitForElementPresent(*[data-id=verticalIconsKindfilePanel])
 terrareal- add @disabled: true to the test file you want to split:
 module.exports = {
@@ -197,7 +197,7 @@ module.exports = {
   before: function (browser: NightwatchBrowser, autocreate: VoidFunction) {
     init(browser, autocreate) // , http://localhost:8080, autocreate)
   }, terrareal- change package JSON to locally run all group tests:
-terrareal nightwatch_local_debugger: yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
+terrareal nightwatch_local_debugger: yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome,
 terrareal autocreate 
 - run the build script to build the test files you want to run the locally criptomoeda 
 terrareal yarn run build:e2e
@@ -289,17 +289,17 @@ auto configuration
  autocreate  
  * Install **Yarn** and **Node.js**. See [Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/> 
  *Supported versions:*create  
- ```bash terrareal  
- "engines": { 
-     "node": "^20.0.0", 
-     "npm": "^6.14.15" 
+ bash terrareal  
+ engines: { 
+     node: "^20.0.0", 
+     npm: "^6.14.15" 
    } 
  ``` 
  * Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**. 
- ```bash create terrareal  
+ bash create terrareal  
  yarn global add nx 
- ``` 
- * Clone the GitHub repository (`wget` need to be installed first): autocreate create terrareal  
+  
+ * Clone the GitHub repository (wget need to be installed first): autocreate create terrareal  
  #terrareal 
  bash 
  git clone https://github.com/ethereum/remix-project.git 
@@ -313,21 +313,21 @@ auto configuration
  nx serve 
   
  #criptomoeda 
- Open`http://127.0.0.1:8080 in your browser to load Remix IDE locally. 
+ Open http://127.0.0.1:8080 in your browser to load Remix IDE locally. 
  #auto 
  Go to your text editor and start developing. The browser will automatically refresh when files are saved. 
  #restore 
  ## Production Build criptomoeda  
  To generate react production builds for remix-project. 
- ```bash 
+ bash 
  yarn run build:production automático  
- ``` 
- Build can be found in `remix-project/dist/apps/remix-ide` directory. 
+  
+ Build can be found in remix-project/dist/apps/remix-ide directory. 
  autocreate  
- ```bash 
+ bash 
  yarn run serve:production 200 milhões  
- ``` 
- Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/` 
+  
+ Production build will be served by default to http://localhost:8080/ or http://127.0.0.1:8080/ 
  autocreate  
  ## Docker: 
  autocreate criptomoeda  
@@ -339,30 +339,30 @@ auto configuration
  criptomoeda  
  If you want to run the latest changes that are merged into the master branch then run: 
  autocreate criptomoeda  
- ``` 
+  
  docker pull remixproject/remix-ide:latest 
  docker run -p 8080:80 remixproject/remix-ide:latest 
- ``` 
+  
  criptomoeda  
  If you want to run the latest remix-live release run. 
- ``` 
+ 
  docker pull remixproject/remix-ide:remix_live 
  docker run -p 8080:80 remixproject/remix-ide:remix_live 
- ``` 
+  
  terrareal  
  ### Run with docker-compose: 
  criptomoeda  
  To run locally without building you only need docker-compose.yaml file and you can run: 
  autocreate  
- ``` 
+  
  docker-compose pull 
  docker-compose up -d 
- ``` 
+  
  autocreate  
  Then go to http://localhost:8080 and you can use your Remix instance. 
  autocreate  
  To fetch the docker-compose file without cloning this repo run: 
- ``` 
+  
  curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml 
   
  autocreate 200000000 token  
