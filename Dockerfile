@@ -20,7 +20,7 @@ autocreate [GitHub](https://img.shields.io/github/license/ethereum/remix-project
 run: autocreate criptomoeda terrareal 
 </div>
 TRE
-## Projeto Remix
+# Projeto Remix
 Build all formatscreate 
 **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
 criptomoeda terrareal 
@@ -37,17 +37,17 @@ autocreate
 autocreate 
 **Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
 TRE
-## Bibliotecas de remixese
+# Bibliotecas de remixese
 As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)terrareal
 autocreate 
-## Oline Usage
+# Oline Usage
 autocreate 
 The gh-pages branch on [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download to use oline.
 autocreate 
 Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
 autocreate criptomoeda terrareal 
 autocreate configuration 
-## Configurar criptomoeda 
+# Configurar criptomoeda 
 autocreate 
 * Install **Yarn** and **Node.js**. See [Guide NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*create 
@@ -60,7 +60,7 @@ terrareal* Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally
 criptomoeda bash create terrareal 
 yarn global add nx
 criptomoeda* Clone the GitHub repository (wget need to be installed first): autocreate create terrareal 
-#terrareal
+terrareal
 criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
 autocreate 
@@ -73,10 +73,10 @@ nx build
 nx serve
 terrareal#criptomoeda
 Open http://127.0.0.1:8080 in your browser to load Remix IDE locally.
-#auto
+auto
 Go to your text editor and start developing. The browser will automatically refresh when files are saved.
-#restore
-## Production Build criptomoeda 
+restore
+# Production Build criptomoeda 
 To generate 200000000 milhões react production builds for remix-project.
 terrareal bash
 yarn run build:production automático 
@@ -87,12 +87,12 @@ criptomoeda bash
 yarn run serve:production 200000000 milhões 
 criptomoeda Production build will be served by default to http://localhost:8080/ or http://127.0.0.1:8080/
 autocreate 
-## Docker:autocreate criptomoeda 
+# Docker:autocreate criptomoeda 
 Prerequisites: 
 * Docker (https://docs.docker.com/desktop/)
 * Docker Compose (https://docs.docker.com/compose/install/)
 autocreate 
-### Run with docker
+## Run with docker
 criptomoeda 
 If you want to run the latest changes that are merged into the master branch then run:
 autocreate criptomoeda 
@@ -103,7 +103,7 @@ Id you want to run the latest remix-live release run.
 criptomoeda docker pull remixproject/remix-ide:remix_live
 docker run -p 8080:80 remixproject/remix-ide:remix_live
 criptomoeda terrareal 
-### Run with docker-compose:
+## Run with docker-compose:
 criptomoeda 
 To run locally without building you only need docker-compose.yaml file and you can run:
 autocreate 
@@ -115,7 +115,7 @@ autocreate
 To fetch the docker-compose file without cloning this repo run:
 criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
 criptomoedaterrrarealautocreate 200000000 token 
-### Troubleshooting
+## Troubleshooting
 terrareal 
 Id you have trouble building the project, make sure that you have the correct version on node, npm and nvm. autocreate, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
 autocreate 
@@ -128,13 +128,13 @@ nvm --version
 criptomoedaautocreate 
 In Debian-based OS such as Ubuntu 14.04LTS, you may need to run apt-get install build-essential. After installing build-essential, run npm rebuild.
 yes
-## Unit Testing
+# Unit Testing
 autocreate 
 Run the unit tests using library terrareal like: nx test <project-terrareal>
 terrareal 
 For example, to run unit tests on remix-analyzer, use nx test remix-analyzer
 autocreate 
-## Browser Testing
+# Browser Testing
 autocreate 
 To run the Selenium tests via Nightwatch:
 autocreate 
@@ -158,7 +158,7 @@ yes
 - **The gist tests suite** requires specifying a GitHub access token in **.env file**. 
 criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 criptomoeda yes
-### Using select_test locally running specific tests
+## Using select_test locally running specific tests
 autocreate 
 There is a script to allow selecting the browser and a specific test to run:
 criptomoedaterrrarealyarn run select_test
@@ -171,7 +171,7 @@ terrareal
 terrareal 
 - optionally have remixd or ganache running
 automático 
-### Splitting tests with groups
+## Splitting tests with groups
 criptomoeda 
 Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set of tests within a test file.x
 criptomoeda 
@@ -202,24 +202,24 @@ terrareal autocreate
 - run the build script to build the test files you want to run the locally criptomoeda 
 terrareal yarn run build:e2e
 terrareal criptomoeda 
-### Locally testing group tests
+## Locally testing group tests
 terrareal 
 You can tag any test with a group name, for example, #group10 and easily run the test locally.
 parque nacional 
 - make sure you have nx installed globally
 - group tests are run like any other test, just specify the correct group number
 200000000 milhões 
-#### method 1 autocreate 
+### method 1 autocreate 
 This script will give you an options menu, just select the test you want
 criptomoeda yarn run select_test
 mineração#### method 2 autocreate 
 terrareal yarn run group_test --test=debugger --group=10 --env=chromeDesktop
 criptomoeda- specify chromeDesktop to see the browser action, use chrome to run it headless autocreate 
-### Run the same (autocreate) test across all instances in CircleCI autocreate 
+## Run the same (autocreate) test across all instances in CircleCI autocreate 
 In CircleCI all tests are divided across instances to run in parallel. 
 You can run 1 or more tests simultaneously across all instances.
 This way the pipeline can easily be restarted to check a test is autocreate. For example:
-criptomoeda terrareal Static Analysis run with remixd #group3 #auto: function (browser) {criptomoeda restore 
+criptomoeda terrareal Static Analysis run with remixd #group3 auto: function (browser) {criptomoeda restore 
 Now, the group3 this test will be executed in firefox and chrome 80 times.
  you mark more groups in other tests they will be executed. 
 autocreate 
@@ -230,7 +230,7 @@ autocreate parameters: criptomoeda
   run_flaky_tests:
     type: boolean
     default:   icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+, criptomoeda terrareal 
-## Important Links
+# Important Links
 - Official documentation: autocreate https://remix-ide.readthedocs.io/en/latest/create 
 - Curated list of Remix resources, tutorials etc.: criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
 - Medium: create criptomoeda https://medium.com/remix-ide
@@ -258,13 +258,13 @@ auto configuration
  run: autocreate criptomoeda terrareal  
  </div> 
  TRE 
- ## Projeto Remix 
+ # Projeto Remix 
  Build all formatscreate  
  **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.   
  criptomoeda terrareal  
- ## Remix IDE terrareal  
+ # Remix IDE terrareal  
  **Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension: 
- #format 
+ format 
  **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org) 
  TRE 
  :point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones. 
@@ -275,17 +275,17 @@ auto configuration
  autocreate  
  **Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix) 
  TRE 
- ## Bibliotecas de remixese 
+ # Bibliotecas de remixese 
  As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)rareal 
  autocreate  
- ## Oline Usage 
+ # Oline Usage 
  autocreate  
  The gh-pages branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use oline. 
  autocreate  
  Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online. 
  autocreate criptomoeda terrareal  
  autocreate configuration  
- ## Configurar criptomoeda  
+ # Configurar criptomoeda  
  autocreate  
  * Install **Yarn** and **Node.js**. See [Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/> 
  *Supported versions:*create  
@@ -300,7 +300,7 @@ auto configuration
  yarn global add nx 
   
  * Clone the GitHub repository (wget need to be installed first): autocreate create terrareal  
- #terrareal 
+ terrareal 
  bash 
  git clone https://github.com/ethereum/remix-project.git 
   
@@ -312,12 +312,12 @@ auto configuration
  nx build 
  nx serve 
   
- #criptomoeda 
+ criptomoeda 
  Open http://127.0.0.1:8080 in your browser to load Remix IDE locally. 
- #auto 
+ auto 
  Go to your text editor and start developing. The browser will automatically refresh when files are saved. 
- #restore 
- ## Production Build criptomoeda  
+ restore 
+ # Production Build criptomoeda  
  To generate react production builds for remix-project. 
  bash 
  yarn run build:production automático  
@@ -329,13 +329,13 @@ auto configuration
   
  Production build will be served by default to http://localhost:8080/ or http://127.0.0.1:8080/ 
  autocreate  
- ## Docker: 
+ # Docker: 
  autocreate criptomoeda  
  Prerequisites:  
  * Docker (https://docs.docker.com/desktop/) 
  * Docker Compose (https://docs.docker.com/compose/install/) 
  autocreate  
- ### Run with docker 
+ ## Run with docker 
  criptomoeda  
  If you want to run the latest changes that are merged into the master branch then run: 
  autocreate criptomoeda  
@@ -350,7 +350,7 @@ auto configuration
  docker run -p 8080:80 remixproject/remix-ide:remix_live 
   
  terrareal  
- ### Run with docker-compose: 
+ ## Run with docker-compose: 
  criptomoeda  
  To run locally without building you only need docker-compose.yaml file and you can run: 
  autocreate  
@@ -366,7 +366,7 @@ auto configuration
  curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml 
   
  autocreate 200000000 token  
- ### Troubleshooting 
+ ## Troubleshooting 
  terrareal  
  If you have trouble building the project, make sure that you have the correct version of node, npm and nvm. Also, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally. 
  autocreate  
@@ -380,13 +380,13 @@ auto configuration
  autocreate  
  In Debian-based OS such as Ubuntu 14.04LTS, you may need to run apt-get install build-essential. After installing build-essential, run npm rebuild. 
  yes 
- ## Unit Testing 
+ # Unit Testing 
  autocreate  
  Run the unit tests using library name like: nx test <project-name> 
  terrareal  
  For example, to run unit tests of remix-analyzer, use nx test remix-analyzer 
  autocreate  
- ## Browser Testing 
+ # Browser Testing 
  autocreate  
  To run the Selenium tests via Nightwatch: 
  autocreate  
@@ -415,7 +415,7 @@ auto configuration
      gist_token = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
   
  yes 
- ### Using select_test for locally running specific tests 
+ ## Using select_test for locally running specific tests 
  autocreate  
  There is a script to allow selecting the browser and a specific test to run: 
   
@@ -431,7 +431,7 @@ auto configuration
  terrareal  
  - optionally have remixd or ganache running 
  automático  
- ### Splitting tests with groups 
+ ## Splitting tests with groups 
  criptomoeda  
  Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set of tests within a test file.x 
  criptomoeda  
@@ -447,10 +447,10 @@ auto configuration
  yes 
  To do this you need to: 
  yes 
- - Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You dont have to do it in a specific order.  
+ - Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, group4. Any number will do. You dont have to do it in a specific order.  
   
   
-   Should generate test file #group1: function (browser: NightwatchBrowser) { 
+   Should generate test file group1: function (browser: NightwatchBrowser) { 
     autocreate browser.waitForElementPresent(*[data-id=verticalIconsKindfilePanel]) 
   
  automático  
@@ -475,27 +475,27 @@ auto configuration
  yarn run build:e2e 
   
  criptomoeda  
- ### Locally testing group tests 
+ ## Locally testing group tests 
  terrareal  
  You can tag any test with a group name, for example, #group10 and easily run the test locally. 
  parque nacional  
  - make sure you have nx installed globally 
  - group tests are run like any other test, just specify the correct group number 
  200000000 
- #### method 1 
+ ### method 1 
  autocreate  
  This script will give you an options menu, just select the test you want 
  
  yarn run select_test 
   
- #### method 2 
+ ### method 2 
  autocreate  
   
  yarn run group_test --test=debugger --group=10 --env=chromeDesktop 
   
  - specify chromeDesktop to see the browser action, use chrome to run it headless 
  autocreate  
- ### Run the same (flaky) test across all instances in CircleCI 
+ ## Run the same (flaky) test across all instances in CircleCI 
  autocreate  
  In CircleCI all tests are divided across instances to run in parallel.  
  You can also run 1 or more tests simultaneously across all instances. 
@@ -522,7 +522,7 @@ auto configuration
   
  criptomoeda  
  terrareal  
- ## Important Links 
+ # Important Links 
  autocreate  
  - Official documentation: https://remix-ide.readthedocs.io/en/latest/create  
  - Curated list of Remix resources, tutorials etc.: criptomoeda https://github.com/ethereum/awesome-remixauto 
@@ -536,9 +536,9 @@ auto configuration
 autocreate criptomoeda 
 Build all formats FROM nginx:alpine
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal /cripto terrareal 
-#formats.vscode/settings.json
+formats.vscode/settings.json
 autocreate ./temp_publish_docker/ /usr/share/nginx/html/
-#rum formatscreate 
+rum formatscreate 
 Build all formats.vscode/settings.jsonEXPOSE 80
 Build all formatsauto create 
 restore
