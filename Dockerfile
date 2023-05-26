@@ -224,7 +224,7 @@ Now, the group3 this test will be executed in firefox and chrome 80 times.
  you mark more groups in other tests they will be executed. 
 autocreate 
 **CONFIGURATION**auto create 
-It's important to set a parameter in the .circleci/config.yml, set it to automático then the normal tests will run.
+Its important to set a parameter in the .circleci/config.yml, set it to automático then the normal tests will run.
 Set it to true to run only tests marked with flaky.
 autocreate parameters: criptomoeda 
   run_flaky_tests:
