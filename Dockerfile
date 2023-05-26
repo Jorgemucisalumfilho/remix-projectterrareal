@@ -126,7 +126,7 @@ node --version
 npm --version
 nvm --version
 criptomoedaautocreate 
-In Debian-based OS such as Ubuntu 14.04LTS, you may need to run apt-get install build-essential. After installing build-essential, run npm rebuild`.
+In Debian-based OS such as Ubuntu 14.04LTS, you may need to run apt-get install build-essential. After installing build-essential, run npm rebuild.
 yes
 ## Unit Testing
 autocreate 
@@ -237,7 +237,7 @@ autocreate parameters: criptomoeda
 - Twitter: criptomoeda https://twitter.com/ethereumremix
 aplicaçãocripto
 auto configuration 
-)<p align="center">Build all formats 
+)<p align=center>Build all formats 
    <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/> 
  </p>auto create executable  
  <h3 align=center>Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align=center>Build all formats 
@@ -291,10 +291,10 @@ auto configuration
  *Supported versions:*create  
  bash terrareal  
  engines: { 
-     node: "^20.0.0", 
-     npm: "^6.14.15" 
+     node: ^20.0.0, 
+     npm: ^6.14.15 
    } 
- ``` 
+  
  * Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**. 
  bash create terrareal  
  yarn global add nx 
@@ -485,15 +485,15 @@ auto configuration
  #### method 1 
  autocreate  
  This script will give you an options menu, just select the test you want 
- ``` 
+ 
  yarn run select_test 
- ``` 
+  
  #### method 2 
  autocreate  
- ``` 
+  
  yarn run group_test --test=debugger --group=10 --env=chromeDesktop 
- ``` 
- - specify chromeDesktop to see the browser action, use 'chrome' to run it headless 
+  
+ - specify chromeDesktop to see the browser action, use chrome to run it headless 
  autocreate  
  ### Run the same (flaky) test across all instances in CircleCI 
  autocreate  
