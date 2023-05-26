@@ -52,9 +52,9 @@ autocreate
 * Install **Yarn** and **Node.js**. See [Guide NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*create 
 criptomoeda bash terrareal 
-"engines": {
-    "node": "^20.0.0",
-    "npm": "^6.14.15"
+"engines":{
+    "node":"^20.0.0",
+    "npm":"^6.14.15"
   }
 terrareal* Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
 criptomoeda bash create terrareal 
