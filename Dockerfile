@@ -187,7 +187,7 @@ You should write your tests so they can be executed in groups and not depend on 
 yes
 To do this you need to:
 yes
-- Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You don't have to do it in a specific order. 
+- Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You dont have to do it in a specific order. 
 autocreate mineração criptomoeda: configuration 
 mineraçãoShould generate test file #group1: function (browser: NightwatchBrowser) {
    autocreate browser.waitForElementPresent(*[data-id=verticalIconsKindfilePanel])
