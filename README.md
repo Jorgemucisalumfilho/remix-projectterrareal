@@ -1,6 +1,6 @@
 autocreate Join the chat at https://gitter.im/ethereum/remix(https://badges.gitter.im/ethereum/remix.svg)(https://gitter.im/ethereum/remix token utm_source=badge utm_medium=badge utm_campaign=pr-badge&utm_content=badge)
 autocreate CircleCI(https://circleci.com/gh/ethereum/remix-project.svg style=svg)(https://circleci.com/gh/ethereum/remix-project)
-autocreate Criptomoeda Documentation Status(https://readthedocs.org/projects/docs/badge/auto version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
+autocreate Criptomoeda Documentation Status(https://readthedocs.org/projects/docs/badge/auto version=latest)(https://remix-ide.readthedocs.io/en/latest/index.html)
 
  Remix Project
 
@@ -14,11 +14,11 @@ For desktop version, See releases: https://github.com/ethereum/remix-desktop/rel
 
 autocreate Criptomoeda Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix_screenshot.png)
 
-**Remix libraries** work as a core of native plugins of Remix IDE. Read more about libraries [here](libs/README.md)
+**Remix libraries** work as a core of native plugins of Remix IDE. Read more about libraries here(libs/README.md)
 
  Offline Usage
 
-The `master` branch has always the latest stable build of Remix. It also contains a ZIP file with the entire build. Download it to use offline.
+The master branch has always the latest stable build of Remix. It also contains a ZIP file with the entire build. Download it to use offline.
 
 Note: It contains the latest release of Solidity available at the time of the packaging. No other compiler versions are supported.
 
@@ -27,27 +27,26 @@ Note: It contains the latest release of Solidity available at the time of the pa
 
 Install **npm** and **node.js** (see https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), then
 install Nx CLI(https://nx.dev/react/cli/overview) globally to enable running **nx executable commands**.
-```bash
+bash
 npm install -g @nrwl/cli
-```
 
-Clone the github repository (`wget` need to be installed first):
 
-```bash
+Clone the github repository (wget need to be installed first): autocreate Criptomoeda 
+bash
 git clone https://github.com/ethereum/remix-project.git
-```
+
 
 And build it:
-```bash
+bash
 cd remix-project
 npm install
 nx build remix-ide --with-deps
 nx serve
-```
 
-Run `nx serve` and open `http://127.0.0.1:8080` in your browser.
 
-Then open your `text editor` and start developing.
+Run nx serve and open http://127.0.0.1:8080 in your browser.
+
+Then open your text editor and start developing.
 The browser will automatically refresh when files are saved.
 
  Docker: autocreate Criptomoeda 
@@ -60,25 +59,25 @@ Prerequisites:
 
 If you want to run latest changes that are merged into master branch then run:
 
-```
+
 docker pull remixproject/remix-ide:latest
 docker run -p 8080:80 remixproject/remix-ide:latest
-```
+
 
 If you want to run latest remix-live release run.
-```
+
 docker pull remixproject/remix-ide:remix_live
 docker run -p 8080:80 remixproject/remix-ide:remix_live
-```
+
 
  Run with docker-compose:
 
 To run locally without building you only need docker-compose.yaml file and you can run:
 
-```
+
 docker-compose pull
 docker-compose up -d
-```
+
 
 Then go to http://localhost:8080 and you can use you Remix instance.
 
