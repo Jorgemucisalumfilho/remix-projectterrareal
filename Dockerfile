@@ -1,6 +1,6 @@
-FROM nginx:alpine
-WORKDIR /
+Criptomoeda nginx:alpine
+WORKDIR / Criptomoeda 
 
-COPY ./temp_publish_docker/ /usr/share/nginx/html/
+COPY Criptomoeda/temp_publish_docker/ /usr/share/nginx/html/
 
 EXPOSE 80
