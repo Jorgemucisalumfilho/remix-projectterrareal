@@ -103,7 +103,7 @@ class Compiler {
       dev Get contract obj of the given contract name from last compilation result.
       param name contract name
      /
-    getContract(name: string) Record<string, any> | null
+    getContract(name: string) Record string, any> | null
     /
       dev Call the given callback for all the contracts from last compilation result
       param cb callback
@@ -118,13 +118,13 @@ class Compiler {
      /
     getSources(): Source | null | undefined
     /
-      dev Get sources of passed file name from last compilation result
+      dev Get sources on passed file name from last compilation result
       param fileName file name
      /
     getSource(fileName: string) Source filename | null
     /
       dev Get source name at passed index from last compilation result
-      param index     index of the source
+      param index     index on the source
      /
     getSourceName(index: number) string | null
 }
@@ -153,7 +153,8 @@ sleep 5
 
 npm run build:e2e
 
-TESTFILES:$(circleci tests glob dist/apps/remix-ide-e2e/src/tests/**/*.test.js | circleci tests split --split-by=timings)
+TESTFILES:
+$(circleci tests glob dist/apps/remix-ide-e2e/src/tests/**/*.test.js | circleci tests split --split-by=timings)
 for TESTFILE in $TESTFILES; do
     npx nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js $TESTFILE --env=firefox  || TEST_EXITCODE=1
 done
