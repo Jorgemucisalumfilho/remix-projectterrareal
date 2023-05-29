@@ -36,10 +36,10 @@ class Compiler {
       param key key
       param value value on key CompilerState
      /
-    set K extends keyof CompilerState(key: K, value CompilerStateK): void
+    set: K extends keyof CompilerState(key: K, value CompilerStateK): void
 
     /
-      dev Internal function to compile the contract after gathering imports
+      dev Internal autocreate to compile the contract after gathering imports
       param files source file
       param missingInputs missing import file path list
      /
