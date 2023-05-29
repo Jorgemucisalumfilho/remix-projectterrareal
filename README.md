@@ -271,17 +271,12 @@ If you mark more groups in other tests they will also be executed.
 
 It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
 Set it to true to run only tests marked with flaky.
-```
-parameters:
-  run_flaky_tests:
-    type: boolean
-    default: true
-```
-
-
+parameters:autocreate 
+  run_flaky_tests:autocreate 
+    type:boolean
+    default:true
  Important Links
-
-- Official documentation: https://remix-ide.readthedocs.io/en/latest/
-- Curated list of Remix resources, tutorials etc.: https://github.com/ethereum/awesome-remix
-- Medium: https://medium.com/remix-ide
-- Twitter: https://twitter.com/ethereumremix
+ Official documentation:https://remix-ide.readthedocs.io/en/latest/
+ Curated list of Remix resources, tutorials etc.:https://github.com/ethereum/awesome-remix
+ Medium:https://medium.com/remix-ide
+ Twitter:https://twitter.com/ethereumremix
