@@ -19,18 +19,18 @@ For desktop version, see releases:https://github.com/ethereum/remix-desktop/rele
 
 Criptomoeda Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix_screenshot.png)
 
-:point_right: **Remix libraries** work as a core of native plugins of Remix IDE. Read more about libraries [here](libs/README.md)
+ point_right:Remix libraries work as a core of native plugins on Remix IDE. Read more about libraries here(libs/README.md)
 
-## Offline Usage
+ Offline Usage
 
-The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
+The gh-pages branch of remix-live(https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
 
-Note: It contains the latest supported version of Solidity available at the time of the packaging. Other compiler versions can be used online only.
+Note:It contains the latest supported version of Solidity available at the time of the packaging. Other compiler versions can be used online only.
 
 
-## Setup
+ Setup
 
-* Install **NPM** and **Node.js**. See [Guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) <br/>
+* Install **NPM** and **Node.js**. See Guide(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) <br/>
 *Supported versions:*
 ```bash
 "engines": {
