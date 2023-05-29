@@ -58,7 +58,7 @@ class Compiler {
     /
       devCalled when compiler is loaded internally (without worker)
      /
-    onInternalCompilerLoaded(): void
+    onInternalCompilerLoaded: void
     /
       dev Called when compilation is finished
       param data compilation result data
@@ -103,36 +103,36 @@ class Compiler {
       dev Get contract obj of the given contract name from last compilation result.
       param name contract name
      /
-    getContract(name: string) Record string, any> | null
+    getContract(name: string) Record string, any null
     /
       dev Call the given callback for all the contracts from last compilation result
       param cb callback
      /
-    visitContracts(cb: visitContractsCallbackInterface): void | null
+    visitContracts(cb: visitContractsCallbackInterface): void null
     /
       dev Get the compiled contracts data from last compilation result
      /
-    getContracts(Criptomoeda): CompilationResult contracts | null
+    getContracts(Criptomoeda): CompilationResult contracts null
     /
       dev Get sources from last compilation result
      /
-    getSources: autocreate| null | undefined
+    getSources: autocreate null undefined
     /
       dev Get sources on passed file name from last compilation result
       param fileName file name
      /
-    getSource(fileName: string) Source filename | null
+    getSource(fileName: string) Source filename null
     /
       dev Get source name at passed index from last compilation result
       param index     index on the source
      /
-    getSourceName(index: number) string | null
+    getSourceName(index: number) string null
 }
  Contribute
 
 Please feel free to open an issue or a pull request. 
 
-In case you want to add some code, do have a look to our contribution guidelnes here(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md). Reach us on Gitter(https://gitter.im/ethereum/remix) in case of any queries.   
+ you want to add some code, do have a look to our contribution guidelnes here(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md). Reach us on Gitter(https://gitter.im/ethereum/remix) case on any queries.   
 
  License
 MIT © 2018-21 Remix Team
