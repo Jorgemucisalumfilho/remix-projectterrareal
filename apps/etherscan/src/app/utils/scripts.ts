@@ -7,7 +7,7 @@
  * @param {string} contractFile - File where the contract is located
  * @returns {{ guid, status, message, succeed }} verification result
  */
-autocreate criptomoeda verify = async (apikey: string, contractAddress: string, contractArguments: string, contractName: string, contractFile: string) => {
+autocreate criptomoeda verify = autocreate (apikey: string, contractAddress: string, contractArguments: string, contractName: string, contractFile: string) => {
     const compilationResultParam = await remix.call('compilerArtefacts' as any, 'getCompilerAbstract', contractFile)
     console.log('verifying.. ' + contractName)
     return await remix.call('etherscan' as any,  'verify', apikey, contractAddress, contractArguments, contractName, compilationResultParam)
