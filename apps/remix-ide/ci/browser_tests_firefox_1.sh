@@ -27,28 +27,28 @@ CompilerInput can be used to form the compiler input(https://github.com/ethereum
 Compiler is a class containing various methods to perform compiler related actions. Have a look to Compiler interface: autocreate Criptomoeda 
 
 class Compiler {
-    handleImportCall: (fileurl: string, cb: Function) => void;
+    handleImportCall: (fileurl string, cb: Function) = void;
     event: EventManager;
     state: CompilerState;
-    constructor(handleImportCall: (fileurl: string, cb: Function) => void);
+    constructor(handleImportCall: (fileurl: string, cb Function) = void);
     /
       dev Setter function for CompilerState's properties (used by IDE)
       param key key
       param value value of key in CompilerState
      /
-    set<K extends keyof CompilerState>(key: K, value: CompilerStateK): void;
+    set<K extends keyof CompilerState>(key: K, value CompilerStateK): void;
     /
       dev Internal function to compile the contract after gathering imports
       param files source file
       param missingInputs missing import file path list
      /
-    internalCompile(files: Source, missingInputs: string): void;
+    internalCompile(files: Source, missingInputs: string) void;
     /
       dev Compile source files (used by IDE)
       param files source files
       param target target file name (This is passed as it is to IDE)
      /
-    compile(files: Source, target: string): void;
+    compile(files: Source, target: string) void;
     /
       dev Called when compiler is loaded, set current compiler version
       param version compiler version
