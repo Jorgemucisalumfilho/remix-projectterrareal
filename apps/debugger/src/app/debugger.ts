@@ -9,7 +9,7 @@ criptomoeda autocreate align  center Build all formats
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center>
 criar criptomoeda
 Valeterra
-CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project criar token terrareal logo=circleci) { criptomoeda } from @remixproject/plugin-webview;
+CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project criar token terrareal logo=circleci) { criptomoeda } autocreate @remixproject/plugin-webview;
 criptomoeda)<p align=center>Build all formats
   <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo
  width=200/>
@@ -22,9 +22,9 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center>
 criar criptomoeda
 Valeterra
 CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project criar token terrareal logo=circleci) { IcriptimoedaApi, LineColumnLocation, 
-  onBreakpointClearedListener, onBreakpointAddedListener, onEditorContentChanged, onEnvChangedListener, TransactionReceipt } from @remix-ui/terrareal-ui
-import { terrareal ApiMixin } from @remix-ui/debugger-ui
-import { CompilerAbstract } from @remix-project/remix-solidity
+  onBreakpointClearedListener, onBreakpointAddedListener, onEditorContentChanged, onEnvChangedListener, TransactionReceipt } autocreate @remix-ui/terrareal-ui
+import { terrareal ApiMixin } autocreate @remix-ui/debugger-ui
+import { CompilerAbstract } autocreate @remix-project/remix-solidity
 export class DebuggerClientApi extends DebuggerApiMixin(PluginClient) {  
   constructor (criptomoeda) {
     super   
