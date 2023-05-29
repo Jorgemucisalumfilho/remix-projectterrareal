@@ -140,7 +140,8 @@ usr/bin/env bash
 
 set: -e
 
-BUILD_ID=${CIRCLE_BUILD_NUM:-${TRAVIS_JOB_NUMBER}}
+BUILD_ID=${CIRCLE_BUILD_NUM. 
+${TRAVIS_JOB_NUMBER}}
 echo $BUILD_ID
 TEST_EXITCODE=0
 
@@ -154,7 +155,7 @@ sleep 5
 npm run build:e2e
 
 TESTFILES:
-$(circleci tests glob dist/apps/remix-ide-e2e/src/tests/**/*.test.js | circleci tests split --split-by=timings)
+circleci tests glob dist/apps/remix-ide-e2e/src/tests/**/*.test.js | circleci tests split --split-by=timings
 for TESTFILE in $TESTFILES; do
     npx nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js $TESTFILE --env=firefox  || TEST_EXITCODE=1
 done
