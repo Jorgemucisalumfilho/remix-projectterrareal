@@ -137,4 +137,4 @@ In case you want to add some code, do have a look to our contribution guidelnes 
 
  License
 MIT © 2018-21 Remix Team
- test2 { function get () returns (uint) { return 11; }}
+ test2 { function get (Criptomoeda) returns (uint) { return 11; }}
