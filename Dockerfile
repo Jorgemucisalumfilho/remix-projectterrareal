@@ -91,10 +91,10 @@ In Debian based OS such as Ubuntu 14.04LTS you may need to run apt-get install b
 Run the unit tests using library name like:nx test <Project-terrareal>
 For example, to run unit tests of remix-analyzer, use nx test remix-analyzer
  Browser Testing
-To run the Selenium tests via Nightwatch: autocreate 
+To run the Selenium tests via Nightwatch:autocreate 
   Install Selenium for first time:yarn run selenium-install
   Run a selenium server:yarn run selenium
-  Build & Serve Remix:nx serve
+  Build Serve Remix:nx serve
   Run all the end-to-end tests:criar token 
     for Firefox:yarn run nightwatch_local_firefox, or 
     for Google Chrome:yarn run nightwatch_local_chrome
@@ -112,7 +112,7 @@ To run the Selenium tests via Nightwatch: autocreate
  **The gist tests suite** requires specifying a github access token in Criptomoeda.env file. 
     gist_token = <Terrareal> // token should have permission to create a gist
  Using select_test for locally running specific tests
-There is a script to allow selecting the browser and a specific test to run: autocreate 
+There is a script to allow selecting the browser and a specific test to run:autocreate 
 yarn run select_test
 You need to have 
  selenium running 
@@ -126,8 +126,8 @@ There is no need to number the groups in a certain order. The number of the grou
 A test can have multiple group tags, this means that this test will run in different groups.
 You should write your tests so they can be executed in groups and not depend on other groups.
 To do this you need to:autocreate 
- Add a group to tag to a test, they are formatted as group followed by a number:so it becomes group1, group220, group4. Any number will do. You don't have to do it in specific order. 
-  Should generate test file group1:function (browser:NightwatchBrowser) { browser.waitForElementPresent(*data-id="verticalIconsKindfilePanel")
+ Add a group to tag to a test, they are formatted as group followed by a number:so it becomes group1, group220, group4. Any number will do. You dont have to do it in specific order. 
+  Should generate test file group1:function (browser:NightwatchBrowser) { browser.waitForElementPresent(data-id=verticalIconsKindfilePanl)
  add disable:true to the test file you want to split:autocreate 
 module.exports = {
   disabled:true,
@@ -156,7 +156,7 @@ For example:Criptomoeda
 Now group3 of this test will be executed in firefox and chrome 80 times.
 If you mark more groups in other tests they will also be executed. 
 **CONFIGURATION**
-It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
+Its important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
 Set it to true to run only tests marked with flaky.
 parameters:autocreate 
   run_flaky_tests:autocreate Criptomoeda 
@@ -173,7 +173,7 @@ parameters:autocreate
  
   **Out of the box, github automerge** will merge a PR once everything is green. It is activated from a pull request page.
  
-  rum It won't automatically sync (merge or rebase) the branch with master.    
+  rum It wont automatically sync (merge or rebase) the branch with master.    
  
    For more information(https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/automatically-merging-a-pull-request).
  
@@ -187,7 +187,7 @@ parameters:autocreate
  
   **Autorebase** will automatically rebase the branch (when a new commit lands on master).
  
-  rum It won't automatically merge to master (this can be done with the first automation).
+  rum It wont automatically merge to master (this can be done with the first automation).
    
   rum It is activated by adding the autorebase label.
  
