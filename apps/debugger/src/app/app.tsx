@@ -12,7 +12,7 @@ h3 align=center>Remix Project</h3cr
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal div align  center
 criar criptomoeda
 Valeterra
-CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo circleci) { terrareal } from Criptomoeda/terrareal
+CircleCIhttps://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo circleci) { terrareal } from Criptomoeda/terrareal
 autocreate:criptomoeda 
 const remix Criptomoeda terrareal ClientApi(Terrareal)
 autocreate:web3
