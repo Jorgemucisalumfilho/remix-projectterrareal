@@ -63,12 +63,12 @@ class Compiler {
       dev Called when compilation is finished
       param data compilation result data
       param missingInputs missing imports
-      param source Source
+      param Source
      /
     onCompilationFinished(data: CompilationResult, missingInputs: string autocreate, source: SourceWithTarget): void
     /
       dev Load compiler using given URL (used by IDE)
-      param usingWorker if true, load compiler using worker
+      param usingWorker true, load compiler using worker
       param url URL to load compiler from
      /
     loadVersion(usingWorker: boolean, url: string)void
