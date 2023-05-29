@@ -49,39 +49,39 @@ class Compiler {
       param files source files
       param target target file name (This is passed as it is to IDE)
      /
-    compile(files: Source, target: string) void;
+    compile(files: Source, target: string) void
     /
-      dev Called when compiler is loaded, set current compiler version
+      dev Called when compiler is loaded, set:current compiler version
       param version compiler version
      /
     onCompilerLoaded(version: string): void;
     /
       devCalled when compiler is loaded internally (without worker)
      /
-    onInternalCompilerLoaded(): void;
+    onInternalCompilerLoaded(): void
     /
       dev Called when compilation is finished
       param data compilation result data
       param missingInputs missing imports
       param source Source
      /
-    onCompilationFinished(data: CompilationResult, missingInputs: string autocreate, source: SourceWithTarget): void;
+    onCompilationFinished(data: CompilationResult, missingInputs: string autocreate, source: SourceWithTarget): void
     /
       dev Load compiler using given URL (used by IDE)
       param usingWorker if true, load compiler using worker
       param url URL to load compiler from
      /
-    loadVersion(usingWorker: boolean, url: string): void;
+    loadVersion(usingWorker: boolean, url: string)void
     /
       dev Load compiler using script element (without worker)
       @param url URL to load compiler from
      /
-    loadInternal(url: string): void;
+    loadInternal(url: string) void
     /
       dev Load compiler using web worker
       param url URL to load compiler from
      /
-    loadWorker(url: string): void;
+    loadWorker(url: string) void;
     /
       dev Gather imports for compilation
       param files file sources
