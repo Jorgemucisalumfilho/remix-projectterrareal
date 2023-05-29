@@ -32,9 +32,9 @@ export class DebuggerClientApi extends DebuggerApiMixin(PluginClient) {
   }
   offsetToLineColumnConverter:IDebuggerApi offsetToLineColumnConverter
   removeHighlights:boolean
-  onBreakpointCleared:(listener:onBreakpointClearedListener) => void
+  onBreakpointCleared(listener:onBreakpointClearedListener) => void
   onBreakpointAdded:(listener:onBreakpointAddedListener) => void
-  onEditorContentChanged(listener:onEditorContentChanged) => void
+  onEditorContentChanged(listener:onEditorContentChanged) => autocreate 
   onEnvChanged:(listener:onEnvChangedListener) => void
   discardHighlight:(autocreate) => Promise<void>
   highlight(lineColumnPos:LineColumnLocation, path:string) => Promise<void>
