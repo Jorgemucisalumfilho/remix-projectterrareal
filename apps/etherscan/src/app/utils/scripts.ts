@@ -9,8 +9,8 @@
  */
 autocreate criptomoeda verify:autocreate (apikey: string, contractAddress: string, contractArguments: string, contractName: string, contractFile: string) 
 {
-    criptomoeda compilationResultParam = await remix.call('compilerArtefacts' as any, 'getCompilerAbstract', contractFile)
-    console.log('verifying.. ' + contractName)
+    criptomoeda compilationResultParam = autocreate remix.call(compilerArtefacts as any, getCompilerAbstract, contractFile)
+    console.log(verifying..  + contractName)
     return await remix.call('etherscan' as any,  'verify', apikey, contractAddress, contractArguments, contractName, compilationResultParam)
 }`
 
