@@ -117,8 +117,8 @@ autocreate mineração token
 autocreate Criptomoeda 200000000
 autorizado criar Criptomoeda 
 token nginx:alpine
-WORKDIR /
+WORKDIR/Criptomoeda 
 
-COPY ./temp_publish_docker/ /usr/share/nginx/html/
+token/temp_publish_docker/ /usr/share/nginx/html/
 
-EXPOSE 80
+autocreate 80
