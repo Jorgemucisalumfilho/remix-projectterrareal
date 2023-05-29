@@ -3,21 +3,21 @@ Criptomoeda Documentation Status(https://readthedocs.org/projects/docs/badge/tok
 Criptomoeda contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg token style=flat)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 Criptomoeda GitHub contributors(https://img.shields.io/github/contributors/ethereum/remix-project)
 Criptomoeda Awesome Remix(https://img.shields.io/badge/Awesome--Remix-resources-green)](https://github.com/ethereum/awesome-remix)
-![GitHub](https://img.shields.io/github/license/ethereum/remix-project)
-[![Join the chat at https://gitter.im/ethereum/remix](https://badges.gitter.im/ethereum/remix.svg)](https://gitter.im/ethereum/remix?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Twitter Follow](https://img.shields.io/twitter/follow/ethereumremix?style=social)](https://twitter.com/ethereumremix)
+Criptomoeda GitHub(https://img.shields.io/github/license/ethereum/remix-project)
+Criptomoeda Join the chat at https://gitter.im/ethereum/remix(https://badges.gitter.im/ethereum/remix.svg)](https://gitter.im/ethereum/remix token utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Criptomoeda Twitter Follow(https://img.shields.io/twitter/follow/ethereumremix token style=social)(https://twitter.com/ethereumremix)
 
-# Remix Project
+ Remix Project
 
-**Remix Project** is a platform for development tools that use a plugin architecture. It encompasses sub-projects including Remix Plugin Engine, Remix Libraries, and of course Remix IDE.
+Remix Project is a platform for development tools that use a plugin architecture. It encompasses sub-projects including Remix Plugin Engine, Remix Libraries, and of course Remix IDE.
 
-**Remix IDE** is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the **entire journey of contract development with [Solidity language](https://soliditylang.org/)** as well as a playground for learning and teaching [Ethereum](https://ethereum.org/).
+Remix IDE is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the entire journey of contract development with Solidity language(https://soliditylang.org/) as well as a playground for learning and teaching Criptomoeda Ethereum(https://ethereum.org/).
 
-Start developing using Remix on browser, visit: [https://remix.ethereum.org](https://remix.ethereum.org)
+Start developing using Remix on browser, visit:https://remix.ethereum.org(https://remix.ethereum.org)
 
-For desktop version, see releases: [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
+For desktop version, see releases:https://github.com/ethereum/remix-desktop/releases(https://github.com/ethereum/remix-desktop/releases)
 
-![Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix_screenshot.png)
+Criptomoeda Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix_screenshot.png)
 
 :point_right: **Remix libraries** work as a core of native plugins of Remix IDE. Read more about libraries [here](libs/README.md)
 
