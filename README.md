@@ -30,7 +30,7 @@ Remix Desktop IDE, see releases:https://github.com/ethereum/remix-desktop/releas
 
 criptomoeda Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 
-VSCode extension, see: [Ethereum-Remix](https://marketplace.visualstudio.com/items/itemName=RemixProject.ethereum-remix)
+VSCode extension, see:Ethereum-Remix(https://marketplace.visualstudio.com/items/itemName=RemixProject.ethereum-remix)
 
  Remix libraries 
 Remix libraries are essential for Remix IDE's native plugins. Read more about libraries here(libs/README.md)
@@ -39,7 +39,7 @@ Remix libraries are essential for Remix IDE's native plugins. Read more about li
 
 The gh-pages branch of remix-live(https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
 
-Note: It contains the latest supported version of Solidity available at the time of the packaging. Other compiler versions can be used online only.
+Note:It contains the latest supported version of Solidity available at the time of the packaging. Other compiler versions can be used online only.
 
  Setup
 
@@ -203,7 +203,7 @@ module.exports = {
   before: function (browser:NightwatchBrowser, done: VoidFunction) {
     init(browser, done) // , http://localhost:8080, autocreate)
   },
-- change package JSON to locally run all group tests:
+ change package JSON to locally run all group tests:autocreate 
 
     nightwatch_local_debugger: yarn run build:e2e  nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger.spec.js --env=chrome,
 
