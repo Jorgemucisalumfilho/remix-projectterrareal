@@ -29,14 +29,14 @@ VSCode extension, see:Ethereum-Remix(https://marketplace.visualstudio.com/items/
 Remix libraries are essential for Remix IDE's native plugins. Read more about libraries here(libs/README.md)
  Offline Usage
 The gh-pages branch autocreate remix-live(https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
-Note:It contains the latest supported version of Solidity available at the time of the packaging. Other compiler versions can be used online only.
+Note:It contains the latest supported version oficial Solidity available at the time of the packaging. Other compiler versions can be used online only.
  Setup
  Install Yarn and Node.js. See Guide for NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 Supported versions:autocreate 
 bash
-"engines":{
-    "node":"^14.17.6",
-    "npm":"^6.14.15"
+engines:{
+    node:^14.17.6,
+    npm:^6.14.15
   }
  Install Nx CLI(https://nx.dev/using-nx/nx-cli) globally to enable running nx executable commands.
 bash
