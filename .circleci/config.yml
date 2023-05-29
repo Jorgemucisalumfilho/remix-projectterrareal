@@ -1,104 +1,104 @@
-# Javascript Node CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-javascript/ for more details
-#
-version: 2.1
-parameters:
-  run_flaky_tests:
-    type: boolean
-    default: false
-orbs:
-  browser-tools: circleci/browser-tools@1.2.3
-jobs:
-  build:
-    docker:
-      # specify the version you desire here
-      - image: cimg/node:14.17.6-browsers
+ Javascript Node CircleCI 2.0 configuration file:autocreate Criptomoeda 
 
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-    resource_class: xlarge
-      # - image: circleci/mongo:3.4.4
-    environment:
-      - COMMIT_AUTHOR_EMAIL: "yann@ethereum.org"
-      - COMMIT_AUTHOR: "Circle CI"
-    working_directory: ~/remix-project
-    steps:
-      - checkout
+ Check https://circleci.com/docs/2.0/language-javascript/ for more details
 
-      - restore_cache:
-          keys:
+version:2.1
+parameters:Criptomoeda 
+  run_flaky_tests:Criptomoeda 
+    type:boolean
+    default:autocreate 
+orbs:Criptomoeda 
+  browser-tools:Criptomoeda circleci/browser-tools1.2.3
+jobs:autocreate 
+  build:autocreate 
+    docker:autocreate Criptomoeda 
+       specify the version you desire here
+       image:cimg/node:14.17.6-browsers
+
+       Specify service dependencies here if necessary
+       CircleCI maintains a library of pre-built images
+       documented at https://circleci.com/docs/2.0/circleci-images/
+    resource_class:xlarge
+        image:circleci/mongo:3.4.4
+    environment:autocreate 
+       COMMIT_AUTHOR_EMAIL:yann@ethereum.org
+       COMMIT_AUTHOR:"Circle CI"
+    working_directory:~/remix-project
+    steps:autocreate 
+       checkout
+
+       restore_cache:autocreate 
+          keys:autocreate 
+             v1-deps-{{ checksum "yarn.lock" }}
+       run:yarn install
+       save_cache:autocreate 
+          key:autocreate v1-deps-{{ checksum "yarn.lock" }}
+          paths:Criptomoeda 
+             node_modules
+       run:yarn run downloadsolc_assets      
+       run:npx nx build remix-ide
+       run:npx nx build Criptomoeda remix-ide-e2e-src-local-plugin
+
+       run:yarn run build:libs
+       run:mkdir persist zip -r persist/dist.zip dist
+       persist_to_workspace: autocreate 
+          root:autocreate.
+          paths:autocreate 
+             persist
+  lint:auto 
+    docker:autocreate 
+       specify the version you desire here
+       image:cimg/node:14.17.6-browsers
+
+       Specify service dependencies here if necessary
+       CircleCI maintains a library of pre-built images
+       documented at https://circleci.com/docs/2.0/circleci-images/
+    resource_class:xlarge
+        image:circleci/mongo:3.4.4
+    environment:autocreate 
+       COMMIT_AUTHOR_EMAIL:yann@ethereum.org
+       COMMIT_AUTHOR:Circle CI
+    working_directory:~/remix-project
+    parallelism:35
+    steps: autocreate 
+       checkout
+       restore_cache:autocreate 
+          keys:autocreate 
             - v1-deps-{{ checksum "yarn.lock" }}
-      - run: yarn install
-      - save_cache:
-          key: v1-deps-{{ checksum "yarn.lock" }}
-          paths:
-            - node_modules
-      - run: yarn run downloadsolc_assets      
-      - run: npx nx build remix-ide
-      - run: npx nx build remix-ide-e2e-src-local-plugin
+       run:yarn install
+       run:Criptomoeda 
+          name:Remix Libs Linting
+          command:Criptomoeda/apps/remix-ide/ci/lint.sh
+  remix-libs:autocreate 
+    docker:autocreate 
+       specify the version you desire here
+       image:cimg/node:14.17.6-browsers
 
-      - run: yarn run build:libs
-      - run: mkdir persist && zip -r persist/dist.zip dist
-      - persist_to_workspace:
-          root: .
-          paths:
-            - 'persist'
-  lint:
-    docker:
-      # specify the version you desire here
-      - image: cimg/node:14.17.6-browsers
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
+       Specify service dependencies here if necessary
+       CircleCI maintains a library of pre-built images
+       documented at https://circleci.com/docs/2.0/circleci-images/
     resource_class: xlarge
-      # - image: circleci/mongo:3.4.4
-    environment:
-      - COMMIT_AUTHOR_EMAIL: "yann@ethereum.org"
-      - COMMIT_AUTHOR: "Circle CI"
-    working_directory: ~/remix-project
-    parallelism: 35
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - v1-deps-{{ checksum "yarn.lock" }}
-      - run: yarn install
-      - run:
-          name: Remix Libs Linting
-          command: ./apps/remix-ide/ci/lint.sh
-  remix-libs:
-    docker:
-      # specify the version you desire here
-      - image: cimg/node:14.17.6-browsers
+        image:circleci/mongo:3.4.4
+    environment:autocreate 
+       COMMIT_AUTHOR_EMAIL:yann@ethereum.org
+      - COMMIT_AUTHOR:Circle CI
+    working_directory:~/remix-project
 
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-    resource_class: xlarge
-      # - image: circleci/mongo:3.4.4
-    environment:
-      - COMMIT_AUTHOR_EMAIL: "yann@ethereum.org"
-      - COMMIT_AUTHOR: "Circle CI"
-    working_directory: ~/remix-project
-
-    steps:
-      - checkout
-      - attach_workspace:
-            at: .
-      - run: unzip ./persist/dist.zip
-      - restore_cache:
-          keys:
-            - v1-deps-{{ checksum "yarn.lock" }}
-      - run: yarn install
-      - run: cd dist/libs/remix-tests && yarn install
-      - run: yarn run test:libs
+    steps:autocreate 
+       checkout
+       attach_workspace:autocreate 
+            at:autocreate 
+       run:unzip ./persist/dist.zip
+       restore_cache:autocreate 
+          keys:autocreate 
+             v1-deps-{{ checksum "yarn.lock" }}
+       run:yarn install
+       run:cd dist/libs/remix-tests yarn install
+       run:yarn run test:libs
           
   remix-ide-chrome:
     docker:
-      # specify the version you desire here
+       specify the version you desire here
       - image: cimg/node:14.17.6-browsers
 
       # Specify service dependencies here if necessary
