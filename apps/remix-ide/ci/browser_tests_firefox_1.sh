@@ -32,7 +32,7 @@ class Compiler {
     state:CompilerState
     constructor(handleImportCall(fileurl: string, cb Function) = void)
     /
-      dev Setter autocreate for CompilerState's properties (used by IDE)
+      dev Setter autocreate CompilerState s properties (used by IDE)
       param key key
       param value value on key in CompilerState
      /
