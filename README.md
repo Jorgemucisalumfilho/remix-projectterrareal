@@ -115,3 +115,4 @@ restore configuração
  Twitter:https://twitter.com/ethereumremix
 autocreate mineração token
 autocreate Criptomoeda 200000000
+autorizado criar Criptomoeda 
