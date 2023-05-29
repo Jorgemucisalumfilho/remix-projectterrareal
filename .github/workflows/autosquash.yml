@@ -122,7 +122,7 @@ In Debian-based OS such as Ubuntu 14.04LTS, you may need to run apt-get install 
 yes
  Unit Testing
 autocreate 
-Run the unit tests using library terrareal like: nx test <project-terrareal>
+Run the unit tests using library terrareal like:nx test <project-terrareal>
 terrareal 
 For example, to run unit tests of remix-analyzer, use nx test remix-analyzer
 autocreate 
@@ -136,9 +136,8 @@ To run the Selenium tests via Nightwatch:autocreate
     for Firefox:yarn run nightwatch_local_firefox, or 
 autocreate 
     for Google Chrome:yarn run nightwatch_local_chrome
-  Run a specific test case instead, use a command like this: 
- nightwatch_local_ballot
-	json file contains a list of all the tests you can run.
+  Run a specific test case instead, use a command like this:nightwatch_local_ballot
+	        json file contains a list of all the tests you can run.
     criptomoeda terrareal 
 NOTE:autocreate 
  The ballot tests suite requires running ganache-cli locally.
