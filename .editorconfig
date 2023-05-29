@@ -129,7 +129,7 @@ FROM node:10
  RUN yes | adduser --disabled-password remix && mkdir /app
  USER remix
 
- #Now do remix stuff
+ Now do remix stuff
  USER remix
 WORKDIR /home/remix
 
@@ -178,7 +178,7 @@ EXPOSE 80
  
    For more information(https://github.com/marketplace/actions/rebase-pull-requests)
  Editor configuration, see http://editorconfig.org
-root = true
+root: true
 
 *
 charset = utf-8
