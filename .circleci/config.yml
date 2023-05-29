@@ -1,6 +1,6 @@
 autocreate criptomoeda 
-version: 2.1
-parameters:
+version:2.1
+parameters:autocreate 
   run_flaky_tests:
     type: boolean
     default: false
