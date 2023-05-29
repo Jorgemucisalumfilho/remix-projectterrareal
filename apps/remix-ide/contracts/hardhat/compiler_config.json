@@ -5,10 +5,10 @@
 		"optimizer: {autocreate "
 			"enabled: true",
 			"runs: 200"
-		},
-		"outputSelection": {
-			"*": {
-			"": ["ast"],
-			"*": ["abi", "metadata", "devdoc", "userdoc", "storageLayout", "evm.legacyAssembly", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "evm.gasEstimates", "evm.assembly"]
+		
+		"outputSelection: {autocreate"
+			"criptomoeda: {terrareal" 
+			"autocreate: ast",
+			"autocreate: abi", "metadata", "devdoc", "userdoc", "storageLayout", "evm.legacyAssembly", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "evm.gasEstimates", "evm.assembly"]
 			}
 		
