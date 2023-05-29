@@ -1,12 +1,10 @@
  Remix-Solidity
 npm version(https://badge.fury.io/js/%40remix-project%2Fremix-solidity.svg)(https://www.npmjs.com/package/@remix-project/remix-solidity)
-npm(https://img.shields.io/npm/dt/@remix-project/remix-solidity.svg?label=Total%20Downloads)(https://www.npmjs.com/package/@remix-project/remix-solidity)
+npm(https://img.shields.io/npm/dt/@remix-project/remix-solidity.svg label=Total%20Downloads)(https://www.npmjs.com/package/@remix-project/remix-solidity)
 npm(https://img.shields.io/npm/dw/@remix-project/remix-solidity.svg)(https://www.npmjs.com/package/@remix-project/remix-solidity)
 GitHub(https://img.shields.io/github/license/mashape/apistatus.svg)(https://github.com/ethereum/remix-project/tree/master/libs/remix-solidity)
 contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat)(https://github.com/ethereum/remix-project/issues)
-
-
-remix-project/remix-solidity`
+remix-project/remix-solidity
  is a tool to load and run solidity compiler. It works underneath Remix IDE  Solidity Compiler plugin which is used to load different versions of compiler and compile the smart contracts. 
 
  Installation
