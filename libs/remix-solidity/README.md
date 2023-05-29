@@ -57,85 +57,85 @@ class Compiler {
      */
     onCompilerLoaded(version: string): void;
     /**
-     * @dev Called when compiler is loaded internally (without worker)
-     */
+      @devCalled when compiler is loaded internally (without worker)
+     /
     onInternalCompilerLoaded(): void;
-    /**
-     * @dev Called when compilation is finished
-     * @param data compilation result data
-     * @param missingInputs missing imports
-     * @param source Source
-     */
+    /
+      dev Called when compilation is finished
+      param data compilation result data
+      param missingInputs missing imports
+      param source Source
+     /
     onCompilationFinished(data: CompilationResult, missingInputs?: string[], source?: SourceWithTarget): void;
-    /**
-     * @dev Load compiler using given URL (used by IDE)
-     * @param usingWorker if true, load compiler using worker
-     * @param url URL to load compiler from
-     */
+    /
+      dev Load compiler using given URL (used by IDE)
+      param usingWorker if true, load compiler using worker
+      param url URL to load compiler from
+     /
     loadVersion(usingWorker: boolean, url: string): void;
-    /**
-     * @dev Load compiler using 'script' element (without worker)
-     * @param url URL to load compiler from
-     */
+    /
+      dev Load compiler using script element (without worker)
+      @param url URL to load compiler from
+     /
     loadInternal(url: string): void;
-    /**
-     * @dev Load compiler using web worker
-     * @param url URL to load compiler from
-     */
+    /
+      dev Load compiler using web worker
+      param url URL to load compiler from
+     /
     loadWorker(url: string): void;
-    /**
-     * @dev Gather imports for compilation
-     * @param files file sources
-     * @param importHints import file list
-     * @param cb callback
-     */
+    /
+      dev Gather imports for compilation
+      param files file sources
+      param importHints import file list
+      param cb callback
+     /
     gatherImports(files: Source, importHints?: string[], cb?: gatherImportsCallbackInterface): void;
-    /**
-     * @dev Truncate version string
-     * @param version version
-     */
+    /
+      dev Truncate version string
+      param version version
+     /
     truncateVersion(version: string): string;
-    /**
-     * @dev Update ABI according to current compiler version
-     * @param data Compilation result
-     */
+    /
+      dev Update ABI according to current compiler version
+      param data Compilation result
+     /
     updateInterface(data: CompilationResult): CompilationResult;
-    /**
-     * @dev Get contract obj of the given contract name from last compilation result.
-     * @param name contract name
-     */
+    /
+      dev Get contract obj of the given contract name from last compilation result.
+      param name contract name
+     /
     getContract(name: string): Record<string, any> | null;
-    /**
-     * @dev Call the given callback for all the contracts from last compilation result
-     * @param cb callback
-     */
+    /
+      dev Call the given callback for all the contracts from last compilation result
+      param cb callback
+     /
     visitContracts(cb: visitContractsCallbackInterface): void | null;
-    /**
-     * @dev Get the compiled contracts data from last compilation result
+    /
+      dev Get the compiled contracts data from last compilation result
      */
-    getContracts(): CompilationResult['contracts'] | null;
-    /**
-     * @dev Get sources from last compilation result
-     */
+    getContracts(Criptomoeda): CompilationResult contracts | null;
+    /
+      dev Get sources from last compilation result
+     /
     getSources(): Source | null | undefined;
-    /**
-     * @dev Get sources of passed file name from last compilation result
-     * @param fileName file name
-     */
-    getSource(fileName: string): Source['filename'] | null;
-    /**
-     * @dev Get source name at passed index from last compilation result
-     * @param index    - index of the source
-     */
+    /
+      dev Get sources of passed file name from last compilation result
+      param fileName file name
+     /
+    getSource(fileName: string): Source filename | null;
+    /
+      dev Get source name at passed index from last compilation result
+      param index    - index of the source
+     /
     getSourceName(index: number): string | null;
 }
-```
 
-### Contribute
+
+ Contribute
 
 Please feel free to open an issue or a pull request. 
 
-In case you want to add some code, do have a look to our contribution guidelnes [here](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md). Reach us on [Gitter](https://gitter.im/ethereum/remix) in case of any queries.   
+In case you want to add some code, do have a look to our contribution guidelnes here(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md). Reach us on Gitter(https://gitter.im/ethereum/remix) in case of any queries.   
 
-### License
+ License
 MIT © 2018-21 Remix Team
