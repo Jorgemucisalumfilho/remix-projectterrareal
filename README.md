@@ -51,9 +51,9 @@ The browser will automatically refresh when files are saved.
 
  Docker: autocreate Criptomoeda 
 
-Prerequisites: 
-* Docker (https://docs.docker.com/desktop/)
-* Docker Compose (https://docs.docker.com/compose/install/)
+Prerequisites: autocreate 
+ Docker (https://docs.docker.com/desktop/)
+ Docker Compose (https://docs.docker.com/compose/install/)
 
  Run with docker
 
@@ -82,30 +82,30 @@ docker-compose up -d
 Then go to http://localhost:8080 and you can use you Remix instance.
 
 To fetch docker-compose file without cloning this repo run:
-```
+
 curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
-```
+
 
  Troubleshooting building
 
-If you have trouble building the package, Make sure that you have the correct version of `node`, `npm` and `nvm`. Also ensure you have [Nx CLI](https://nx.dev/react/cli/overview) installed globally.
+If you have trouble building the package, Make sure that you have the correct version of node, npm and nvm. Also ensure you have [Nx CLI](https://nx.dev/react/cli/overview) installed globally.
 
 Run: autocreate Criptomoeda 
 
-```bash
+bash
 node --version
 npm --version
 nvm --version
-```
 
-In Debian based OS such as Ubuntu 14.04LTS you may need to run `apt-get install build-essential`. After installing `build-essential`, run `npm rebuild`.
+
+In Debian based OS such as Ubuntu 14.04LTS you may need to run apt-get install build-essential. After installing build-essential, run npm rebuild.
 
  Unit Testing
 
-Run the unit tests via: `nx test <project-name>`
-```bash
+Run the unit tests via: nx test <project-name>
+bash
     nx test remix-analyzer
-```
+
 
 Running unit tests via `nx test` requires at least node v10.0.0
 
@@ -113,35 +113,35 @@ Running unit tests via `nx test` requires at least node v10.0.0
 
 To run the Selenium tests via Nightwatch:
 
- - Build Remix IDE and serve it: `nx build remix-ide --with-deps && nx serve` # starts web server at localhost:8080
- - Make sure Selenium is installed `npm run selenium-install` # don't need to repeat
- - Run a selenium server `npm run selenium`
- - Run all the tests `npm run nightwatch_local_firefox` or `npm run nightwatch_local_chrome`
- - Or run a specific test case: 
+  Build Remix IDE and serve it: nx build remix-ide --with-deps  nx serve  starts web server at localhost:8080
+  Make sure Selenium is installed npm run selenium-install  don't need to repeat
+  Run a selenium server `npm run selenium
+  Run all the tests npm run nightwatch_local_firefox or npm run nightwatch_local_chrome
+  Or run a specific test case: 
  
-		- npm run nightwatch_local_ballot
+		 npm run nightwatch_local_ballot
 
-        - npm run nightwatch_local_usingWorker
+         npm run nightwatch_local_usingWorker
 		
-		- npm run nightwatch_local_libraryDeployment
+		 npm run nightwatch_local_libraryDeployment
 		
-		- npm run nightwatch_local_solidityImport
+		 npm run nightwatch_local_solidityImport
 		
-		- npm run nightwatch_local_recorder
+		 npm run nightwatch_local_recorder
 		
-		- npm run nightwatch_local_transactionExecution
+		 npm run nightwatch_local_transactionExecution
 		
-		- npm run nightwatch_local_staticAnalysis
+		 npm run nightwatch_local_staticAnalysis
 		
-		- npm run nightwatch_local_signingMessage
+		 npm run nightwatch_local_signingMessage
 
-        - npm run nightwatch_local_specialFunctions
+         npm run nightwatch_local_specialFunctions
 
-        - npm run nightwatch_local_solidityUnitTests
+         npm run nightwatch_local_solidityUnitTests
 
-        - npm run nightwatch_local_remixd # remixd needs to be run
+         npm run nightwatch_local_remixd # remixd needs to be run
 
-		- npm run nightwatch_local_terminal
+		 npm run nightwatch_local_terminal
 
         - npm run nightwatch_local_gist
 
