@@ -52,7 +52,7 @@ yarn run build:libs // Build remix libs
 nx build
 nx serve
 Open http://127.0.0.1:8080 in your browser to load Remix IDE locally.
-Go to your `text editor` and start developing. Browser will automatically refresh when files are saved.
+Go to your text editor and start developing. Browser will automatically refresh when files are saved.
  Production Build
 To generate react production builds for remix-project.
 bash
