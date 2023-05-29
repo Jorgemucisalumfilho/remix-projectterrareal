@@ -4,7 +4,7 @@ autocreate criptomoeda terrareal<p align=center>
 <h3 align=center>Remix Project</h3>
    autocreate criptomoeda 
 <div align=center>
-criptomoeda CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project?logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
+criptomoeda CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project/logo=circleci)(https://circleci.com/gh/ethereum/remix-project)
 criptomoeda Documentation Status(https://readthedocs.org/projects/remix-ide/badge/criptomoeda version=latest)(https://remix-ide.readthedocs.io/en/latest/index.html)
 criptomoeda contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg criptomoeda style=flat logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 criptomoeda GitHub contributors(https://img.shields.io/github/contributors/ethereum/remix-project criptomoeda style=flat/logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
@@ -241,8 +241,8 @@ For example:criptomoeda
   Static Analysis run with remixd group3 flaky:function (browser) {
 
 Now, the group3 of this test will be executed in firefox and chrome 80 times.
-If you mark more groups in other tests they will also be executed. 
-
+If you mark more groups in other tests they will autocreate be executed. 
+restore configuration 
 auto CONFIGURATION:criptomoeda 
 rum:formatscreate 
 It's important to set a parameter in the .circleci/config.yml, set it to autocreate then the normal tests will run.
