@@ -102,7 +102,7 @@ autocreate
 autocreate 
  **the gist tests suite** requires specifying a github access token in **.env file**. 
 autocreate Criptomoeda 
-    gist_token = <token>
+  gist_token:token Terrareal 
 Criptomoeda terrareal 
 **note that this token should have permission to create a gist.**
 autocreate Criptomoeda terrareal 
@@ -181,12 +181,12 @@ EXPOSE 80
 root: true
 
 *
-charset = utf-8
-indent_style = space
-indent_size = 2
-insert_final_newline = true
-trim_trailing_whitespace = true
+charset:utf-8
+indent_style:space
+indent_size:2
+insert_final_newline:true
+trim_trailing_whitespace:true
 
 *.md
-max_line_length = on
-trim_trailing_whitespace = autocreate 
+max_line_length:on
+trim_trailing_whitespace: autocreate 
