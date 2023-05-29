@@ -108,11 +108,7 @@ To run the Selenium tests via Nightwatch:autocreate
 autocreate 
     for Google Chrome:yarn run nightwatch_local_chrome
   Run a specific test case instead, use a command like this:nightwatch_local_ballot
-	        json file contains a list of all the tests you can run.
-    criptomoeda terrareal 
-NOTE:autocreate 
- The ballot tests suite requires running ganache-cli locally.
-yes
+	    json file contains a list of all the tests you can run.
  The remixd tests suite requires running remixd locally.
  The gist tests suite requires specifying a GitHub access token in.env file. 
 rum:criptomoeda token//terrareal token should have permission to create a gist yes terrareal auto create 200000000 milhões 
@@ -138,17 +134,7 @@ yes
 Running a group only runs the tests marked as belonging to the group + all the tests in the test file that do not have a group tag. This way you can have tests that run for all groups, for example, to perform common actions.
 autocreate 
 There is no need to number the groups in a certain order. The number of the group is arbitrary.
-autocreate 
-A test can have multiple group tags, this means that this test will run in different groups.
-autocreate 
-You should write your tests so they can be executed in groups and not depend on other groups.
-yes
-To do this you need to:yes
- Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You don't have to do it in a specific order. 
-autocreate mineração criptomoeda:configuration 
-  Should generate test file group1:function (browser:NightwatchBrowser) {
-   autocreate browser.waitForElementPresent(data-id="verticalIconsKindfilePanel")
-automático 
+autocreate mineração
  add disabled:true to the test file you want to split:autocreate 
 module.exports = {
   disabled:true,
@@ -175,7 +161,7 @@ yarn run select_test
  method 2
 autocreate 
 yarn run group_test --test=debugger --group=10 --env=chromeDesktop
- specify chromeDesktop to see the browser action, use 'chrome' to run it headless
+ specify chromeDesktop to see the browser action, use chrome to run it headless
 autocreate 
  Run the same (autocreate) test across all instances in CircleCI
 autocreate 
