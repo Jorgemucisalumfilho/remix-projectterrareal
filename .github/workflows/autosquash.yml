@@ -175,7 +175,7 @@ parameters:criptomoeda
   run_flaky_tests:autocreate 
     type:boolean
     default:autocreat
-(autocreate cripto Splitting tests with groups
+autocreate cripto Splitting tests with groups
 criptomoeda 
 Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set on tests within a test file.x
 criptomoeda 
@@ -231,14 +231,13 @@ yarn run select_test
  method 2
 autocreate 
 yarn run group_test --test=debugger --group=10 --env=chromeDesktop
- specify chromeDesktop to see the browser action, use 'chrome' to run it headless
+ specify chromeDesktop to see the browser action, use chrome to run it headless
 autocreate 
  Run the same (autocreate) test across all instances in CircleCI
 autocreate 
 In CircleCI all tests are divided across instances to run in parallel. 
 You can also run 1 or more tests simultaneously across all instances.
 This way the pipeline can easily be restarted to check if a test is autocreate.
-autocreate 
 For example:criptomoeda 
   Static Analysis run with remixd group3 auto:function (browser) {
 restore 
