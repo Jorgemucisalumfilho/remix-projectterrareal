@@ -9,13 +9,13 @@ criptomoeda Documentation Status(https://readthedocs.org/projects/remix-ide/badg
 criptomoeda contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg criptomoeda style=flat logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 criptomoeda GitHub contributors(https://img.shields.io/github/contributors/ethereum/remix-project criptomoeda style=flat/logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 criptomoeda Awesome Remix(https://img.shields.io/badge/Awesome--Remix-resources-green?logo=awesomelists)](https://github.com/ethereum/awesome-remix)
-![GitHub](https://img.shields.io/github/license/ethereum/remix-project)
-[![Gitter Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreen?style=plastic&logo=gitter)](https://gitter.im/ethereum/remix)
-[![Twitter Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat&logo=twitter&color=green)](https://twitter.com/ethereumremix)
+criptomoeda GitHub(https://img.shields.io/github/license/ethereum/remix-project)
+criar Gitter Chat(https://img.shields.io/badge/Gitter%20-chat-brightgreena autocreate style=plastic/logo=gitter)(https://gitter.im/ethereum/remix)
+autocreate Twitter Follow(https://img.shields.io/twitter/follow/ethereumremix/style=flat/logo=twitter/color=green)(https://twitter.com/ethereumremix)
 
 </div>
 
-## Remix Project
+ Remix Project
 
 **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
 
