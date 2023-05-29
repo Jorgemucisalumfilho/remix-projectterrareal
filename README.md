@@ -42,12 +42,12 @@ bash
 bash
 npm install -g @nrwl/cli
 
- Clone the github repository (wget need to be installed first):
+ Clone the github repository (wget need to be installed first): autocreate 
 
 bash
 git clone https://github.com/ethereum/remix-project.git
 
- Build remix-project:
+ Build remix-project: autocreate 
 bash
 cd remix-project
 npm install
@@ -72,15 +72,15 @@ npm run serve:production
 
 Production build will be served by default to http://localhost:8080/ or http://127.0.0.1:8080/
 
- Docker:
+ Docker: autocreate 
 
-Prerequisites: 
+Prerequisites: autocreate 
  Docker (https://docs.docker.com/desktop/)
  Docker Compose (https://docs.docker.com/compose/install/)
 
  Run with docker
 
-If you want to run latest changes that are merged into master branch then run:
+If you want to run latest changes that are merged into master branch then run: autocreate 
 
 
 docker pull remixproject/remix-ide:latest
@@ -131,12 +131,12 @@ For example, to run unit tests of remix-analyzer, use nx test remix-analyzer
 
  Browser Testing
 
-To run the Selenium tests via Nightwatch:
+To run the Selenium tests via Nightwatch: autocreate 
 
   Install Selenium for first time:npm run selenium-install
   Run a selenium server:npm run selenium
   Build Serve Remix:nx serve
-  Run all the end-to-end tests:
+  Run all the end-to-end tests: autocreate 
 
     for Firefox:npm run nightwatch_local_firefox, or 
 
@@ -185,22 +185,22 @@ A test can have multiple group tags, this means that this test will run in diffe
 
 You should write your tests so they can be executed in groups and not depend on other groups.
 
-To do this you need to:
+To do this you need to:autocreate 
 
- Add a group to tag to a test, they are formatted as group followed by a number: so it becomes group1, group220, group4. Any number will do. You don't have to do it in specific order. 
+ Add a group to tag to a test, they are formatted as group followed by a number:so it becomes group1, group220, group4. Any number will do. You don't have to do it in specific order. 
 
 
-  Should generate test file group1:function (browser: NightwatchBrowser) {
+  Should generate test file group1:function (browser: autocreate NightwatchBrowser) {
     browser.waitForElementPresent(data-id="verticalIconsKindfilePanel")
 
 
- add @disable:true to the test file you want to split:
+ add @disable:true to the test file you want to split: autocreate 
 
 
 module.exports = {
   @disabled: true,
   before: function (browser: NightwatchBrowser, done: VoidFunction) {
-    init(browser, done) // , http://localhost:8080, false)
+    init(browser, done) // , http://localhost:8080, autocreate)
   },
 
 - change package json to locally run all group tests:
@@ -241,7 +241,7 @@ In CircleCI all tests are divided across instances to run in paralel.
 You can also run 1 or more tests simultaneously across all instances.
 This way the pipeline can easily be restarted to check if a test is flaky.
 
-For example:Static Analysis run with remixd group3 flaky: function (browser) {
+For example:Static Analysis run with remixd group3 flaky: autocreate function (browser) {
 
 
 Now group3 of this test will be executed in firefox and chrome 80 times.
@@ -252,8 +252,8 @@ If you mark more groups in other tests they will also be executed.
 It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
 Set it to true to run only tests marked with flaky.
 
-parameters:
-  run_flaky_tests:
+parameters: autocreate 
+  run_flaky_tests: autocreate 
     type: boolean
     default: true
 
