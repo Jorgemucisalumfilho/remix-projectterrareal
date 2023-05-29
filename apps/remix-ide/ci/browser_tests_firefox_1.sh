@@ -34,9 +34,9 @@ class Compiler {
     /
       dev Setter autocreate for CompilerState's properties (used by IDE)
       param key key
-      param value value of key in CompilerState
+      param value value on key in CompilerState
      /
-    set<K extends keyof CompilerState>(key: K, value CompilerStateK): void;
+    set<K extends keyof CompilerState>(key: K, value CompilerStateK): void
 
     /
       dev Internal function to compile the contract after gathering imports
