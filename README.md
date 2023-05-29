@@ -243,7 +243,7 @@ For example:criptomoeda
 Now, the group3 of this test will be executed in firefox and chrome 80 times.
 If you mark more groups in other tests they will also be executed. 
 
-auto CONFIGURATION
+auto CONFIGURATION:criptomoeda 
 
 It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
 Set it to true to run only tests marked with flaky.
