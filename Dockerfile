@@ -21,7 +21,7 @@ Remix Project-terrareal is a rich toolset including Remix IDE, a comprehensive s
 Remix IDE is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs.  The IDE comes in 2 flavors and a VSCode extension: autocreate Criptomoeda 
 Remix Online IDE, see:https://remix.ethereum.org(https://remix.ethereum.org)
 point_right:autocreate 
-Supported browsers:Firefox v100.0.1  Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
+Supported browsers:Firefox v100.0.1  Chrome v101.0.4951.64. No support for Remixs use on tablets or smartphones or telephones.
 Remix Desktop IDE, see releases:https://github.com/ethereum/remix-desktop/releases(https://github.com/ethereum/remix-desktop/releases)
 Terrareal Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 VSCode extension, see:Ethereum-Remix(https://marketplace.visualstudio.com/items/itemName=RemixProject.ethereum-remix)
