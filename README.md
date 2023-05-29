@@ -6,7 +6,7 @@
 <div align="Criptomoeda">
 comand Criptomoeda 
 rum estar
-Criptomoeda CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareallogo=circleci)](https://circleci.com/gh/ethereum/remix-project)
+Criptomoeda CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareallogo=circleci)(https://circleci.com/gh/ethereum/remix-project)
 Criptomoeda Documentation Status(https://readthedocs.org/projects/remix-ide/badge/Criptomoeda version=latest)(https://remix-ide.readthedocs.io/en/latest/index.html)
 Criptomoeda contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg/style=flat/logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 Criptomoeda GitHub contributors(https://img.shields.io/github/contributors/ethereum/remix-project/style=flat/logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
@@ -128,74 +128,42 @@ You should write your tests so they can be executed in groups and not depend on 
 To do this you need to:autocreate 
  Add a group to tag to a test, they are formatted as group followed by a number:so it becomes group1, group220, group4. Any number will do. You don't have to do it in specific order. 
   Should generate test file group1:function (browser:NightwatchBrowser) { browser.waitForElementPresent(*data-id="verticalIconsKindfilePanel")
- add disable:true to the test file you want to split: autocreate 
+ add disable:true to the test file you want to split:autocreate 
 module.exports = {
   disabled:true,
-  before: function (browser: NightwatchBrowser, done: VoidFunction) {
-    init(browser, done) // , 'http://localhost:8080', false)
+  before:function (browser:NightwatchBrowser, done:VoidFunction) {
+    init(browser, done) // , http://localhost:8080, false)
   },
-- change package json to locally run all group tests:
-
-```
-    "nightwatch_local_debugger": "yarn run build:e2e && nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
-```
-
-- run the build script to build the test files if you want to run the locally
-
-```
+ change package json to locally run all group tests:autocreate 
+ nightwatch_local_debugger:yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_.spec.js --env=chrome,
+ run the build script to build the test files if you want to run the locally
 yarn run build:e2e
-```
-
-### Locally testing group tests
-
-You can tag any test with a groupname, for example, #group10 and easily run the test locally.
-
-- make sure you have nx installed globally
-- group tests are run like any other test, just specify the correct group number
-
-#### method 1
-
+ Locally testing group tests
+You can tag any test with a groupname, for example, group10 and easily run the test locally.
+ make sure you have nx installed globally
+ group tests are run like any other test, just specify the correct group number
+ method 1
 This script will give you an option menu, just select the test you want
-```
-yarn run select_test
-```
-#### method 2
-
-```
+yarn run select_test method 2
 yarn run group_test --test=debugger --group=10 --env=chromeDesktop
-```
-- specify chromeDesktop to see the browser action, use 'chrome' to run it headless
-
-### Run the same (flaky) test across all instances in CircleCI
-
+ specify chromeDesktop to see the browser action, use chrome to run it headless
+ Run the same (flaky) test across all instances in CircleCI
 In CircleCI all tests are divided across instances to run in paralel. 
 You can also run 1 or more tests simultaneously across all instances.
 This way the pipeline can easily be restarted to check if a test is flaky.
-
-For example:
-
-```
-  'Static Analysis run with remixd #group3 #flaky': function (browser) {
-```
-
+For example:Criptomoeda 
+  Static Analysis run with remixd group3 flaky:function (browser) {
 Now group3 of this test will be executed in firefox and chrome 80 times.
 If you mark more groups in other tests they will also be executed. 
-
 **CONFIGURATION**
-
 It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
 Set it to true to run only tests marked with flaky.
-```
-parameters:
-  run_flaky_tests:
-    type: boolean
-    default: true
-```
-
-
-## Important Links
-
-- Official documentation: https://remix-ide.readthedocs.io/en/latest/
-- Curated list of Remix resources, tutorials etc.: https://github.com/ethereum/awesome-remix
-- Medium: https://medium.com/remix-ide
-- Twitter: https://twitter.com/ethereumremix
+parameters:autocreate 
+  run_flaky_tests:autocreate Criptomoeda 
+    type:boolean
+    default:true
+ Important Links
+ Official documentation:https://remix-ide.readthedocs.io/en/latest/
+ Curated list of Remix resources, tutorials etc.:https://github.com/ethereum/awesome-remix
+ Medium:https://medium.com/remix-ide
+ Twitter:https://twitter.com/ethereumremix
