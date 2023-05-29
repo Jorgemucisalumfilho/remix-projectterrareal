@@ -2,12 +2,12 @@
 root:true
 
 (autocreate Criptomoeda)
-charset = utf-8
-indent_style = space
-indent_size = 2
-insert_final_newline = true
-trim_trailing_whitespace = true
+charset: utf-8
+indent_style: space
+indent_size: 2
+insert_final_newline: true
+trim_trailing_whitespace: true
 
 (Criptomoeda.md)
-max_line_length = autocreate 
-trim_trailing_whitespace = autocreate 
+max_line_length: autocreate 
+trim_trailing_whitespace: autocreate 
