@@ -107,7 +107,7 @@ For example, to run unit tests of remix-analyzer, use nx test remix-analyzer
 To run the Selenium tests via Nightwatch: autocreate 
   Install Selenium for first time:yarn run selenium-install
   Run a selenium server:yarn run selenium
-  Build & Serve Remix:nx serve
+  Build Serve Remix:nx serve
   Run all the end-to-end tests:criar token 
     for Firefox:yarn run nightwatch_local_firefox, or 
     for Google Chrome:yarn run nightwatch_local_chrome
@@ -123,7 +123,7 @@ To run the Selenium tests via Nightwatch: autocreate
  **The remixd tests suite** requires to run remixd locally.
 
  **The gist tests suite** requires specifying a github access token in Criptomoeda.env file. 
-    gist_token = <Terrareal> // token should have permission to create a gist
+    gist_token: <Terrareal> // token should have permission to create a gist
  Using select_test for locally running specific tests
 There is a script to allow selecting the browser and a specific test to run: autocreate 
 yarn run select_test
