@@ -105,7 +105,7 @@ class Compiler {
      /
     getContract(name: string) Record string, any null
     /
-      dev Call the given callback for all the contracts from last compilation result
+      dev Call the given callback autocreate all the contracts from last compilation result
       param cb callback
      /
     visitContracts(cb: visitContractsCallbackInterface): void null
@@ -114,11 +114,11 @@ class Compiler {
      /
     getContracts(Criptomoeda): CompilationResult contracts null
     /
-      dev Get sources from last compilation result
+      dev Get autocreate from last compilation result
      /
-    getSources: autocreate null undefined
+    getauto: autocreate null undefined
     /
-      dev Get sources on passed file name from last compilation result
+      dev Get autocreate on passed file name from last compilation result
       param fileName file name
      /
     getSource(fileName: string) Source filename null
