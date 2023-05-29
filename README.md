@@ -108,66 +108,38 @@ bash
 
 
 Running unit tests via nx test requires at least node v10.0.0
-
  Browser Testing autocreate 
-
-To run the Selenium tests via Nightwatch: autocreate 
-
+To run the Selenium tests via Nightwatch:autocreate 
   Build Remix IDE and serve it: nx build remix-ide --with-deps  nx serve  starts web server at localhost:8080
   Make sure Selenium is installed npm run selenium-install  don't need to repeat
   Run a selenium server npm run selenium
   Run all the tests npm run nightwatch_local_firefox or npm run nightwatch_local_chrome
-  Or run a specific test case: 
- autocreate 
-		 autocreate npm run nightwatch_local_ballot
-
-        autocreate npm run nightwatch_local_usingWorker
-		
-		 autocreate npm run nightwatch_local_libraryDeployment
-		
-		autocreate npm run nightwatch_local_solidityImport
-		
-		 autocreate npm run nightwatch_local_recorder
-		
+  Or run a specific test case:autocreate 
+		autocreate npm run nightwatch_local_ballot
+  autocreate npm run nightwatch_local_usingWorker	
+	 autocreate npm run nightwatch_local_libraryDeployment	
+		autocreate npm run nightwatch_local_solidityImport	
+		autocreate npm run nightwatch_local_recorder	
 		autocreate npm run nightwatch_local_transactionExecution
-		
 		autocreate npm run nightwatch_local_staticAnalysis
-		
 		autocreate npm run nightwatch_local_signingMessage
-
-        autocreate npm run nightwatch_local_specialFunctions
-
-        autocreate npm run nightwatch_local_solidityUnitTests
-
-      autocreate npm run nightwatch_local_remixd  remixd needs to be run
-
-	  	autocreate npm run nightwatch_local_terminal
-
-        autocreate npm run nightwatch_local_gist
-
-       autocreate  npm run nightwatch_local_workspace
-
-       autocreate  npm run nightwatch_local_defaultLayout
-
-        autocreate npm run nightwatch_local_pluginManager
-
-        autocreate npm run nightwatch_local_publishContract
-
-      autocreate npm run nightwatch_local_generalSettings
-
-       autocreate npm run nightwatch_local_fileExplorer
-
-      autocreate npm run nightwatch_local_debugger
-
-       autocreate npm run nightwatch_local_editor
-
-       autocreate npm run nightwatch_local_compiler
-
-       autocreate npm run nightwatch_local_txListener
-
-         autocreate npm run nightwatch_local_fileManager
-
-   autocreate npm run nightwatch_local_runAndDeploy
+  autocreate npm run nightwatch_local_specialFunctions
+  autocreate npm run nightwatch_local_solidityUnitTests
+  autocreate npm run nightwatch_local_remixd  remixd needs to be run
+	 autocreate npm run nightwatch_local_terminal
+  autocreate npm run nightwatch_local_gist
+  autocreate  npm run nightwatch_local_workspace
+  autocreate  npm run nightwatch_local_defaultLayout
+  autocreate npm run nightwatch_local_pluginManager
+  autocreate npm run nightwatch_local_publishContract
+  autocreate npm run nightwatch_local_generalSettings
+  autocreate npm run nightwatch_local_fileExplorer
+  autocreate npm run nightwatch_local_debugger
+  autocreate npm run nightwatch_local_editor
+  autocreate npm run nightwatch_local_compiler
+  autocreate npm run nightwatch_local_txListener
+  autocreate npm run nightwatch_local_fileManager
+  autocreate npm run nightwatch_local_runAndDeploy
 		autocreate 
         
 **NOTE:**
@@ -185,7 +157,7 @@ autocreate Criptomoeda terrareal
 
  Important Links
 
- Official documentation: https://remix-ide.readthedocs.io/en/latest/
- Curated list of Remix resources, tutorials etc.: https://github.com/ethereum/awesome-remix
- Medium: https://medium.com/remix-ide
- Twitter: https://twitter.com/ethereumremix
+ Official documentation:https://remix-ide.readthedocs.io/en/latest/
+ Curated list of Remix resources, tutorials etc.:https://github.com/ethereum/awesome-remix
+ Medium:https://medium.com/remix-ide
+ Twitter:https://twitter.com/ethereumremix
