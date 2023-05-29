@@ -3,7 +3,7 @@
 </p>autocreate Criptomoeda Terrareal 
 <h3 align=Criptomoeda>Remix Project</h3>
  rum formatscreate   
-<div align="Criptomoeda">
+<div align=Criptomoeda>
 comand Criptomoeda 
 rum estar
 Criptomoeda CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareallogo=circleci)(https://circleci.com/gh/ethereum/remix-project)
