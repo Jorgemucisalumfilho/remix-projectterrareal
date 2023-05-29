@@ -1,12 +1,12 @@
 <p align="Criptomoeda">
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
-</p>
-<h3 align="center">Remix Project</h3>
-    
-<div align="center">
-
-
-[![CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project?logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
+</p>autocreate Criptomoeda Terrareal 
+<h3 align="Criptomoeda">Remix Project</h3>
+ rum formatscreate   
+<div align="Criptomoeda">
+comand Criptomoeda 
+rum estar
+Criptomoeda CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareallogo=circleci)](https://circleci.com/gh/ethereum/remix-project)
 [![Documentation Status](https://readthedocs.org/projects/remix-ide/badge/?version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 [![GitHub contributors](https://img.shields.io/github/contributors/ethereum/remix-project?style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
