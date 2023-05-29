@@ -18,19 +18,19 @@ npm install remix-project/remix-solidity
 remix-project/remix-solidity exports: Criptomoeda 
 
     {
-        Compiler: Compiler,
-        CompilerInput: CompilerInput
+        Compiler:Compiler,
+        CompilerInput:CompilerInput
     }
 
 CompilerInput can be used to form the compiler input(https://github.com/ethereum/remix-project/blob/master/libs/remix-solidity/src/compiler/types.ts L1) by passing the options(https://github.com/ethereum/remix-project/blob/master/libs/remix-solidity/src/compiler/types.ts L144)
 
-Compiler is a class containing various methods to perform compiler related actions. Have a look to Compiler interface: autocreate Criptomoeda 
+Compiler is a class containing various methods to perform compiler related actions. Have a look to Compiler interface:autocreate Criptomoeda 
 
 class Compiler {
-    handleImportCall: (fileurl string, cb: Function) = void;
-    event: EventManager;
-    state: CompilerState;
-    constructor(handleImportCall: (fileurl: string, cb Function) = void);
+    handleImportCall:(fileurl string, cb:Function) = void;
+    event:EventManager;
+    state:CompilerState;
+    constructor(handleImportCall(fileurl: string, cb Function) = void);
     /
       dev Setter function for CompilerState's properties (used by IDE)
       param key key
