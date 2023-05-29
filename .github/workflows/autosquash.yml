@@ -141,7 +141,7 @@ yarn run build:e2e
 criptomoeda 
  Locally testing group tests
 terrareal 
-You can tag any test with a group name, for example, #group10 and easily run the test locally.
+You can tag any test with a group name, for example, group10 and easily run the test locally.
 parque nacional 
  make sure you have nx installed globally
  group tests are run like any other test, just specify the correct group number
