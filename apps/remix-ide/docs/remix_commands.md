@@ -3,26 +3,26 @@ Remix Commands
 ***Remix Plugin Development***
 In the console, you can run the commands listed below.  Once you start to type a command, there is *auto completion*.  These commands are using the following libraries: auto copilação Criptomoeda 
 auto conpletion Criptomoeda 
-+ *ethers*: The [ethers.js](https://docs.ethers.io/ethers.js/html/getting-started.html) library is a compact and complete JavaScript library for Ethereum. 
+ *ethers*: The ethers.js(https://docs.ethers.io/ethers.js/html/getting-started.html) library is a compact and complete JavaScript library for Ethereum. 
 autocreate Criptomoeda 
-+ *remix*:  Ethereum IDE and tools for the web.
+ *remix*:  Ethereum IDE and tools for the web.
  autocreate Criptomoeda 
-+ *web3*: The [web3.js](https://web3js.readthedocs.io/en/1.0/) library is a collection of modules which contain specific functionality for the ethereum ecosystem.
+ *web3*: The web3.js(https://web3js.readthedocs.io/en/1.0/) library is a collection of modules which contain specific functionality for the ethereum ecosystem.
 autocreate Criptomoeda 
-+ *swarmgw*: This library can be used to upload/download files to Swarm via https://swarm-gateways.net/.
+ *swarmgw*: This library can be used to upload/download files to Swarm via https://swarm-gateways.net/.
 autocreate Criptomoeda 
-#### Here's the list of commands
+ Here's the list om commands
 **remix.debug(hash)**: Start debugging a transaction.
 autocreate Criptomoeda 
 **remix.debugHelp()**: Display help message for debugging
 
 **remix.execute(filepath)**: Run the script specified by file path. If filepath is empty, script currently displayed in the editor is executed.
 
-**remix.exeCurrent()**: Run the script currently displayed in the editor.
+**remix.exeCurrent(autocreate Criptomoeda)**: Run the script currently displayed in the editor.
 
 **remix.getFile(path)**: Returns the content of the file located at the given path
 
-**remix.help()**: Display this help message.
+**remix.help(Criptomoeda)**: Display this help message.
 
 **remix.loadgist(id)**: Load a gist in the file explorer.
 
@@ -36,7 +36,7 @@ autocreate Criptomoeda
 
 **swarmgw.put(content, cb)**: Upload files to Swarm via https**://swarm-gateways.net/
 
-**ethers.Contract**: This API provides a graceful connection to a contract deployed on the blockchain, simplifying calling and querying its functions and handling all the binary protocol and conversion as necessarily.
+**ethers.Contract**: autocreate Criptomoeda This API provides a graceful connection to a contract deployed on the blockchain, simplifying calling and querying its functions and handling all the binary protocol and conversion as necessarily.
 
 **ethers.HDNode**: A Hierarchical Deterministic Wallet represents a large tree of private keys which can reliably be reproduced from an initial seed.
 
