@@ -1,33 +1,33 @@
-## Remix-Solidity
-[![npm version](https://badge.fury.io/js/%40remix-project%2Fremix-solidity.svg)](https://www.npmjs.com/package/@remix-project/remix-solidity)
-[![npm](https://img.shields.io/npm/dt/@remix-project/remix-solidity.svg?label=Total%20Downloads)](https://www.npmjs.com/package/@remix-project/remix-solidity)
-[![npm](https://img.shields.io/npm/dw/@remix-project/remix-solidity.svg)](https://www.npmjs.com/package/@remix-project/remix-solidity)
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ethereum/remix-project/tree/master/libs/remix-solidity)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ethereum/remix-project/issues)
+ Remix-Solidity
+npm version(https://badge.fury.io/js/%40remix-project%2Fremix-solidity.svg)(https://www.npmjs.com/package/@remix-project/remix-solidity)
+npm](https://img.shields.io/npm/dt/@remix-project/remix-solidity.svg?label=Total%20Downloads)](https://www.npmjs.com/package/@remix-project/remix-solidity)
+npm(https://img.shields.io/npm/dw/@remix-project/remix-solidity.svg)](https://www.npmjs.com/package/@remix-project/remix-solidity)
+GitHub(https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ethereum/remix-project/tree/master/libs/remix-solidity)
+contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)(https://github.com/ethereum/remix-project/issues)
 
 
-`@remix-project/remix-solidity` is a tool to load and run solidity compiler. It works underneath Remix IDE  "Solidity Compiler" plugin which is used to load different versions of compiler and compile the smart contracts. 
+@remix-project/remix-solidity`
+ is a tool to load and run solidity compiler. It works underneath Remix IDE  "Solidity Compiler" plugin which is used to load different versions of compiler and compile the smart contracts. 
 
-### Installation
+ Installation
 
-`@remix-project/remix-solidity` is an NPM package and can be installed using NPM as:
+@remix-project/remix-solidity is an NPM package and can be installed using NPM as:
 
-`npm install @remix-project/remix-solidity`
+npm install @remix-project/remix-solidity
 
-### How to use
+ How to use
 
-`@remix-project/remix-solidity` exports:
-```
+@remix-project/remix-solidity exports:
+
     {
         Compiler: Compiler,
         CompilerInput: CompilerInput
     }
-```
-`CompilerInput` can be used to form the [compiler input](https://github.com/ethereum/remix-project/blob/master/libs/remix-solidity/src/compiler/types.ts#L1) by passing the [options](https://github.com/ethereum/remix-project/blob/master/libs/remix-solidity/src/compiler/types.ts#L144)
 
-`Compiler` is a class containing various methods to perform compiler related actions. Have a look to `Compiler` interface:
+CompilerInput can be used to form the compiler input(https://github.com/ethereum/remix-project/blob/master/libs/remix-solidity/src/compiler/types.ts L1) by passing the options(https://github.com/ethereum/remix-project/blob/master/libs/remix-solidity/src/compiler/types.ts L144)
 
-```
+Compiler is a class containing various methods to perform compiler related actions. Have a look to Compiler interface: autocreate Criptomoeda 
+
 class Compiler {
     handleImportCall: (fileurl: string, cb: Function) => void;
     event: EventManager;
