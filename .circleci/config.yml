@@ -1,9 +1,9 @@
-criversion: 2.1
+riversion: 2.1
 executors:
   my-custom-executor:
       docker:
             - image: cimg/base:stable
-                    auth:  - image: 
+                    auth:  - image: î
                               # ensure you have first added these secrets
                                         # visit app.circleci.com/settings/project/github/Jorgemucisalumfilho/remix-projectterrareal/environment-variables
                                                   username: $DOCKER_HUB_USER
