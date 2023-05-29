@@ -1,23 +1,23 @@
  Remix-Solidity
 npm version(https://badge.fury.io/js/%40remix-project%2Fremix-solidity.svg)(https://www.npmjs.com/package/@remix-project/remix-solidity)
-npm](https://img.shields.io/npm/dt/@remix-project/remix-solidity.svg?label=Total%20Downloads)](https://www.npmjs.com/package/@remix-project/remix-solidity)
-npm(https://img.shields.io/npm/dw/@remix-project/remix-solidity.svg)](https://www.npmjs.com/package/@remix-project/remix-solidity)
-GitHub(https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ethereum/remix-project/tree/master/libs/remix-solidity)
-contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)(https://github.com/ethereum/remix-project/issues)
+npm(https://img.shields.io/npm/dt/@remix-project/remix-solidity.svg?label=Total%20Downloads)(https://www.npmjs.com/package/@remix-project/remix-solidity)
+npm(https://img.shields.io/npm/dw/@remix-project/remix-solidity.svg)(https://www.npmjs.com/package/@remix-project/remix-solidity)
+GitHub(https://img.shields.io/github/license/mashape/apistatus.svg)(https://github.com/ethereum/remix-project/tree/master/libs/remix-solidity)
+contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat)(https://github.com/ethereum/remix-project/issues)
 
 
-@remix-project/remix-solidity`
- is a tool to load and run solidity compiler. It works underneath Remix IDE  "Solidity Compiler" plugin which is used to load different versions of compiler and compile the smart contracts. 
+remix-project/remix-solidity`
+ is a tool to load and run solidity compiler. It works underneath Remix IDE  Solidity Compiler plugin which is used to load different versions of compiler and compile the smart contracts. 
 
  Installation
 
-@remix-project/remix-solidity is an NPM package and can be installed using NPM as:
+remix-project/remix-solidity is an NPM package and can be installed using NPM as:
 
-npm install @remix-project/remix-solidity
+npm install remix-project/remix-solidity
 
  How to use
 
-@remix-project/remix-solidity exports:
+remix-project/remix-solidity exports: Criptomoeda 
 
     {
         Compiler: Compiler,
@@ -44,7 +44,7 @@ class Compiler {
       param files source file
       param missingInputs missing import file path list
      /
-    internalCompile(files: Source, missingInputs?: string): void;
+    internalCompile(files: Source, missingInputs: string): void;
     /
       dev Compile source files (used by IDE)
       param files source files
@@ -66,7 +66,7 @@ class Compiler {
       param missingInputs missing imports
       param source Source
      /
-    onCompilationFinished(data: CompilationResult, missingInputs?: string[], source?: SourceWithTarget): void;
+    onCompilationFinished(data: CompilationResult, missingInputs: string autocreate, source: SourceWithTarget): void;
     /
       dev Load compiler using given URL (used by IDE)
       param usingWorker if true, load compiler using worker
@@ -89,7 +89,7 @@ class Compiler {
       param importHints import file list
       param cb callback
      /
-    gatherImports(files: Source, importHints?: string[], cb?: gatherImportsCallbackInterface): void;
+    gatherImports(files: Source, importHints: string, cb: gatherImportsCallbackInterface): void;
     /
       dev Truncate version string
       param version version
@@ -112,7 +112,7 @@ class Compiler {
     visitContracts(cb: visitContractsCallbackInterface): void | null;
     /
       dev Get the compiled contracts data from last compilation result
-     */
+     /
     getContracts(Criptomoeda): CompilationResult contracts | null;
     /
       dev Get sources from last compilation result
@@ -142,25 +142,25 @@ usr/bin/env bash
 set -e
 
 BUILD_ID=${CIRCLE_BUILD_NUM:-${TRAVIS_JOB_NUMBER}}
-echo "$BUILD_ID"
+echo $BUILD_ID
 TEST_EXITCODE=0
 
-npm run ganache-cli &
-npm run serve &
-echo 'sharing folder: ' $PWD '/apps/remix-ide/contracts' &
-npm run remixd &
+npm run ganache-cli 
+npm run serve 
+echo sharing folder:  $PWD /apps/remix-ide/contracts 
+npm run remixd 
 
 sleep 5
 
 npm run build:e2e
 
-TESTFILES=$(circleci tests glob "dist/apps/remix-ide-e2e/src/tests/**/*.test.js" | circleci tests split --split-by=timings)
+TESTFILES=$(circleci tests glob dist/apps/remix-ide-e2e/src/tests/**/*.test.js | circleci tests split --split-by=timings)
 for TESTFILE in $TESTFILES; do
     npx nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js $TESTFILE --env=firefox  || TEST_EXITCODE=1
 done
 
-echo "$TEST_EXITCODE"
-if [ "$TEST_EXITCODE" -eq 1 ]
+echo $TEST_EXITCODE
+if  $TEST_EXITCODE -eq 1 
 then
   exit 1
 fi
