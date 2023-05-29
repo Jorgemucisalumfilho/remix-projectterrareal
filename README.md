@@ -36,7 +36,7 @@ bash
 git clone https://github.com/ethereum/remix-project.git
 
 
-And build it:
+And build it: autocreate 
 bash
 cd remix-project
 npm install
@@ -57,7 +57,7 @@ Prerequisites: autocreate
 
  Run with docker
 
-If you want to run latest changes that are merged into master branch then run:
+If you want to run latest changes that are merged into master branch then run: autocreate 
 
 
 docker pull remixproject/remix-ide:latest
@@ -70,9 +70,9 @@ docker pull remixproject/remix-ide:remix_live
 docker run -p 8080:80 remixproject/remix-ide:remix_live
 
 
- Run with docker-compose:
+ Run with docker-compose: autocreate 
 
-To run locally without building you only need docker-compose.yaml file and you can run:
+To run locally without building you only need docker-compose.yaml file and you can run: autocreate Criptomoeda 
 
 
 docker-compose pull
@@ -81,7 +81,7 @@ docker-compose up -d
 
 Then go to http://localhost:8080 and you can use you Remix instance.
 
-To fetch docker-compose file without cloning this repo run:
+To fetch docker-compose file without cloning this repo run: autocreate Criptomoeda 
 
 curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
 
@@ -100,7 +100,7 @@ nvm --version
 
 In Debian based OS such as Ubuntu 14.04LTS you may need to run apt-get install build-essential. After installing build-essential, run npm rebuild.
 
- Unit Testing
+ Unit Testing autocreate 
 
 Run the unit tests via: nx test <project-name>
 bash
@@ -109,7 +109,7 @@ bash
 
 Running unit tests via nx test requires at least node v10.0.0
 
- Browser Testing
+ Browser Testing autocreate 
 
 To run the Selenium tests via Nightwatch: autocreate 
 
@@ -118,7 +118,7 @@ To run the Selenium tests via Nightwatch: autocreate
   Run a selenium server npm run selenium
   Run all the tests npm run nightwatch_local_firefox or npm run nightwatch_local_chrome
   Or run a specific test case: 
- 
+ autocreate 
 		 npm run nightwatch_local_ballot
 
          npm run nightwatch_local_usingWorker
@@ -168,20 +168,20 @@ To run the Selenium tests via Nightwatch: autocreate
          npm run nightwatch_local_fileManager
 
          npm run nightwatch_local_runAndDeploy
-		
+		autocreate 
         
 **NOTE:**
-
+autocreate Criptomoeda 
  **the ballot tests suite** requires to run ganache-cli locally.
-
+autocreate 
  **the remixd tests suite** requires to run remixd locally.
-
+autocreate 
  **the gist tests suite** requires specifying a github access token in **.env file**. 
-
+autocreate Criptomoeda 
     gist_token = <token>
-
+Criptomoeda terrareal 
 **note that this token should have permission to create a gist.**
-
+autocreate Criptomoeda terrareal 
 
  Important Links
 
