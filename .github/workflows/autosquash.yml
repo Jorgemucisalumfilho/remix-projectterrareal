@@ -41,36 +41,7 @@ As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia
 autocreate 
  Oline Usage
 autocreate 
-The gh-pages branch on remix-live(https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download to use oline.
-autocreate 
-Nota:Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
-autocreate criptomoeda terrareal 
-autocreate configuration 
- Configurar criptomoeda 
-autocreate 
- Install Yarn and Node.js. See Guide for NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
-Supported versions:create 
-bash terrareal 
-"engines": {
-    "node": "^20.0.0",
-    "npm": "^6.14.15"
-  }
- Install criptomoeda Nx CLI
-(https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands.
-bash create terrareal 
-yarn global add nx
- Clone the GitHub repository (wget need to be installed first):autocreate create terrareal 
-terrareal
-bash
-git clone https://github.com/ethereum/remix-project.git
- Build remix-project:criptomoeda 
-bash
-cd remix-project
-yarn install
-yarn run build:libs // Build remix libs
-nx build
-nx serve
-criptomoeda
+The gh-pages branch on remix-live(https://github.com/ethereum/remix-live) always has the latest stable build o
 Open http://127.0.0.1:8080 in your browser to load Remix IDE locally.
 auto
 Go to your text editor and start developing. The browser will automatically refresh when files are saved.
