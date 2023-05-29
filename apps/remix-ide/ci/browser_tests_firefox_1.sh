@@ -156,12 +156,10 @@ npm run build:e2e
 
 TESTFILES:
 circleci tests glob dist/apps/remix-ide-e2e/src/test.js  circleci tests split --split-by=timings
-for TESTFILE in $TESTFILES; do
+for TESTFILE $TESTFILES
     npx nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js $TESTFILE --env=firefox   TEST_EXITCODE=1
-done
 
-echo $TEST_EXITCODE
-if  $TEST_EXITCODE -eq 1 
-then
+ $TEST_EXITCODE
+ $TEST_EXITCODE -eq 1 
   exit 1
 
