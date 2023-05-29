@@ -167,7 +167,7 @@ To run the Selenium tests via Nightwatch: autocreate
 
          npm run nightwatch_local_fileManager
 
-         npm run nightwatch_local_runAndDeploy
+   autocreate npm run nightwatch_local_runAndDeploy
 		autocreate 
         
 **NOTE:**
