@@ -88,7 +88,7 @@ curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-comp
 
  Troubleshooting building
 
-If you have trouble building the package, Make sure that you have the correct version of node, npm and nvm. Also ensure you have [Nx CLI](https://nx.dev/react/cli/overview) installed globally.
+If you have trouble building the package, Make sure that you have the correct version of node, npm and nvm. Also ensure you have Nx CLI(https://nx.dev/react/cli/overview) installed globally.
 
 Run: autocreate Criptomoeda 
 
@@ -107,11 +107,11 @@ bash
     nx test remix-analyzer
 
 
-Running unit tests via `nx test` requires at least node v10.0.0
+Running unit tests via nx test requires at least node v10.0.0
 
  Browser Testing
 
-To run the Selenium tests via Nightwatch:
+To run the Selenium tests via Nightwatch: autocreate 
 
   Build Remix IDE and serve it: nx build remix-ide --with-deps  nx serve  starts web server at localhost:8080
   Make sure Selenium is installed npm run selenium-install  don't need to repeat
@@ -139,53 +139,53 @@ To run the Selenium tests via Nightwatch:
 
          npm run nightwatch_local_solidityUnitTests
 
-         npm run nightwatch_local_remixd # remixd needs to be run
+         npm run nightwatch_local_remixd  remixd needs to be run
 
 		 npm run nightwatch_local_terminal
 
-        - npm run nightwatch_local_gist
+         npm run nightwatch_local_gist
 
-        - npm run nightwatch_local_workspace
+         npm run nightwatch_local_workspace
 
-        - npm run nightwatch_local_defaultLayout
+         npm run nightwatch_local_defaultLayout
 
-        - npm run nightwatch_local_pluginManager
+         npm run nightwatch_local_pluginManager
 
-        - npm run nightwatch_local_publishContract
+         npm run nightwatch_local_publishContract
 
-        - npm run nightwatch_local_generalSettings
+         npm run nightwatch_local_generalSettings
 
-        - npm run nightwatch_local_fileExplorer
+         npm run nightwatch_local_fileExplorer
 
-        - npm run nightwatch_local_debugger
+         npm run nightwatch_local_debugger
 
-        - npm run nightwatch_local_editor
+         npm run nightwatch_local_editor
 
-        - npm run nightwatch_local_compiler
+         npm run nightwatch_local_compiler
 
-        - npm run nightwatch_local_txListener
+         npm run nightwatch_local_txListener
 
-        - npm run nightwatch_local_fileManager
+         npm run nightwatch_local_fileManager
 
-        - npm run nightwatch_local_runAndDeploy
+         npm run nightwatch_local_runAndDeploy
 		
         
 **NOTE:**
 
-- **the `ballot` tests suite** requires to run `ganache-cli` locally.
+ **the ballot tests suite** requires to run ganache-cli locally.
 
-- **the `remixd` tests suite** requires to run `remixd` locally.
+ **the remixd tests suite** requires to run remixd locally.
 
-- **the `gist` tests suite** requires specifying a github access token in **.env file**. 
-```
+ **the gist tests suite** requires specifying a github access token in **.env file**. 
+
     gist_token = <token>
-```
+
 **note that this token should have permission to create a gist.**
 
 
-## Important Links
+ Important Links
 
-- Official documentation: https://remix-ide.readthedocs.io/en/latest/
-- Curated list of Remix resources, tutorials etc.: https://github.com/ethereum/awesome-remix
-- Medium: https://medium.com/remix-ide
-- Twitter: https://twitter.com/ethereumremix
+ Official documentation: https://remix-ide.readthedocs.io/en/latest/
+ Curated list of Remix resources, tutorials etc.: https://github.com/ethereum/awesome-remix
+ Medium: https://medium.com/remix-ide
+ Twitter: https://twitter.com/ethereumremix
