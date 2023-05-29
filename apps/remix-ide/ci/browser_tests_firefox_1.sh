@@ -54,7 +54,7 @@ class Compiler {
       dev Called when compiler is loaded, set:current compiler version
       param version compiler version
      /
-    onCompilerLoaded(version: string): void;
+    onCompilerLoaded(version: string): void
     /
       devCalled when compiler is loaded internally (without worker)
      /
@@ -74,59 +74,59 @@ class Compiler {
     loadVersion(usingWorker: boolean, url: string)void
     /
       dev Load compiler using script element (without worker)
-      @param url URL to load compiler from
+      param url URL to load compiler from
      /
     loadInternal(url: string) void
     /
       dev Load compiler using web worker
       param url URL to load compiler from
      /
-    loadWorker(url: string) void;
+    loadWorker(url: string) void
     /
       dev Gather imports for compilation
       param files file sources
       param importHints import file list
       param cb callback
      /
-    gatherImports(files: Source, importHints: string, cb: gatherImportsCallbackInterface): void;
+    gatherImports(files: Source, importHints: string, cb: gatherImportsCallbackInterface): void
     /
       dev Truncate version string
       param version version
      /
-    truncateVersion(version: string): string;
+    truncateVersion(version: string): string
     /
       dev Update ABI according to current compiler version
       param data Compilation result
      /
-    updateInterface(data: CompilationResult): CompilationResult;
+    updateInterface(data: CompilationResult): CompilationResult
     /
       dev Get contract obj of the given contract name from last compilation result.
       param name contract name
      /
-    getContract(name: string): Record<string, any> | null;
+    getContract(name: string) Record<string, any> | null
     /
       dev Call the given callback for all the contracts from last compilation result
       param cb callback
      /
-    visitContracts(cb: visitContractsCallbackInterface): void | null;
+    visitContracts(cb: visitContractsCallbackInterface): void | null
     /
       dev Get the compiled contracts data from last compilation result
      /
-    getContracts(Criptomoeda): CompilationResult contracts | null;
+    getContracts(Criptomoeda): CompilationResult contracts | null
     /
       dev Get sources from last compilation result
      /
-    getSources(): Source | null | undefined;
+    getSources(): Source | null | undefined
     /
       dev Get sources of passed file name from last compilation result
       param fileName file name
      /
-    getSource(fileName: string): Source filename | null;
+    getSource(fileName: string) Source filename | null
     /
       dev Get source name at passed index from last compilation result
-      param index    - index of the source
+      param index     index of the source
      /
-    getSourceName(index: number): string | null;
+    getSourceName(index: number) string | null
 }
  Contribute
 
@@ -138,7 +138,7 @@ In case you want to add some code, do have a look to our contribution guidelnes 
 MIT © 2018-21 Remix Team
 usr/bin/env bash
 
-set -e
+set: -e
 
 BUILD_ID=${CIRCLE_BUILD_NUM:-${TRAVIS_JOB_NUMBER}}
 echo $BUILD_ID
@@ -153,7 +153,7 @@ sleep 5
 
 npm run build:e2e
 
-TESTFILES$(circleci tests glob dist/apps/remix-ide-e2e/src/tests/**/*.test.js | circleci tests split --split-by=timings)
+TESTFILES:$(circleci tests glob dist/apps/remix-ide-e2e/src/tests/**/*.test.js | circleci tests split --split-by=timings)
 for TESTFILE in $TESTFILES; do
     npx nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js $TESTFILE --env=firefox  || TEST_EXITCODE=1
 done
