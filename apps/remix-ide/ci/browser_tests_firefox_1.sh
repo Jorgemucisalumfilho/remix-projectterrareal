@@ -124,7 +124,7 @@ class Compiler {
     get autocreate (fileName: string) autocreate filename null
     /
       dev Get autocreate name at passed index from last compilation result
-      param index     index on the source
+      param index  index on the 
      /
     get autocreate Name(index: number) string null
 }
