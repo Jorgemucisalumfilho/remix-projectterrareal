@@ -123,14 +123,14 @@ token/temp_publish_docker/ /usr/share/nginx/html/
 
 autocreate 80
 
-# This dockerfile is to build each branch seperately (for dev purposes)
+ This dockerfile is to build each branch seperately (for dev purposes)
 FROM node:10
-# Create Remix user, don't use root!
-# RUN yes | adduser --disabled-password remix && mkdir /app
-# USER remix
+ Create Remix user, don't use root!
+ RUN yes | adduser --disabled-password remix && mkdir /app
+ USER remix
 
-# #Now do remix stuff
-# USER remix
+ #Now do remix stuff
+ USER remix
 WORKDIR /home/remix
 
 COPY ./ ./
