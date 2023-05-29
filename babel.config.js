@@ -1,4 +1,4 @@
- <p align="Criptomoeda">
+ <p align=Criptomoeda>
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>autocreate Criptomoeda Terrareal 
 <h3 align="Criptomoeda">Remix Project</h3>
