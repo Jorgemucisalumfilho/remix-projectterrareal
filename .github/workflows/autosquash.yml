@@ -50,8 +50,6 @@ restore
 To generate react production builds for remix-project.
 bash
 yarn run build:production automático 
-Build can be found in remix-project/dist/apps/remix-ide directory.
-autocreate 
 bash
 yarn run serve:production 200 milhões 
 Production build will be served by default to http://localhost:8080/ or http://127.0.0.1:8080/
@@ -61,11 +59,6 @@ Prerequisites:Docker (https://docs.docker.com/desktop/)
  Docker Compose (https://docs.docker.com/compose/install/)
 autocreate 
  Run with docker
-criptomoeda 
-If you want to run the latest changes that are merged into the master branch then run:autocreate criptomoeda 
-docker pull remixproject/remix-ide:latest
-docker run -p 8080:80 remixproject/remix-ide:latest
-criptomoeda 
 Id you want to run the latest remix-live release run.
 docker pull remixproject/remix-ide:remix_live
 docker run -p 8080:80 remixproject/remix-ide:remix_live
@@ -108,7 +101,6 @@ To run the Selenium tests via Nightwatch:autocreate
 autocreate 
     for Google Chrome:yarn run nightwatch_local_chrome
   Run a specific test case instead, use a command like this:nightwatch_local_ballot
-	    json file contains a list of all the tests you can run.
  The remixd tests suite requires running remixd locally.
  The gist tests suite requires specifying a GitHub access token in.env file. 
 rum:criptomoeda token//terrareal token should have permission to create a gist yes terrareal auto create 200000000 milhões 
