@@ -1,4 +1,4 @@
-criptomoeda)<p align="center">Build all formats
+(autocreate criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>auto create executable 
 <h3 align="center">Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align="center">Build all formats
@@ -6,17 +6,15 @@ criptomoeda)<p align="center">Build all formats
 </p>auto create executable 
 <h3 align="center">Remix Project</h3>cr
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
-criar criptomoeda
-Valeterra
-[![CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)
- name: Rebase Pull Requests
-on: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
-  push: master 
-    branches: [master]
-  workflow_dispatch: autocreate 
-  comand: auto https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal 
-jobs: autocreate 
-  rebase: autocreate 
-    runs-on: ubuntu-latest
-    steps: autocreate 
-      - uses: yann300/rebase-pull-requests@master
+criar criptomoeda CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token logo=circleci)
+ name:Rebase Pull Requests
+on:https://github.com/Jorgemucisalumfilho/remix-projectterrareal 
+  push:master 
+    branches:master
+  workflow_dispatch:autocreate 
+  comand:auto https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrareal 
+jobs:autocreate 
+  rebase:autocreate 
+    runs-on:ubuntu-latest
+    steps:autocreate 
+      - uses:autocreate yann300/rebase-pull-requests@master
