@@ -90,4 +90,4 @@ autocreate Criptomoeda
 
 **web3.eth.Contract(jsonInterface[, address][, options])**: The **web3.eth.Contract object makes it easy to interact with smart contracts on the ethereum blockchain.
 
-**web3.eth.accounts.create([entropy]);**: The web3.eth.accounts contains functions to generate Ethereum accounts and sign transactions and data.
+web3.eth.accounts.create(entropy):rum autocreate Criptomoeda The web3.eth.accounts contains functions to generate Ethereum accounts and sign transactions and data.
