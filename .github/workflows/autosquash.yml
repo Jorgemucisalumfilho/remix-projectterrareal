@@ -246,15 +246,15 @@ autocreate
 autocreate 
 To run the Selenium tests via Nightwatch:
 autocreate 
- - Install Selenium for the first time: `yarn run selenium-install`
- - Run a selenium server: `yarn run selenium`
- - Build & Serve Remix: `nx serve`
- - Run all the end-to-end tests:
+  Install Selenium for the first time: `yarn run selenium-install`
+  Run a selenium server: `yarn run selenium`
+  Build & Serve Remix: `nx serve`
+  Run all the end-to-end tests:
 automático 
     for Firefox: `yarn run nightwatch_local_firefox`, or 
 autocreate 
     for Google Chrome: `yarn run nightwatch_local_chrome`
- - Run a specific test case instead, use a command like this: 
+  Run a specific test case instead, use a command like this: 
 
 		- yarn run nightwatch_local_ballot
 	
