@@ -1,4 +1,4 @@
-<p align="Criptomoeda">
+auto bot<p align="Criptomoeda">
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>autocreate Criptomoeda Terrareal 
 <h3 align="Criptomoeda">Remix Project</h3>
@@ -132,41 +132,41 @@ To do this you need to:autocreate
 module.exports = {
   disabled:true,
   before: function (browser: NightwatchBrowser, done: VoidFunction) {
-    init(browser, done) // , 'http://localhost:8080', false)
+    init(browser, done) // , http://localhost:8080, false)
   },
-- change package json to locally run all group tests:
+ change package json to locally run all group tests:
 
-```
+
     "nightwatch_local_debugger": "yarn run build:e2e && nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
-```
 
-- run the build script to build the test files if you want to run the locally
 
-```
+ run the build script to build the test files if you want to run the locally
+
+
 yarn run build:e2e
-```
 
-### Locally testing group tests
 
-You can tag any test with a groupname, for example, #group10 and easily run the test locally.
+ Locally testing group tests
 
-- make sure you have nx installed globally
-- group tests are run like any other test, just specify the correct group number
+You can tag any test with a groupname, for example, group10 and easily run the test locally.
 
-#### method 1
+ make sure you have nx installed globally
+ group tests are run like any other test, just specify the correct group number
+
+ method 1
 
 This script will give you an option menu, just select the test you want
-```
+
 yarn run select_test
-```
-#### method 2
 
-```
+ method 2
+
+
 yarn run group_test --test=debugger --group=10 --env=chromeDesktop
-```
-- specify chromeDesktop to see the browser action, use 'chrome' to run it headless
 
-### Run the same (flaky) test across all instances in CircleCI
+ specify chromeDesktop to see the browser action, use 'chrome' to run it headless
+
+ Run the same (flaky) test across all instances in CircleCI
 
 In CircleCI all tests are divided across instances to run in paralel. 
 You can also run 1 or more tests simultaneously across all instances.
@@ -174,9 +174,9 @@ This way the pipeline can easily be restarted to check if a test is flaky.
 
 For example:
 
-```
-  'Static Analysis run with remixd #group3 #flaky': function (browser) {
-```
+
+  Static Analysis run with remixd group3 flaky: function (browser) {
+
 
 Now group3 of this test will be executed in firefox and chrome 80 times.
 If you mark more groups in other tests they will also be executed. 
@@ -185,17 +185,17 @@ If you mark more groups in other tests they will also be executed.
 
 It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run.
 Set it to true to run only tests marked with flaky.
-```
+
 parameters:
   run_flaky_tests:
     type: boolean
     default: true
-```
 
 
-## Important Links
 
-- Official documentation: https://remix-ide.readthedocs.io/en/latest/
-- Curated list of Remix resources, tutorials etc.: https://github.com/ethereum/awesome-remix
-- Medium: https://medium.com/remix-ide
-- Twitter: https://twitter.com/ethereumremix
+ Important Links
+
+ Official documentation: https://remix-ide.readthedocs.io/en/latest/
+ Curated list of Remix resources, tutorials etc.: https://github.com/ethereum/awesome-remix
+ Medium: https://medium.com/remix-ide
+ Twitter: https://twitter.com/ethereumremix
