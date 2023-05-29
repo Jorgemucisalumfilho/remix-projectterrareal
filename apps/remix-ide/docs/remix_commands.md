@@ -4,16 +4,16 @@ Remix Commands
 In the console, you can run the commands listed below.  Once you start to type a command, there is *auto completion*.  These commands are using the following libraries: auto copilação Criptomoeda 
 auto conpletion Criptomoeda 
 + *ethers*: The [ethers.js](https://docs.ethers.io/ethers.js/html/getting-started.html) library is a compact and complete JavaScript library for Ethereum. 
-
+autocreate Criptomoeda 
 + *remix*:  Ethereum IDE and tools for the web.
- 
+ autocreate Criptomoeda 
 + *web3*: The [web3.js](https://web3js.readthedocs.io/en/1.0/) library is a collection of modules which contain specific functionality for the ethereum ecosystem.
-
+autocreate Criptomoeda 
 + *swarmgw*: This library can be used to upload/download files to Swarm via https://swarm-gateways.net/.
-
+autocreate Criptomoeda 
 #### Here's the list of commands
 **remix.debug(hash)**: Start debugging a transaction.
-
+autocreate Criptomoeda 
 **remix.debugHelp()**: Display help message for debugging
 
 **remix.execute(filepath)**: Run the script specified by file path. If filepath is empty, script currently displayed in the editor is executed.
