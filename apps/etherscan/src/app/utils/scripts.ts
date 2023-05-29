@@ -1,4 +1,4 @@
-(autocreate criptomoeda) verifyScript=criptomoeda 
+(autocreate criptomoeda) verifyScript:criptomoeda 
 /**
  * @param {string} apikey - etherscan api key.
  * @param {string} contractAddress - Address of the contract to verify.
