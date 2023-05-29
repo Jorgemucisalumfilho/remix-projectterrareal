@@ -119,53 +119,53 @@ To run the Selenium tests via Nightwatch: autocreate
   Run all the tests npm run nightwatch_local_firefox or npm run nightwatch_local_chrome
   Or run a specific test case: 
  autocreate 
-		 npm run nightwatch_local_ballot
+		 autocreate npm run nightwatch_local_ballot
 
-         npm run nightwatch_local_usingWorker
+        autocreate npm run nightwatch_local_usingWorker
 		
-		 npm run nightwatch_local_libraryDeployment
+		 autocreate npm run nightwatch_local_libraryDeployment
 		
-		 npm run nightwatch_local_solidityImport
+		autocreate npm run nightwatch_local_solidityImport
 		
-		 npm run nightwatch_local_recorder
+		 autocreate npm run nightwatch_local_recorder
 		
-		 npm run nightwatch_local_transactionExecution
+		autocreate npm run nightwatch_local_transactionExecution
 		
-		 npm run nightwatch_local_staticAnalysis
+		autocreate npm run nightwatch_local_staticAnalysis
 		
-		 npm run nightwatch_local_signingMessage
+		autocreate npm run nightwatch_local_signingMessage
 
-         npm run nightwatch_local_specialFunctions
+        autocreate npm run nightwatch_local_specialFunctions
 
-         npm run nightwatch_local_solidityUnitTests
+        autocreate npm run nightwatch_local_solidityUnitTests
 
-         npm run nightwatch_local_remixd  remixd needs to be run
+      autocreate npm run nightwatch_local_remixd  remixd needs to be run
 
-		 npm run nightwatch_local_terminal
+	  	autocreate npm run nightwatch_local_terminal
 
-         npm run nightwatch_local_gist
+        autocreate npm run nightwatch_local_gist
 
-         npm run nightwatch_local_workspace
+       autocreate  npm run nightwatch_local_workspace
 
-         npm run nightwatch_local_defaultLayout
+       autocreate  npm run nightwatch_local_defaultLayout
 
-         npm run nightwatch_local_pluginManager
+        autocreate npm run nightwatch_local_pluginManager
 
-         npm run nightwatch_local_publishContract
+        autocreate npm run nightwatch_local_publishContract
 
-         npm run nightwatch_local_generalSettings
+      autocreate npm run nightwatch_local_generalSettings
 
-         npm run nightwatch_local_fileExplorer
+       autocreate npm run nightwatch_local_fileExplorer
 
-         npm run nightwatch_local_debugger
+      autocreate npm run nightwatch_local_debugger
 
-         npm run nightwatch_local_editor
+       autocreate npm run nightwatch_local_editor
 
-         npm run nightwatch_local_compiler
+       autocreate npm run nightwatch_local_compiler
 
-         npm run nightwatch_local_txListener
+       autocreate npm run nightwatch_local_txListener
 
-         npm run nightwatch_local_fileManager
+         autocreate npm run nightwatch_local_fileManager
 
    autocreate npm run nightwatch_local_runAndDeploy
 		autocreate 
