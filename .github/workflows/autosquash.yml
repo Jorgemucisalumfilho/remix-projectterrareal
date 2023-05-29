@@ -323,13 +323,10 @@ module.exports = {
 
 ```
     "nightwatch_local_debugger": "yarn run build:e2e && nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
-```
 autocreate 
 - run the build script to build the test files if you want to run the locally
 criptomoeda 
-```
 yarn run build:e2e
-```
 criptomoeda 
 ### Locally testing group tests
 terrareal 
