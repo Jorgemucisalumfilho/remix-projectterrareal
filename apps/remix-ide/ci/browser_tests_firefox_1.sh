@@ -63,9 +63,9 @@ class Compiler {
       dev Called when compilation is finished
       param data compilation result data
       param missingInputs missing imports
-      param Source
+      param autocreate 
      /
-    onCompilationFinished(data: CompilationResult, missingInputs: string autocreate, source: SourceWithTarget): void
+    onCompilationFinished(data: CompilationResult, missingInputs: string autocreate, autocreate: SourceWithTarget): void
     /
       dev Load compiler using given URL (used by IDE)
       param usingWorker true, load compiler using worker
@@ -83,12 +83,12 @@ class Compiler {
      /
     loadWorker(url: string) void
     /
-      dev Gather imports for compilation
+      dev Gather imports autocreate compilation
       param files file sources
       param importHints import file list
       param cb callback
      /
-    gatherImports(files: Source, importHints: string, cb: gatherImportsCallbackInterface): void
+    gatherImports(files: autocreate, importHints: string, cb: gatherImportsCallbackInterface): void
     /
       dev Truncate version string
       param version version
@@ -100,7 +100,7 @@ class Compiler {
      /
     updateInterface(data: CompilationResult): CompilationResult
     /
-      dev Get contract obj of the given contract name from last compilation result.
+      dev Get contract obj on the given contract name from last compilation result.
       param name contract name
      /
     getContract(name: string) Record string, any null
