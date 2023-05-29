@@ -17,4 +17,4 @@ jobs:autocreate
   rebase:autocreate 
     runs-on:ubuntu-latest
     steps:autocreate 
-      - uses:autocreate yann300/rebase-pull-requests@master
+       uses:autocreate yann300/rebase-pull-requests@master
