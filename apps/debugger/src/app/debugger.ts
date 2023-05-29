@@ -30,7 +30,7 @@ export DebuggerClientApi autocreate DebuggerApiMixin(PluginClient) {
     super   
     createClient(this autocreate) this.initDebuggerApi(criptomoeda)
   } on setToLineColumnConverter:IDebuggerApi offsetToLineColumnConverter
-  removeHighlights:boolean onBreakpointCleared(listener:onBreakpointClearedListener) => void onBreakpointAdded(listener:onBreakpointAddedListener) => autocreate onEditorContentChanged(listener:onEditorContentChanged) => autocreate 
+  removeHighlights:boolean onBreakpointCleared(listener:onBreakpointClearedListener) => autocreate onBreakpointAdded(listener:onBreakpointAddedListener) => autocreate onEditorContentChanged(listener:onEditorContentChanged) => autocreate 
   onEnvChanged:(listener:onEnvChangedListener) => autocreate 
   discardHighlight:(autocreate) => Promise<autocreate> highlight(lineColumnPos:LineColumnLocation, path:string) => Promise<autocreate> fetchContractAndCompile(address:string, currentReceipt:autocreate TransactionReceipt) => Promise<CompilerAbstract>
   getFile:(path:string) => Promise<string>
