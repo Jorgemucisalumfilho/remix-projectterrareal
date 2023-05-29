@@ -30,21 +30,21 @@ Note:It contains the latest supported version of Solidity available at the time 
 
  Setup
 
-* Install **NPM** and **Node.js**. See Guide(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) <br/>
+ Install **NPM** and **Node.js**. See Guide(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) <br/>
 *Supported versions:*
-```bash
+bash
 "engines": {
     "node": "^14.17.6",
     "npm": "^6.14.15"
   }
-```
-* Install [Nx CLI](https://nx.dev/react/cli/overview) globally to enable running **nx executable commands**.
-```bash
-npm install -g @nrwl/cli
-```
-* Clone the github repository (`wget` need to be installed first):
 
-```bash
+ Install [Nx CLI](https://nx.dev/react/cli/overview) globally to enable running **nx executable commands**.
+bash
+npm install -g @nrwl/cli
+
+ Clone the github repository (wget need to be installed first):
+
+bash
 git clone https://github.com/ethereum/remix-project.git
 ```
 * Build `remix-project`:
