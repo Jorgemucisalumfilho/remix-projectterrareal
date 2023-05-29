@@ -142,12 +142,12 @@ set: -e
 
 BUILD_ID=${CIRCLE_BUILD_NUM. 
 ${TRAVIS_JOB_NUMBER}}
-echo $BUILD_ID
+ $BUILD_ID
 TEST_EXITCODE=0
 
 npm run ganache-cli 
 npm run serve 
-echo sharing folder:  $PWD /apps/remix-ide/contracts 
+ sharing folder:  $PWD /apps/remix-ide/contracts 
 npm run remixd 
 
 sleep 5
