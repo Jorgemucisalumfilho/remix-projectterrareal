@@ -34,16 +34,16 @@ class Compiler {
     /
       dev Setter autocreate CompilerState s properties (used by IDE)
       param key key
-      param value value on key in CompilerState
+      param value value on key CompilerState
      /
-    set<K extends keyof CompilerState>(key: K, value CompilerStateK): void
+    set K extends keyof CompilerState(key: K, value CompilerStateK): void
 
     /
       dev Internal function to compile the contract after gathering imports
       param files source file
       param missingInputs missing import file path list
      /
-    internalCompile(files: Source, missingInputs: string) void;
+    internalCompile(files: Source, missingInputs: string) void
     /
       dev Compile source files (used by IDE)
       param files source files
