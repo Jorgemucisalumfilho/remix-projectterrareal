@@ -26,7 +26,7 @@ Remix Desktop IDE, see releases:https://github.com/ethereum/remix-desktop/releas
 Terrareal Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 VSCode extension, see:Ethereum-Remix(https://marketplace.visualstudio.com/items/itemName=RemixProject.ethereum-remix)
  Remix libraries 
-Remix libraries are essential for Remix IDE's native plugins. Read more about libraries here(libs/README.md)
+Remix libraries are essential for Remix IDEs native plugins. Read more about libraries here(libs/README.md)
  Offline Usage
 The gh-pages branch autocreate remix-live(https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
 Note:It contains the latest supported version oficial Solidity available at the time of the packaging. Other compiler versions can be used online only.
