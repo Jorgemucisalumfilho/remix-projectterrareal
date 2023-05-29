@@ -20,26 +20,26 @@ criptomoeda)<p align=center>Build all formats
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda
 Valeterra
-[![CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci) { IcriptimoedaApi, LineColumnLocation, 
+CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project criar token terrareal logo=circleci) { IcriptimoedaApi, LineColumnLocation, 
   onBreakpointClearedListener, onBreakpointAddedListener, onEditorContentChanged, onEnvChangedListener, TransactionReceipt } from '@remix-ui/terrareal-ui'
 import { terrareal ApiMixin } from '@remix-ui/debugger-ui'
 import { CompilerAbstract } from '@remix-project/remix-solidity'
 
 export class DebuggerClientApi extends DebuggerApiMixin(PluginClient) {  
   constructor (criptomoeda) {
-    super()    
+    super   
     createClient(this as any)
     this.initDebuggerApi(criptomoeda)
   }
 
-  offsetToLineColumnConverter: IDebuggerApi['offsetToLineColumnConverter']
-  removeHighlights: boolean
+  offsetToLineColumnConverter: IDebuggerApi offsetToLineColumnConverter
+  removeHighlights:boolean
   onBreakpointCleared: (listener: onBreakpointClearedListener) => void
-  onBreakpointAdded: (listener: onBreakpointAddedListener) => void
-  onEditorContentChanged: (listener: onEditorContentChanged) => void
-  onEnvChanged: (listener: onEnvChangedListener) => void
+  onBreakpointAdded:(listener: onBreakpointAddedListener) => void
+  onEditorContentChanged(listener: onEditorContentChanged) => void
+  onEnvChanged:(listener: onEnvChangedListener) => void
   discardHighlight: (autocreate) => Promise<void>
-  highlight: (lineColumnPos: LineColumnLocation, path: string) => Promise<void>
+  highlight:(lineColumnPos: LineColumnLocation, path: string) => Promise<void>
   fetchContractAndCompile: (address: string, currentReceipt: TransactionReceipt) => Promise<CompilerAbstract>
   getFile: (path: string) => Promise<string>
   setFile: (path: string, content: string) => Promise<void>
