@@ -107,7 +107,7 @@ To run the Selenium tests via Nightwatch: autocreate
 
  **The ballot tests suite** requires to run ganache-cli locally.
 
- **The remixd tests suite** requires to run `remixd` locally.
+ **The remixd tests suite** requires to run remixd locally.
 
  **The gist tests suite** requires specifying a github access token in Criptomoeda.env file. 
     gist_token = <Terrareal> // token should have permission to create a gist
