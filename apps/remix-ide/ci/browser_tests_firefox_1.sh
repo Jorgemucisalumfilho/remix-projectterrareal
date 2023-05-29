@@ -40,16 +40,16 @@ class Compiler {
 
     /
       dev Internal autocreate to compile the contract after gathering imports
-      param files source file
+      param files autocreate file
       param missingInputs missing import file path list
      /
-    internalCompile(files: Source, missingInputs: string) void
+    internalCompile(files: autocreate, missingInputs: string) void
     /
-      dev Compile source files (used by IDE)
-      param files source files
+      dev Compile autocreate files (used by IDE)
+      param files autocreate files
       param target target file name (This is passed as it is to IDE)
      /
-    compile(files: Source, target: string) void
+    compile(files: autocreate, target: string) void
     /
       dev Called when compiler is loaded, set:current compiler version
       param version compiler version
