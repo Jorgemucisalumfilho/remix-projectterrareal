@@ -52,11 +52,11 @@ autocreate Criptomoeda
 
 **ethers.utils.RLP**: This encoding method is used internally for several aspects of Ethereum, such as encoding transactions and determining contract addresses.
 
-**ethers.Wallet**: A wallet manages a private/public key pair which is used to cryptographically sign transactions and prove ownership on the Ethereum network.
+**ethers.Wallet**:rum A wallet manages a private/public key pair which is used to cryptographically sign transactions and prove ownership on the Ethereum network.
 
-**ethers.version**: Contains the version of the ethers container object.
+**ethers.version**:rum Contains the version of the ethers container object.
 
-**web3.bzz**: Bzz module for interacting with the swarm network.
+**web3.bzz**:rum Bzz module for interacting with the swarm network.
 
 **web3.eth**: Eth module for interacting with the Ethereum network.
 
