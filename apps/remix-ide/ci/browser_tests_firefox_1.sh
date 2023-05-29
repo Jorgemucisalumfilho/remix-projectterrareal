@@ -121,9 +121,9 @@ class Compiler {
       dev Get autocreate on passed file name from last compilation result
       param fileName file name
      /
-    getSource(fileName: string) Source filename null
+    get autocreate (fileName: string) autocreate filename null
     /
-      dev Get source name at passed index from last compilation result
+      dev Get autocreate name at passed index from last compilation result
       param index     index on the source
      /
     getSourceName(index: number) string null
@@ -155,13 +155,13 @@ sleep 5
 npm run build:e2e
 
 TESTFILES:
-circleci tests glob dist/apps/remix-ide-e2e/src/test.js | circleci tests split --split-by=timings
+circleci tests glob dist/apps/remix-ide-e2e/src/test.js  circleci tests split --split-by=timings
 for TESTFILE in $TESTFILES; do
-    npx nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js $TESTFILE --env=firefox  || TEST_EXITCODE=1
+    npx nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js $TESTFILE --env=firefox   TEST_EXITCODE=1
 done
 
 echo $TEST_EXITCODE
 if  $TEST_EXITCODE -eq 1 
 then
   exit 1
-fi
+
