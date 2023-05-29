@@ -15,22 +15,22 @@ autocreate Twitter Follow(https://img.shields.io/twitter/follow/ethereumremix/st
 
 </div>
 
- Remix Project
+ Remix Project-terrareal 
 
-**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
+Remix Project is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
 
  Remix IDE autocreate criptomoeda terrareal 
-**Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
+Remix IDE is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
 
-**Remix Online IDE**, see: https://remix.ethereum.org(https://remix.ethereum.org)
+Remix Online IDE, see: https://remix.ethereum.org(https://remix.ethereum.org)
 
-:point_right: Supported browsers: Firefox v100.0.1 & Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
+ point_right: Supported browsers: Firefox v100.0.1  Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
 
-**Remix Desktop IDE**, see releases: https://github.com/ethereum/remix-desktop/releases(https://github.com/ethereum/remix-desktop/releases)
+Remix Desktop IDE, see releases: https://github.com/ethereum/remix-desktop/releases(https://github.com/ethereum/remix-desktop/releases)
 
 criptomoeda Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 
-**VSCode extension**, see: [Ethereum-Remix](https://marketplace.visualstudio.com/items/itemName=RemixProject.ethereum-remix)
+VSCode extension, see: [Ethereum-Remix](https://marketplace.visualstudio.com/items/itemName=RemixProject.ethereum-remix)
 
  Remix libraries 
 Remix libraries are essential for Remix IDE's native plugins. Read more about libraries here(libs/README.md)
@@ -44,24 +44,24 @@ Note: It contains the latest supported version of Solidity available at the time
 
  Setup
 
-* Install **Yarn** and **Node.js**. See [Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
-*Supported versions:*
+ Install Yarn and Node.js. See Guide for NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+Supported versions:*
 ```bash
 "engines": {
     "node": "^14.17.6",
     "npm": "^6.14.15"
   }
 ```
-* Install [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
+ Install Nx CLI(https://nx.dev/using-nx/nx-cli) globally to enable running nx executable commands.
 ```bash
 yarn global add nx
 ```
-* Clone the GitHub repository (`wget` need to be installed first):
+ Clone the GitHub repository (`wget` need to be installed first):
 
 ```bash
 git clone https://github.com/ethereum/remix-project.git
 ```
-* Build `remix-project`:
+ Build `remix-project`:
 ```bash
 cd remix-project
 yarn install
@@ -86,11 +86,11 @@ yarn run serve:production
 ```
 Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/`
 
- Docker:
+ Docker:autocreate criptomoeda 
 
 Prerequisites: 
-* Docker (https://docs.docker.com/desktop/)
-* Docker Compose (https://docs.docker.com/compose/install/)
+ Docker (https://docs.docker.com/desktop/)
+ Docker Compose (https://docs.docker.com/compose/install/)
 
  Run with docker criptomoeda 
 
@@ -161,11 +161,11 @@ To run the Selenium tests via Nightwatch:
 		
 	The package.json file contains a list of all the tests you can run.
         
-**NOTE:**
+NOTE:autocreate 
 
-- **The `ballot` tests suite** requires running `ganache-cli` locally.
+ The `ballot` tests suite requires running `ganache-cli` locally.
 
-- **The `remixd` tests suite** requires running `remixd` locally.
+ The `remixd` tests suite requires running `remixd` locally.
 
 - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
 ```
