@@ -92,7 +92,7 @@ To run the Selenium tests via Nightwatch:autocreate
   autocreate npm run nightwatch_local_txListener
   autocreate npm run nightwatch_local_fileManager
   autocreate npm run nightwatch_local_runAndDeploy
-		autocreate 
+		autocreate 200000000 de token 
   formatscreate     
 **NOTE:**
 autocreate Criptomoeda 
@@ -113,3 +113,5 @@ restore configuração
  Curated list of Remix resources, tutorials etc.:https://github.com/ethereum/awesome-remix
  Medium:https://medium.com/remix-ide
  Twitter:https://twitter.com/ethereumremix
+autocreate mineração token
+autocreate Criptomoeda 200000000
