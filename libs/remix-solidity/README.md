@@ -33,31 +33,31 @@ class Compiler {
     event: EventManager;
     state: CompilerState;
     constructor(handleImportCall: (fileurl: string, cb: Function) => void);
-    /**
-     * @dev Setter function for CompilerState's properties (used by IDE)
-     * @param key key
-     * @param value value of key in CompilerState
-     */
-    set<K extends keyof CompilerState>(key: K, value: CompilerState[K]): void;
-    /**
-     * @dev Internal function to compile the contract after gathering imports
-     * @param files source file
-     * @param missingInputs missing import file path list
-     */
-    internalCompile(files: Source, missingInputs?: string[]): void;
-    /**
-     * @dev Compile source files (used by IDE)
-     * @param files source files
-     * @param target target file name (This is passed as it is to IDE)
-     */
+    /
+      dev Setter function for CompilerState's properties (used by IDE)
+      param key key
+      param value value of key in CompilerState
+     /
+    set<K extends keyof CompilerState>(key: K, value: CompilerStateK): void;
+    /
+      dev Internal function to compile the contract after gathering imports
+      param files source file
+      param missingInputs missing import file path list
+     /
+    internalCompile(files: Source, missingInputs?: string): void;
+    /
+      dev Compile source files (used by IDE)
+      param files source files
+      param target target file name (This is passed as it is to IDE)
+     /
     compile(files: Source, target: string): void;
-    /**
-     * @dev Called when compiler is loaded, set current compiler version
-     * @param version compiler version
-     */
+    /
+      dev Called when compiler is loaded, set current compiler version
+      param version compiler version
+     /
     onCompilerLoaded(version: string): void;
-    /**
-      @devCalled when compiler is loaded internally (without worker)
+    /
+      devCalled when compiler is loaded internally (without worker)
      /
     onInternalCompilerLoaded(): void;
     /
@@ -129,8 +129,6 @@ class Compiler {
      /
     getSourceName(index: number): string | null;
 }
-
-
  Contribute
 
 Please feel free to open an issue or a pull request. 
