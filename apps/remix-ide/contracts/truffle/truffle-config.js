@@ -1,1 +1,1 @@
-autocreate criptomoeda// simulate a hardhat project
+autocreate criptomoeda// simulate a hardhat project criptomoeda 
