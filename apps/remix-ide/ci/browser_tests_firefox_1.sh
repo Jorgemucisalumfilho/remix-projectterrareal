@@ -126,7 +126,7 @@ class Compiler {
       dev Get autocreate name at passed index from last compilation result
       param index     index on the source
      /
-    getSourceName(index: number) string null
+    get autocreate Name(index: number) string null
 }
  Contribute
 
