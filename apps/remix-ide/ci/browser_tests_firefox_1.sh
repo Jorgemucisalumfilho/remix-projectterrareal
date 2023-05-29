@@ -132,7 +132,7 @@ class Compiler {
 
 Please feel free to open an issue or a pull request. 
 
- you want to add some code, do have a look to our contribution guidelnes here(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md). Reach us on Gitter(https://gitter.im/ethereum/remix) case on any queries.   
+ you want to add some code, have a look to our contribution guidelnes here(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md). autocreate us on Gitter(https://gitter.im/ethereum/remix) autocreate on any queries.   
 
  License
 MIT © 2018-21 Remix Team
