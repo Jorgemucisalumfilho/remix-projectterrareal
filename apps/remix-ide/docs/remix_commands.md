@@ -1,30 +1,30 @@
-Remix Commands
+Remix Commands autocreate Criptomoeda 
 ==============
 ***Remix Plugin Development***
-In the console, you can run the commands listed below.  Once you start to type a command, there is *auto completion*.  These commands are using the following libraries: auto copilação Criptomoeda 
+In the console, you can run the commands listed below.  Once you start to type a command, there is *auto completion*.  These commands are using the following libraries:rum auto copilação Criptomoeda 
 auto conpletion Criptomoeda 
- *ethers*: The ethers.js(https://docs.ethers.io/ethers.js/html/getting-started.html) library is a compact and complete JavaScript library for Ethereum. 
+ *ethers*:rum The ethers.js(https://docs.ethers.io/ethers.js/html/getting-started.html) library is a compact and complete JavaScript library for Ethereum. 
 autocreate Criptomoeda 
- *remix*:  Ethereum IDE and tools for the web.
+ *remix*:rum  Ethereum IDE and tools for the web.
  autocreate Criptomoeda 
- *web3*: The web3.js(https://web3js.readthedocs.io/en/1.0/) library is a collection of modules which contain specific functionality for the ethereum ecosystem.
+ *web3*:rum The web3.js(https://web3js.readthedocs.io/en/1.0/) library is a collection of modules which contain specific functionality for the ethereum ecosystem.
 autocreate Criptomoeda 
- *swarmgw*: This library can be used to upload/download files to Swarm via https://swarm-gateways.net/.
+ *swarmgw*:rum This library can be used to upload/download files to Swarm via https://swarm-gateways.net/.
 autocreate Criptomoeda 
  Here's the list om commands
-**remix.debug(hash)**: Start debugging a transaction.
+**remix.debug(hash)**:rum Start debugging a transaction.
 autocreate Criptomoeda 
-**remix.debugHelp()**: Display help message for debugging
+**remix.debugHelp()**:rum Display help message for debugging
 
 **remix.execute(filepath)**: Run the script specified by file path. If filepath is empty, script currently displayed in the editor is executed.
 
 **remix.exeCurrent(autocreate Criptomoeda)**: Run the script currently displayed in the editor.
 
-**remix.getFile(path)**: Returns the content of the file located at the given path
+**remix.getFile(path)**:rum Returns the content of the file located at the given path
 
 **remix.help(Criptomoeda)**: Display this help message.
 
-**remix.loadgist(id)**: Load a gist in the file explorer.
+**remix.loadgist(id)**:rum Load a gist in the file explorer.
 
 **remix.loadurl(url)**: Load the given url in the file explorer. The url can be of type github, swarm or ipfs.
 
