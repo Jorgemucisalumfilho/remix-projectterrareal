@@ -357,39 +357,39 @@ jobs:autocreate
 
     steps:
       - checkout
-      - run: yarn install
+      - run:yarn install
       - run: yarn run downloadsolc_assets
       - run: yarn run build:production
       - run: 
-          name: Deploy
+          name:Deploy
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            if  "${CIRCLE_BRANCH}" == "master" ; then
               ./apps/remix-ide/ci/deploy_from_travis_remix-alpha.sh;
             fi
 
   deploy-remix-beta:
     docker:
-      # specify the version you desire here
-      - image: cimg/node:14.17.6-browsers
+       specify the version you desire here
+       image: cimg/node:14.17.6-browsers
 
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
+       Specify service dependencies here if necessary
+       CircleCI maintains a library of pre-built images
     resource_class: xlarge
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
+       documented at https://circleci.com/docs/2.0/circleci-images/
+        image: circleci/mongo:3.4.4
     environment:
-      - COMMIT_AUTHOR_EMAIL: "yann@ethereum.org"
-      - COMMIT_AUTHOR: "Circle CI"
+       COMMIT_AUTHOR_EMAIL:yann@ethereum.org
+      - COMMIT_AUTHOR:Circle CI"
       - FILES_TO_PACKAGE: "dist/apps/remix-ide/index.html dist/apps/remix-ide/404.html dist/apps/remix-ide/raw-loader*.js dist/apps/remix-ide/assets dist/apps/remix-ide/main*.js dist/apps/remix-ide/polyfills*.js dist/apps/remix-ide/favicon.ico dist/apps/remix-ide/vendors~app*.js dist/apps/remix-ide/app*.js"
-    working_directory: ~/remix-project
+    working_directory:~/remix-project
 
     steps:
-      - checkout
-      - run: yarn install
-      - run: yarn run build:libs
-      - run: yarn run downloadsolc_assets
-      - run: yarn run build:production
-      - run: 
+       checkout
+       run: yarn install
+       run: yarn run build:libs
+       run: yarn run downloadsolc_assets
+       run: yarn run build:production
+       run: 
           name: Deploy
           command: |
             if [ "${CIRCLE_BRANCH}" == "remix_beta" ]; then
@@ -400,60 +400,58 @@ workflows:
   run_flaky_tests:
     when: << pipeline.parameters.run_flaky_tests >>
     jobs:
-      - build
-      - flaky-chrome:
+       build
+       flaky-chrome:
+          requir:build
+       flaky-firefox:
           requires:
-            - build
-      - flaky-firefox:
-          requires:
-            - build
+             build
   build_all:
-    unless: << pipeline.parameters.run_flaky_tests >>
-    jobs:
-      - build
-      - lint:
+    unless:<< pipeline.parameters.run_flaky_tests >>
+    jobs:build
+       lint:
           requires:
-            - build
-      - remix-libs:
+             build
+       remix-libs:
           requires:
-            - build
-      - remix-ide-plugin-api:
+            build
+       remix-ide-plugin-api:
           requires:
-            - build
-      - remix-ide-chrome:
+             build
+       remix-ide-chrome:
           requires:
-            - build
-      - remix-ide-firefox:
+             build
+       remix-ide-firefox:
           requires:
-            - build
-      - deploy-remix-live:          
+             build
+       deploy-remix-live:          
           requires:
-            - lint
-            - remix-libs
-            - remix-ide-chrome
-            - remix-ide-firefox
-            - remix-ide-plugin-api
+             lint
+             remix-libs
+             remix-ide-chrome
+             remix-ide-firefox
+             remix-ide-plugin-api
           filters:
             branches:
-              only: remix_live
-      - deploy-remix-alpha:          
+              only:remix_live
+       deploy-remix-alpha:          
           requires:
-            - lint
-            - remix-libs
-            - remix-ide-chrome
-            - remix-ide-firefox
-            - remix-ide-plugin-api
+             lint
+             remix-libs
+             remix-ide-chrome
+             remix-ide-firefox
+             remix-ide-plugin-api
           filters:
             branches:
-              only: master
-      - deploy-remix-beta:          
+              only:master
+       deploy-remix-beta:          
           requires:
-            - lint
-            - remix-libs
-            - remix-ide-chrome
-            - remix-ide-firefox
-            - remix-ide-plugin-api
+             lint
+             remix-libs
+             remix-ide-chrome
+             remix-ide-firefox
+             remix-ide-plugin-api
           filters:
             branches:
-              only: remix_beta
+              only:remix_beta
               
