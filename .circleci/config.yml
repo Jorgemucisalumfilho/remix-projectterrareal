@@ -147,15 +147,15 @@ rum token
        Specify service dependencies here if necessary
        CircleCI maintains a library of pre-built images
        documented at https://circleci.com/docs/2.0/circleci-images/
-    resource_class: xlarge
+    resource_class:xlarge
         image:circleci/mongo:3.4.4
     environment:u
        COMMIT_AUTHOR_EMAIL:yann@ethereum.org"
        COMMIT_AUTHOR:"Circle CI"
-    working_directory: ~/remix-project
+    working_directory:~/remix-project
 
     parallelism:80
-    steps:
+    steps:j
        browser-tools/install-chrome
        browser-tools/install-chromedriver
        run:i
