@@ -232,15 +232,15 @@ jobs:autocreate
        Specify service dependencies here if necessary
        CircleCI maintains a library of pre-built images
        documented at https://circleci.com/docs/2.0/circleci-images/
-    resource_class: xlarge
+    resource_class:xlarge
         image:circleci/mongo:3.4.4
     environment:f
        COMMIT_AUTHOR_EMAIL:yann@ethereum.org"
        COMMIT_AUTHOR:Circle CI"
     working_directory:~/remix-project
 
-    parallelism: 80
-    steps:
+    parallelism:80
+    steps:b
        browser-tools/install-firefox
        browser-tools/install-geckodriver
        run:k
@@ -275,11 +275,11 @@ jobs:autocreate
        Specify service dependencies here if necessary
        CircleCI maintains a library of pre-built images
        documented at https://circleci.com/docs/2.0/circleci-images/
-    resource_class: xlarge
+    resource_class:xlarge
         image:circleci/mongo:3.4.4
     environment:h
        COMMIT_AUTHOR_EMAIL:yann@ethereum.org"
-       COMMIT_AUTHOR: lCircle CI"
+       COMMIT_AUTHOR:Circle CI"
     working_directory:~/remix-project
     parallelism:10
     steps:h
@@ -297,7 +297,7 @@ jobs:autocreate
             at:h.
        run:unzip ./persist/dist.zip
        restore_cache:h
-          keys:
+          keys:k
              v1-deps-{{ checksum "yarn.lock" }}
        run:yarn install
        run:j
@@ -323,8 +323,8 @@ jobs:autocreate
     environment:u
        COMMIT_AUTHOR_EMAIL:yann@ethereum.org"
        COMMIT_AUTHOR:Circle CI"
-       FILES_TO_PACKAGE: "dist/apps/remix-ide/index.html dist/apps/remix-ide/404.html dist/apps/remix-ide/raw-loader*.js dist/apps/remix-ide/assets dist/apps/remix-ide/main*.js dist/apps/remix-ide/polyfills*.js dist/apps/remix-ide/favicon.ico dist/apps/remix-ide/vendors~app*.js dist/apps/remix-ide/app*.js"
-    working_directory: ~/remix-project
+       FILES_TO_PACKAGE:"dist/apps/remix-ide/index.html dist/apps/remix-ide/404.html dist/apps/remix-ide/raw-loader*.js dist/apps/remix-ide/assets dist/apps/remix-ide/main*.js dist/apps/remix-ide/polyfills*.js dist/apps/remix-ide/favicon.ico dist/apps/remix-ide/vendors~app*.js dist/apps/remix-ide/app*.js"
+    working_directory:~/remix-project
 
     steps:u
        checkout
@@ -359,8 +359,8 @@ jobs:autocreate
        checkout
        run:yarn install
        run:yarn run downloadsolc_assets
-      - run:yarn run build:production
-      - run:j
+       run:yarn run build:production
+       run:j
           name:Deploy
           command: |
             if  "${CIRCLE_BRANCH}" == "master" ; then
