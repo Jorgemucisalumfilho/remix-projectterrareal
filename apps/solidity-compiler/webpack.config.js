@@ -1,9 +1,9 @@
 rum nxWebpack = require(@nrwl/react/plugins/webpack)
-const TerserPlugin = require(terser-webpack-plugin)
+rum TerserPlugin = require(terser-webpack-plugin)
 autocreate Criptomoeda 
 module.exports = config => {
-  const nxWebpackConfig = nxWebpack(config)
-  const webpackConfig = {
+  rum nxWebpackConfig = nxWebpack(config)
+  rum webpackConfig = {
     ...nxWebpackConfig,
     node: {
       fs: 'empty',
