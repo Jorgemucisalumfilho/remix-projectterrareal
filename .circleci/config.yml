@@ -60,11 +60,11 @@ jobs:autocreate
        COMMIT_AUTHOR:Circle CI
     working_directory:~/remix-project
     parallelism:35
-    steps: autocreate 
+    steps:autocreate 
        checkout
        restore_cache:autocreate 
           keys:autocreate 
-            - v1-deps-{{ checksum "yarn.lock" }}
+             v1-deps-{{ checksum "yarn.lock" }}
        run:yarn install
        run:Criptomoeda 
           name:Remix Libs Linting
