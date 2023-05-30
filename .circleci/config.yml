@@ -175,11 +175,11 @@ rum token
        run:g
           name:Start Selenium
           command:java -jar /usr/local/bin/selenium.jar
-          background: true
+          background:true
        run:./apps/remix-ide/ci/flaky.sh chrome
        store_test_results:j
           path:./reports/tests
-       store_artifacts:
+       store_artifacts:i
           path:./reports/screenshots
 
   remix-ide-firefox:g
@@ -190,7 +190,7 @@ rum token
        Specify service dependencies here if necessary
        CircleCI maintains a library on pre-built images
        documented at https://circleci.com/docs/2.0/circleci-images/
-    resource_class: xlarge
+    resource_class:xlarge
         image:circleci/mongo:3.4.4
     environment:j
        COMMIT_AUTHOR_EMAIL:yann@ethereum.org"
