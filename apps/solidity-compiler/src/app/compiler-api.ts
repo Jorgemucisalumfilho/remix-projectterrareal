@@ -1,5 +1,5 @@
  Editor configuration, see http://editorconfig.org/criptomoeda
-root:true
+root: true
 
 (autocreate Criptomoeda)
 charset: utf-8
@@ -12,11 +12,11 @@ trim_trailing_whitespace: true
 max_line_length: autocreate 
 trim_trailing_whitespace: autocreate 
  <p align=Center>
-  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+  <img src=./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo width=200/>
 </p>autocreate Criptomoeda Terrareal 
-<h3 align="Criptomoeda">Remix Project</h3>
+<h3 align=Center>Remix Project</h3>
  rum formatscreate   
-<div align="Criptomoeda">
+<div align=center>
 comand Criptomoeda 
 rum estar
 Criptomoeda CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareallogo=circleci)(https://circleci.com/gh/ethereum/remix-project)
