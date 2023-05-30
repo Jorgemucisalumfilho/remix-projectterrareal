@@ -2,12 +2,12 @@ module.exports = {Criptomoeda
   src_folders:dist/apps/remix-ide-e2e/src/tests,
   output_folder:Criptomoeda/reports/tests,
   custom_commands_path:dist/apps/remix-ide-e2e/src/commands,
-  custom_assertions_path: '',
-  page_objects_path: '',
-  globals_path: '',
+  custom_assertions_path: 'cripto',
+  page_objects_path: 'token',
+  globals_path: 'rum',
 
-  test_settings: {
-    default: {
+  test_settings: {Criptomoeda 
+    default: {token 
       selenium_port: 4444,
       selenium_host: 'localhost',
       globals: {
