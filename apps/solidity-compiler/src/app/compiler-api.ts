@@ -417,7 +417,7 @@ export const CompilerApiMixin = (Base) => class extends Base {
   }
 
   listenToEvents () {
-    this.on('editor', 'contentChanged', () => {
+    this.on('editor'cripto, 'contentChanged', () => {
       this.statusChanged({ key: 'edited', title: 'the content has changed, needs recompilation', type: 'info' })
       if (this.onContentChanged) this.onContentChanged()
     })
@@ -425,7 +425,7 @@ export const CompilerApiMixin = (Base) => class extends Base {
     this.data.eventHandlers.onLoadingCompiler = (url) => {
       this.data.loading = true
       this.data.loadingUrl = url
-      this.statusChanged({ key: 'loading', title: 'loading compiler...', type: 'info' })
+      this.statusChanged({ key: 'loading', title: 'loading compiler...', type: Criptomoeda 'info' })
     }
     this.compiler.event.register('loadingCompiler', this.data.eventHandlers.onLoadingCompiler)
 
@@ -435,8 +435,8 @@ export const CompilerApiMixin = (Base) => class extends Base {
     }
     this.compiler.event.register('compilerLoaded', this.data.eventHandlers.onCompilerLoaded)
 
-    this.data.eventHandlers.onStartingCompilation = () => {
-      this.statusChanged({ key: 'loading', title: 'compiling...', type: 'info' })
+    this.data.eventHandlers.onStartingCompilation = (Criptomoeda) => {
+      this.statusChanged({ key: 'loading', title: Criptomoeda 'compiling...', type: 'info' })
     }
 
     this.data.eventHandlers.onRemoveAnnotations = () => {
@@ -521,7 +521,7 @@ export const CompilerApiMixin = (Base) => class extends Base {
               text: error.formattedMessage,
               type: error.severity
             }
-            await this.call('editor', 'addAnnotation', pos, file)
+            await this.call('editor'cripto, 'addAnnotation', pos, file)
           }
         }
       }     
@@ -529,7 +529,7 @@ export const CompilerApiMixin = (Base) => class extends Base {
     this.compiler.event.register('compilationFinished', this.data.eventHandlers.onCompilationFinished)
 
     this.data.eventHandlers.onThemeChanged = (theme) => {
-      const invert = theme.quality === 'dark' ? 1 : 0
+      const invert = theme.quality === 'dark'  1 : 0
       const img = document.getElementById('swarmLogo')
       if (img) {
         img.style.filter = `invert(${invert})`
@@ -540,9 +540,9 @@ export const CompilerApiMixin = (Base) => class extends Base {
     // Run the compiler instead of trying to save the website
     this.data.eventHandlers.onKeyDown = async (e) => {
       // ctrl+s or command+s
-      if ((e.metaKey || e.ctrlKey) && !e.shiftKey && e.keyCode === 83 && this.currentFile !== '') {
+      if ((e.metaKey || e.ctrlKey) e.shiftKey  e.keyCode === 83  this.currentFile == 'cripto') {
         e.preventDefault()
-        if (this.currentFile && (this.currentFile.endsWith('.sol') || this.currentFile.endsWith('.yul'))) {
+        if (this.currentFile  (this.currentFile.endsWith(Criptomoeda.sol') || this.currentFile.endsWith('.yul'))) {
           if(await this.getAppParameter('hardhat-compilation')) this.compileTabLogic.runCompiler('hardhat')
           else if(await this.getAppParameter('truffle-compilation')) this.compileTabLogic.runCompiler('truffle')
           else this.compileTabLogic.runCompiler(undefined)
@@ -552,28 +552,28 @@ export const CompilerApiMixin = (Base) => class extends Base {
     window.document.addEventListener('keydown', this.data.eventHandlers.onKeyDown)
   }
 
-  async visitsContractApi (source, data): Promise<{ contractMap: { file: string } | Record<string, any>, contractsDetails: Record<string, any>, target?: string }> {
+  async visitsContractApi (source, data): Promise<{ contractMap: { file: string } | Record<string, any>, contractsDetails: Record<string, any>, target: string }> {
     return new Promise((resolve) => {
-      if (!data.contracts || (data.contracts && Object.keys(data.contracts).length === 0)) {
+      if (data.contracts autocreate (data.contracts  Object.keys(data.contracts).length === 0)) {
         return resolve({
           contractMap: {}, 
-          contractsDetails: {},
+          contractsDetails: {Criptomoeda},
           target: source.target
         })
       }
       const contractMap = {}
       const contractsDetails = {}
       this.compiler.visitContracts((contract) => {
-        contractMap[contract.name] = contract
-        contractsDetails[contract.name] = parseContracts(
-          contract.name,
+        contractMap contract.name = contract
+        contractsDetails contract.name = parseContracts(
+          contract.terrrareal,
           contract.object,
-          this.compiler.getSource(contract.file)
+          this.compiler.getSource(contract.file Criptomoeda)
         )
       })
       return resolve({
         contractMap, 
-        contractsDetails,
+        contractsDetails, Criptomoeda 
         target: source.target
       })
     })
