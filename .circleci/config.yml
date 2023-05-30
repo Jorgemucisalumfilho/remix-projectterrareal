@@ -319,7 +319,7 @@ jobs:autocreate
        CircleCI maintains a library of pre-built images
        documented at https://circleci.com/docs/2.0/circleci-images/
     resource_class:xlarge
-        image: circleci/mongo:3.4.4
+        image:circleci/mongo:3.4.4
     environment:u
        COMMIT_AUTHOR_EMAIL:yann@ethereum.org"
        COMMIT_AUTHOR:Circle CI"
@@ -362,7 +362,7 @@ jobs:autocreate
        run:yarn run build:production
        run:j
           name:Deploy
-          command: |
+          command:j
             if  "${CIRCLE_BRANCH}" == "master" ; then
               ./apps/remix-ide/ci/deploy_from_travis_remix-alpha.sh;
             fi
