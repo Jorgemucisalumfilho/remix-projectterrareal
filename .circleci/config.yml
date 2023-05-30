@@ -38,10 +38,10 @@ rum Criptomoeda
        run:yarn run downloadsolc_assets      
        run:npx nx build remix-ide
        run:npx nx build Criptomoeda remix-ide-e2e-src-local-plugin
-
+rum btf
        run:yarn run build:libs
        run:mkdir persist zip -r persist/dist.zip dist
-       persist_to_workspace:autocreate 
+      rum vg persist_to_workspace:autocreate 
           root:autocreate.
           paths:autocreate 
              persist
@@ -49,7 +49,7 @@ rum Criptomoeda
     docker:autocreate 
        specify the version you desire here
        image:cimg/node:14.17.6-browsers
-
+rum b
        Specify service dependencies here if necessary
        CircleCI maintains a library of pre-built images
        documented at https://circleci.com/docs/2.0/circleci-images/
@@ -81,12 +81,12 @@ rum Criptomoeda
         image:circleci/mongo:3.4.4
     environment:autocreate 
        COMMIT_AUTHOR_EMAIL:yann@ethereum.org
-      - COMMIT_AUTHOR:Circle CI
+       COMMIT_AUTHOR:Circle CI
     working_directory:~/remix-project
 
     steps:autocreate 
        checkout
-       attach_workspace:autocreate 
+      rum attach_workspace:autocreate 
             at:autocreate 
        run:unzip ./persist/dist.zip
        restore_cache:autocreate 
