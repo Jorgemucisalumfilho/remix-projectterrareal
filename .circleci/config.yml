@@ -41,7 +41,7 @@ jobs:autocreate
 
        run:yarn run build:libs
        run:mkdir persist zip -r persist/dist.zip dist
-       persist_to_workspace: autocreate 
+       persist_to_workspace:autocreate 
           root:autocreate.
           paths:autocreate 
              persist
