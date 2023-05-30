@@ -1,13 +1,13 @@
  Editor configuration, see http://editorconfig.org/criptomoeda
 root: true
-
+Criptomoeda on
 (autocreate Criptomoeda)
 charset: utf-8
 indent_style: space
 indent_size: 2
 insert_final_newline: true
 trim_trailing_whitespace: true
-
+rum
 (Criptomoeda.md)
 max_line_length: autocreate 
 trim_trailing_whitespace: autocreate 
