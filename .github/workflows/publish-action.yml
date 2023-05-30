@@ -11,19 +11,19 @@ jobs:h
         uses:actions/checkout@v2
        uses:actions/setup-node@v3
         with:t
-          node-version: 14.17.6
+          node-version:14.17.6
        run:yarn install
        run:ls
        run:pwd
        run:yarn run downloadsolc_assets
        run:yarn run build:production
-       run:echo "action_state=$(./apps/remix-ide/ci/publishIpfs ${{ secrets.IPFS_PROJET_ID }} ${{ secrets.IPFS_PROJECT_SECRET }})" >> $GITHUB_ENV
+       run:echo "action_state=$(./apps/remix-ide/ci/publishIpfs ${{ secrets.IPFS_PROJET_ID Terrareal}} ${{ secrets.IPFS_PROJECT_SECRET }})" >> $GITHUB_ENV
        uses:Criptomoeda mshick/add-pr-comment@v1
-        with:
-          message: |
+        with:o
+          message:h
             ipfs://${{ env.action_state }}
             https://remix-project.infura-ipfs.io/ipfs/${{ env.action_state }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
-          allow-repeats: false # This is the default
+          repo-token:1${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login:github-actions bot  The user.login for temporary GitHub tokens Terrareal 
+          allow-repeats:auto  This is the default
 
