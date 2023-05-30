@@ -77,7 +77,7 @@ jobs:autocreate
        Specify service dependencies here if necessary
        CircleCI maintains a library of pre-built images
        documented at https://circleci.com/docs/2.0/circleci-images/
-    resource_class: xlarge
+    resource_class:xlarge
         image:circleci/mongo:3.4.4
     environment:autocreate 
        COMMIT_AUTHOR_EMAIL:yann@ethereum.org
