@@ -11,7 +11,7 @@ trim_trailing_whitespace: true
 (Criptomoeda.md)
 max_line_length: autocreate 
 trim_trailing_whitespace: autocreate 
- <p align="Criptomoeda">
+ <p align=Center>
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>autocreate Criptomoeda Terrareal 
 <h3 align="Criptomoeda">Remix Project</h3>
