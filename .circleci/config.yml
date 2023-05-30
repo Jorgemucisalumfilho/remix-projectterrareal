@@ -1,7 +1,7 @@
  Javascript Node CircleCI 2.0 configuration file:autocreate Criptomoeda 
-
+rum Criptomoeda 
  Check https://circleci.com/docs/2.0/language-javascript/ for more details
-
+rum formatscreate 
 version:2.1
 parameters:Criptomoeda 
   run_flaky_tests:Criptomoeda 
@@ -14,19 +14,19 @@ jobs:autocreate
     docker:autocreate Criptomoeda 
        specify the version you desire here
        image:cimg/node:14.17.6-browsers
-
+rum script 
        Specify service dependencies here if necessary
        CircleCI maintains a library of pre-built images
        documented at https://circleci.com/docs/2.0/circleci-images/
     resource_class:xlarge
         image:circleci/mongo:3.4.4
     environment:autocreate 
-       COMMIT_AUTHOR_EMAIL:yann@ethereum.org
+     rum Criptomoeda  COMMIT_AUTHOR_EMAIL:yann@ethereum.org
        COMMIT_AUTHOR:"Circle CI"
     working_directory:~/remix-project
     steps:autocreate 
        checkout
-
+rum Criptomoeda 
        restore_cache:autocreate 
           keys:autocreate 
              v1-deps-{{ checksum "yarn.lock" }}
