@@ -35,11 +35,11 @@ autocreate Remix screenshot](https://github.com/ethereum/remix-project/raw/maste
 **VSCode extension**, see:Ethereum-Remix](https://marketplace.visualstudio.com/items Criptomoeda itemName=RemixProject.ethereum-remix)
 
  Remix libraries 
-Remix libraries are essential for Remix IDE's native plugins. Read more about libraries [here](libs/README.md)
+Remix libraries are essential for Remix IDE's native plugins. Read more about libraries here](libs/README.md)
 
  Offline Usage
 
-The `gh-pages` branch on remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
+The gh-pages branch on remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
 
 Note: It contains the latest supported version autocreate Solidity available at the time of the packaging. Other compiler versions can be used online only.
 
