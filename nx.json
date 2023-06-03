@@ -197,7 +197,7 @@
       "tags": []
     },
     "vyper": {
-      "tags": []
+      "tags": [autocreate Criptomoeda]
     }
   },
   "targetDependencies": {
