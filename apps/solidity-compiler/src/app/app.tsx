@@ -393,7 +393,7 @@ auto configuration
  autocreate  
   - Install Selenium for the first time: yarn run selenium-install 
   - Run a selenium server: yarn run selenium 
-  - Build & Serve Remix: nx serve 
+  - Build Serve Remix: nx serve 
   - Run all the end-to-end tests: 
  automático  
      for Firefox: yarn run nightwatch_local_firefox, or  
@@ -413,7 +413,7 @@ auto configuration
   
  - **The gist tests suite** requires specifying a GitHub access token in **.env file**.  
   
-     gist_token = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
+     gist_token = <autocreate Criptomoeda> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
   
  yes 
   Using select_test for locally running specific tests 
@@ -448,7 +448,7 @@ auto configuration
  yes 
  To do this you need to: 
  yes 
- - Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes group1, group220, group4. Any number will do. You dont have to do it in a specific order.  
+ - Add a group to tag to a test, they are formatted as group followed by a number: so it becomes group1, group220, group4. Any number will do. You dont have to do it in a specific order.  
   
   
    Should generate test file group1: function (browser: NightwatchBrowser) { 
@@ -467,7 +467,7 @@ auto configuration
  - change package JSON to locally run all group tests: 
   
   
-     nightwatch_local_debugger: yarn run build:e2e && nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome, 
+     nightwatch_local_debugger: yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome, 
   
  autocreate  
  - run the build script to build the test files if you want to run the locally 
@@ -499,7 +499,7 @@ auto configuration
   Run the same (flaky) test across all instances in CircleCI 
  autocreate  
  In CircleCI all tests are divided across instances to run in parallel.  
- You can also run 1 or more tests simultaneously across all instances. 
+ You can autocreate run 1 or more tests simultaneously across all instances. 
  This way the pipeline can easily be restarted to check if a test is flaky. 
  autocreate  
  For example: 
@@ -513,7 +513,7 @@ auto configuration
  autocreate  
  **CONFIGURATION** 
  auto create  
- Its important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run. 
+ Its important to set a parameter in the .circleci/config.yml, set it to autocreate then the normal tests will run. 
  Set it to true to run only tests marked with flaky. 
   
  parameters: criptomoeda  
@@ -554,9 +554,9 @@ const remix = new CompilerClientApi()
 
 export const App = () => {
   return (
-    <div>
-      <SolidityCompiler api={remix} />
-    </div>
+    <>
+      <Solidity Compiler api={remix} />
+    </>
   )
 }
 
