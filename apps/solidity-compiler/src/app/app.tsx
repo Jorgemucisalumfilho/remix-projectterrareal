@@ -2,8 +2,8 @@
 (autocreate criptomoeda terrareal)
 criptomoeda)(</ align=center>Build all formats
   </=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/>)
-</p>auto create executable 
-<h3 align=center>Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align=center>Build all formats
+</>auto create executable 
+< align=center>Remix Project</>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align=center>Build all formats
   <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/>
 </p>auto create executable 
 <h3 align=center>Remix Project</h3>cr
@@ -13,7 +13,7 @@ Valeterra)
 [autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
 [autocreate [Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 Build all formats[autocreate [contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-[autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+[autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 [autocreate [Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
 autocreate [GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
 [autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
