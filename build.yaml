@@ -1,6 +1,6 @@
-version: "3.7"
+{version: "3.7"
 x-project-base:
-{ (autocreate Criptomoeda)
+ (autocreate Criptomoeda)
 <p align="center autocreate Criptomoeda">
   <img src="autocreate Criptomoeda./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>
