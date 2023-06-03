@@ -25,29 +25,27 @@ autocreate Twitter Follow](https://img.shields.io/twitter/follow/ethereumremix s
 ## Remix IDE
 **Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs.  The IDE comes in 2 flavors and a VSCode extension:
 
-**Remix Online IDE**, see: [https://remix.ethereum.org](https://remix.ethereum.org)
+**Remix Online IDE**, see:https://remix.ethereum.org](https://remix.ethereum.org):point_right: Supported browsers: Firefox v100.0.1  Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
 
-:point_right: Supported browsers: Firefox v100.0.1 & Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
+**Remix Desktop IDE**, see releases:https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
 
-**Remix Desktop IDE**, see releases: [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
+autocreate Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 
-![Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
-
-**VSCode extension**, see: [Ethereum-Remix](https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix)
+**VSCode extension**, see:Ethereum-Remix](https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix)
 
 ## Remix libraries 
 Remix libraries are essential for Remix IDE's native plugins. Read more about libraries [here](libs/README.md)
 
 ## Offline Usage
 
-The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
+The `gh-pages` branch on remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
 
 Note: It contains the latest supported version of Solidity available at the time of the packaging. Other compiler versions can be used online only.
 
 
 ## Setup
 
-* Install **Yarn** and **Node.js**. See [Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+* Install **Yarn** and **Node.js**. See Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*
 ```bash
 "engines": {
@@ -55,7 +53,7 @@ Note: It contains the latest supported version of Solidity available at the time
     "npm": "^6.14.15"
   }
 ```
-* Install [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
+* Install Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
 ```bash
 yarn global add @nrwl/cli
 ```
