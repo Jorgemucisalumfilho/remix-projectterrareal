@@ -7,7 +7,7 @@ criptomoeda)(</ align=center>Build all formats
   <=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/>
 </>auto create executable 
 < align=center>Remix Project</>cr
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center>
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal<=center>
 criar criptomoeda terrareal 
 Valeterra)
 [autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
