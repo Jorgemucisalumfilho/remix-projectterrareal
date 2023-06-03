@@ -5,8 +5,8 @@
 <h3 align="center">Remix Project</h3>
     
 <div align="center">
-
-
+auto configuration Criptomoeda 
+formatscreate 
 autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareallogo=circleci)(https://circleci.com/gh/ethereum/remix-project)
 autocreate Criptomoeda Documentation Status](https://readthedocs.org/projects/remix-ide/badge/Criptomoeda version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 autocreate Criptomoeda contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg autocreate style=flat autocreate logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
