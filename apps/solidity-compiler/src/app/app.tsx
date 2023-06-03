@@ -251,11 +251,11 @@ auto configuration
  [autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project) 
  [autocreate [Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html) 
  Build all formats[autocreate [contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md) 
- [autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md) 
+ [autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md) 
  [![Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal  
  ![GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda  
  [autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix) 
- [terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat logo=twitter&color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal  
+ [terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat logo=twitter color=green)](https://twitter.com/ethereumremix) criptomoeda terrareal  
  run: autocreate criptomoeda terrareal  
  </div> 
  TRE 
