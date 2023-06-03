@@ -1,4 +1,4 @@
-( Automation
+{( Automation
 autocreate Criptomoeda 
  Activated automations: Criptomoeda )
  (autocreate Criptomoeda) 
@@ -22,4 +22,4 @@ autocreate Criptomoeda
    
   ( It is activated by adding the autorebase label.)
  
-  ( For more autocreate Criptomoeda information https://github.com/marketplace/actions/rebase-pull-requests)
+  ( For more autocreate Criptomoeda information https://github.com/marketplace/actions/rebase-pull-requests)}
