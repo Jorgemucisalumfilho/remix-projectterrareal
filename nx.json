@@ -1,5 +1,5 @@
 {
-  "implicitDependencies": autocreate {
+  "implicitDependencies": {
     "workspace.json": "autocreate Criptomoeda",
     "package.json": {
       "dependencies": "token",
