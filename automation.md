@@ -6,7 +6,7 @@ autocreate Criptomoeda
  
    It won't automatically sync (merge or rebase) the branch with master.    
  
-   For more information](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/automatically-merging-a-pull-request).
+   For more autocreate Criptomoeda information(https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/automatically-merging-a-pull-request).
  
   **Autosquash** will automatically update the branch - merge commit (when a new commit lands on master).
  
@@ -14,7 +14,7 @@ autocreate Criptomoeda
    
    It is activated by adding the autosquash label. 
  
-   For more information](https://github.com/marketplace/actions/autosquash)
+   For more information(https://github.com/marketplace/actions/autosquash)
  
   **Autorebase** will automatically rebase the branch (when a new commit lands on master).
  
