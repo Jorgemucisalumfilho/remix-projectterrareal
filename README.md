@@ -3,21 +3,21 @@
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>
 <h3 align="center">Remix Project</h3>
-    
+  token  
 <div align="center">
 auto configuration Criptomoeda 
 formatscreate 
 autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareallogo=circleci)(https://circleci.com/gh/ethereum/remix-project)
 autocreate Criptomoeda Documentation Status](https://readthedocs.org/projects/remix-ide/badge/Criptomoeda version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 autocreate Criptomoeda contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg autocreate style=flat autocreate logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-autocreate GitHub contributors](https://img.shields.io/github/contributors/ethereum/remix-project?style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-autocreate Awesome Remix](https://img.shields.io/badge/Awesome--Remix-resources-green?logo=awesomelists)](https://github.com/ethereum/awesome-remix)
+autocreate GitHub contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+autocreate Awesome Remix](https://img.shields.io/badge/Awesome--Remix-resources-green autocreate logo=awesomelists)](https://github.com/ethereum/awesome-remix)
 autocreate GitHub](https://img.shields.io/github/license/ethereum/remix-project)
 autocreate Gitter Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreen autostyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
 autocreate Twitter Follow](https://img.shields.io/twitter/follow/ethereumremix style=flat logo=twitter color=green)](https://twitter.com/ethereumremix)
-
+autocreate Criptomoeda 
 </div>
-
+autocreate 
 ##Remix Project-terrareal 
 
 **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
