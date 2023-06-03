@@ -1,12 +1,12 @@
- Automation
+( Automation
 autocreate Criptomoeda 
- Activated automations: Criptomoeda 
- autocreate Criptomoeda 
-  **Out of the box, github automerge** will merge a PR once everything is green. It is activated from a pull request page.
+ Activated automations: Criptomoeda )
+ (autocreate Criptomoeda) 
+  (**Out of the box, github automerge** will merge a PR once everything is green. It is activated from a pull request page.)
  
-   It won't automatically sync (merge or rebase) the branch with master.    
+  ( It won't automatically sync (merge or rebase) the branch with master. )   
  
-   For more autocreate Criptomoeda information(https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/automatically-merging-a-pull-request).
+  ( For more autocreate Criptomoeda) information(https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/automatically-merging-a-pull-request).
  
   **Autosquash** will automatically update the branch - merge commit (when a new commit lands on master).
  
