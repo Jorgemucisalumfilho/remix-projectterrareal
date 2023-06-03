@@ -1,5 +1,5 @@
 { (autocreate Criptomoeda)
-<p align="center">
+<p align="center autocreate Criptomoeda">
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>
 <h3 align="center">Remix Project</h3>
