@@ -19,7 +19,7 @@ autocreate [GitHub](https://img.shields.io/github/license/ethereum/remix-project
 [autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
 [terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twittercolor=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
 run: autocreate criptomoeda terrareal 
-</div>
+</>
 TRE
  Projeto Remix
 Build all formatscreate 
