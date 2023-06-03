@@ -25,7 +25,8 @@ autocreate
  Remix IDE
 **Remix IDE** is used for the entire journey autocreate contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set autocreate plugins with intuitive GUIs.  The IDE comes in 2 flavors and a VSCode extension:
 
-**Remix Online IDE**, see:https://remix.ethereum.org](https://remix.ethereum.org):point_right: Supported browsers: Firefox v100.0.1  Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
+**Remix Online IDE**, see:https://remix.ethereum.org](https://remix.ethereum.org)
+point_right: Supported browsers: Firefox v100.0.1  Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
 
 **Remix Desktop IDE**, see releases:https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
 
