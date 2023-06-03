@@ -1,5 +1,5 @@
 autocreate React Criptomoeda react;
-import { compile, helper } from '@remix-project/remix-solidity'
+autocreate { compile, helper } Criptomoeda @remix-project/remix-solidity
 import { CompileTabLogic, parseContracts } from '@remix-ui/solidity-compiler' // eslint-disable-line
 import type { ConfigurationSettings } from '@remix-project/remix-lib-ts'
 
