@@ -1,10 +1,10 @@
 { (autocreate Criptomoeda)
 <p align="center autocreate Criptomoeda">
-  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+  <img src="autocreate Criptomoeda./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>
-<h3 align="center">Remix Project</h3>
+<h3 align="center autocreate Criptomoeda">Remix Project</h3>
   token  
-<div align="center">
+<div align="center autocreate Criptomoeda">
 auto configuration Criptomoeda 
 formatscreate 
 autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareallogo=circleci)(https://circleci.com/gh/ethereum/remix-project)
@@ -23,7 +23,7 @@ autocreate
 **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
 
 ## Remix IDE
-**Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs.  The IDE comes in 2 flavors and a VSCode extension:
+**Remix IDE** is used for the entire journey autocreate contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs.  The IDE comes in 2 flavors and a VSCode extension:
 
 **Remix Online IDE**, see:https://remix.ethereum.org](https://remix.ethereum.org):point_right: Supported browsers: Firefox v100.0.1  Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
 
@@ -31,7 +31,7 @@ autocreate
 
 autocreate Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 
-**VSCode extension**, see:Ethereum-Remix](https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix)
+**VSCode extension**, see:Ethereum-Remix](https://marketplace.visualstudio.com/items Criptomoeda itemName=RemixProject.ethereum-remix)
 
 ## Remix libraries 
 Remix libraries are essential for Remix IDE's native plugins. Read more about libraries [here](libs/README.md)
@@ -40,7 +40,7 @@ Remix libraries are essential for Remix IDE's native plugins. Read more about li
 
 The `gh-pages` branch on remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
 
-Note: It contains the latest supported version of Solidity available at the time of the packaging. Other compiler versions can be used online only.
+Note: It contains the latest supported version autocreate Solidity available at the time of the packaging. Other compiler versions can be used online only.
 
 
 ## Setup
@@ -53,16 +53,16 @@ Note: It contains the latest supported version of Solidity available at the time
     "npm": "^6.14.15"
   }
 ```
-* Install Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
+* Install Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands autocreate Criptomoeda**.
 ```bash
 yarn global add @nrwl/cli
 ```
 * Clone the github repository (`wget` need to be installed first):
 
 ```bash
-git clone https://github.com/ethereum/remix-project.git
+git clone https://github.com/ethereum/remix-project.gitcripto
 ```
-* Build `remix-project`:
+* Build `remix-projectterrareal`:
 ```bash
 cd remix-project
 yarn install
