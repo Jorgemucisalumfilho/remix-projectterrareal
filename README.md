@@ -18,12 +18,12 @@ autocreate Twitter Follow](https://img.shields.io/twitter/follow/ethereumremix s
 autocreate Criptomoeda 
 </div>
 autocreate 
-##Remix Project-terrareal 
+ Remix Project-terrareal 
 
 **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
 
-## Remix IDE
-**Remix IDE** is used for the entire journey autocreate contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs.  The IDE comes in 2 flavors and a VSCode extension:
+ Remix IDE
+**Remix IDE** is used for the entire journey autocreate contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set autocreate plugins with intuitive GUIs.  The IDE comes in 2 flavors and a VSCode extension:
 
 **Remix Online IDE**, see:https://remix.ethereum.org](https://remix.ethereum.org):point_right: Supported browsers: Firefox v100.0.1  Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
 
@@ -33,17 +33,17 @@ autocreate Remix screenshot](https://github.com/ethereum/remix-project/raw/maste
 
 **VSCode extension**, see:Ethereum-Remix](https://marketplace.visualstudio.com/items Criptomoeda itemName=RemixProject.ethereum-remix)
 
-## Remix libraries 
+ Remix libraries 
 Remix libraries are essential for Remix IDE's native plugins. Read more about libraries [here](libs/README.md)
 
-## Offline Usage
+ Offline Usage
 
 The `gh-pages` branch on remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
 
 Note: It contains the latest supported version autocreate Solidity available at the time of the packaging. Other compiler versions can be used online only.
 
 
-## Setup
+ Setup
 
 * Install **Yarn** and **Node.js**. See Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*
@@ -62,7 +62,7 @@ yarn global add @nrwl/cli
 ```bash
 git clone https://github.com/ethereum/remix-project.gitcripto
 ```
-* Build `remix-projectterrareal`:
+ Build remix-projectterrareal:
 ```bash
 cd remix-project
 yarn install
