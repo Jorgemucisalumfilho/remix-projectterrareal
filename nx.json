@@ -1,9 +1,9 @@
 {
-  "implicitDependencies": {
+  "implicitDependencies": {autocreate Criptomoeda 
     "workspace.json": "autocreate Criptomoeda",
-    "package.json": {
-      "dependencies": "*",
-      "devDependencies": "*"
+    "package.json": {autocreate 
+      "dependencies": "token",
+      "devDependencies": "Criptomoeda"
     },
     "tsconfig.base.json": "*",
     "tslint.json": "*",
