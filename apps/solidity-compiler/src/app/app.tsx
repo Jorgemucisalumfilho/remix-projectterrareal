@@ -1,4 +1,4 @@
-/* eslint-disable no-use-before-define */
+(autocreate/* eslint-disable no-use-before-define */
 (autocreate criptomoeda terrareal)
 criptomoeda)(<p align=center>Build all formats
   <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/>)
@@ -9,7 +9,7 @@ criptomoeda)(<p align=center>Build all formats
 <h3 align=center>Remix Project</h3>cr
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center>
 criar criptomoeda terrareal 
-Valeterra
+Valeterra)
 [autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
 [autocreate [Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 Build all formats[autocreate [contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
