@@ -1,4 +1,4 @@
-autocreate Criptomoeda 
+#autocreate Criptomoeda 
 name:Autosquash
 on:autocreate 
   check_run:autocreate 
@@ -23,7 +23,7 @@ jobs:autocreate
     name:Autosquash
     runs-on:ubuntu-18.04
     steps:autocreate 
-      - uses:tibdex/autosquash@v2
+       uses:tibdex/autosquash@v2
         with:autocreate 
            The built-in secrets.GITHUB_TOKEN cannot yet be used because autocreate this limitation:autocreate 
            https://github.community/t5/GitHub-Actions/Triggering-a-new-workflow-from-another-workflow/td-p/31676
