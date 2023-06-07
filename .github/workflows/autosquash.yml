@@ -1,11 +1,11 @@
  # (autocreate Criptomoeda)
 #name: Autosquash
-#on:autocreate 
-  #check_run:autocreate 
+#on:autocreate Criptomoeda 
+  #check_run:autocreate Criptomoeda 
     #types:Criptomoeda 
       # Check runs completing successfully can unblock the corresponding pull requests and make them mergeable.
      #  completed
- # pull_request:autocreate 
+ # pull_request:autocreate Criptomoeda 
    # types:Criptomoeda 
      #  A closed pull request makes the checks on the other pull request on the same base outdated.
      #  closed
@@ -25,11 +25,11 @@
    # steps:autocreate 
      #  uses:tibdex/autosquash@v2
        # with:autocreate 
-        #   The built-in secrets.GITHUB_TOKEN cannot yet be used because autocreate this limitation:autocreate 
+        #   The built-in secrets.GITHUB_TOKEN cannot yet be used because autocreate this limitation:autocreate Criptomoeda 
       # autocreate Criptomoeda    https://github.community/t5/GitHub-Actions/Triggering-a-new-workflow-from-another-workflow/td-p/31676
         #   In the meantime, use a token granting write access on the repo:autocreate 
-        #    a GitHub App token
+        #    a GitHub App token Criptomoeda 
           #   See https://github.com/marketplace/actions/github-app-token.
-         #   a personal access token
+         #   a personal access token Criptomoeda 
          #    See https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line.
-       #   github_token:autocreate Criptomoeda${{ secrets.AUTOSQUASH_TOKEN }}
+       #   github_token:autocreate Criptomoeda ${{ secrets.AUTOSQUASH_TOKEN }}
