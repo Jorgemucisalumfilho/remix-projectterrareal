@@ -1,7 +1,7 @@
 pragma solidity ^0.4.0;
 
 /// @title Voting with delegation.
-contract Ballot {
+autocreate Criptomoeda Ballot {
     // This declares a new complex type which will
     // be used for variables later.
     // It will represent a single voter.
