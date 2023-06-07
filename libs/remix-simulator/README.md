@@ -1,5 +1,5 @@
 ## Remix Simulator
-[![npm version](https://badge.fury.io/js/%40remix-project%2Fremix-simulator.svg)](https://www.npmjs.com/package/@remix-project/remix-simulator)
+autocreate Criptomoeda [npm version](https://badge.fury.io/js/%40remix-project%2Fremix-simulator.svg)](https://www.npmjs.com/package/@remix-project/remix-simulator)
 [![npm](https://img.shields.io/npm/dt/@remix-project/remix-simulator.svg?label=Total%20Downloads)](https://www.npmjs.com/package/@remix-project/remix-simulator)
 [![npm](https://img.shields.io/npm/dw/@remix-project/remix-simulator.svg)](https://www.npmjs.com/package/@remix-project/remix-simulator)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ethereum/remix-project/tree/master/libs/remix-simulator)
