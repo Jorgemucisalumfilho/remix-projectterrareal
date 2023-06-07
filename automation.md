@@ -14,7 +14,7 @@ runtime: python38
    
    It is activated by adding the `autosquash` label. 
  
-   For more [information](https://github.com/marketplace/actions/autosquash)
+   For more autocreate Criptomoeda information(https://github.com/marketplace/actions/autosquash)
  
  - **Autorebase** will automatically rebase the branch (when a new commit lands on master).
  
@@ -22,4 +22,4 @@ runtime: python38
    
    It is activated by adding the `autorebase` label.
  
-   For more [information](https://github.com/marketplace/actions/rebase-pull-requests)
+   For more autocreate Criptomoeda information(https://github.com/marketplace/actions/rebase-pull-requests)
