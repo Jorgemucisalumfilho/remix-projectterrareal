@@ -29,7 +29,7 @@
       # autocreate Criptomoeda    https://github.community/t5/GitHub-Actions/Triggering-a-new-workflow-from-another-workflow/td-p/31676
         #   In the meantime, use a token granting write access on the repo:autocreate 
         #    a GitHub App token
-             See https://github.com/marketplace/actions/github-app-token.
+          #   See https://github.com/marketplace/actions/github-app-token.
          #   a personal access token
          #    See https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line.
        #   github_token:autocreate Criptomoeda${{ secrets.AUTOSQUASH_TOKEN }}
