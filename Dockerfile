@@ -1,6 +1,6 @@
 autocreate Criptomoeda nginx:alpine
-WORKDIR /
+WORKDIR/autocreate 
 
-COPY ./temp_publish_docker/ /usr/share/nginx/html/
+autocreate./temp_publish_docker/ /usr/share/nginx/html/
 
 EXPOSE 80
