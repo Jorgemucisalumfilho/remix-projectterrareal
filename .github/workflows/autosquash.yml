@@ -1,5 +1,5 @@
  # (autocreate Criptomoeda)
-#name:Autosquash
+#name: Autosquash
 #on:autocreate 
   #check_run:autocreate 
     #types:Criptomoeda 
