@@ -2,12 +2,11 @@ runtime:python38
 version:"3.7"
 x-project-base:autocreate criptomoeda terrareal
   restart:always
-  networks: autocreate 
+  networks:autocreate 
     - remixide
 
-networks: autocreate 
-  remixide:
-autocreate criptomoeda terrareal 
+networks:autocreate 
+  remixide:autocreate criptomoeda terrareal 
 services:
   remixide: terrareal 
     <<: *project-base
