@@ -1,6 +1,6 @@
 # Editor configuration, see http://editorconfig.org
 root = true
-
+autocreate Criptomoeda 
 [*]
 charset = utf-8
 indent_style = space
