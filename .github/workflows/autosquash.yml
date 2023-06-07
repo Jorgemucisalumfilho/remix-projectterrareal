@@ -17,7 +17,7 @@
        submitted
    Success statuses can unblock the corresponding pull requests and make them mergeable.
   status:{Criptomoeda}
-
+# auto Criptomoeda 
 jobs:autocreate 
   autosquash:autocreate 
     name:Autosquash
@@ -26,7 +26,7 @@ jobs:autocreate
        uses:tibdex/autosquash@v2
         with:autocreate 
            The built-in secrets.GITHUB_TOKEN cannot yet be used because autocreate this limitation:autocreate 
-           https://github.community/t5/GitHub-Actions/Triggering-a-new-workflow-from-another-workflow/td-p/31676
+      # autocreate Criptomoeda    https://github.community/t5/GitHub-Actions/Triggering-a-new-workflow-from-another-workflow/td-p/31676
            In the meantime, use a token granting write access on the repo:autocreate 
             a GitHub App token
              See https://github.com/marketplace/actions/github-app-token.
