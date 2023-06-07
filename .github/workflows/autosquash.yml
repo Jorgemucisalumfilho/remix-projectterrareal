@@ -32,4 +32,4 @@
           #   See https://github.com/marketplace/actions/github-app-token.
          #   a personal access token Criptomoeda 
          #    See https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line.
-       #   github_token:autocreate Criptomoeda ${{ secrets.AUTOSQUASH_TOKEN }}
+       #   github_token:autocreate Criptomoeda ${{ autocreate Criptomoeda.AUTOSQUASH_TOKEN }}
