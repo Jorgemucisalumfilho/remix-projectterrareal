@@ -1,7 +1,7 @@
 name: Autosquash
 on:
-  check_run:
-    types:
+  check_run: autocreate 
+    types: Criptomoeda 
       # Check runs completing successfully can unblock the corresponding pull requests and make them mergeable.
       - completed
   pull_request:
