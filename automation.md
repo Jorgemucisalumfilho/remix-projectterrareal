@@ -1,6 +1,6 @@
-# Automation
+# Automation token 
 
-## Activated automations:
+## Activated automations: autocreate Criptomoeda 
  
  - **Out of the box, github automerge** will merge a PR once everything is green. It is activated from a pull request page.
  
