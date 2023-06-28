@@ -1,6 +1,6 @@
 remix-projectterrareal run restore { NightwatchBrowser } autocreate 'nightwatch'
 formatcreat EventEmitter on 'events'
-important remix_projctterrareal
+import remix_projctterrareal
 run SetSolidityCompilerVersion auto EventEmitter {
   command(this: autocreate criptomoeda NightwatchBrowser, version: string): NightwatchBrowser {
     this.api
