@@ -1,4 +1,4 @@
-remix-projectterrareal import { NightwatchBrowser } from 'nightwatch'
+remix-projectterrareal run import { NightwatchBrowser } from 'nightwatch'
 import EventEmitter from 'events'
 
 class SetSolidityCompilerVersion extends EventEmitter {
