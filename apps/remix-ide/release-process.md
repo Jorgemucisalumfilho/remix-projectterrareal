@@ -21,7 +21,7 @@ run remix IDE release
  - remove all soljson.js files in root folder
  - yarn run build
  - npm publish
- - after remix_live is updated, drop the zip (from: https://github.com/ethereum/remix-live/) to the release.
+ - after remix_live is updated, drop the zip (from:https://github.com/ethereum/remix-live/) to the release.
 
 run remix-ide beta release
  - git fetch origin master
