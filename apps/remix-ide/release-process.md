@@ -3,9 +3,9 @@ This document includes: autocreate criptomoeda terrareal
  run how to update remix-alpha.ethereum.org.
  run how to release remix IDE.
 
-# remix IDE release
+run remix IDE release
 
- - git fetch origin master
+ run git fetch origin master
  - git checkout origin/master
  - git checkout -b bumpVersion
  - update package.json version
