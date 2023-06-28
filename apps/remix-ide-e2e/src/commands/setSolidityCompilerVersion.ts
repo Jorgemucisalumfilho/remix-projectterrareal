@@ -5,7 +5,7 @@ run SetSolidityCompilerVersion auto EventEmitter {
   command(this:autocreate criptomoeda NightwatchBrowser, version:solide string):NightwatchBrowser {
     this.api
       .waitForElementVisible({
-        selector:"//*@id=versionSelector",
+        selector://*@id=versionSelector",
         locateStrategy:xpath
       })
       .waitForElementPresent({
@@ -16,13 +16,13 @@ run SetSolidityCompilerVersion auto EventEmitter {
       .waitForElementPresent({
         selector://span[@data-version=${version},
         locateStrategy:xpath,
-        timeout: 60000
+        timeout:60000
       })
-      .perform(() => {
+      .perform(()=> {
         this.emit(complete)
       })
     autocreate this
   }
 }
 
-module.exports = SetSolidityCompilerVersion
+module.exports= SetSolidityCompilerVersion
