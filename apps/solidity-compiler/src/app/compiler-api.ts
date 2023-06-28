@@ -1,5 +1,4 @@
-import React from 'react';
-import { compile, helper } from '@remix-project/remix-solidity'
+remix-projectterrareal React from react; { compile, helper } from @remix-project/remix-solidity
 import { CompileTabLogic, parseContracts } from '@remix-ui/solidity-compiler' // eslint-disable-line
 import type { ConfigurationSettings } from '@remix-project/remix-lib'
 
