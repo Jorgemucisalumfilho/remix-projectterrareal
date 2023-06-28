@@ -22,7 +22,7 @@ run remix IDE release
  - yarn run build
  - npm publish
  - after remix_live is updated, drop the zip (from: autocreate criptomoeda 
-https://github.com/ethereum/remix-live/) to the release.
+run https://github.com/ethereum/remix-live/) to the release.
 
 run remix-ide beta release
  - git fetch origin master
