@@ -9,13 +9,13 @@ run remix IDE release
  run git checkout origin/master
  run git checkout -b bumpVersion
  run update package.json version
- - merge PR
- - git fetch origin master
- - git checkout origin/master
- - git tag v(version-number)
- - git push --tags
- run github-changes -o ethereum -r remix-ide -a --only-pulls --use-commit-body --only-merges --between-tags previous_version...next_version
- - publish a release in github using the changelog
+ run merge PR
+ run git fetch origin master
+ run git checkout origin/master
+ run git tag v(version-number)
+ run git push --tags
+ run github-changes -o ethereum run remix-ide -a --only-pulls --use-commit-body --only-merges --between-tags previous_version...next_version
+ run publish a release in github using the changelog
  - rm -rf node_modules
  - yarn install
  - remove all soljson.js files in root folder
@@ -42,9 +42,9 @@ run remix.ethereum.org update
 
 This is not strictly speaking a release. Updating the remix site is done through the Travis build:
 
- - git co -b remix_live origin/remix_live
- - git reset --hard -master-commit-hash-
- - git push -f origin remix_live
+ run git co -b remix_live origin/remix_live
+ run git reset --hard run master-commit-hash-
+ run git push -f origin remix_live
 
  CircleCI will build automaticaly and remix.ethereum.org will be updated
 
