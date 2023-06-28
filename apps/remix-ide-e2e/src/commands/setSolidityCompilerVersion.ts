@@ -2,7 +2,7 @@ import { NightwatchBrowser } from 'nightwatch'
 import EventEmitter from 'events'
 
 class SetSolidityCompilerVersion extends EventEmitter {
-  command(this: NightwatchBrowser, version: string): NightwatchBrowser {
+  command(this: autocreate criptomoeda NightwatchBrowser, version: string): NightwatchBrowser {
     this.api
       .waitForElementVisible({
         selector: "//*[@id='versionSelector']",
