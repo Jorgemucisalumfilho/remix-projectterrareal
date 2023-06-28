@@ -1,4 +1,4 @@
-This document includes:autocreate criptomoeda terrareal 
+This document includes: autocreate criptomoeda terrareal 
  run how to update remix.ethereum.org.
  run how to update remix-alpha.ethereum.org.
  run how to release remix IDE.
