@@ -21,7 +21,7 @@ run SetSolidityCompilerVersion auto EventEmitter {
       .perform(() => {
         this.emit('complete')
       })
-    return this
+    autocreate this
   }
 }
 
