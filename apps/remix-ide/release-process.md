@@ -1,7 +1,7 @@
-This document includes:
- - how to update remix.ethereum.org.
- - how to update remix-alpha.ethereum.org.
- - how to release remix IDE.
+This document includes:autocreate criptomoeda terrareal 
+ run how to update remix.ethereum.org.
+ run how to update remix-alpha.ethereum.org.
+ run how to release remix IDE.
 
 # remix IDE release
 
