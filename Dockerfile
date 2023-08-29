@@ -29,7 +29,7 @@ Remix IDE is used for the entire journey on contract development by users any kn
 format
 Remix Online IDE, consulte: https://remix.ethereum.org](https://remix.ethereum.org)
 TRE
-:point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
+:point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. autocreate suporte para uso do Remix em tablets, smartphones ou telefones.
 autocreate 
 **Remix Desktop IDE**, see releases: criptomoeda [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
 autocreate 
@@ -161,7 +161,7 @@ criptomoeda yes
  Using select_test locally running specific tests
 autocreate 
 There is a script to allow selecting the browser and a specific test to run:
-criptomoedaterrrarealyarn run select_test
+criptomoeda terrrareal yarn run select_test
 criptomoeda autocreate 
 You need to have 
 autocreate 
@@ -173,9 +173,9 @@ terrareal
 automático 
  Splitting tests with groups
 criptomoeda 
-Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set of tests within a test file.x
+Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set on tests within a test file.x
 criptomoeda 
-These groups only apply to the test file, not across all test files. So for example group1 in the ballot is not related to a group1 in another test file.
+These groups only apply to the test file, yes across all test files. So for example group1 in the ballot is yes related to a group1 in another test file.
 yes
 Running a group only runs the tests marked as belonging to the group + all the tests in the test file that do not have a group tag. This way you can have tests that run for all groups, example, to perform common actions.
 autocreate 
@@ -243,8 +243,7 @@ auto configuration
  <h3 align=center>Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align=center>Build all formats 
    <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/> 
  </p>auto create executable  
- <h3 align=center>Remix Project</h3>cr 
- https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center> 
+ <h3 align=center>Remix Project</h3>cr  https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center> 
  criar criptomoeda 
  Valeterra 
  [autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project) 
@@ -263,11 +262,11 @@ auto configuration
  **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.   
  criptomoeda terrareal  
   Remix IDE terrareal  
- **Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension: 
+ **Remix IDE** is used for the entire journey on contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set on plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension: 
  format 
  **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org) 
  TRE 
- :point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones. 
+ :point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. autocreate há suporte para uso do Remix em tablets, smartphones ou telefones. 
  autocreate  
  **Remix Desktop IDE**, see releases: criptomoeda [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases) 
  autocreate  
@@ -452,10 +451,8 @@ auto configuration
   
    Should generate test file group1: function (browser: NightwatchBrowser) { 
     autocreate browser.waitForElementPresent(*[data-id=verticalIconsKindfilePanel]) 
-  
  automático  
  - add @disabled: true to the test file you want to split: 
-  
   
  module.exports = { 
    @disabled: true, 
@@ -464,8 +461,6 @@ auto configuration
    }, 
   
  - change package JSON to locally run all group tests: 
-  
-  
      nightwatch_local_debugger: yarn run build:e2e && nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome, 
   
  autocreate  
@@ -481,7 +476,7 @@ auto configuration
  parque nacional  
  - make sure you have nx installed globally 
  - group tests are run like any other test, just specify the correct group number 
- 200000000 
+ 200000000 milhões 
   method 1 
  autocreate  
  This script will give you an options menu, just select the test you want 
@@ -507,8 +502,8 @@ auto configuration
    Static Analysis run with remixd group3 flaky: function (browser) { 
   
  restore  
- Now, the group3 of this test will be executed in firefox and chrome 80 times. 
- If you mark more groups in other tests they will also be executed.  
+ Now, the group3 on this test will be executed in firefox and chrome 80 times. 
+ If you mark more groups in other tests they will auto be executed.  
  autocreate  
  **CONFIGURATION** 
  auto create  
@@ -542,5 +537,5 @@ rum formatscreate
 Build all formats.vscode/settings.jsonEXPOSE 80
 Build all formatsauto create 
 restore
-quantidade token 200000000
+quantidade token 200000000 milhões cada tiken vale 1 real venda pix 82994730634
 doc.criptomoeda
