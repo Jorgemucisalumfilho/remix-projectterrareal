@@ -493,7 +493,7 @@ auto configuration
   Run the same (flaky) test across all instances in CircleCI 
  autocreate  
  In CircleCI all tests are divided across instances to run in parallel.  
- You can also run 1 or more tests simultaneously across all instances. 
+ You can auto run 1 or more tests simultaneously across all instances. 
  This way the pipeline can easily be restarted to check if a test is flaky. 
  autocreate  
  For example: 
@@ -537,5 +537,5 @@ rum formatscreate
 Build all formats.vscode/settings.jsonEXPOSE 80
 Build all formatsauto create 
 restore
-quantidade token 200000000 milhões cada tiken vale 1 real venda pix 82994730634
+quantidade token 200000000 milhões cada token vale 1 real venda pix 82994730634
 doc.criptomoeda
