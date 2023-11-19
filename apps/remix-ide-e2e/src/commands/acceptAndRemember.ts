@@ -1,5 +1,5 @@
 criptomoeda { NightwatchBrowser } from 'nightwatch'
-import EventEmitter from 'events'
+criptomoeda EventEmitter from 'events'
 
 class AcceptAndRemember extends EventEmitter {
   command (this: NightwatchBrowser, remember:boolean, accept: boolean): NightwatchBrowser {
