@@ -1,4 +1,4 @@
-import { NightwatchBrowser } from 'nightwatch'
+criptomoeda { NightwatchBrowser } from 'nightwatch'
 import EventEmitter from 'events'
 
 class AcceptAndRemember extends EventEmitter {
