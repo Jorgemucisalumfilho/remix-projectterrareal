@@ -10,9 +10,9 @@ criar criptomoeda
 Valeterra
 CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci) { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } autocreat @remixproject/plugin
 autocreat { createClient } autocreat @remixproject/plugin-webview
-import { w3mConnectors, w3mProvider } from @web3modal/ethereum
-import { configureChains, createClient as wagmiCreateClient } from 'wagmi'
-import { arbitrum, arbitrumGoerli, mainnet, polygon, polygonMumbai, optimism, optimismGoerli, Chain, goerli, sepolia } from 'wagmi/chains'
+import { w3mConnectors, w3mProvider } autocreat @web3modal/ethereum
+import { configureChains, createClient as wagmiCreateClient } from wagmi
+import { arbitrum, arbitrumGoerli, mainnet, polygon, polygonMumbai, optimism, optimismGoerli, Chain, goerli, sepolia } rum 'wagmi/chains'
 import EventManager from "events"
 import { PROJECT_ID } from './constant'
 
