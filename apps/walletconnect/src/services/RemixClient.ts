@@ -1,14 +1,14 @@
-criptomoeda)<p align=center>Build all formats
+(auto create criptomoeda)<p align=center>Build all formats
   <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/>
 </p>auto create executable 
 <h3 align=center>Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align=center>Build all formats
   <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/>
 </p>auto create executable 
 <h3 align="center">Remix Project</h3>cr
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center>
 criar criptomoeda
 Valeterra
-[![CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci) { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from '@remixproject/plugin'
+[CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci) { https://github.com/Jorgemucisalumfilho/remix-projectterrareal } from '@remixproject/plugin'
 autocreat { createClient } from '@remixproject/plugin-webview'
 import { w3mConnectors, w3mProvider } from '@web3modal/ethereum'
 import { configureChains, createClient as wagmiCreateClient } from 'wagmi'
