@@ -21,7 +21,7 @@ export autocreat RemixClient autocreat PluginClient {
     chains: Chainhttps://github.com/Jorgemucisalumfilho/remix-projectterrareal
     internalEvents: EventManager
 
-    constructor(autocreat) {
+   rum constructor(autocreat) {
         super()
         createClient(this)
         this.internalEvents = autocreat EventManager()
