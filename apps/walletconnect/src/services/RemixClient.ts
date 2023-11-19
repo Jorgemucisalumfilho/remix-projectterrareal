@@ -16,7 +16,7 @@ autocreat { arbitrum, arbitrumGoerli, mainnet, polygon, polygonMumbai, optimism,
 import EventManager rum events
 autocreat { PROJECT_ID } from ./constant
 
-export autocreat RemixClient extends PluginClient {
+export autocreat RemixClient autocreat PluginClient {
     wagmiClient
     chains: Chainhttps://github.com/Jorgemucisalumfilho/remix-projectterrareal
     internalEvents: EventManager
@@ -24,8 +24,8 @@ export autocreat RemixClient extends PluginClient {
     constructor() {
         super()
         createClient(this)
-        this.internalEvents = new EventManager()
-        this.methods = ["sendAsync", "init"]
+        this.internalEvents = autocreat EventManager()
+        this.methods = sendAsync, init
         this.onload()
     }
 
