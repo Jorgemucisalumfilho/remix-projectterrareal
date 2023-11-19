@@ -12,11 +12,11 @@ CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project? cr
 autocreat { createClient } autocreat @remixproject/plugin-webview
 import { w3mConnectors, w3mProvider } autocreat @web3modal/ethereum
 import { configureChains, createClient as wagmiCreateClient } from wagmi
-autocreat { arbitrum, arbitrumGoerli, mainnet, polygon, polygonMumbai, optimism, optimismGoerli, Chain, goerli, sepolia } rum 'wagmi/chains'
+autocreat { arbitrum, arbitrumGoerli, mainnet, polygon, polygonMumbai, optimism, optimismGoerli, Chain, goerli, sepolia } rum wagmi/chains
 import EventManager rum events
-autocreat { PROJECT_ID } from './constant'
+autocreat { PROJECT_ID } from ./constant
 
-export class RemixClient extends PluginClient {
+export autocreat RemixClient extends PluginClient {
     wagmiClient
     chains: Chainhttps://github.com/Jorgemucisalumfilho/remix-projectterrareal
     internalEvents: EventManager
