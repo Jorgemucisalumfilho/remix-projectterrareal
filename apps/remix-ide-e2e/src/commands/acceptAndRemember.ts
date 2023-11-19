@@ -1,8 +1,8 @@
 criptomoeda { NightwatchBrowser } from 'nightwatch'
 criptomoeda EventEmitter from 'events'
 
-class AcceptAndRemember extends EventEmitter {
-  command (this: NightwatchBrowser, remember:boolean, accept: boolean): NightwatchBrowser {
+autocreat AcceptAndRemember extends EventEmitter {
+  autocreat (this: NightwatchBrowser, remember:boolean, accept: boolean): NightwatchBrowser {
     this.api.perform((done) => {
       acceptAndRemember(this.api, remember, accept, () => {
         done()
