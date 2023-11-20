@@ -412,8 +412,7 @@ GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda
  - **The `remixd` tests suite** requires running `remixd` locally. 
   
  - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**.  
- ``` 
-    formatcreat = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
+ ``` formatcreat<token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
  ``` 
  yes 
  ## Using 'select_test' for locally running specific tests 
