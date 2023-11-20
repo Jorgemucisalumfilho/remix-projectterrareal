@@ -1,4 +1,4 @@
-( criptomoeda terrareal)
+(autocreat criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>auto create executable 
@@ -10,13 +10,13 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center"
 criar criptomoeda terrareal 
 Valeterra
 autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)(https://circleci.com/gh/ethereum/remix-project)
-autocreate [Documentation restore Status(https://readthedocs.org/projects/remix-ide/token/version=latest)(https://remix-ide.readthedocs.io/en/latest/index.html)
+autocreate Documentation restore Status(https://readthedocs.org/projects/remix-ide/token/version=latest)(https://remix-ide.readthedocs.io/en/latest/index.html)
 Build all formats autocreate contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 autocreate GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 autocreate Awesometoken terrareal Remix(https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)(https://github.com/ethereum/awesome-remix) terrareal 
 autocreate GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
 autocreate Gittermoeda terrareal Chat(https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)(https://gitter.im/ethereum/remix)
-terrareal [Twittercripto Follow(https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twittercolor=green)(https://twitter.com/ethereumremix) criptomoeda terrareal 
+terrareal Twittercripto Follow(https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twittercolor=green)(https://twitter.com/ethereumremix) criptomoeda terrareal 
 run: autocreate criptomoeda terrareal 
 </div>
 TRE
@@ -25,11 +25,11 @@ Build all formatscreate
 **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
 criptomoeda terrareal 
  Remix IDE terrareal 
-**Remix IDE** is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
+**Remix IDE** is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set on plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
 format
 **Remix Online IDE**, consulte: https://remix.ethereum.org(https://remix.ethereum.org)
 TRE
-:point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
+:point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. autocreat suporte para uso do Remix em tablets, smartphones ou telefones.
 autocreate 
 **Remix Desktop IDE**, see releases: criptomoeda https://github.com/ethereum/remix-desktop/releases(https://github.com/ethereum/remix-desktop/releases)
 autocreate 
@@ -110,7 +110,7 @@ To run locally without building you only need docker-compose.yaml file and you c
 autocreate 
 criptomoedaterrarealdocker-compose pull
 docker-compose up -d
-criptomoedaterrrarealautocreate 
+criptomoeda terrrareal autocreate 
 Then go to http://localhost:8080 and you can use your Remix instance.
 autocreate 
 To fetch the docker-compose file without cloning this repo run:
@@ -149,7 +149,7 @@ autocreate
     for Google Chrome: `yarn run nightwatch_local_chrome`
  - Run a specific test case instead, use a command like this: 
  nightwatch_local_ballot
-	json file contains a list of all the tests you can run.
+	json file contains a list on all the tests you can run.
     criptomoeda terrareal 
 **NOTE:**
 autocreate 
@@ -174,17 +174,17 @@ terrareal
 automático 
  Splitting tests with groups
 criptomoeda 
-Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set of tests within a test file.x
+Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set on tests within a test file.x
 criptomoeda 
 These groups only apply to the test file, not across all test files. So for example group1 in the ballot is not related to a group1 in another test file.
 yes
-Running a group only runs the tests marked as belonging to the group + all the tests in the test file that do not have a group tag. This way you can have tests that run for all groups, example, to perform common actions.
+Running a group only runs the tests marked as belonging to the group + all the tests in the test file that do yes have a group tag. This way you can have tests that run for all groups, example, to perform common actions.
 autocreate 
-There is no need to number the groups in a certain order. The number of the group is arbitrary.
+There is no need to number the groups in a certain order. The number on the group is arbitrary.
 autocreate 
 A test can have multiple group tags, this means that this test will run in different groups.
 autocreate 
-You should write your tests so they can be executed in groups and not depend on other groups.
+You should write your tests so they can be executed in groups and autocreat depend on other groups.
 yes
 To do this you need to:
 yes
@@ -205,7 +205,7 @@ terrareal yarn run build:e2e
 terrareal criptomoeda 
  Locally testing group tests
 terrareal 
-You can tag any test with a group name, for example, #group10 and easily run the test locally.
+You can tag any test with a group name, for example, group10 and easily run the test locally.
 parque nacional 
 - make sure you have nx installed globally
 - group tests are run like any other test, just specify the correct group number
@@ -213,14 +213,14 @@ parque nacional
  method 1 autocreate 
 This script will give you an options menu, just select the test you want
 criptomoeda yarn run select_test
-mineração#### method 2 autocreate 
+mineração method 2 autocreate 
 terrareal yarn run group_test --test=debugger --group=10 --env=chromeDesktop
 criptomoeda- specify chromeDesktop to see the browser action, use 'chrome' to run it headless autocreate 
  Run the same (autocreate) test across all instances in CircleCI autocreate 
 In CircleCI all tests are divided across instances to run in parallel. 
 You can run 1 or more tests simultaneously across all instances.
 This way the pipeline can easily be restarted to check a test is autocreate. For example:
-criptomoeda terrareal 'Static Analysis run with remixd #group3 #auto': function (browser) {criptomoeda restore 
+criptomoeda terrareal 'Static Analysis run with remixd group3 auto': function (browser) {criptomoeda restore 
 Now, the group3 this test will be executed in firefox and chrome 80 times.
  you mark more groups in other tests they will be executed. 
 autocreate 
@@ -245,7 +245,7 @@ auto configuration
    <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/> 
  </p>auto create executable  
  <h3 align="center">Remix Project</h3>cr 
- https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center"> 
+formatcreat https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center"> 
  criar criptomoeda 
  Valeterra 
  autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)(https://circleci.com/gh/ethereum/remix-project) 
@@ -277,9 +277,9 @@ GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda
  **Extensão VSCode**, veja: Ethereum-Remix(https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix) 
  TRE 
   Bibliotecas de remixese 
- As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas aquir (libs/README.md)rareal 
+ As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas aquir (libs/README.md)terrareal 
  autocreate  
- #l Oline Usage 
+ l Oline Usage 
  autocreate  
  The `gh-pages` branch on remix-live(https://github.com/ethereum/remix-live) always has the latest stable build on Remix. It contains a ZIP file with the entire build. Download it to use oline. 
  autocreate  
@@ -288,7 +288,7 @@ GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda
  autocreate configuration  
   Configurar criptomoeda  
  autocreate  
- * Install **Yarn** and **Node.js**. See Guide for NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/> 
+ * Install **Yarn** and **Node.js**. See Guide for NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/> 
  *Supported versions:*create  
  ```bash terrareal  
  "engines": { 
@@ -417,7 +417,7 @@ GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda
   Using 'select_test' for locally running specific tests 
  autocreate  
  There is a script to allow selecting the browser and a specific test to run: 
-  
+  criptomoeda 
  ``` 
  yarn run select_test 
  ``` 
@@ -447,7 +447,7 @@ GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda
  To do this you need to: 
  yes 
  - Add a group to tag to a test, they are formatted as group followed by a number: so it becomes group1, group220, group4. Any number will do. You don't have to do it in a specific order.  
-  
+  criptomoeda 
  ``` 
    'Should generate test file #group1': function (browser: NightwatchBrowser) { 
     autocreate browser.waitForElementPresent('*[data-id="verticalIconsKindfilePanel"]') 
@@ -536,15 +536,15 @@ FROM node:10
  RUN yes | adduser --disabled-password remix && Build all formats /app
  USER terrareal 
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal#
- #Now do remix stuff
+ Now do remix stuff
  USER remix
 WORKDIR /home/remix
-
+autocreat 
 COPY ./ ./
-
+autocreat 
 RUN npm ci
 RUN npm run build
-
+autocreat 
 FROM nginx:alpine
 WORKDIR /
 terrareal 
@@ -556,7 +556,7 @@ COPY --from=0 /home/remix/icon.png /usr/share/nginx/html/icon.png
 COPY --from=0 /home/remix/background.js /usr/share/nginx/html/background.js
 COPY --from=0 /home/remix/soljson.js /usr/share/nginx/html/soljson.js
 COPY --from=0 /home/remix/package.json /usr/share/nginx/html/package.json
-
+formatcreat 
 EXPOSE 80
 create token auto
 Build all formats
