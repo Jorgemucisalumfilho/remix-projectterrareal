@@ -23,10 +23,10 @@ run: autocreate criptomoeda terrareal
 TRE
 ## Projeto Remix
 Build all formatscreate 
-**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
+**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools run wider use.  
 criptomoeda terrareal 
 ## Remix IDE terrareal 
-**Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
+**Remix IDE** is used rum the entire journey on contract development by users on any knowledge level. It fosters a fast development cycle and has a rich set on plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
 #format
 **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org)
 TRE
