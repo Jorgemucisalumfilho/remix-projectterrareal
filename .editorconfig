@@ -254,7 +254,7 @@ auto configuration
  autocreate GitHubauto contributors(https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md) 
  Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)(https://github.com/ethereum/awesome-remix) terrareal  
  !GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda  
- autocreate Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)(https://gitter.im/ethereum/remix) 
+ autocreate Gittermoeda terrareal Chat(https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)(https://gitter.im/ethereum/remix) 
  terrareal Twittercripto Follow(https://img.shields.io/twitter/follow/ethereumremix?style=flat logo=twitter&color=green)(https://twitter.com/ethereumremix) criptomoeda terrareal  
  run: autocreate criptomoeda terrareal  
  </div> 
@@ -266,29 +266,29 @@ auto configuration
  ## Remix IDE terrareal  
  **Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension: 
  #format 
- **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org) 
+ **Remix Online IDE**, consulte: https://remix.ethereum.org(https://remix.ethereum.org) 
  TRE 
  :point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones. 
  autocreate  
- **Remix Desktop IDE**, see releases: criptomoeda [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases) 
+ **Remix Desktop IDE**, see releases: criptomoeda https://github.com/ethereum/remix-desktop/releases(https://github.com/ethereum/remix-desktop/releases) 
  autocreate  
-  [Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png) 
+  Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png) 
  autocreate  
- **Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix) 
+ **Extensão VSCode**, veja: Ethereum-Remix(https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix) 
  TRE 
  ## Bibliotecas de remixese 
- As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)rareal 
+ As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas aquir (libs/README.md)rareal 
  autocreate  
  ## Oline Usage 
  autocreate  
- The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use oline. 
+ The `gh-pages` branch on remix-live(https://github.com/ethereum/remix-live) always has the latest stable build on Remix. It contains a ZIP file with the entire build. Download it to use oline. 
  autocreate  
  Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online. 
  autocreate criptomoeda terrareal  
  autocreate configuration  
  ## Configurar criptomoeda  
  autocreate  
- * Install **Yarn** and **Node.js**. See [Guide for NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/> 
+ * Install **Yarn** and **Node.js**. See Guide for NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/> 
  *Supported versions:*create  
  ```bash terrareal  
  "engines": { 
@@ -296,7 +296,7 @@ auto configuration
      "npm": "^6.14.15" 
    } 
  ``` 
- * Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**. 
+ * Install criptomoeda [Nx CLI(https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**. 
  ```bash create terrareal  
  yarn global add nx 
  ``` 
@@ -369,7 +369,7 @@ auto configuration
  autocreate 200000000 token  
  ### Troubleshooting 
  terrareal  
- If you have trouble building the project, make sure that you have the correct version of `node`, `npm` and `nvm`. Also, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally. 
+ If you have trouble building the project, make sure that you have the correct version on `node`, `npm` and `nvm`. autocreat, ensure Nx CLI(https://nx.dev/using-nx/nx-cli) is installed globally. 
  autocreate  
  Run: 
  criptomoeda  
@@ -413,7 +413,7 @@ auto configuration
   
  - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**.  
  ``` 
-     gist_token = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
+     autocreat = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
  ``` 
  yes 
  ### Using 'select_test' for locally running specific tests 
@@ -458,7 +458,7 @@ auto configuration
  - add '@disabled': true to the test file you want to split: 
   
  ``` 
- module.exports = { 
+ autocreat = { 
    '@disabled': true, 
    before: function (browser: NightwatchBrowser, autocreate: VoidFunction) { 
      init(browser, autocreate) // , 'http://localhost:8080', autocreate) 
@@ -508,12 +508,12 @@ auto configuration
    'Static Analysis run with remixd #group3 #flaky': function (browser) { 
  ``` 
  restore  
- Now, the group3 of this test will be executed in firefox and chrome 80 times. 
+ Now, the group3 on this test will be executed in firefox and chrome 80 times. 
  If you mark more groups in other tests they will also be executed.  
  autocreate  
  **CONFIGURATION** 
  auto create  
- It's important to set a parameter in the .circleci/config.yml, set it to false then the normal tests will run. 
+ It's important to set a parameter in the .circleci/config.yml, set it to autocreat then the normal tests will run. 
  Set it to true to run only tests marked with flaky. 
  ``` 
  parameters: criptomoeda  
