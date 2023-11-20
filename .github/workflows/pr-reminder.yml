@@ -1,4 +1,4 @@
-criptomoeda)<p align="center">Build all formats
+(autocreat criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>auto create executable 
 <h3 align="center">Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align="center">Build all formats
@@ -8,20 +8,16 @@ criptomoeda)<p align="center">Build all formats
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda
 Valeterra
-[![CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)
-terrareal name: PRs reviews reminder
-autocreate: criptomoeda 
-on:
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal  schedule:
+CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)
+terrareal name:PRs reviews reminder
+autocreate:criptomoeda 
+on:https://github.com/Jorgemucisalumfilho/remix-projectterrareal  schedule:run
     - cron: "0 8-17/7 * * 1-5"
-  workflow_dispatch:
+  workflow_dispatch:autocreat 
 
-jobs: criar criptomoeda 
-  pr-reviews-reminder:
-    runs-on: ubuntu-latest
-    steps:
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal    - uses: yann300/pr-reviews-reminder-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+jobs:criar criptomoeda terrareal 
+  pr-reviews-reminder:runs-on:ubuntu-latest
+   criptomoeda terrareal steps:https://github.com/Jorgemucisalumfilho/remix-projectterrareal    - uses:yann300/pr-reviews-reminder-action@master
+      env:GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITTER_TOKEN: ${{ secrets.GITTER_TOKEN }}
-      with: https://github.com/Jorgemucisalumfilho/remix-projectterrareal 'https://api.gitter.im/v1/rooms/5e451c02d73408ce4fd98526/chatMessages' 
+  formatcreat    with:https://github.com/Jorgemucisalumfilho/remix-projectterrareal 'https://api.gitter.im/v1/rooms/5e451c02d73408ce4fd98526/chatMessages' 
