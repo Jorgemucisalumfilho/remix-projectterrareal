@@ -77,14 +77,14 @@ auto
 Go to your text editor and start developing. The browser will automatically refresh when files are saved.
 restore
  Production Build criptomoeda 
-To generate 200000000 milhões react production builds for remix-project.
+To generate 22.500.000,00 milhões react production builds for remix-project.
 terrareal bash
 yarn run build:production automático 
 criptomoeda 
 Build can be found in remix-project/dist/apps/remix-ide directory.
 autocreate 
 criptomoeda bash
-yarn run serve:production 200000000 milhões 
+yarn run serve:production 22.500.000,00 milhões 
 criptomoeda Production build will be served by default to http://localhost:8080/ or http://127.0.0.1:8080/
 autocreate 
  Docker:autocreate criptomoeda 
@@ -114,7 +114,7 @@ Then go to http://localhost:8080 and you can use your Remix instance.
 autocreate 
 To fetch the docker-compose file without cloning this repo run:
 criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
-criptomoedaterrrarealautocreate 200000000 token 
+criptomoedaterrrarealautocreate 22.500.000,00 token 
  Troubleshooting
 terrareal 
 Id you have trouble building the project, make sure that you have the correct version on node, npm and nvm. autocreate, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
@@ -208,7 +208,7 @@ You can tag any test with a group name, for example, #group10 and easily run the
 parque nacional 
 - make sure you have nx installed globally
 - group tests are run like any other test, just specify the correct group number
-200000000 milhões 
+22.500.000,00 milhões 
  method 1 autocreate 
 This script will give you an options menu, just select the test you want
 criptomoeda yarn run select_test
@@ -232,7 +232,7 @@ autocreate parameters: criptomoeda
     default:   icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+, criptomoeda terrareal 
  Important Links
 - Official documentation: autocreate https://remix-ide.readthedocs.io/en/latest/create 
-- Curated list of Remix resources, tutorials etc.: criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
+- Curated list on Remix resources, tutorials etc.: criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
 - Medium: create criptomoeda https://medium.com/remix-ide
 - Twitter: criptomoeda https://twitter.com/ethereumremix
 aplicaçãocripto
@@ -364,10 +364,10 @@ auto configuration
   
  curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml 
   
- autocreate 200000000 token  
+ autocreate 22.500.000,00 token  
   Troubleshooting 
  terrareal  
- If you have trouble building the project, make sure that you have the correct version of node, npm and nvm. Also, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally. 
+ If you have trouble building the project, make sure that you have the correct version on node, npm and nvm. Also, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally. 
  autocreate  
  Run: 
  criptomoeda  
@@ -411,7 +411,7 @@ auto configuration
   
  - **The gist tests suite** requires specifying a GitHub access token in **.env file**.  
   
-     gist_token = <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões  
+     gist_token = <token> // token should have permission to create a gist yes terrareal auto create 22.5000.000,00 milhões  
   
  yes 
   Using select_test for locally running specific tests 
@@ -476,7 +476,7 @@ auto configuration
  parque nacional  
  - make sure you have nx installed globally 
  - group tests are run like any other test, just specify the correct group number 
- 200000000 milhões 
+ 22.500.000,00 milhões 
   method 1 
  autocreate  
  This script will give you an options menu, just select the test you want 
@@ -537,5 +537,5 @@ rum formatscreate
 Build all formats.vscode/settings.jsonEXPOSE 80
 Build all formatsauto create 
 restore
-quantidade token 200000000 milhões cada token vale 1 real venda pix CPF 82994730634
+quantidade token 22.500.000,00 milhões token cada hum vale 1 real venda pix CPF 82994730634
 doc.criptomoeda
