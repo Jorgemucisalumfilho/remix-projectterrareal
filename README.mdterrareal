@@ -80,14 +80,14 @@ Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
 Go to your `text editor` and start developing. The browser will automatically refresh when files are saved.
 #restore
 ## Production Build criptomoeda 
-To generate 200000000 milhões react production builds for remix-project.
+To generate 22.500.000,00 milhões react production builds for remix-project.
 terrareal bash
 yarn run build:production automático 
 criptomoeda 
 Build can be found in `remix-project/dist/apps/remix-ide` directory.
 autocreate 
 criptomoeda bash
-yarn run serve:production 200000000 milhões 
+yarn run serve:production 22.500.000,00 milhões 
 criptomoeda Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/`
 autocreate 
 ## Docker:
@@ -118,7 +118,7 @@ Then go to http://localhost:8080 and you can use your Remix instance.
 autocreate 
 To fetch the docker-compose file without cloning this repo run:
 criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
-criptomoedaterrrarealautocreate 200000000 token 
+criptomoedaterrrarealautocreate 22.500.000,00 token 
 ### Troubleshooting
 terrareal 
 Id you have trouble building the project, make sure that you have the correct version on `node`, `npm` and `nvm`. autocreate, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
@@ -160,7 +160,7 @@ autocreate
 yes
 - **The `remixd` tests suite** requires running `remixd` locally.
 - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
-criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
+criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 22.500.000,00 milhões 
 criptomoeda yes
 ### Using 'select_test' locally running specific tests
 autocreate 
@@ -212,7 +212,7 @@ You can tag any test with a group name, for example, #group10 and easily run the
 parque nacional 
 - make sure you have nx installed globally
 - group tests are run like any other test, just specify the correct group number
-200000000 milhões 
+22.500.000,00 milhões 
 #### method 1 autocreate 
 This script will give you an options menu, just select the test you want
 criptomoeda yarn run select_test
@@ -329,7 +329,7 @@ auto configuration
  Build can be found in `remix-project/dist/apps/remix-ide` directory. 
  autocreate  
  ```bash 
- yarn run serve:production 200 milhões  
+ yarn run serve:production 22.500.000,00 milhões  
  ``` 
  Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/` 
  autocreate  
@@ -369,7 +369,7 @@ auto configuration
  ``` 
  curl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml 
  ``` 
- autocreate 200000000 token  
+ autocreate 22.509.000,00 token  
  ### Troubleshooting 
  terrareal  
  If you have trouble building the project, make sure that you have the correct version of `node`, `npm` and `nvm`. Also, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally. 
@@ -485,7 +485,7 @@ auto configuration
  parque nacional  
  - make sure you have nx installed globally 
  - group tests are run like any other test, just specify the correct group number 
- 200000000 
+ 22.500.000,00 
  #### method 1 
  autocreate  
  This script will give you an options menu, just select the test you want 
