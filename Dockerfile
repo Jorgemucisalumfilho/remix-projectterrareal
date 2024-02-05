@@ -3,6 +3,8 @@
 #garantido 2.250 hectares localizado no município de formoso Mg.
 #totalizando 22.500.000,00 milhões de token 
 #cada token custa 1 real
+(
+0xEDb3e12C233Fc3F4DcB50735994AcBb45a96768A)
 criptomoeda)<p align=center>Build all formats
   <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/>
 </p>auto create executable 
