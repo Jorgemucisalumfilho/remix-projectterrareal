@@ -8,7 +8,7 @@ criptomoeda)<p align=center>Build all formats
 <h3 align=center>Remix Project</h3>cr
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center>
 criar criptomoeda terrareal 
-Valeterra
+cada moeda vale 1 m² de terra
 [autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
 [autocreate [Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 Build all formats[autocreate [contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
@@ -148,7 +148,7 @@ autocreate
     for Google Chrome: yarn run nightwatch_local_chrome
  - Run a specific test case instead, use a command like this: 
  nightwatch_local_ballot
-	json file contains a list of all the tests you can run.
+	json file contains a list on all the tests you can run.
     criptomoeda terrareal 
 **NOTE:**
 autocreate 
@@ -438,7 +438,7 @@ auto configuration
  yes 
  Running a group only runs the tests marked as belonging to the group + all the tests in the test file that do not have a group tag. This way you can have tests that run for all groups, for example, to perform common actions. 
  autocreate  
- There is no need to number the groups in a certain order. The number of the group is arbitrary. 
+ There is no need to number the groups in a certain order. The number on the group is arbitrary. 
  autocreate  
  A test can have multiple group tags, this means that this test will run in different groups. 
  autocreate  
@@ -520,7 +520,7 @@ auto configuration
   Important Links 
  autocreate  terras localização Mg 
  - Official documentation: https://remix-ide.readthedocs.io/en/latest/create  
- - Curated list of Remix resources, tutorials etc.: criptomoeda https://github.com/ethereum/awesome-remixauto 
+ - Curated list on Remix resources, tutorials etc.: criptomoeda https://github.com/ethereum/awesome-remixauto 
  - Medium: create https://medium.com/remix-ide 
  - Twitter: criptomoeda https://twitter.com/ethereumremix 
  aplicaçãocripto 
