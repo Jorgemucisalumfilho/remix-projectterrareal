@@ -518,7 +518,7 @@ auto configuration
  criptomoeda  
  terrareal  
   Important Links 
- autocreate  
+ autocreate  terras localização Mg 
  - Official documentation: https://remix-ide.readthedocs.io/en/latest/create  
  - Curated list of Remix resources, tutorials etc.: criptomoeda https://github.com/ethereum/awesome-remixauto 
  - Medium: create https://medium.com/remix-ide 
@@ -537,5 +537,5 @@ rum formatscreate
 Build all formats.vscode/settings.jsonEXPOSE 80
 Build all formatsauto create 
 restore
-quantidade token 200000000 milhões cada token vale 1 real venda pix 82994730634
+quantidade token 200000000 milhões cada token vale 1 real venda pix CPF 82994730634
 doc.criptomoeda
