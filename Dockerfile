@@ -162,7 +162,7 @@ autocreate
 yes
 - **The remixd tests suite** requires running remixd locally.
 - **The gist tests suite** requires specifying a GitHub access token in **.env file**. 
-criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
+criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 22.500.000,00 milhões 
 criptomoeda yes
  Using select_test locally running specific tests
 autocreate 
@@ -268,7 +268,7 @@ auto configuration
  **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.   
  criptomoeda terrareal  
   Remix IDE terrareal  
- **Remix IDE** is used for the entire journey on contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set on plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension: 
+ **Remix IDE** is used for the entire journey on contract development by users on any knowledge level. It fosters a fast development cycle and has a rich set on plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension: 
  format 
  **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org) 
  TRE 
@@ -285,7 +285,7 @@ auto configuration
  autocreate  
   Oline Usage 
  autocreate  
- The gh-pages branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use oline. 
+ The gh-pages branch on [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use oline. 
  autocreate  
  Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online. 
  autocreate criptomoeda terrareal  
